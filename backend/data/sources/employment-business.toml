@@ -1,0 +1,336 @@
+# Official sources for the Employment & Skill Development and Business & MSME programmes.
+#
+# Every source here was opened by a person (or fetched through `python -m app.cli fetch-text`) and
+# its text read before a statement was written from it. See docs/DATA_SOURCES.md for the fields.
+#
+#   expected_phrases  identity: if one is missing the source is REJECTED (wrong or replaced document)
+#   expected_facts    figures a person confirmed: if one is missing the source is FLAGGED
+
+# --- PM Vishwakarma -----------------------------------------------------------------------------
+
+[[sources]]
+id = "pmvishwakarma-guidelines"
+title = "PM Vishwakarma: Scheme guidelines (PDF)"
+scheme = "PM Vishwakarma"
+authority = "Ministry of Micro, Small and Medium Enterprises, Government of India"
+level = "central"
+doc_type = "guidelines"
+format = "pdf"
+url = "https://pmvishwakarma.gov.in/cdn/MiscFiles/eng_v30.0_PM_Vishwakarma_Guidelines_final.pdf"
+expected_phrases = ["PM Vishwakarma", "Nodal Ministry"]
+expected_facts = ["13,000 crore"]
+curated_on = 2026-10-31
+notes = """\
+The scheme's own guidelines, served by the PM Vishwakarma portal (pmvishwakarma.gov.in). PDF \
+metadata: 2024-04-18, so verification warns that it is more than 12 months old. The scheme is \
+said to run up to 2027-28. The PDF extracts with some jumbled table text; quotes were chosen \
+from the clean sentences."""
+
+# --- PM SVANidhi --------------------------------------------------------------------------------
+
+[[sources]]
+id = "pmsvanidhi-scheme-guidelines"
+title = "PM SVANidhi: Scheme Guidelines (restructured scheme, PDF)"
+scheme = "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)"
+authority = "Ministry of Housing and Urban Affairs, Government of India"
+level = "central"
+doc_type = "guidelines"
+format = "pdf"
+url = "https://pmsvanidhi.mohua.gov.in/Default/ViewFile/?id=Scheme+Guidelines.pdf&path=MiscFiles"
+expected_phrases = ["PM SVANidhi", "Working Capital Term Loans"]
+expected_facts = ["15,000", "50,000"]
+curated_on = 2026-10-31
+notes = """\
+The scheme guidelines for the restructured scheme, listed under "Scheme Instructions" on the PM \
+SVANidhi portal. They say the lending period is extended to March 31, 2030. The ministry's \
+main website (mohua.gov.in) answers automated requests with HTTP 403, so the copy served by the \
+portal itself was used. The portal's older FAQ (initial loan of up to 10,000 rupees, scheme up \
+to March 2022) is out of date and was deliberately not used."""
+
+[[sources]]
+id = "pmsvanidhi-loan-guidelines"
+title = "PM SVANidhi: Loan Operational Guidelines (PDF)"
+scheme = "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)"
+authority = "Ministry of Housing and Urban Affairs, Government of India"
+level = "central"
+doc_type = "guidelines"
+format = "pdf"
+url = "https://pmsvanidhi.mohua.gov.in/Default/ViewFile/?id=Loan+Operations+Guidelines.pdf&path=MiscFiles"
+expected_phrases = ["PM SVANidhi", "Loan Operational Guidelines"]
+expected_facts = ["15,000"]
+curated_on = 2026-10-31
+notes = """\
+The operational guidelines for the loan component (documents, application channels, tranches), \
+served by the PM SVANidhi portal. They follow the scheme guidelines above."""
+
+# --- PMFME --------------------------------------------------------------------------------------
+
+[[sources]]
+id = "pmfme-guidelines"
+title = "PMFME: Scheme Guidelines (PDF)"
+scheme = "PM Formalisation of Micro Food Processing Enterprises (PMFME)"
+authority = "Ministry of Food Processing Industries, Government of India"
+level = "central"
+doc_type = "guidelines"
+format = "pdf"
+url = "https://pmfme.mofpi.gov.in/newsletters/docs/SchemeGuidelines.pdf"
+expected_phrases = ["PMFME", "One District One Product"]
+expected_facts = ["35%"]
+curated_on = 2026-10-31
+notes = """\
+The scheme's own guidelines, served by the PMFME portal (pmfme.mofpi.gov.in). PDF metadata: \
+2020-07-03, so verification warns that it is more than 12 months old. The guidelines give the \
+scheme period as 2020-21 to 2024-25; the PIB document below gives 2020-21 to 2025-26."""
+
+[[sources]]
+id = "pmfme-pib-factsheet-2025"
+title = "PMFME: PIB explainer, September 2025 (PDF)"
+scheme = "PM Formalisation of Micro Food Processing Enterprises (PMFME)"
+authority = "Press Information Bureau, Government of India (Ministry of Food Processing Industries)"
+level = "central"
+doc_type = "scheme_page"
+format = "pdf"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/sep/doc202592626401.pdf"
+expected_phrases = ["PMFME", "Formalisation of Micro Food Processing Enterprises"]
+curated_on = 2026-10-31
+notes = """\
+An explainer published by the Press Information Bureau on behalf of the ministry, with progress \
+to June 2025. Used only for what the scheme gives (seed capital for self-help group members) and \
+for the scheme period it states."""
+
+# --- PM MUDRA Yojana ----------------------------------------------------------------------------
+
+[[sources]]
+id = "pmmy-dfs-page"
+title = "PM MUDRA Yojana (PMMY): Department of Financial Services page"
+scheme = "Pradhan Mantri MUDRA Yojana (PMMY)"
+authority = "Department of Financial Services, Ministry of Finance, Government of India"
+level = "central"
+doc_type = "scheme_page"
+format = "html"
+url = "https://financialservices.gov.in/pradhan-mantri-mudra-yojana-pmmy"
+expected_phrases = ["MUDRA", "Shishu"]
+expected_facts = ["20 lakh"]
+curated_on = 2026-10-31
+notes = """\
+The department's own page for the scheme. It is short and has the loan categories and the \
+Tarun Plus category (from 24.10.2024). The host answers only without the www prefix (the \
+certificate is issued to financialservices.gov.in). The scheme's own site (mudra.org.in) is not \
+a .gov.in host and still shows the older category list, so it was not used."""
+
+# --- Udyam Registration, PMEGP and MSME support (Ministry of MSME) ------------------------------
+
+[[sources]]
+id = "udyam-registration-steps"
+title = "Udyam Registration Form: steps for new entrepreneurs (PDF)"
+scheme = "Udyam Registration"
+authority = "Ministry of Micro, Small and Medium Enterprises, Government of India"
+level = "central"
+doc_type = "service_page"
+format = "pdf"
+url = "https://udyamregistration.gov.in/docs/process_msme_regisration_new_pan_Yes.pdf"
+expected_phrases = ["Udyam Registration Form", "Aadhaar Verification"]
+curated_on = 2026-10-31
+notes = """\
+A short guide to the registration form, served by the Udyam portal. Most of it is screenshots, \
+so only the step headings are text. The portal's own home page needs JavaScript and gives an \
+empty extract, so it could not be used."""
+
+[[sources]]
+id = "msme-budget-2025-pib"
+title = "Budget 2025-26: Fuelling MSME Expansion (PIB, Ministry of MSME)"
+scheme = "MSME programmes (Udyam Registration, PMEGP)"
+authority = "Press Information Bureau, Government of India (Ministry of Micro, Small and Medium Enterprises)"
+level = "central"
+doc_type = "scheme_page"
+format = "pdf"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/feb/doc202524496501.pdf"
+expected_phrases = ["PMEGP", "Udyam Registration Portal"]
+expected_facts = ["50 lakhs"]
+curated_on = 2026-10-31
+notes = """\
+A Press Information Bureau explainer for the ministry, 4 February 2025. Used for what the \
+Udyam portal offers, and for the PMEGP subsidy rates and project-cost limits it states."""
+
+[[sources]]
+id = "msme-story-2026-pib"
+title = "From Enterprise to Empowerment: The MSME Story (PIB, June 2026)"
+scheme = "MSME programmes (PMEGP)"
+authority = "Press Information Bureau, Government of India (Ministry of Micro, Small and Medium Enterprises)"
+level = "central"
+doc_type = "scheme_page"
+format = "pdf"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/jun/doc2026626903401.pdf"
+expected_phrases = ["PMEGP", "MSME"]
+curated_on = 2026-10-31
+notes = """\
+A Press Information Bureau explainer dated 26 June 2026. Used only to confirm that PMEGP is \
+still running (progress to May 2026) and that applications are accepted in regional languages."""
+
+# --- Employment and skills ----------------------------------------------------------------------
+
+[[sources]]
+id = "nats-about"
+title = "NATS: About the National Apprenticeship Training Scheme (portal page)"
+scheme = "National Apprenticeship Training Scheme (NATS)"
+authority = "Ministry of Education, Government of India"
+level = "central"
+doc_type = "scheme_page"
+format = "html"
+url = "https://nats.education.gov.in/about-us.php"
+expected_phrases = ["National Apprenticeship Training Scheme", "Apprentices Act"]
+curated_on = 2026-10-31
+notes = """\
+The scheme's own portal (nats.education.gov.in, a .gov.in host). The extractor found no main \
+content container, so menus may be mixed into the text; quotes avoid them."""
+
+[[sources]]
+id = "nats-students"
+title = "NATS: Why NATS? Students (portal page)"
+scheme = "National Apprenticeship Training Scheme (NATS)"
+authority = "Ministry of Education, Government of India"
+level = "central"
+doc_type = "scheme_page"
+format = "html"
+url = "https://nats.education.gov.in/students.php"
+expected_phrases = ["NATS 2.0 Portal", "Apprenticeship Training"]
+curated_on = 2026-10-31
+notes = "The student page of the scheme's own portal."
+
+[[sources]]
+id = "nats-industries"
+title = "NATS: Why NATS? Industries (portal page)"
+scheme = "National Apprenticeship Training Scheme (NATS)"
+authority = "Ministry of Education, Government of India"
+level = "central"
+doc_type = "scheme_page"
+format = "html"
+url = "https://nats.education.gov.in/industries.php"
+expected_phrases = ["National Apprenticeship Training Scheme", "apprentices"]
+curated_on = 2026-10-31
+notes = "The employer page of the scheme's own portal."
+
+[[sources]]
+id = "pminternship-pib-2024"
+title = "PM Internship Scheme: A Pathway to Professional Growth (PIB, October 2024)"
+scheme = "Prime Minister's Internship Scheme (PMIS)"
+authority = "Press Information Bureau, Government of India (Ministry of Corporate Affairs)"
+level = "central"
+doc_type = "scheme_page"
+format = "pdf"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/oct/doc20241012415201.pdf"
+expected_phrases = ["Internship Scheme", "Ministry of Corporate Affairs"]
+expected_facts = ["5,000"]
+curated_on = 2026-10-31
+notes = """\
+A Press Information Bureau explainer for the Ministry of Corporate Affairs dated 12 October \
+2024. It describes the pilot phase (eligibility, stipend, ineligibility). The ministry's own \
+guidelines PDF (pminternship.mca.gov.in/assets/docs/PMIS_Guidelines.pdf) answered HTTP 404 \
+and the portal's home page needs JavaScript, so this explainer is the main source."""
+
+[[sources]]
+id = "pminternship-pib-2025"
+title = "PM Internship Scheme: Empowering Youth, Enabling Careers (PIB, March 2025)"
+scheme = "Prime Minister's Internship Scheme (PMIS)"
+authority = "Press Information Bureau, Government of India (Ministry of Corporate Affairs)"
+level = "central"
+doc_type = "scheme_page"
+format = "pdf"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/mar/doc2025321524001.pdf"
+expected_phrases = ["Internship Scheme", "Pilot Phase"]
+curated_on = 2026-10-31
+notes = """\
+A Press Information Bureau explainer for the Ministry of Corporate Affairs dated 21 March 2025: \
+the pilot phase, Round II, the mobile app and the portal address."""
+
+[[sources]]
+id = "ddugky-faq-2022"
+title = "DDU-GKY: Frequently Asked Questions (PIB, January 2022)"
+scheme = "Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY)"
+authority = "Press Information Bureau, Government of India (Ministry of Rural Development)"
+level = "central"
+doc_type = "faq"
+format = "pdf"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/jan/doc2022163601.pdf"
+expected_phrases = ["DDU-GKY", "Ministry of Rural Development"]
+curated_on = 2026-10-31
+notes = """\
+The ministry's FAQ, published through the Press Information Bureau on 6 January 2022. It is \
+older than the programme's later guidelines (the ddugky.gov.in site, where they would be, could \
+not be reached from the checking machine), so amounts and rules may have changed."""
+
+[[sources]]
+id = "skill-schemes-pib-2025"
+title = "Schemes Driving Skill Development and Empowerment (PIB, February 2025)"
+scheme = "Pradhan Mantri Kaushal Vikas Yojana (PMKVY)"
+authority = "Press Information Bureau, Government of India (Ministry of Skill Development and Entrepreneurship)"
+level = "central"
+doc_type = "scheme_page"
+format = "pdf"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/feb/doc202521494601.pdf"
+expected_phrases = ["Pradhan Mantri Kaushal Vikas Yojana", "Skill India"]
+curated_on = 2026-10-31
+notes = """\
+A Press Information Bureau explainer dated 1 February 2025 that covers PMKVY, DDU-GKY and \
+others. The ministry's PMKVY 4.0 guidelines (msde.gov.in) answer automated requests with HTTP \
+403, so this explainer is the only source for PMKVY."""
+
+# --- Utkarsh Bangla (West Bengal) ---------------------------------------------------------------
+
+[[sources]]
+id = "wb-utkarsh-page"
+title = "Utkarsh Bangla: scheme page on the West Bengal State Portal"
+scheme = "Utkarsh Bangla"
+authority = "Government of West Bengal (Department of Information & Cultural Affairs, for the Technical Education, Training & Skill Development Department)"
+level = "state"
+state = "West Bengal"
+doc_type = "scheme_page"
+format = "html"
+url = "https://wb.gov.in/government-schemes-details-utkarsh-bangla.aspx"
+expected_phrases = ["Utkarsh Bangla", "Paschim Banga Society for Skill Development"]
+curated_on = 2026-10-31
+notes = """\
+The state portal's scheme page; it says "Last updated on: Friday, 26th June, 2026". The page's \
+content sits inside an ASP.NET form, which the extractor unwraps. It is a summary: its figures \
+(for example the age range) and wording are general, and the PBSSD documents below are older \
+and more detailed."""
+
+[[sources]]
+id = "pbssd-utkarsh-faq"
+title = "Utkarsh Bangla: FAQ for candidates (PBSSD, PDF)"
+scheme = "Utkarsh Bangla"
+authority = "Paschim Banga Society for Skill Development, Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "faq"
+format = "pdf"
+url = "https://pbssd.gov.in/files/public/faq/FAQ_Candidates_UBPM.pdf"
+legacy_tls = true
+expected_phrases = ["Utkarsh Bangla", "Paschim Banga Society for Skill Development"]
+curated_on = 2026-10-31
+notes = """\
+The society's FAQ for candidates. PDF metadata: 2018-09-05, and its annual target is for 2018-19, \
+so amounts (for example the daily allowance) may have changed. The text contradicts itself on \
+course length (100 to 1500 hours in two places, 400 to 1200 hours in two others). The server \
+(pbssd.gov.in) only supports legacy TLS renegotiation (no RFC 5746), which OpenSSL 3 refuses by \
+default, so legacy_tls is set; the certificate chain and hostname are still verified."""
+
+[[sources]]
+id = "utkarsh-bangla-compendium"
+title = "Utkarsh Bangla Compendium: government orders and procedures (PDF)"
+scheme = "Utkarsh Bangla"
+authority = "Department of Technical Education, Training & Skill Development, Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "notification"
+format = "pdf"
+url = "https://tetsd.wb.gov.in/tetsd/uploads/doc_name17407407985.pdf"
+legacy_tls = true
+expected_phrases = ["UTKARSH BANGLA", "Compendium"]
+curated_on = 2026-10-31
+notes = """\
+A compendium of the department's orders on the scheme (the 2016 order and later amendments). PDF \
+metadata: 2025-02-28. It is long (about 440,000 characters) and written for training providers, \
+so only the order that introduces the scheme is used. The server (tetsd.wb.gov.in) only supports \
+legacy TLS renegotiation (no RFC 5746), so legacy_tls is set; the certificate chain and hostname \
+are still verified."""

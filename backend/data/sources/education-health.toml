@@ -1,0 +1,433 @@
+# Official sources for the Education and Health programmes in the catalogue
+# (data/catalogue/education-health.toml). See scholarships.toml for the fields.
+#
+# Every source here was downloaded through the real pipeline (official host, TLS, robots.txt, file
+# type, identity phrases) and read by a person before a quote was taken from it.
+
+# --- Education: West Bengal Student Credit Card Scheme -----------------------------------------
+
+[[sources]]
+id = "wbscc-gazette-2021"
+title = "West Bengal Student Credit Card Scheme: Kolkata Gazette notification, 30 June 2021 (PDF)"
+scheme = "West Bengal Student Credit Card Scheme"
+authority = "Higher Education Department, Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "notification"
+format = "pdf"
+url = "https://wbscc.wb.gov.in/assets/SCC_Schme_Gazette_Notification.pdf"
+legacy_tls = true
+published_on = 2021-06-30
+expected_phrases = ["Student Credit Card Scheme", "HIGHER EDUCATION DEPARTMENT"]
+expected_facts = ["4% simple interest"]
+curated_on = 2026-10-31
+notes = """\
+The notification that set up the scheme, served by the scheme's own portal (wbscc.wb.gov.in, a \
+wb.gov.in host). The portal also lists later amendments (for example a notification of August \
+2021); this source is the original scheme text. The server only supports legacy TLS \
+renegotiation, which OpenSSL 3 refuses by default; legacy_tls is therefore set. The certificate \
+chain and hostname are still verified."""
+
+[[sources]]
+id = "wbscc-faq"
+title = "West Bengal Student Credit Card Scheme: Frequently Asked Questions (PDF)"
+scheme = "West Bengal Student Credit Card Scheme"
+authority = "Higher Education Department, Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "faq"
+format = "pdf"
+url = "https://wbscc.wb.gov.in/assets/FAQ_English.pdf"
+legacy_tls = true
+expected_phrases = ["Student Credit Card", "Frequently Asked Questions"]
+curated_on = 2026-10-31
+notes = """\
+The scheme portal's own FAQ (PDF metadata: 2023-12-12). Same legacy TLS note as the gazette \
+source: the server cannot negotiate secure renegotiation; certificate and hostname are verified."""
+
+[[sources]]
+id = "wbscc-about"
+title = "WBSCC portal: About the Scheme"
+scheme = "West Bengal Student Credit Card Scheme"
+authority = "Higher Education Department, Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "scheme_page"
+format = "html"
+url = "https://wbscc.wb.gov.in/About"
+legacy_tls = true
+expected_phrases = ["About the Scheme", "Student Credit Card Scheme"]
+curated_on = 2026-10-31
+notes = """\
+The portal's own description of the scheme. The page has no date. Same legacy TLS note as the \
+other WBSCC sources.legacy_tls is set because this server only supports legacy TLS renegotiation (no RFC 5746), which OpenSSL 3 refuses by default; the certificate chain and hostname are still verified."""
+
+# --- Education: Central Sector Scheme of Scholarship (PM-USP CSSS) ------------------------------
+
+[[sources]]
+id = "pmusp-csss-guidelines"
+title = "PM-USP CSSS: Guidelines for the Central Sector Scheme of Scholarship for College and University Students (PDF)"
+scheme = "Central Sector Scheme of Scholarship for College and University Students (PM-USP CSSS)"
+authority = "Department of Higher Education, Ministry of Education, Government of India"
+level = "central"
+doc_type = "guidelines"
+format = "pdf"
+url = "https://scholarships.gov.in/public/schemeGuidelines/Guidelines_DOHE_CSSS.pdf"
+expected_phrases = ["PM-USP", "CENTRAL SECTOR SCHEME OF SCHOLARSHIP FOR COLLEGE AND UNIVERSITY STUDENTS"]
+expected_facts = ["12,000"]
+curated_on = 2026-10-31
+notes = """\
+Guidelines applicable from the academic year 2022-23, served by the National Scholarship Portal \
+(scholarships.gov.in). PDF metadata: 2022-04-27, so verification warns that it is more than 12 \
+months old. A newer FAQ (pmusp-csss-faq) exists; where the two differ, the FAQ is later."""
+
+[[sources]]
+id = "pmusp-csss-faq"
+title = "PM-USP CSSS: Frequently Asked Questions (PDF)"
+scheme = "Central Sector Scheme of Scholarship for College and University Students (PM-USP CSSS)"
+authority = "Department of Higher Education, Ministry of Education, Government of India"
+level = "central"
+doc_type = "faq"
+format = "pdf"
+url = "https://scholarships.gov.in/public/schemeGuidelines/FAQ_DOHE_CSSS.pdf"
+expected_phrases = ["PM-USP", "CSSS"]
+curated_on = 2026-10-31
+notes = """\
+The scheme FAQ on the National Scholarship Portal (PDF metadata: 2025-06-18)."""
+
+# --- Education: Post Matric Scholarship for SC students, OBC post matric, OASIS ------------------
+
+[[sources]]
+id = "oasis-pms-sc-leaflet"
+title = "OASIS: Post Matric Scholarships to students belonging to Scheduled Castes (PMS-SC), leaflet (PDF)"
+scheme = "Post Matric Scholarship for Scheduled Caste students (PMS-SC)"
+authority = "Backward Classes Welfare Department and Tribal Development Department, Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "scheme_page"
+format = "pdf"
+url = "https://oasis.wb.gov.in/web/pdf/Post%20Matric%20for%20SCs.pdf"
+expected_phrases = ["Post Matric Scholarship", "Scheduled Castes"]
+expected_facts = ["2.50 Lakh"]
+curated_on = 2026-10-31
+notes = """\
+A one-page summary of the Ministry of Social Justice and Empowerment's central scheme, published \
+on the West Bengal OASIS scholarship portal (oasis.wb.gov.in). It has no date. The scheme's own \
+guidelines page (socialjustice.gov.in/schemes/25) gave the pipeline only a few characters (the \
+text is built by JavaScript), so this leaflet is the only downloadable official text."""
+
+[[sources]]
+id = "oasis-user-manual"
+title = "OASIS portal: User manual for students (PDF)"
+scheme = "OASIS scholarships (West Bengal)"
+authority = "Backward Classes Welfare Department and Tribal Development Department, Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "guidelines"
+format = "pdf"
+url = "https://oasis.wb.gov.in/web/pdf/OASIS_USERMANUAL_FINAL_RECENT.pdf"
+expected_phrases = ["OASIS", "USER MANUAL"]
+expected_facts = ["2,50,000"]
+curated_on = 2026-10-31
+notes = """\
+The student manual of the OASIS portal. It is bilingual (English and Bengali); the Bengali half \
+is garbled by PDF extraction, so only the English part is quoted."""
+
+[[sources]]
+id = "pms-obc-guidelines"
+title = "Centrally Sponsored Scheme of Post-Matric Scholarship for OBC, EBC and DNT students: guidelines (PDF)"
+scheme = "Centrally Sponsored Scheme of Post-Matric Scholarship for OBC, EBC and DNT students"
+authority = "Department of Social Justice and Empowerment, Government of India"
+level = "central"
+doc_type = "guidelines"
+format = "pdf"
+url = "https://scholarships.gov.in/public/schemeGuidelines/POST_MATRIC_OBC_GUIDELINES.pdf"
+expected_phrases = ["Post-Matric Scholarship", "OBC, EBC and DNT"]
+expected_facts = ["2.50 lakh"]
+curated_on = 2026-10-31
+notes = """\
+Guidelines served by the National Scholarship Portal (PDF metadata: 2022-09-16, so older than 12 \
+months). The scheme is run by each State or UT government, which the document says in its scope \
+clause."""
+
+# --- Education: Shikshashree and Medhashree (West Bengal) --------------------------------------
+
+[[sources]]
+id = "shikshashree-district-page"
+title = "Shikshashree Scholarship (Paschim Medinipur district website)"
+scheme = "Shikshashree"
+authority = "District Administration, Paschim Medinipur, Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "scheme_page"
+format = "html"
+url = "https://paschimmedinipur.gov.in/scheme/skishashree-scholarship/"
+expected_phrases = ["Shikshashree", "Scheduled Caste"]
+curated_on = 2026-10-31
+notes = """\
+A district website's description of the state scheme (the page is dated 14/06/2016 and names \
+the scheme 'Skishashree' in its title). The state's own scheme page (wb.gov.in) is an ASP.NET \
+page wrapped in a form, which the extractor cannot read. The page says the scheme is for SC \
+students in one place and SC/ST students in another; both are reported as written."""
+
+[[sources]]
+id = "shikshashree-bcw-form"
+title = "Application for Shikshashree Scholarship to SC/ST students studying in class V to VIII (PDF)"
+scheme = "Shikshashree"
+authority = "Backward Classes Welfare Department, Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "service_page"
+format = "pdf"
+url = "https://bsk.wb.gov.in/download/29.pdf"
+legacy_tls = true
+expected_phrases = ["SIKSHASHREE SCHOLARSHIP", "Backward Classes Welfare Department"]
+curated_on = 2026-10-31
+notes = """\
+The department's application form, served by the Bangla Sahayata Kendra portal (bsk.wb.gov.in). \
+PDF metadata: 2014-07-07. The server only supports legacy TLS renegotiation, so legacy_tls is \
+set; certificate and hostname are still verified."""
+
+[[sources]]
+id = "bcw-notice-archive"
+title = "Backward Classes Welfare Department: Notice Archive"
+scheme = "Medhashree"
+authority = "Backward Classes Welfare Department, Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "notification"
+format = "html"
+url = "https://anagrasarkalyan.gov.in/all_notice"
+expected_phrases = ["Backward Classes Welfare Department", "Notice Archive"]
+curated_on = 2026-10-31
+notes = """\
+The department's list of notices. It names the Medhashree notification by title only; the \
+notification text itself is a separate file that the list does not link in a readable form, so \
+the Medhashree entry rests on that title alone."""
+
+# --- Health: Swasthya Sathi (West Bengal) ------------------------------------------------------
+
+[[sources]]
+id = "swasthyasathi-home"
+title = "Swasthya Sathi: home page (scheme at a glance)"
+scheme = "Swasthya Sathi"
+authority = "Department of Health and Family Welfare, Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "scheme_page"
+format = "html"
+url = "https://swasthyasathi.gov.in/"
+content_selector = "div.bodyleftpannel"
+expected_phrases = ["Swasthya Sathi at a Glance", "Main Features of the Scheme"]
+curated_on = 2026-10-31
+notes = """\
+The scheme's own portal. The page has no date. The content selector keeps only the 'at a glance' \
+text and drops the counters and menus. The page's statistics ('Data updated upto 31/12/2025') are \
+not used. The page's own FAQ and the 'About' page (helpline.swasthyasathi.gov.in) could not be \
+read: the FAQ file is delivered by a script and the About page is wrapped in a form."""
+
+# --- Health: Ayushman Bharat PM-JAY ------------------------------------------------------------
+
+[[sources]]
+id = "mohfw-achievements-2025"
+title = "Ministry of Health and Family Welfare: Initiatives and Achievements 2025 (PDF)"
+scheme = "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB PM-JAY)"
+authority = "Ministry of Health and Family Welfare, Government of India"
+level = "central"
+doc_type = "circular"
+format = "pdf"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/jan/doc202611749801.pdf"
+expected_phrases = ["Ministry of Health & Family Welfare Initiatives & Achievements-2025", "Ayushman Bharat PM-JAY"]
+curated_on = 2026-10-31
+notes = """\
+The Ministry's year-end review, published by the Press Information Bureau (January 2026). It is a \
+review of achievements, not the scheme's guidelines; only its description of PM-JAY is used. It \
+predates the middle of 2026, and says nothing about West Bengal and PM-JAY. The Press Information \
+Bureau's press-release pages (pib.gov.in/PressReleasePage.aspx) answered the pipeline with HTTP \
+403, so no later official text could be added."""
+
+# --- Health: Pradhan Mantri Bhartiya Janaushadhi Pariyojana -------------------------------------
+
+[[sources]]
+id = "pmbjp-pharma-dept"
+title = "Pradhan Mantri Bhartiya Janaushadhi Pariyojana: scheme note (PDF)"
+scheme = "Pradhan Mantri Bhartiya Janaushadhi Pariyojana (PMBJP)"
+authority = "Department of Pharmaceuticals, Ministry of Chemicals and Fertilizers, Government of India"
+level = "central"
+doc_type = "scheme_page"
+format = "pdf"
+url = "https://www.pharma-dept.gov.in/sites/default/files/pmbidoc_0.pdf"
+expected_phrases = ["Pradhan Mantri Bhartiya Janaushadhi Pariyojana", "Jan Aushadhi"]
+expected_facts = ["1616"]
+curated_on = 2026-10-31
+notes = """\
+A two-page scheme note on the Department of Pharmaceuticals website. PDF metadata: 2022-10-12, so \
+verification warns that it is older than 12 months; its store and product counts are not used."""
+
+# --- Health: Janani Suraksha Yojana ------------------------------------------------------------
+
+[[sources]]
+id = "jsy-nhm-page"
+title = "Janani Suraksha Yojana (National Health Mission)"
+scheme = "Janani Suraksha Yojana (JSY)"
+authority = "National Health Mission, Ministry of Health and Family Welfare, Government of India"
+level = "central"
+doc_type = "scheme_page"
+format = "html"
+url = "https://nhm.gov.in/index1.php?lang=1&level=3&lid=309&sublinkid=841"
+expected_phrases = ["Janani Suraksha Yojana", "National Health Mission"]
+curated_on = 2026-10-31
+notes = """\
+The National Health Mission's page on the scheme. The page has no date. It also links the scheme \
+guidelines (jsy-nhm-guidelines)."""
+
+[[sources]]
+id = "jsy-nhm-guidelines"
+title = "Janani Suraksha Yojana: guidelines (PDF)"
+scheme = "Janani Suraksha Yojana (JSY)"
+authority = "Maternal Health Division, Ministry of Health and Family Welfare, Government of India"
+level = "central"
+doc_type = "guidelines"
+format = "pdf"
+url = "https://nhm.gov.in/WriteReadData/l892s/97827133331523438951.pdf"
+expected_phrases = ["JANANI SURAKSHA YOJANA", "Maternal Health Division"]
+curated_on = 2026-10-31
+notes = """\
+The guidelines linked from the NHM page. PDF metadata: 2012-04-27. Older than the NHM page: where \
+its figures differ from the page (for example the ASHA package in high-performing states), the \
+page is used and the guidelines are cited only for who must produce what."""
+
+# --- Health: Pradhan Mantri Surakshit Matritva Abhiyan ------------------------------------------
+
+[[sources]]
+id = "pmsma-about"
+title = "Pradhan Mantri Surakshit Matritva Abhiyan: About the scheme"
+scheme = "Pradhan Mantri Surakshit Matritva Abhiyan (PMSMA)"
+authority = "Ministry of Health and Family Welfare, Government of India"
+level = "central"
+doc_type = "scheme_page"
+format = "html"
+url = "https://pmsma.mohfw.gov.in/about-scheme/"
+expected_phrases = ["Pradhan Mantri Surakshit Matritva Abhiyan", "antenatal care"]
+curated_on = 2026-10-31
+notes = """\
+The programme's own portal. The page has no date."""
+
+[[sources]]
+id = "pmsma-guidelines"
+title = "Pradhan Mantri Surakshit Matritva Abhiyan: guidelines for implementation (PDF)"
+scheme = "Pradhan Mantri Surakshit Matritva Abhiyan (PMSMA)"
+authority = "Ministry of Health and Family Welfare, Government of India"
+level = "central"
+doc_type = "guidelines"
+format = "pdf"
+url = "https://pmsma.mohfw.gov.in/wp-content/uploads/2016/09/Pradhan_Mantri_Surakshit_Matritva_Abhiyan-2.pdf"
+expected_phrases = ["Surakshit Matritva Abhiyan", "antenatal"]
+curated_on = 2026-10-31
+notes = """\
+The 2016 launch guidelines (PDF metadata: 2016-08-05; about 10 MB), linked from the programme \
+portal. Verification warns that it is older than 12 months; the portal page is later."""
+
+# --- Added after the extractor learned to read form-wrapped (ASP.NET) pages -----------------------
+# The wb.gov.in scheme pages are written by the Information and Cultural Affairs Department from
+# the schemes' own rules; each carries "Last updated on" (June 2026 for the ones used below).
+
+[[sources]]
+id = "wbgov-medhashree"
+title = "West Bengal Medhashree Scheme (wb.gov.in scheme page)"
+scheme = "Medhashree"
+authority = "Government of West Bengal (page by the Information and Cultural Affairs Department)"
+level = "state"
+state = "West Bengal"
+doc_type = "scheme_page"
+format = "html"
+url = "https://wb.gov.in/government-schemes-details-west-bengal-medhashree-scheme.aspx"
+expected_phrases = ["Medhashree", "Other Backward"]
+expected_facts = ["Rs 800"]
+curated_on = 2026-10-31
+notes = """The state portal's page; it says 'Last updated on: Friday, 26th June, 2026'. It describes the scheme in its own words and does not cite the notification. Its first sentence says the scheme supports 'higher education' while its benefits say 'up to Class VIII'; both are reported as written."""
+
+[[sources]]
+id = "wbgov-shikshashree"
+title = "Shikshashree (wb.gov.in scheme page)"
+scheme = "Shikshashree"
+authority = "Government of West Bengal (page by the Information and Cultural Affairs Department)"
+level = "state"
+state = "West Bengal"
+doc_type = "scheme_page"
+format = "html"
+url = "https://wb.gov.in/government-schemes-details-shikshashree.aspx"
+expected_phrases = ["Shikshashree", "Scheduled Caste"]
+curated_on = 2026-10-31
+notes = """The state portal's page, last updated 2 May 2022. It names Scheduled Caste students only, and gives no amount."""
+
+[[sources]]
+id = "wbgov-sikshasree"
+title = "West Bengal Shikshasree Scheme (wb.gov.in scheme page)"
+scheme = "Shikshashree"
+authority = "Government of West Bengal (page by the Information and Cultural Affairs Department)"
+level = "state"
+state = "West Bengal"
+doc_type = "scheme_page"
+format = "html"
+url = "https://wb.gov.in/government-schemes-details-west-bengal-shikshasree-scheme.aspx"
+expected_phrases = ["Shikshasree", "Scheduled Caste"]
+expected_facts = ["Rs 800"]
+curated_on = 2026-10-31
+notes = """A second state portal page for the same scheme (spelled 'Shikshasree'). It names Scheduled Caste or Scheduled Tribe students and gives an amount; the other portal page names SC only."""
+
+[[sources]]
+id = "wbgov-pmjay"
+title = "Pradhan Mantri Ayushman Bharat Yojana (wb.gov.in scheme page)"
+scheme = "Ayushman Bharat PM-JAY"
+authority = "Government of West Bengal (page by the Information and Cultural Affairs Department)"
+level = "state"
+state = "West Bengal"
+doc_type = "scheme_page"
+format = "html"
+url = "https://wb.gov.in/government-schemes-details-pradhan-mantri-ayushman-bharat-yojana.aspx"
+expected_phrases = ["Pradhan Mantri Ayushman Bharat Yojana", "PM-JAY"]
+curated_on = 2026-10-31
+notes = """The state portal lists PM-JAY among its schemes ('Last updated on: Friday, 26th June, 2026'). The page describes the national scheme; it does not give a West Bengal start date or say how it fits with Swasthya Sathi."""
+
+[[sources]]
+id = "swasthyasathi-about"
+title = "Swasthya Sathi: About the Scheme (helpline portal)"
+scheme = "Swasthya Sathi"
+authority = "Department of Health and Family Welfare, Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "scheme_page"
+format = "html"
+url = "https://helpline.swasthyasathi.gov.in/AboutTheSchme.aspx"
+expected_phrases = ["Swasthya Sathi", "About the Scheme"]
+curated_on = 2026-10-31
+notes = """The scheme's own history page. It has no date, but its latest dated figure is 31 August 2018, so it is old: the family and hospital counts in it are not used."""
+
+[[sources]]
+id = "wbgov-pre-matric"
+title = "Pre-Matric Scholarship for SC, ST and OBC students (wb.gov.in scheme page)"
+scheme = "Pre-Matric Scholarship for SC, ST and OBC students"
+authority = "Government of West Bengal (page by the Information and Cultural Affairs Department)"
+level = "state"
+state = "West Bengal"
+doc_type = "scheme_page"
+format = "html"
+url = "https://wb.gov.in/government-schemes-details-pre-matric-scholarship-for-sc-st-obc-students.aspx"
+expected_phrases = ["Pre-Matric Scholarship", "SC, ST"]
+curated_on = 2026-10-31
+notes = """State portal page, last updated 26 June 2026. A few characters are garbled by the page's encoding; those lines are not quoted."""
+
+[[sources]]
+id = "wbgov-minority-scholarships"
+title = "Pre and Post Matric Scholarships for Minority Students (wb.gov.in scheme page)"
+scheme = "Pre and Post Matric Scholarships for Minority Students"
+authority = "Government of West Bengal (page by the Information and Cultural Affairs Department)"
+level = "state"
+state = "West Bengal"
+doc_type = "scheme_page"
+format = "html"
+url = "https://wb.gov.in/government-schemes-details-pre-and-post-matric-scholarships-for-minority-students.aspx"
+expected_phrases = ["Minority Students", "Pre-Matric Scholarship"]
+curated_on = 2026-10-31
+notes = """State portal page, last updated 26 June 2026. It links an application portal at nspwb.wbmdfs.org, which is not a .gov.in address, so that link is not used."""

@@ -1,0 +1,229 @@
+# AICTE Pragati Scholarship Scheme: scholarship for girl students in technical education.
+#
+# Every rule, document, step, contact and deadline below carries `evidence`: words copied from an
+# indexed official document. The loader checks that each figure in the wording is in its quote,
+# and `python -m app.cli schemes-check` checks that each quote is really in the document.
+# Rules follow the document's own words: "less than" is a strict comparison (lt).
+#
+# Sources: the FAQ (created November 2021, so it may predate changes) and the 2026-27 notification
+# (a scan read by OCR: its figures may be misread, so check them against the original).
+#
+# The Bengali is a draft by a non-native speaker and needs a native speaker's review.
+
+id = "aicte-pragati"
+name = "AICTE Pragati Scholarship Scheme"
+authority = "All India Council for Technical Education (AICTE), Government of India"
+level = "central"
+sectors = ["education"]
+source_ids = ["aicte-pragati-faq", "aicte-pragati-notification-2026-27"]
+summary = { en = "AICTE's scholarship for girls who join a degree or diploma course in technical education.", bn = "প্রযুক্তিগত শিক্ষায় ডিগ্রি বা ডিপ্লোমা কোর্সে ভর্তি হওয়া মেয়েদের জন্য AICTE-র বৃত্তি।", hi = "AICTE की छात्रवृत्ति उन लड़कियों के लिए है जो तकनीकी शिक्षा में डिग्री या डिप्लोमा कोर्स में प्रवेश लेती हैं।" }
+not_stated = [
+  { en = "Any fee for applying. The documents do not mention one.", bn = "আবেদনের কোনো ফি আছে কি না। নথিগুলিতে এর উল্লেখ নেই।", hi = "आवेदन के लिए कोई शुल्क। दस्तावेज़ों में इसका ज़िक्र नहीं है।" },
+]
+
+# --- What the scheme requires of every applicant -------------------------------------------
+
+[[criteria]]
+id = "female"
+label = { en = "You are a female student", bn = "আপনি একজন ছাত্রী (মহিলা)", hi = "आप एक छात्रा हैं" }
+condition = { field = "gender", op = "eq", value = "female" }
+evidence = [{ source_id = "aicte-pragati-faq", quote = "Only female students are eligible." }]
+
+[[criteria]]
+id = "two_girls"
+label = { en = "There are at most two girls in your family", bn = "আপনার পরিবারে সর্বোচ্চ দুজন মেয়ে আছে", hi = "आपके परिवार में अधिकतम दो लड़कियाँ हैं" }
+condition = { field = "girls_in_family", op = "lte", value = 2 }
+note = { en = "The FAQ only says 'Up to Two Girls per family'. It does not explain how the girls are counted.", bn = "FAQ-তে শুধু লেখা আছে 'Up to Two Girls per family' (পরিবারপিছু সর্বোচ্চ দুজন মেয়ে)। মেয়েদের কীভাবে গোনা হবে, তা সেখানে বলা নেই।", hi = "FAQ में केवल 'Up to Two Girls per family' लिखा है। यह नहीं बताया गया कि लड़कियों की गिनती कैसे होगी।" }
+evidence = [{ source_id = "aicte-pragati-faq", quote = "Up to Two Girls per family." }]
+
+[[criteria]]
+id = "income"
+label = { en = "Your family income is less than Rs 8,00,000 a year", bn = "আপনার পরিবারের আয় বছরে 8,00,000 টাকার কম", hi = "आपके परिवार की आय 8,00,000 रुपये प्रति वर्ष से कम है" }
+condition = { field = "family_income", op = "lt", value = 800000 }
+evidence = [{ source_id = "aicte-pragati-faq", quote = "Family income should be less than Rs. 8 Lakh per annum." }]
+
+[[criteria]]
+id = "no_other_scholarship"
+label = { en = "You do not already get another Central Government, State Government or AICTE scholarship", bn = "আপনি কেন্দ্রীয় সরকার, রাজ্য সরকার বা AICTE-র অন্য কোনো বৃত্তি পান না", hi = "आपको पहले से केंद्र सरकार, राज्य सरकार या AICTE की कोई दूसरी छात्रवृत्ति नहीं मिलती" }
+condition = { field = "receives_other_scholarship", op = "eq", value = false }
+evidence = [
+  { source_id = "aicte-pragati-faq", quote = "The candidate should NOT be recipient of any of the Central Govt./ State Govt. / AICTE Sponsored scholarships." },
+]
+
+# --- Documents, steps and contacts ---------------------------------------------------------
+
+[[documents]]
+id = "tenth_certificate"
+label = { en = "Class 10 certificate and mark sheet (SSC)", bn = "দশম শ্রেণির (SSC) শংসাপত্র ও মার্কশিট", hi = "कक्षा 10 का प्रमाण पत्र और अंक पत्र (SSC)" }
+evidence = [{ source_id = "aicte-pragati-faq", quote = "Copy of SSC/10th certificate & mark sheet." }]
+
+[[documents]]
+id = "category"
+label = { en = "Category certificate, if you belong to a reserved category", bn = "সংরক্ষিত শ্রেণিভুক্ত হলে বিভাগের (ক্যাটেগরি) শংসাপত্র", hi = "श्रेणी प्रमाण पत्र, यदि आप किसी आरक्षित श्रेणी से हैं" }
+if_applicable = true
+evidence = [{ source_id = "aicte-pragati-faq", quote = "Category, if applicable." }]
+
+[[documents]]
+id = "study_certificate"
+label = { en = "Study (bonafide) certificate from your institute, in the format of Appendix I", bn = "আপনার প্রতিষ্ঠান থেকে পাওয়া পড়ুয়া (বোনাফাইড) শংসাপত্র, পরিশিষ্ট I-এর ছকে", hi = "आपके संस्थान से अध्ययन (बोनाफ़ाइड) प्रमाण पत्र, परिशिष्ट I के प्रारूप में" }
+detail = { en = "It is issued by the Director, Principal or Head of the Institution.", bn = "এটি প্রতিষ্ঠানের ডিরেক্টর, অধ্যক্ষ বা প্রধান দেন।", hi = "यह निदेशक, प्राचार्य या संस्थान प्रमुख द्वारा जारी किया जाता है।" }
+evidence = [
+  { source_id = "aicte-pragati-faq", quote = "Study/ Bonafide Certificate (Appendix-I)." },
+  { source_id = "aicte-pragati-faq", quote = "(To be issued by Director / Principal / Head of the Institution)" },
+]
+
+[[documents]]
+id = "income_certificate"
+label = { en = "Annual family income certificate of the current year, in the format of Appendix II", bn = "চলতি বছরের বার্ষিক পারিবারিক আয়ের শংসাপত্র, পরিশিষ্ট II-এর ছকে", hi = "चालू वर्ष का वार्षिक पारिवारिक आय प्रमाण पत्र, परिशिष्ट II के प्रारूप में" }
+detail = { en = "It must be in your name or a family member's, and signed and stamped by a competent authority such as a Tehsildar, Magistrate, Revenue Officer or Block Development Officer.", bn = "এটি আপনার বা পরিবারের কোনো সদস্যের নামে হতে হবে এবং তহসিলদার, ম্যাজিস্ট্রেট, রাজস্ব আধিকারিক বা ব্লক উন্নয়ন আধিকারিকের মতো উপযুক্ত কর্তৃপক্ষের স্বাক্ষর ও সিলমোহর থাকতে হবে।", hi = "यह आपके या परिवार के किसी सदस्य के नाम पर होना चाहिए, और तहसीलदार, मजिस्ट्रेट, राजस्व अधिकारी या खंड विकास अधिकारी जैसे सक्षम अधिकारी द्वारा हस्ताक्षरित और मुहर लगा हुआ होना चाहिए।" }
+evidence = [
+  { source_id = "aicte-pragati-faq", quote = "Annual Family Income Certificate (Appendix-II)." },
+  { source_id = "aicte-pragati-faq", quote = "Annual family income certificate of current year is not submitted." },
+  { source_id = "aicte-pragati-faq", quote = "Annual family income certificate is not in the name of applicant or any his/her family member." },
+  { source_id = "aicte-pragati-faq", quote = "Submitted Annual family income certificate issued by other than competent authority (Tehshildar, Magistrate, Revenue officer/Block Development Officer etc.)." },
+  { source_id = "aicte-pragati-faq", quote = "Annual family income certificate submitted without signature/stamp of the competent authority." },
+]
+
+[[documents]]
+id = "parent_declaration"
+label = { en = "Parent declaration, in the format of Appendix III", bn = "অভিভাবকের ঘোষণাপত্র, পরিশিষ্ট III-এর ছকে", hi = "अभिभावक का घोषणा पत्र, परिशिष्ट III के प्रारूप में" }
+evidence = [{ source_id = "aicte-pragati-faq", quote = "Parent Declaration (Appendix-III)." }]
+
+[[documents]]
+id = "aadhaar"
+label = { en = "Aadhaar card, and a bank account linked to your Aadhaar in your own name", bn = "আধার কার্ড, এবং আপনার নিজের নামে আধারের সঙ্গে যুক্ত ব্যাংক অ্যাকাউন্ট", hi = "आधार कार्ड, और आपके अपने नाम का आधार से जुड़ा बैंक खाता" }
+evidence = [{ source_id = "aicte-pragati-faq", quote = "Aadhaar card and Aadhaar seeded bank account in the name of candidate is mandatory for submitting online application under PRAGATI scheme." }]
+
+[[documents]]
+id = "savings_account"
+label = { en = "A general savings account in your own name", bn = "আপনার নিজের নামে একটি সাধারণ সঞ্চয় অ্যাকাউন্ট", hi = "आपके अपने नाम का सामान्य बचत खाता" }
+detail = { en = "FRILL, minor and joint accounts are not accepted.", bn = "FRILL, নাবালকের এবং যৌথ অ্যাকাউন্ট গ্রহণ করা হয় না।", hi = "FRILL, नाबालिग और संयुक्त खाते स्वीकार नहीं किए जाते।" }
+evidence = [{ source_id = "aicte-pragati-faq", quote = "Student must have General Saving Account in his / her name (FRILL/Minor/Joint account will not be accepted)." }]
+
+[[steps]]
+id = "apply_online"
+text = { en = "Apply online on the National Scholarship Portal (NSP) once the application process has opened.", bn = "আবেদন প্রক্রিয়া শুরু হলে ন্যাশনাল স্কলারশিপ পোর্টালে (NSP) অনলাইনে আবেদন করুন।", hi = "आवेदन प्रक्रिया शुरू होने पर राष्ट्रीय छात्रवृत्ति पोर्टल (NSP) पर ऑनलाइन आवेदन करें।" }
+evidence = [{ source_id = "aicte-pragati-faq", quote = "is required to apply online on National Scholarship Portal (NSP) after initiation of application process" }]
+
+[[steps]]
+id = "check_details"
+text = { en = "After you submit, check all your details. If something is missing or wrong, contact your institute straight away.", bn = "জমা দেওয়ার পর আপনার সব তথ্য যাচাই করুন। কিছু বাদ পড়লে বা ভুল থাকলে সঙ্গে সঙ্গে আপনার প্রতিষ্ঠানের সঙ্গে যোগাযোগ করুন।", hi = "जमा करने के बाद अपनी सभी जानकारी जाँच लें। कुछ छूटा या ग़लत हो तो तुरंत अपने संस्थान से संपर्क करें।" }
+evidence = [{ source_id = "aicte-pragati-faq", quote = "In case of omissions / errors, immediately contact the institute for rectifying the same." }]
+
+[[steps]]
+id = "institute_verifies"
+text = { en = "Ask your institute to verify and forward your application within the time set on the NSP portal.", bn = "NSP পোর্টালে নির্ধারিত সময়ের মধ্যে আপনার আবেদন যাচাই করে এগিয়ে দিতে আপনার প্রতিষ্ঠানকে অনুরোধ করুন।", hi = "अपने संस्थान से कहें कि वह NSP पोर्टल पर तय समय के भीतर आपका आवेदन सत्यापित करके आगे भेजे।" }
+evidence = [{ source_id = "aicte-pragati-faq", quote = "Students are also advised to request their Institute to verify and forward the application within the time period mentioned in the NSP Portal." }]
+
+[[contacts]]
+id = "pragati_email"
+label = { en = "Pragati scholarship queries (e-mail)", bn = "প্রগতি বৃত্তি সংক্রান্ত প্রশ্ন (ই-মেল)", hi = "प्रगति छात्रवृत्ति संबंधी प्रश्न (ईमेल)" }
+value = "pragati@aicte-india.org"
+evidence = [{ source_id = "aicte-pragati-faq", quote = "you can avail helpline services on pragati@aicte-india.org & 011-29581118 for any query." }]
+
+[[contacts]]
+id = "pragati_phone"
+label = { en = "Pragati scholarship queries (phone)", bn = "প্রগতি বৃত্তি সংক্রান্ত প্রশ্ন (ফোন)", hi = "प्रगति छात्रवृत्ति संबंधी प्रश्न (फ़ोन)" }
+value = "011-29581118"
+evidence = [{ source_id = "aicte-pragati-faq", quote = "you can avail helpline services on pragati@aicte-india.org & 011-29581118 for any query." }]
+
+[[contacts]]
+id = "nsp_helpdesk"
+label = { en = "Trouble with the National Scholarship Portal (e-mail)", bn = "ন্যাশনাল স্কলারশিপ পোর্টাল ব্যবহারে সমস্যা (ই-মেল)", hi = "राष्ट्रीय छात्रवृत्ति पोर्टल में परेशानी (ईमेल)" }
+value = "helpdesk@nsp.gov.in"
+evidence = [{ source_id = "aicte-pragati-faq", quote = "You can avail Helpdesk Service on helpdesk@nsp.gov.in for any query." }]
+
+[[deadlines]]
+id = "apply_2026_27"
+label = { en = "Last date to apply online, 2026-27 applications", bn = "অনলাইনে আবেদনের শেষ তারিখ, 2026-27 সালের আবেদন", hi = "ऑनलाइन आवेदन की अंतिम तिथि, 2026-27 के आवेदन" }
+on = 2026-10-31
+scanned = true
+evidence = [{ source_id = "aicte-pragati-notification-2026-27", quote = "last date for submission of online applications is 31 .10.2026" }]
+
+[apply]
+text = { en = "Apply online on the National Scholarship Portal (NSP).", bn = "ন্যাশনাল স্কলারশিপ পোর্টালে (NSP) অনলাইনে আবেদন করুন।", hi = "राष्ट्रीय छात्रवृत्ति पोर्टल (NSP) पर ऑनलाइन आवेदन करें।" }
+url = "https://scholarships.gov.in"
+evidence = [
+  { source_id = "aicte-pragati-faq", quote = "is required to apply online on National Scholarship Portal (NSP)" },
+  { source_id = "aicte-pragati-notification-2026-27", quote = "National Scholarship Portal https://scholarships.gov.in" },
+]
+
+[[caveats]]
+id = "reservation"
+text = { en = "The FAQ says reservation for SC, ST and OBC students follows Government of India norms. It does not give the details.", bn = "FAQ বলছে SC, ST ও OBC ছাত্রীদের জন্য সংরক্ষণ ভারত সরকারের নিয়ম অনুযায়ী হবে। বিস্তারিত সেখানে দেওয়া নেই।", hi = "FAQ के अनुसार SC, ST और OBC छात्रों के लिए आरक्षण भारत सरकार के मानदंडों के अनुसार है। इसका ब्योरा नहीं दिया गया है।" }
+evidence = [{ source_id = "aicte-pragati-faq", quote = "As per Government of India norms." }]
+
+[[caveats]]
+id = "drop_out"
+text = { en = "If you fail or drop out in a later year, you will not be eligible for further scholarship.", bn = "পরের কোনো বছরে অকৃতকার্য হলে বা পড়া ছেড়ে দিলে আপনি আর বৃত্তি পাবেন না।", hi = "यदि आप किसी आगामी वर्ष में फ़ेल हो जाते हैं या पढ़ाई छोड़ देते हैं, तो आप आगे की छात्रवृत्ति के पात्र नहीं रहेंगे।" }
+evidence = [{ source_id = "aicte-pragati-faq", quote = "If a candidate fails / drops out in subsequent year, she will not be eligible for further scholarship." }]
+
+[[caveats]]
+id = "direct_rejection"
+text = { en = "Applications are rejected for courses that are not technical or not AICTE-approved this year, for students in two degree courses at once, and for postgraduate courses.", bn = "কারিগরি নয় বা এ বছর AICTE-অনুমোদিত নয় এমন কোর্স, একসঙ্গে দুটি ডিগ্রি কোর্স এবং স্নাতকোত্তর কোর্সের আবেদন বাতিল হয়।", hi = "जो कोर्स तकनीकी नहीं हैं या इस वर्ष AICTE से मान्यता प्राप्त नहीं हैं, उनके आवेदन अस्वीकार किए जाते हैं; साथ ही एक साथ दो डिग्री कोर्स करने वाले छात्रों और स्नातकोत्तर कोर्स के आवेदन भी अस्वीकार किए जाते हैं।" }
+evidence = [
+  { source_id = "aicte-pragati-faq", quote = "Student is admitted in Non-Technical courses or Course is not approved by AICTE in the current academic year." },
+  { source_id = "aicte-pragati-faq", quote = "Student admitted in duel degree courses." },
+  { source_id = "aicte-pragati-faq", quote = "Student admitted in Post-graduate courses." },
+]
+
+# --- The two tracks: the FAQ lists a column for each ---------------------------------------
+
+[[tracks]]
+id = "degree"
+label = { en = "Degree (undergraduate, technical education)", bn = "ডিগ্রি (স্নাতক, প্রযুক্তিগত শিক্ষা)", hi = "डिग्री (स्नातक, तकनीकी शिक्षा)" }
+
+[tracks.benefit]
+text = { en = "Rs 50,000 a year for every year of study, for up to 4 years (up to 3 years if you joined through lateral entry). It is a lump sum for college fee, computer, stationery, books and equipment.", bn = "পড়াশোনার প্রতি বছরের জন্য 50,000 টাকা, সর্বোচ্চ 4 বছর (ল্যাটারাল এন্ট্রিতে ভর্তি হলে সর্বোচ্চ 3 বছর)। এটি কলেজ ফি, কম্পিউটার, লেখার সামগ্রী, বই ও যন্ত্রপাতির জন্য একসঙ্গে দেওয়া অর্থ।", hi = "पढ़ाई के हर वर्ष के लिए 50,000 रुपये प्रति वर्ष, अधिकतम 4 वर्ष तक (लेटरल एंट्री से आने पर अधिकतम 3 वर्ष तक)। यह एकमुश्त राशि कॉलेज फ़ीस, कंप्यूटर, लेखन-सामग्री, किताबों और उपकरणों के लिए है।" }
+evidence = [{ source_id = "aicte-pragati-faq", quote = "Rs 50,000 per annum for every year of study i.e. maximum 4 years for Degree for first year admitted students and maximum 3 years for Degree students admitted through lateral entry as lump sum amount towards payment of college fee, computer purchase, stationery, books, Equipment" }]
+
+[[tracks.criteria]]
+id = "aicte_approved"
+label = { en = "You are in an undergraduate degree course in an AICTE-approved institution", bn = "আপনি AICTE-অনুমোদিত প্রতিষ্ঠানের স্নাতক (ডিগ্রি) কোর্সে পড়ছেন", hi = "आप AICTE से मान्यता प्राप्त संस्थान में स्नातक डिग्री कोर्स में हैं" }
+condition = { field = "institution_aicte_approved", op = "eq", value = true }
+evidence = [{ source_id = "aicte-pragati-faq", quote = "Students admitted in UG Degree Level Programme/ Course in AICTE Approved Institutions." }]
+
+[[tracks.criteria]]
+id = "admission"
+label = { en = "You joined in the first year, or in the second year through lateral entry", bn = "আপনি প্রথম বর্ষে, বা দ্বিতীয় বর্ষে ল্যাটারাল এন্ট্রির মাধ্যমে ভর্তি হয়েছেন", hi = "आप पहले वर्ष में, या लेटरल एंट्री से दूसरे वर्ष में शामिल हुए" }
+condition = { field = "admission_type", op = "in", value = ["first_year", "lateral_entry"] }
+evidence = [{ source_id = "aicte-pragati-faq", quote = "The students admitted in first year of their Degree Course OR Second year of their Degree Course through lateral entry (LE) in any of the AICTE approved Institution of respective year." }]
+
+[[tracks.documents]]
+id = "twelfth_certificate"
+label = { en = "Class 12 certificate and mark sheet (HSC)", bn = "দ্বাদশ শ্রেণির (HSC) শংসাপত্র ও মার্কশিট", hi = "कक्षा 12 का प्रमाण पत्र और अंक पत्र (HSC)" }
+evidence = [{ source_id = "aicte-pragati-faq", quote = "Copy of HSC/12th certificate (In case of Degree level) & mark sheet." }]
+
+[[tracks.documents]]
+id = "diploma_certificate"
+label = { en = "Diploma certificate and mark sheet", bn = "ডিপ্লোমা শংসাপত্র ও মার্কশিট", hi = "डिप्लोमा प्रमाण पत्र और अंक पत्र" }
+detail = { en = "Needed if you joined the second year through lateral entry.", bn = "দ্বিতীয় বর্ষে ল্যাটারাল এন্ট্রির মাধ্যমে ভর্তি হলে প্রয়োজন।", hi = "यह तब ज़रूरी है जब आप लेटरल एंट्री से दूसरे वर्ष में शामिल हुए हों।" }
+needed_when = [{ field = "admission_type", op = "eq", value = "lateral_entry" }]
+evidence = [{ source_id = "aicte-pragati-faq", quote = "Copy of Diploma certificate (In case of Lateral Entry for Degree level) & mark sheet." }]
+
+[[tracks]]
+id = "diploma"
+label = { en = "Diploma (technical education)", bn = "ডিপ্লোমা (প্রযুক্তিগত শিক্ষা)", hi = "डिप्लोमा (तकनीकी शिक्षा)" }
+
+[tracks.benefit]
+text = { en = "Rs 50,000 a year for every year of study, for up to 3 years (up to 2 years if you joined through lateral entry). It is a lump sum for college fee, computer, stationery, books and equipment.", bn = "পড়াশোনার প্রতি বছরের জন্য 50,000 টাকা, সর্বোচ্চ 3 বছর (ল্যাটারাল এন্ট্রিতে ভর্তি হলে সর্বোচ্চ 2 বছর)। এটি কলেজ ফি, কম্পিউটার, লেখার সামগ্রী, বই ও যন্ত্রপাতির জন্য একসঙ্গে দেওয়া অর্থ।", hi = "पढ़ाई के हर वर्ष के लिए 50,000 रुपये प्रति वर्ष, अधिकतम 3 वर्ष तक (लेटरल एंट्री से आने पर अधिकतम 2 वर्ष तक)। यह एकमुश्त राशि कॉलेज फ़ीस, कंप्यूटर, लेखन-सामग्री, किताबों और उपकरणों के लिए है।" }
+evidence = [{ source_id = "aicte-pragati-faq", quote = "Rs 50,000 per annum for every year of study i.e. maximum 3 years for Diploma for first year admitted students and maximum 2 years for Diploma students admitted through lateral entry as lump sum amount towards payment of college fee, computer purchase, stationery, books, Equipment" }]
+
+[[tracks.criteria]]
+id = "aicte_approved"
+label = { en = "You are in a diploma course in an AICTE-approved institution", bn = "আপনি AICTE-অনুমোদিত প্রতিষ্ঠানের ডিপ্লোমা কোর্সে পড়ছেন", hi = "आप AICTE से मान्यता प्राप्त संस्थान में डिप्लोमा कोर्स में हैं" }
+condition = { field = "institution_aicte_approved", op = "eq", value = true }
+evidence = [{ source_id = "aicte-pragati-faq", quote = "Students admitted in Diploma Level Programme/ Course in AICTE Approved Institutions." }]
+
+[[tracks.criteria]]
+id = "admission"
+label = { en = "You joined in the first year, or in the second year through lateral entry", bn = "আপনি প্রথম বর্ষে, বা দ্বিতীয় বর্ষে ল্যাটারাল এন্ট্রির মাধ্যমে ভর্তি হয়েছেন", hi = "आप पहले वर्ष में, या लेटरल एंट्री से दूसरे वर्ष में शामिल हुए" }
+condition = { field = "admission_type", op = "in", value = ["first_year", "lateral_entry"] }
+evidence = [{ source_id = "aicte-pragati-faq", quote = "The students admitted in first year of their Diploma Course OR Second year of Diploma Course through lateral entry (LE) in any of the AICTE approved Institution of respective year." }]
+
+[[tracks.documents]]
+id = "iti_certificate"
+label = { en = "ITI certificate and mark sheet", bn = "ITI শংসাপত্র ও মার্কশিট", hi = "ITI प्रमाण पत्र और अंक पत्र" }
+detail = { en = "Needed if you joined the second year through lateral entry.", bn = "দ্বিতীয় বর্ষে ল্যাটারাল এন্ট্রির মাধ্যমে ভর্তি হলে প্রয়োজন।", hi = "यह तब ज़रूरी है जब आप लेटरल एंट्री से दूसरे वर्ष में शामिल हुए हों।" }
+needed_when = [{ field = "admission_type", op = "eq", value = "lateral_entry" }]
+evidence = [{ source_id = "aicte-pragati-faq", quote = "Copy of ITI certificate (In case of Lateral Entry for Diploma level) & mark sheet." }]

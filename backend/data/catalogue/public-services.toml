@@ -1,0 +1,1035 @@
+# Public Services & Citizen Rights: services and entitlements in the catalogue. Every statement
+# carries a quote that `python -m app.cli catalogue-check` finds in the saved document. English
+# wording only (the quotes are English); the summary and the "who is it for" line are in three
+# languages and hold no figure. The Bengali and Hindi are drafts by a non-native speaker and need a
+# native speaker's review.
+
+# --- e-Shram -----------------------------------------------------------------------------------
+
+[[entries]]
+id = "e-shram"
+name = "e-Shram: registration of unorganised workers (National Database of Unorganised Workers)"
+kind = "service"
+sectors = ["public-services", "employment"]
+level = "central"
+department = "Ministry of Labour & Employment, Government of India"
+status = "active"
+source_ids = ["eshram-faqs", "wbgov-e-shram-page"]
+last_verified = 2026-10-31
+summary = { en = "A free registration for unorganised workers that gives a permanent unique number and card, used to reach government schemes.", bn = "অসংগঠিত শ্রমিকদের জন্য বিনামূল্যের নিবন্ধন, যা একটি স্থায়ী স্বতন্ত্র নম্বর ও কার্ড দেয় এবং সরকারি প্রকল্পে পৌঁছাতে কাজে লাগে।", hi = "असंगठित श्रमिकों के लिए निःशुल्क पंजीकरण, जो एक स्थायी विशिष्ट संख्या और कार्ड देता है और सरकारी योजनाओं तक पहुँचने में काम आता है।" }
+target = { en = "Home-based, self-employed and wage workers in the unorganised sector who are not members of ESIC or EPFO.", bn = "অসংগঠিত ক্ষেত্রের গৃহভিত্তিক, স্বনিযুক্ত ও মজুরি-শ্রমিক, যাঁরা ইএসআইসি বা ইপিএফও-র সদস্য নন।", hi = "असंगठित क्षेत्र के घर-आधारित, स्वरोज़गार और मज़दूरी करने वाले श्रमिक, जो ईएसआईसी या ईपीएफओ के सदस्य नहीं हैं।" }
+not_stated = [
+  "A fixed cash payment for registering. The FAQ says the database is meant to help deliver social security benefits and may be used for assistance in emergencies, not that registration itself pays money.",
+  "Which schemes you will qualify for. Each scheme on the portal keeps its own rules and is run by its own ministry or department.",
+  "One age limit and income level. The Ministry's FAQ says age 16 and above with no income criterion, while the West Bengal state portal page gives age 16 to 59 and a lower or unstable income. The Ministry's FAQ is used for eligibility here; check the e-Shram portal for the current rule.",
+]
+
+[entries.apply]
+label = "e-Shram portal"
+url = "https://eshram.gov.in/"
+evidence = [{ source_id = "eshram-faqs", quote = "eShram services may be accessed through the portal, available at http://www.eshram.gov.in.", where = "FAQ 2" }]
+
+[[entries.benefits]]
+text = "Registration gives the worker a 12 digit unique number (UAN) card, which is meant to make it easier to reach government schemes, entitlements and services."
+evidence = [{ source_id = "eshram-faqs", quote = "issues them a 12 digit unique identification number (UAN) card, thereby enabling efficient access to various government schemes, entitlements and services.", where = "FAQ 1" }]
+
+[[entries.benefits]]
+text = "The card never expires, and renewal is not required (keeping the details on it up to date is advised)."
+evidence = [
+  { source_id = "eshram-faqs", quote = "The eShram card never expires.", where = "FAQ 35" },
+  { source_id = "eshram-faqs", quote = "No, renewal of the eShram card is not required.", where = "FAQ 36" },
+]
+
+[[entries.benefits]]
+text = "The unique number lets a registered worker track the schemes linked to the portal without visiting many portals or filling separate forms for each."
+evidence = [{ source_id = "eshram-faqs", quote = "No need to visit multiple portals or fill out separate forms for each scheme.", where = "FAQ 8" }]
+
+[[entries.benefits]]
+text = "The West Bengal state portal lists accidental insurance cover under PMSBY of up to Rs 2 lakh for accidental death or total disability and Rs 1 lakh for partial disability."
+evidence = [{ source_id = "wbgov-e-shram-page", quote = "Accidental insurance coverage: Up to Rs 2 lakh for accidental death or total disability and Rs 1 lakh for partial disability (via PMSBY).", where = "Benefits" }]
+
+[[entries.benefits]]
+text = "The same page says eligible workers can receive a monthly pension of around Rs 3,000 after the age of 60, through schemes like PM-SYM."
+evidence = [{ source_id = "wbgov-e-shram-page", quote = "Pension benefit: Eligible workers can receive a monthly pension of around Rs 3,000 after the age of 60 (through schemes like PM-SYM).", where = "Benefits" }]
+
+[[entries.benefits]]
+text = "Benefits can be accessed anywhere in India, which is useful for migrant labourers."
+evidence = [{ source_id = "wbgov-e-shram-page", quote = "Portability of benefits: Workers can access benefits anywhere in India, useful for migrant labourers.", where = "Benefits" }]
+
+[[entries.eligibility]]
+text = "An unorganised worker is a home-based worker, self-employed worker or wage worker in the unorganised sector who is not a member of ESIC or EPFO."
+evidence = [{ source_id = "eshram-faqs", quote = "Any worker who is a home-based worker, self-employed worker or a wage worker working in the unorganised sector and not a member of ESIC or EPFO, is called an unorganised worker.", where = "FAQ 3" }]
+
+[[entries.eligibility]]
+text = "Anyone doing unorganised work who is aged 16 years or more can register, subject to the other prescribed criteria."
+evidence = [{ source_id = "eshram-faqs", quote = "any individual engaged in unorganised work and aged 16 years and above is eligible to register on the eShram portal, subject to the fulfilment of other prescribed criteria.", where = "FAQ 30" }]
+
+[[entries.eligibility]]
+text = "There is no income criterion for registering."
+evidence = [{ source_id = "eshram-faqs", quote = "There are no income criteria for registering on eShram as unorganised worker.", where = "FAQ 29" }]
+
+[[entries.eligibility]]
+text = "Agriculture labourers and landless farmers can register."
+evidence = [{ source_id = "eshram-faqs", quote = "Agriculture labours and landless farmers are eligible for registration in the eShram portal.", where = "FAQ 54" }]
+
+[[entries.documents]]
+text = "At a Common Service Centre the worker does not submit any document but must carry the Aadhaar number and the mobile for registration."
+evidence = [{ source_id = "eshram-faqs", quote = "Worker is not required to submit any document at the CSC’s. They are required to carry their Aadhaar number & Mobile for registration.", where = "FAQ 46" }]
+
+[[entries.documents]]
+text = "A worker without an Aadhaar linked mobile number can visit a Common Service Centre or State Seva Kendra and register through biometric authentication."
+evidence = [{ source_id = "eshram-faqs", quote = "If a worker does not have Aadhaar linked mobile number, he/ she may visit nearest Common Service Centre (CSC) or State Seva Kendra (SSK) and register through biometric authentication.", where = "FAQ 31" }]
+
+[[entries.documents]]
+text = "No proof of date of birth or income is required at present."
+evidence = [{ source_id = "eshram-faqs", quote = "At present there is no requirement to provide any proof of date of birth and income.", where = "FAQ 44" }]
+
+[[entries.steps]]
+text = "Register yourself on the e-Shram portal, or with help at the nearest Common Service Centre."
+evidence = [{ source_id = "eshram-faqs", quote = "An unorganised worker may register himself/ herself by visiting eShram portal or through assisted approach by visiting nearest CSC.", where = "FAQ 33" }]
+
+[[entries.steps]]
+text = "Online: click Register on e-Shram and enter your Aadhaar-linked mobile number to receive an OTP, complete Aadhaar verification, fill personal and bank details, and submit a self-declaration."
+evidence = [
+  { source_id = "wbgov-e-shram-page", quote = "Start registration: Click on \"Register on e-Shram\" and enter your Aadhaar-linked mobile number to receive an OTP.", where = "Application Details" },
+  { source_id = "wbgov-e-shram-page", quote = "Submit bank details: Provide bank account number and IFSC code for benefit transfers.", where = "Application Details" },
+]
+
+[[entries.steps]]
+text = "After registration the card can be downloaded instantly in PDF format or printed."
+evidence = [{ source_id = "wbgov-e-shram-page", quote = "Download E-Shram Card: The card can be downloaded instantly in PDF format or printed.", where = "Application Details" }]
+
+[[entries.steps]]
+text = "Registration is free; workers are not required to pay any charges to any registering entity."
+evidence = [{ source_id = "eshram-faqs", quote = "Registration on eShram portal is totally free. Workers are not required to pay any charges to any registering entity.", where = "FAQ 34" }]
+
+[[entries.steps]]
+text = "There is no fixed last date for registration."
+evidence = [{ source_id = "eshram-faqs", quote = "No, there is no fixed last date for registration.", where = "FAQ 57" }]
+
+[[entries.steps]]
+text = "For help with registration, the national helpdesk can be called on 14434."
+evidence = [{ source_id = "eshram-faqs", quote = "Users may contact the helpdesk by dialling 14434 for support and guidance", where = "FAQ 27" }]
+
+# --- West Bengal: caste certificates -----------------------------------------------------------
+
+[[entries]]
+id = "wb-caste-certificate"
+name = "Caste certificate (SC / ST / OBC) in West Bengal, through the OSCAR portal"
+kind = "service"
+sectors = ["public-services"]
+level = "state"
+state = "West Bengal"
+department = "Backward Classes Welfare Department, Government of West Bengal"
+status = "active"
+source_ids = ["wb-castcert-how-to-apply", "bsk-manual-2021"]
+last_verified = 2026-10-31
+summary = { en = "A free certificate that identifies a person as belonging to a Scheduled Caste, Scheduled Tribe or Other Backward Class, applied for online.", bn = "তফসিলি জাতি, তফসিলি উপজাতি বা অন্যান্য অনগ্রসর শ্রেণিভুক্ত হিসেবে পরিচয় দেওয়া বিনামূল্যের শংসাপত্র, যার জন্য অনলাইনে আবেদন করা যায়।", hi = "अनुसूचित जाति, अनुसूचित जनजाति या अन्य पिछड़ा वर्ग के रूप में पहचान देने वाला निःशुल्क प्रमाणपत्र, जिसके लिए ऑनलाइन आवेदन किया जाता है।" }
+target = { en = "People in West Bengal who belong to a Scheduled Caste, Scheduled Tribe or Other Backward Class and need the certificate for reservation and other facilities.", bn = "পশ্চিমবঙ্গের যে মানুষ তফসিলি জাতি, তফসিলি উপজাতি বা অন্যান্য অনগ্রসর শ্রেণিভুক্ত এবং সংরক্ষণ ও অন্যান্য সুবিধার জন্য শংসাপত্র দরকার।", hi = "पश्चिम बंगाल के वे लोग जो अनुसूचित जाति, अनुसूचित जनजाति या अन्य पिछड़ा वर्ग से हैं और आरक्षण व अन्य सुविधाओं के लिए प्रमाणपत्र चाहते हैं।" }
+not_stated = [
+  "How long the certificate takes to issue. Neither document gives a time limit.",
+  "The full list of supporting documents. The 2021 BSK manual points to the department's guidelines for SC/ST and OBC certificates, which could not be downloaded for this check, so ask the Block, Sub-division or Kolkata office for the current list.",
+  "Whether you must also hand in papers. The OSCAR page says no documents are uploaded online, while the 2021 BSK manual says the signed application goes to the Block or Sub-division with documents in support of the claim. Ask the office before you go.",
+]
+
+[entries.apply]
+label = "OSCAR caste certificate portal"
+url = "https://castcertificatewb.gov.in/"
+evidence = [{ source_id = "bsk-manual-2021", quote = "Application for certificate can be filed online on the website at www.castcertificatewb.gov.in", where = "BSK manual: Issuance of SC/ST/OBC certificate" }]
+
+[[entries.benefits]]
+text = "The certificate identifies a person as SC, ST or OBC so that they can claim reservation and other facilities meant for these groups."
+evidence = [{ source_id = "bsk-manual-2021", quote = "To issue caste identification certificate for the purpose of obtaining benefit of reservation and other facilities meant for SC/ST/OBC", where = "BSK manual: Issuance of SC/ST/OBC certificate" }]
+
+[[entries.benefits]]
+text = "The benefit is reservation in services and posts and admission in educational institutions."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Reservation in services and posts and admission in educational institutions", where = "BSK manual: Issuance of SC/ST/OBC certificate" }]
+
+[[entries.benefits]]
+text = "Issuing the certificate is free of cost."
+evidence = [{ source_id = "wb-castcert-how-to-apply", quote = "Issuance of Certificate is free of cost.", where = "Important Note 2" }]
+
+[[entries.eligibility]]
+text = "There is no age or education bar. For an OBC certificate the applicant must belong to the non-creamy layer."
+evidence = [{ source_id = "bsk-manual-2021", quote = "There is no age or education bar. For obtaining OBC certificate, candidate needs to belong to non-creamy layer.", where = "BSK manual: Issuance of SC/ST/OBC certificate" }]
+
+[[entries.documents]]
+text = "A scanned photograph is compulsory with the online application; it can be at most 150kb."
+evidence = [
+  { source_id = "wb-castcert-how-to-apply", quote = "Scanned Photograph to be submitted mandatorily during online application.", where = "Important Note 1" },
+  { source_id = "wb-castcert-how-to-apply", quote = "Upload the photograph of the applicant(Maximum Size - 150kb).", where = "Page III, step 1" },
+]
+
+[[entries.documents]]
+text = "At least one identity number is asked for: the voter card (EPIC) number, the Aadhaar number, or the Khadya Sathi number."
+evidence = [{ source_id = "wb-castcert-how-to-apply", quote = "Documents Required(Atleast One). a. Enter Your Epic No. b. Enter your Adhar Number(Adhar Number Should Be Numeric Only).", where = "Page I, step 7" }]
+
+[[entries.documents]]
+text = "The form asks for details of these papers: proof of relationship to the applicant, age proof, a photo identity document, proof of citizenship, proof of residence in West Bengal and proof of local residence."
+evidence = [{ source_id = "wb-castcert-how-to-apply", quote = "Select the document type and Enter the details/no of the below documents :- a. Document establishing relationship with applicant. b. Age Proof. c. Photo Identity Document. d. Proof of Citizenship. e. Proof of residence in West Bengal. f. Proof of Local Residence.", where = "Page III, step 2" }]
+
+[[entries.documents]]
+text = "No documents have to be uploaded for the online application."
+evidence = [{ source_id = "wb-castcert-how-to-apply", quote = "No Documents are required to be uploaded for online application of caste Certificate.", where = "Important Note 3" }]
+
+[[entries.steps]]
+text = "Apply online on the OSCAR portal. You get an acknowledgement with a receipt number."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Application for certificate can be filed online on the website at www.castcertificatewb.gov.in and the applicant gets an acknowledgement with receipt number", where = "BSK manual: Issuance of SC/ST/OBC certificate" }]
+
+[[entries.steps]]
+text = "The form asks for details of two local referees."
+evidence = [{ source_id = "wb-castcert-how-to-apply", quote = "Please enter the details of two (2) local referees.", where = "Page I, step 14" }]
+
+[[entries.steps]]
+text = "After submitting, download the automatically generated application form, acknowledgement and service details."
+evidence = [{ source_id = "wb-castcert-how-to-apply", quote = "Then click on Submit button and download the autogenerated Application form, Acknowledgement,Service Details .", where = "end of the guideline" }]
+
+[[entries.steps]]
+text = "A Bangla Sahayata Kendra operator can help fill in the application and scan and download it."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Assistance with filling up application, scanning and downloading the application on the OSCAR portal", where = "BSK manual: Issuance of SC/ST/OBC certificate" }]
+
+[[entries.steps]]
+text = "The certificate is issued by the SDO for districts and the DWO for Kolkata; the paper application goes to the BDO for a Gram Panchayat area, the SDO for a municipality area and the DWO for Kolkata."
+evidence = [
+  { source_id = "bsk-manual-2021", quote = "SDO for districts and DWO for Kolkata is the certificate issuing authority", where = "BSK manual: Issuance of SC/ST/OBC certificate" },
+  { source_id = "bsk-manual-2021", quote = "For GP area concerned BDO, for municipality area concerned SDO and for KMC area DWO, Kolkata", where = "BSK manual: Issuance of SC/ST/OBC certificate" },
+]
+
+# --- West Bengal: land records -----------------------------------------------------------------
+
+[[entries]]
+id = "wb-land-mutation"
+name = "Mutation of land records (change of name in the record-of-rights), West Bengal"
+kind = "service"
+sectors = ["public-services"]
+level = "state"
+state = "West Bengal"
+department = "Land & Land Reforms and Refugee Relief & Rehabilitation Department, Government of West Bengal"
+status = "active"
+source_ids = ["wbgov-mutation-page", "wb-mutation-citizen-guide", "wb-mutation-proforma", "bsk-manual-2021"]
+last_verified = 2026-10-31
+summary = { en = "Putting the new owner's name in the land record after a sale, gift, exchange or inheritance.", bn = "বিক্রি, দান, বিনিময় বা উত্তরাধিকারের পর জমির রেকর্ডে নতুন মালিকের নাম তোলা।", hi = "बिक्री, दान, अदला-बदली या उत्तराधिकार के बाद भूमि अभिलेख में नए मालिक का नाम दर्ज कराना।" }
+target = { en = "People who have got land by sale, gift, exchange or inheritance and want the land record to show their name.", bn = "যাঁরা বিক্রি, দান, বিনিময় বা উত্তরাধিকারে জমি পেয়েছেন এবং জমির রেকর্ডে নিজের নাম চান।", hi = "वे लोग जिन्हें बिक्री, दान, अदला-बदली या उत्तराधिकार से ज़मीन मिली है और जो भूमि अभिलेख में अपना नाम चाहते हैं।" }
+not_stated = [
+  "How long mutation takes. None of the documents gives a time limit.",
+  "Whether the fee rates are still current. The guide cites a circular from 2005 for them, and the form was last revised in 2009. Check the rates at the Block Land & Land Reforms Office.",
+  "The Banglarbhumi portal's own pages could not be read by the checking tools (they need JavaScript). The steps below come from the West Bengal state portal's mutation page (26 June 2026), the department's citizen guide, the application form and the 2021 BSK manual.",
+  "The fee amount on the state portal page. It says only that mutation fees or service charges are paid online or through the prescribed mode; the amounts in the older citizen guide may not apply.",
+]
+
+[entries.apply]
+label = "Banglarbhumi (West Bengal land records portal)"
+url = "https://banglarbhumi.gov.in/"
+evidence = [{ source_id = "bsk-manual-2021", quote = "Updation of record of rights owing to change of ownership of land.", where = "BSK manual: Application for Mutation/ Conversion" }]
+
+[[entries.benefits]]
+text = "Mutation means substituting the name of a person with the name of another in the record-of-rights."
+evidence = [{ source_id = "wb-mutation-citizen-guide", quote = "Mutation means substitution of the name of a person by the name of another in the record-of-rights.", where = "FAQ 1, page 2" }]
+
+[[entries.benefits]]
+text = "The aim is to update the record of rights when ownership of land changes."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Updation of record of rights owing to change of ownership of land.", where = "BSK manual: Application for Mutation/ Conversion" }]
+
+[[entries.benefits]]
+text = "After the case is heard and examined, a copy of the order and the corrected Record of Rights (khatian) can be obtained."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Cases are heard and examined and are allowed on merit and order is passed. Copy of order and corrected ROR(Khatian) can be obtained.", where = "BSK manual: Application for Mutation/ Conversion" }]
+
+[[entries.benefits]]
+text = "The name of the new owner or legal heir is entered in the land revenue records. Mutation does not create ownership by itself; it records the change in the revenue records."
+evidence = [
+  { source_id = "wbgov-mutation-page", quote = "Updated ownership record: The name of the new owner or legal heir is entered in the land revenue records.", where = "Benefits" },
+  { source_id = "wbgov-mutation-page", quote = "Mutation does not create ownership by itself, but it records the change in the revenue records.", where = "introduction" },
+]
+
+[[entries.benefits]]
+text = "The mutated owner can pay land revenue, rent or property-related dues in their own name, and can obtain the updated Record of Rights, khatian and plot information."
+evidence = [
+  { source_id = "wbgov-mutation-page", quote = "Payment of land revenue or tax: The mutated owner can pay land revenue, rent or property-related dues in their name.", where = "Benefits" },
+  { source_id = "wbgov-mutation-page", quote = "Access to land record documents: The owner can obtain updated Record of Rights, khatian, plot information and other land documents.", where = "Benefits" },
+]
+
+[[entries.benefits]]
+text = "Financial institutions often require updated land records for a bank loan or mortgage."
+evidence = [{ source_id = "wbgov-mutation-page", quote = "Support for bank loans: Financial institutions often require updated land records for loan or mortgage processing.", where = "Benefits" }]
+
+[[entries.eligibility]]
+text = "Eligible applicants include the buyer under a registered sale deed, a legal heir after the owner's death, a donee under a registered gift deed, a person receiving land by partition or family settlement, exchange or transfer deed, and a person claiming under a court decree or government order."
+evidence = [
+  { source_id = "wbgov-mutation-page", quote = "Buyer of land or property through a registered sale deed.", where = "Eligibility" },
+  { source_id = "wbgov-mutation-page", quote = "Legall heir after death of the recorded owner.", where = "Eligibility" },
+  { source_id = "wbgov-mutation-page", quote = "Donee receiving land through a registered gift deed.", where = "Eligibility" },
+  { source_id = "wbgov-mutation-page", quote = "Person claiming mutation based on court decree or government order.", where = "Eligibility" },
+]
+
+[[entries.eligibility]]
+text = "The applicant must have valid supporting documents, and should not have a pending legal dispute that prevents mutation, unless the competent authority allows it."
+evidence = [
+  { source_id = "wbgov-mutation-page", quote = "Applicant must have valid supporting documents proving transfer, inheritance or legal entitlement.", where = "Eligibility" },
+  { source_id = "wbgov-mutation-page", quote = "Applicant should not have a pending legal dispute that prevents mutation, unless allowed by the competent authority.", where = "Eligibility" },
+]
+
+[[entries.eligibility]]
+text = "Mutation is done on a transfer by sale, gift or hebanama, on exchange, and on inheritance."
+evidence = [{ source_id = "wb-mutation-citizen-guide", quote = "a. Transfer by sale, gift or hebanama b. Exchange and c. Inheritance", where = "page 1" }]
+
+[[entries.eligibility]]
+text = "The applicant should be the raiyat or owner holding the land."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Concerned raiyat/owner holding land.", where = "BSK manual: Application for Mutation/ Conversion" }]
+
+[[entries.documents]]
+text = "The state portal page lists generally required documents: the application form, the registered deed or transfer document, the previous Record of Rights or khatian extract, plot and mouza details, identity and address proof, and the latest land revenue or tax receipt."
+evidence = [
+  { source_id = "wbgov-mutation-page", quote = "Registered deed or transfer document", where = "Documents generally required" },
+  { source_id = "wbgov-mutation-page", quote = "Previous Record of Rights/khatian / land record extract", where = "Documents generally required" },
+  { source_id = "wbgov-mutation-page", quote = "Latest land revenue or tax receipt", where = "Documents generally required" },
+]
+
+[[entries.documents]]
+text = "For inheritance, a death certificate and a legal heir certificate or succession-related documents are needed; a no objection certificate and a court order or decree are needed where they apply."
+evidence = [
+  { source_id = "wbgov-mutation-page", quote = "Death certificate, in case of inheritance", where = "Documents generally required" },
+  { source_id = "wbgov-mutation-page", quote = "Legal heir certificate or succession-related documents, if applicable", where = "Documents generally required" },
+  { source_id = "wbgov-mutation-page", quote = "Court order or decree, if applicable", where = "Documents generally required" },
+]
+
+[[entries.documents]]
+text = "The application in the prescribed format, a copy of the registered deed of transfer, a copy of the rent receipt showing up to date revenue paid, and a declaration that the applicant will have no claim if the land later vests in the State."
+evidence = [{ source_id = "wb-mutation-citizen-guide", quote = "a copy of the registered deed of transfer, copy of the Rent Receipt showing the payment of upto date revenue of the land in question, a declaration to the effect that in case the mutation is allowed the applicant will have no claim over the land if in future it vests in the State in any proceeding under any provisions of law.", where = "page 1, Necessary Documents" }]
+
+[[entries.documents]]
+text = "The application form lists these enclosures: copies of the registered deed, of the legal heir certificate or hebanama, of chain deeds, and of the up-to-date rent receipt; the declaration with a court fee stamp of Rs. 10/-; and proof of payment of the process fee."
+evidence = [
+  { source_id = "wb-mutation-proforma", quote = "2. Copy / copies of legal heir certificate / hebanama etc.", where = "Proforma, item 5" },
+  { source_id = "wb-mutation-proforma", quote = "3. Copy / copies of chain deeds.", where = "Proforma, item 5" },
+  { source_id = "wb-mutation-proforma", quote = "5. Declaration in prescribed Form with court fee stamp of Rs. 10/-", where = "Proforma, item 5" },
+  { source_id = "wb-mutation-proforma", quote = "6. Proof of payment of requisite process fee.", where = "Proforma, item 5" },
+]
+
+[[entries.steps]]
+text = "You can apply on the online land records portal, or at the Block, Sub-Divisional or District Land and Land Reforms Office, the Revenue Inspector Office, or a Common Service Centre where available."
+evidence = [
+  { source_id = "wbgov-mutation-page", quote = "Block Land and Land Reforms Office", where = "Where to apply" },
+  { source_id = "wbgov-mutation-page", quote = "Common Service Centre, where available", where = "Where to apply" },
+  { source_id = "wbgov-mutation-page", quote = "Online tracking and application: Can be done on https://banglarbhumi.gov.in", where = "Benefits" },
+]
+
+[[entries.steps]]
+text = "Fill in the form with details of the applicant, transferor, land parcel, mouza, khatian, plot number, area, nature of transfer and supporting documents, and upload the documents or submit them at the office."
+evidence = [
+  { source_id = "wbgov-mutation-page", quote = "The mutation application form should be filled with details of applicant, transferor, land parcel, mouza, khatian, plot number, area, nature of transfer and supporting documents.", where = "How to apply/process" },
+  { source_id = "wbgov-mutation-page", quote = "Required documents should be uploaded online or submitted physically at the concerned office.", where = "How to apply/process" },
+]
+
+[[entries.steps]]
+text = "After submission an acknowledgement or application number is generated. The revenue authority verifies the application, a field enquiry or hearing may be held (especially for inheritance, partition, disputed or complex cases), and notice may go to interested parties."
+evidence = [
+  { source_id = "wbgov-mutation-page", quote = "After submission, an acknowledgement number or application number is generated.", where = "How to apply/process" },
+  { source_id = "wbgov-mutation-page", quote = "Field enquiry or hearing may be conducted, especially in inheritance, partition, disputed or complex cases.", where = "How to apply/process" },
+  { source_id = "wbgov-mutation-page", quote = "Notice may be issued to interested parties or recorded owners, where required.", where = "How to apply/process" },
+]
+
+[[entries.steps]]
+text = "If no objection is received and the documents are valid, the competent authority approves the mutation and the record is updated; the applicant can then download or collect the updated Record of Rights, khatian or mutation certificate."
+evidence = [
+  { source_id = "wbgov-mutation-page", quote = "If no objection is received and documents are found valid, the mutation is approved by the competent authority.", where = "How to apply/process" },
+  { source_id = "wbgov-mutation-page", quote = "The applicant can download or collect the updated Record of Rights, khatian or mutation certificate as applicable.", where = "How to apply/process" },
+]
+
+[[entries.steps]]
+text = "File the application at the office of the Revenue Inspector at the Gram Panchayat level or at the office of the Block Land & Land Reforms Officer."
+evidence = [{ source_id = "wb-mutation-citizen-guide", quote = "Applications for mutation will have to be filed in the offices of the concerned Revenue Inspector at the Gram Panchayat level or in the Office of the concerned Block Land & Land Reforms Officer at the Block or Panchayat Samity level.", where = "page 1, How to apply" }]
+
+[[entries.steps]]
+text = "The application can also be made on the Banglarbhumi portal after signing in with the OTP sent to the mobile and e-mail, and the enclosures can be uploaded there."
+evidence = [
+  { source_id = "bsk-manual-2021", quote = "Application can be done by the applicant after signing in and entering OTP received in mobile and e-mail in web portal www.banglarbhumi.gov.in", where = "BSK manual: Application for Mutation/ Conversion" },
+  { source_id = "bsk-manual-2021", quote = "The relevant enclosures can be uploaded.", where = "BSK manual: Application for Mutation/ Conversion" },
+]
+
+[[entries.steps]]
+text = "An application fee of Rs. 10/- is paid with the application, and a processing fee is charged per decimal of land, at a rate that depends on whether the land is rural, municipal, within KMDA, or commercial and industrial."
+evidence = [
+  { source_id = "wb-mutation-citizen-guide", quote = "The application fees of Rs. 10/- has to be paid with application for mutation.", where = "page 1, Fees for mutation" },
+  { source_id = "wb-mutation-citizen-guide", quote = "Rate of processing fees per decimal of land for mutation Classification of land Rural Area Municipal Area other than KMDA Municipal Area within KMDA Commercial and Industrial land", where = "page 1, Fees for mutation" },
+]
+
+[[entries.steps]]
+text = "Which officer decides depends on the size of the land: the Block Land & Land Reforms Officer for 10 decimal or less, the Sub-Divisional officer for more than 10 decimal and up to one acre, and the District officer for above one acre."
+evidence = [{ source_id = "bsk-manual-2021", quote = "For land 10 decimal or less, the concerned BL & LRO, for land more than 10 decimal but up to one acre, the SDL & LRO of the concerned Sub Division and for land above one acre, the DL & LRO(ADM-LR) of the concerned district.", where = "BSK manual: Application for Mutation/ Conversion" }]
+
+[[entries.steps]]
+text = "A hearing or enquiry notice can be downloaded after an SMS alert is received."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Hearing/enquiry notice can be downloaded after receivingsms alert.", where = "BSK manual: Application for Mutation/ Conversion" }]
+
+# --- West Bengal: record of rights, plot information, maps ------------------------------------
+
+[[entries]]
+id = "wb-record-of-rights"
+name = "Copy of Record of Rights (khatian), plot information and maps through Banglarbhumi, West Bengal"
+kind = "service"
+sectors = ["public-services"]
+level = "state"
+state = "West Bengal"
+department = "Land & Land Reforms and Refugee Relief & Rehabilitation Department, Government of West Bengal"
+status = "active"
+source_ids = ["bsk-manual-2021"]
+last_verified = 2026-10-31
+summary = { en = "Online copies of the land record (khatian), information about a plot and plot or mouza maps, from the West Bengal land records portal.", bn = "পশ্চিমবঙ্গের জমির রেকর্ড পোর্টাল থেকে জমির রেকর্ড (খতিয়ান), প্লটের তথ্য এবং প্লট বা মৌজার মানচিত্রের অনলাইন কপি।", hi = "पश्चिम बंगाल के भूमि अभिलेख पोर्टल से भूमि अभिलेख (खतियान), प्लॉट की जानकारी और प्लॉट या मौज़ा के नक्शे की ऑनलाइन प्रति।" }
+target = { en = "Raiyats and other interested citizens of West Bengal who need a land record, plot details or a map.", bn = "পশ্চিমবঙ্গের রায়ত ও অন্যান্য আগ্রহী নাগরিক, যাঁদের জমির রেকর্ড, প্লটের বিবরণ বা মানচিত্র দরকার।", hi = "पश्चिम बंगाल के रैयत और अन्य इच्छुक नागरिक, जिन्हें भूमि अभिलेख, प्लॉट का विवरण या नक्शा चाहिए।" }
+not_stated = [
+  "The fee for each service. The manual says fees are paid through the portal's payment gateway but gives no amounts.",
+  "Anything newer than the manual of September 2021. The Banglarbhumi portal itself could not be read by the checking tools, so check the portal for the current steps.",
+]
+
+[entries.apply]
+label = "Banglarbhumi (West Bengal land records portal)"
+url = "https://banglarbhumi.gov.in/"
+evidence = [{ source_id = "bsk-manual-2021", quote = "Objective of the Service/Scheme: Giving copy of record of rights( Khatian)", where = "BSK manual: Application for ROR" }]
+
+[[entries.benefits]]
+text = "A copy of the record of rights (khatian) is given, and the digitally signed copy can be downloaded once the Block Land & Land Reforms Office has issued it."
+evidence = [
+  { source_id = "bsk-manual-2021", quote = "Objective of the Service/Scheme: Giving copy of record of rights( Khatian)", where = "BSK manual: Application for ROR" },
+  { source_id = "bsk-manual-2021", quote = "Digitally signed ROR can be downloaded after it is issued by the office of BL & LRO.", where = "BSK manual: Application for ROR" },
+]
+
+[[entries.benefits]]
+text = "The real time status of a landed property can be viewed on the portal without logging in and without any fee, searching by khatian number or plot number."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Real time data can be viewed in the web portal www.banglarbhumi.gov.in without any log in and without any fee. Searching can be done both khatian no. and plot no. wise.", where = "BSK manual: Property Information" }]
+
+[[entries.benefits]]
+text = "A digitally signed plot map can be downloaded after it is issued, and a mouza map can be collected from the District Land & Land Reforms Officer's office."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Digitally signed Plot map can be downloaded after it is issued by the office of BL & LRO. Mouza map can be collected from the office of DL & LRO physically.", where = "BSK manual: Application for Map Service" }]
+
+[[entries.eligibility]]
+text = "A copy of the record of rights is for any raiyat."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Eligibility Criteria (i.e. age/education etc.): Any Raiyat", where = "BSK manual: Application for ROR" }]
+
+[[entries.eligibility]]
+text = "Plot information is for any interested citizen of West Bengal."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Eligibility Criteria (i.e. age/education etc.): Any interested citizen of the State of West Bengal", where = "BSK manual: Application for Plot information" }]
+
+[[entries.documents]]
+text = "For plot information, the tax receipt of the requested plot is needed."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Required Supporting Documents: Tax receipt of the requested plot", where = "BSK manual: Application for Plot information" }]
+
+[[entries.steps]]
+text = "Sign in to the Banglarbhumi web portal to apply; fees are paid online through the portal's payment gateway."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Application can be done after signing in to the web portal www.banglarbhumi.gov.in. Fees can be paid online through the payment gateway of the portal.", where = "BSK manual: Application for ROR" }]
+
+# --- VB-G RAM G (replaced MGNREGA) -------------------------------------------------------------
+
+[[entries]]
+id = "vb-g-ram-g"
+name = "Viksit Bharat Guarantee for Rozgar and Ajeevika Mission (Gramin) Act, 2025 (VB-G RAM G): rural job guarantee and job card"
+kind = "scheme"
+sectors = ["employment", "public-services"]
+level = "central"
+department = "Ministry of Rural Development, Government of India"
+status = "active"
+status_note = "In force in all rural areas from 01/07/2026. It replaced the Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA), which stands repealed from the same date."
+source_ids = ["pib-vbgramg-commencement", "wbgov-jobcard-page"]
+last_verified = 2026-10-31
+published_on = 2026-05-11
+effective_on = 2026-07-01
+summary = { en = "A legal guarantee of paid work for rural households whose adult members are willing to do unskilled manual work, which replaced the earlier MGNREGA.", bn = "যেসব গ্রামীণ পরিবারের প্রাপ্তবয়স্করা অদক্ষ কায়িক কাজ করতে ইচ্ছুক, তাদের জন্য মজুরিভিত্তিক কাজের আইনি নিশ্চয়তা; এটি আগের এমজিএনআরইজিএ-র জায়গা নিয়েছে।", hi = "उन ग्रामीण परिवारों के लिए मज़दूरी वाले काम की क़ानूनी गारंटी जिनके वयस्क सदस्य अकुशल शारीरिक श्रम करना चाहते हैं; इसने पहले के मनरेगा की जगह ली है।" }
+target = { en = "Rural households whose adult members volunteer to do unskilled manual work.", bn = "গ্রামীণ পরিবার যাদের প্রাপ্তবয়স্ক সদস্যরা অদক্ষ কায়িক কাজ করতে স্বেচ্ছায় রাজি।", hi = "ग्रामीण परिवार जिनके वयस্क सदस्य अकुशल शारीरिक श्रम करने के लिए स्वेच्छा से तैयार हैं।" }
+not_stated = [
+  "The full rules of the new Act and the state schemes. The press note says every State must notify its Scheme, so ask your Gram Panchayat how it works in West Bengal.",
+  "The wage rate. The note says wage rates will be notified by the Central Government but gives no figure.",
+  "A fee or form for a job card. The note says only that workers without a card may apply at the Gram Panchayat.",
+]
+
+[entries.apply]
+label = "Your Gram Panchayat (see the Ministry's press note)"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/may/doc2026511867601.pdf"
+evidence = [{ source_id = "pib-vbgramg-commencement", quote = "Workers who do not currently possess Job Cards may apply at the Gram Panchayat level for registration and issuance of new cards.", where = "Seamless transition section" }]
+
+[[entries.benefits]]
+text = "A legal guarantee of 125 days of wage employment in every financial year for every rural household whose adult members volunteer to do unskilled manual work."
+evidence = [{ source_id = "pib-vbgramg-commencement", quote = "The Act establishes a statutory guarantee of 125 days of wage employment in every financial year to every rural household whose adult members volunteer to undertake unskilled manual work.", where = "page 1" }]
+
+[[entries.benefits]]
+text = "If work is not given within the stated time, an unemployment allowance is paid: at least one-fourth of the notified wage rate for the first thirty days of the financial year."
+evidence = [{ source_id = "pib-vbgramg-commencement", quote = "The unemployment allowance shall be payable at not less than one -fourth of the notified wage rate for the first thirty days of the financial year", where = "page 2" }]
+
+[[entries.benefits]]
+text = "Wages go straight to the worker's bank or post office account, and are to be paid weekly or within fifteen days of the muster roll closing."
+evidence = [{ source_id = "pib-vbgramg-commencement", quote = "Under the framework, wages are to be paid weekly or, in any case, within fifteen days from the closure of the muster roll.", where = "page 2" }]
+
+[[entries.benefits]]
+text = "Clean drinking water at every worksite is mandatory."
+evidence = [{ source_id = "pib-vbgramg-commencement", quote = "the availability of clean drinking water at every worksite has been made mandatory.", where = "Worksite facilities section" }]
+
+[[entries.benefits]]
+text = "The job card is an official identity document that lets registered households demand wage employment; records of employment, wages and workdays are kept in it."
+evidence = [
+  { source_id = "wbgov-jobcard-page", quote = "A Job Card serves as an official identity document enabling registered households to demand wage employment and access benefits under rural development schemes, particularly for unskilled manual work.", where = "introduction" },
+  { source_id = "wbgov-jobcard-page", quote = "Transparency: Records of employment, wages, and workdays are maintained in Job Cards.", where = "Benefits" },
+]
+
+[[entries.eligibility]]
+text = "The West Bengal state portal lists: rural households willing to do unskilled manual work, adult members (18 years and above), and residents of the Gram Panchayat area."
+evidence = [
+  { source_id = "wbgov-jobcard-page", quote = "Rural households willing to undertake unskilled manual work.", where = "Eligibility" },
+  { source_id = "wbgov-jobcard-page", quote = "Adult members (18 years and above) of rural households.", where = "Eligibility" },
+  { source_id = "wbgov-jobcard-page", quote = "Residents of the Gram Panchayat area.", where = "Eligibility" },
+]
+
+[[entries.eligibility]]
+text = "The guarantee is for rural households whose adult members volunteer to do unskilled manual work."
+evidence = [{ source_id = "pib-vbgramg-commencement", quote = "The Act establishes a statutory guarantee of 125 days of wage employment in every financial year to every rural household whose adult members volunteer to undertake unskilled manual work.", where = "page 1" }]
+
+[[entries.documents]]
+text = "Existing job cards with completed e-KYC stay valid until the new Gramin Rozgar Guarantee Cards are issued."
+evidence = [{ source_id = "pib-vbgramg-commencement", quote = "Existing e -KYC -verified Job Cards shall continue to remain valid until Gramin Rozgar Guarantee Cards are issued.", where = "Seamless transition section" }]
+
+[[entries.documents]]
+text = "The job card contains names, photographs and entitlement details of the household."
+evidence = [{ source_id = "wbgov-jobcard-page", quote = "The Job Card contains names, photographs, and entitlement details.", where = "Process" }]
+
+[[entries.steps]]
+text = "The West Bengal state portal says you can apply at the Gram Panchayat office, the Block Development Office, the District Rural Development Office or a Common Service Centre."
+evidence = [
+  { source_id = "wbgov-jobcard-page", quote = "Gram Panchayat office", where = "Where to Apply" },
+  { source_id = "wbgov-jobcard-page", quote = "Block Development Office", where = "Where to Apply" },
+  { source_id = "wbgov-jobcard-page", quote = "Common Service Centres (CSCs)", where = "Where to Apply" },
+]
+
+[[entries.steps]]
+text = "The household submits an application to the Gram Panchayat, the details of household members are recorded and verified, and after verification a job card is issued to the household."
+evidence = [
+  { source_id = "wbgov-jobcard-page", quote = "The applicant submits application to Gram Panchayat for registration under the scheme.", where = "Process" },
+  { source_id = "wbgov-jobcard-page", quote = "Details of household members are recorded and verified by local authorities.", where = "Process" },
+  { source_id = "wbgov-jobcard-page", quote = "After verification, a Job Card is issued to the household.", where = "Process" },
+]
+
+[[entries.steps]]
+text = "Entries about work and payments are updated in the job card regularly."
+evidence = [{ source_id = "wbgov-jobcard-page", quote = "Entries regarding work and payments are updated in the Job Card regularly.", where = "Process" }]
+
+[[entries.steps]]
+text = "Workers who do not have a job card can apply at the Gram Panchayat for registration and a new card."
+evidence = [{ source_id = "pib-vbgramg-commencement", quote = "Workers who do not currently possess Job Cards may apply at the Gram Panchayat level for registration and issuance of new cards.", where = "Seamless transition section" }]
+
+[[entries.steps]]
+text = "Workers can ask for employment orally, in writing through Form 6, or through digital platforms."
+evidence = [{ source_id = "pib-vbgramg-commencement", quote = "Workers may continue to demand employment orally, in writing through the existing Form -6 framework, or through digital platforms.", where = "page 2" }]
+
+# --- MGNREGA (repealed) ------------------------------------------------------------------------
+
+[[entries]]
+id = "mgnrega-2005"
+name = "Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA), 2005 and the job card"
+kind = "scheme"
+sectors = ["employment", "public-services"]
+level = "central"
+department = "Ministry of Rural Development, Government of India"
+status = "merged"
+status_note = "Repealed from 01/07/2026 when the VB-G RAM G Act came into force. Existing job cards with completed e-KYC stay valid until new cards are issued. The rules below are from the Ministry's 2021 FAQ and describe the earlier law; see the VB-G RAM G entry for the current one."
+source_ids = ["mgnrega-faq-2021", "pib-vbgramg-commencement"]
+last_verified = 2026-10-31
+summary = { en = "The earlier law that guaranteed paid work to rural households and gave them a job card; it has been replaced.", bn = "যে আগের আইন গ্রামীণ পরিবারকে মজুরিভিত্তিক কাজের নিশ্চয়তা ও জব কার্ড দিত; এটি এখন প্রতিস্থাপিত হয়েছে।", hi = "वह पुराना क़ानून जो ग्रामीण परिवारों को मज़दूरी वाले काम की गारंटी और जॉब कार्ड देता था; अब इसकी जगह नया क़ानून आ गया है।" }
+target = { en = "Rural households whose adult members volunteered to do unskilled manual work.", bn = "গ্রামীণ পরিবার যাদের প্রাপ্তবয়স্ক সদস্যরা অদক্ষ কায়িক কাজ করতে স্বেচ্ছায় রাজি ছিল।", hi = "ग्रामीण परिवार जिनके वयस्क सदस्य अकुशल शारीरिक श्रम करने के लिए स्वेच्छा से तैयार थे।" }
+not_stated = [
+  "Anything after the repeal beyond what the press note of May 2026 says. For the current rules, see the VB-G RAM G entry and ask your Gram Panchayat.",
+  "A time limit or fee for issuing a job card. The 2021 FAQ does not give one.",
+]
+
+[entries.apply]
+label = "Ministry of Rural Development FAQ on MGNREGA (2021)"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2021/nov/doc2021112931.pdf"
+evidence = [{ source_id = "mgnrega-faq-2021", quote = "The application for registration may be given on prescribed form or plain paper to the local Gram Panchayat.", where = "Q12" }]
+
+[[entries.benefits]]
+text = "The mandate was at least 100 days of guaranteed wage employment in a financial year to every rural household whose adult members volunteer to do unskilled manual work."
+evidence = [{ source_id = "mgnrega-faq-2021", quote = "The mandate of the MGNREGA is to provide at least 100 days of guaranteed wage employment in a financial year to every rural household whose adult members volunteer to do unskilled manual work.", where = "Q1" }]
+
+[[entries.benefits]]
+text = "The job card legally empowered registered households to apply for work, ensured transparency and protected workers against fraud."
+evidence = [{ source_id = "mgnrega-faq-2021", quote = "It legally empowers the registered households to apply for work, ensures transparency and protects workers against fraud.", where = "Q11" }]
+
+[[entries.eligibility]]
+text = "Adult members of a household willing to do unskilled manual work could register for a job card. An adult means a person who has completed 18 years of age."
+evidence = [
+  { source_id = "mgnrega-faq-2021", quote = "Adult members of a household willing to do unskilled manual work can register themselves to obtain a job card under MGNREGA.", where = "Q15" },
+  { source_id = "mgnrega-faq-2021", quote = "Adult means a person who has completed 18 years of age.", where = "Q14" },
+]
+
+[[entries.steps]]
+text = "The household applied for registration, on the prescribed form or on plain paper, to the local Gram Panchayat; registration was open throughout the year."
+evidence = [{ source_id = "mgnrega-faq-2021", quote = "The application for registration may be given on prescribed form or plain paper to the local Gram Panchayat. To allow maximum opportunities to families that may migrate, registration shall also be opened throughout the year at the GP office.", where = "Q12" }]
+
+[[entries.steps]]
+text = "Any adult member could apply on behalf of the household."
+evidence = [{ source_id = "mgnrega-faq-2021", quote = "Any adult member can apply on behalf of Household.", where = "Q13" }]
+
+[[entries.steps]]
+text = "Existing job cards with completed e-KYC stay valid after the repeal until the new cards are issued."
+evidence = [{ source_id = "pib-vbgramg-commencement", quote = "Existing e -KYC -verified Job Cards shall continue to remain valid until Gramin Rozgar Guarantee Cards are issued.", where = "Seamless transition section" }]
+
+# --- Right to Information ----------------------------------------------------------------------
+
+[[entries]]
+id = "rti-act-2005"
+name = "Right to Information (RTI) Act, 2005: asking a public authority for information"
+kind = "service"
+sectors = ["public-services"]
+level = "central"
+department = "Department of Personnel & Training, Government of India"
+status = "active"
+source_ids = ["rti-act-2005", "rti-portal-home"]
+last_verified = 2026-10-31
+summary = { en = "Every citizen has a legal right to ask a public authority for information it holds, and to get an answer within a fixed time.", bn = "প্রত্যেক নাগরিকের কোনো সরকারি কর্তৃপক্ষের কাছে থাকা তথ্য চাওয়ার এবং নির্দিষ্ট সময়ের মধ্যে উত্তর পাওয়ার আইনি অধিকার আছে।", hi = "हर नागरिक को किसी सार्वजनिक प्राधिकरण से उसके पास की जानकारी माँगने और तय समय के भीतर जवाब पाने का क़ानूनी अधिकार है।" }
+target = { en = "Any citizen who wants information held by a public authority.", bn = "যে কোনো নাগরিক যিনি সরকারি কর্তৃপক্ষের কাছে থাকা তথ্য চান।", hi = "कोई भी नागरिक जो सार्वजनिक प्राधिकरण के पास की जानकारी चाहता है।" }
+not_stated = [
+  "The amount of the application fee. The Act leaves it to rules, and the RTI Rules of 2019 that were checked do not set it. Ask the public authority or check the current fee rules.",
+  "The mode of paying the fee and any state-specific forms. These differ between the Centre and the states.",
+]
+
+[entries.apply]
+label = "RTI portal (Department of Personnel & Training)"
+url = "https://rti.gov.in/"
+evidence = [{ source_id = "rti-portal-home", quote = "A Citizen Gateway An Initiative of Department of Personnel & Training, Government of India", where = "home page" }]
+
+[[entries.benefits]]
+text = "All citizens have the right to information."
+evidence = [{ source_id = "rti-act-2005", quote = "3. Subject to the provisions of this Act, all citizens shall have the right to information.", where = "section 3" }]
+
+[[entries.benefits]]
+text = "The information officer must reply within thirty days of receiving the request, either giving the information or rejecting the request for a reason in the Act."
+evidence = [{ source_id = "rti-act-2005", quote = "shall, as expeditiously as possible, and in any case within thirty days of the receipt of the request, either provide the information on payment of such fee as may be prescribed or reject the request for any of the reasons specified in sections 8 and 9:", where = "section 7(1)" }]
+
+[[entries.benefits]]
+text = "Where the information concerns the life or liberty of a person, it must be provided within forty-eight hours."
+evidence = [{ source_id = "rti-act-2005", quote = "Provided that where the information sought for concerns the life or liberty of a person, the same shall be provided within forty-eight hours of the receipt of the request.", where = "section 7(1)" }]
+
+[[entries.benefits]]
+text = "No fee is charged from people who are below the poverty line, as determined by the appropriate Government."
+evidence = [{ source_id = "rti-act-2005", quote = "shall be reasonable and no such fee shall be charged from the persons who are of below poverty line as may be determined by the appropriate Government.", where = "section 7(5)" }]
+
+[[entries.eligibility]]
+text = "The right is given to citizens."
+evidence = [{ source_id = "rti-act-2005", quote = "3. Subject to the provisions of this Act, all citizens shall have the right to information.", where = "section 3" }]
+
+[[entries.exclusions]]
+text = "A request can be rejected for the reasons given in sections 8 and 9 of the Act."
+evidence = [{ source_id = "rti-act-2005", quote = "reject the request for any of the reasons specified in sections 8 and 9:", where = "section 7(1)" }]
+
+[[entries.documents]]
+text = "You do not have to give a reason for asking, or any personal details except what is needed to contact you."
+evidence = [{ source_id = "rti-act-2005", quote = "(2) An applicant making request for information shall not be required to give any reason for requesting the information or any other personal details except those that may be necessary for contacting him.", where = "section 6(2)" }]
+
+[[entries.steps]]
+text = "Make a request in writing or electronically, in English, Hindi or the official language of the area, with the prescribed fee, to the Public Information Officer of the public authority."
+evidence = [{ source_id = "rti-act-2005", quote = "6. (1) A person, who desires to obtain any information under this Act, shall make a request in writing or through electronic means in English or Hindi or in the official language of the area in which the application is being made, accompanying such fee as may be prescribed, to—", where = "section 6(1)" }]
+
+[[entries.steps]]
+text = "If you cannot write the request, the officer must give all reasonable help to put an oral request into writing."
+evidence = [{ source_id = "rti-act-2005", quote = "shall render all reasonable assistance to the person making the request orally to reduce the same in writing.", where = "section 6(1), proviso" }]
+
+[[entries.steps]]
+text = "If you get no decision in time or are unhappy with the decision, you can appeal to a senior officer within thirty days."
+evidence = [{ source_id = "rti-act-2005", quote = "Any person who, does not receive a decision within the time specified in sub-section (1) or clause (a) of sub-section (3) of section 7, or is aggrieved by a decision of the Central Public Information Officer or State Public Information Officer, as the case may be, may within thirty days from the expiry of such period or from the receipt of such a decision prefer an appeal", where = "section 19(1)" }]
+
+# --- DigiLocker --------------------------------------------------------------------------------
+
+[[entries]]
+id = "digilocker"
+name = "DigiLocker: digital document wallet"
+kind = "service"
+sectors = ["public-services"]
+level = "central"
+department = "Ministry of Electronics & Information Technology, Government of India"
+status = "active"
+source_ids = ["digilocker-home"]
+last_verified = 2026-10-31
+summary = { en = "A secure online wallet where a citizen can keep, share and verify digital copies of official documents and certificates.", bn = "একটি নিরাপদ অনলাইন ওয়ালেট, যেখানে নাগরিক সরকারি নথি ও শংসাপত্রের ডিজিটাল কপি রাখতে, শেয়ার করতে ও যাচাই করতে পারেন।", hi = "एक सुरक्षित ऑनलाइन वॉलेट जहाँ नागरिक सरकारी दस्तावेज़ों और प्रमाणपत्रों की डिजिटल प्रतियाँ रख, साझा और सत्यापित कर सकते हैं।" }
+target = { en = "Any citizen who wants authentic digital copies of their documents in one place.", bn = "যে কোনো নাগরিক যিনি নিজের নথির প্রামাণিক ডিজিটাল কপি এক জায়গায় চান।", hi = "कोई भी नागरिक जो अपने दस्तावेज़ों की प्रामाणिक डिजिटल प्रतियाँ एक जगह चाहता है।" }
+not_stated = [
+  "Who can register, what is needed to register, and any fee. The DigiLocker FAQ page could not be downloaded by the checking tools, and the home page does not say.",
+  "Whether a particular office accepts a DigiLocker copy in place of the paper original. Ask the office that asks for the document.",
+]
+
+[entries.apply]
+label = "DigiLocker"
+url = "https://www.digilocker.gov.in/"
+evidence = [{ source_id = "digilocker-home", quote = "DigiLocker is a flagship initiative of Ministry of Electronics & IT (MeitY) under Digital India programme.", where = "About DigiLocker" }]
+
+[[entries.benefits]]
+text = "DigiLocker gives citizens access to authentic digital documents in their own digital document wallet."
+evidence = [{ source_id = "digilocker-home", quote = "DigiLocker aims at 'Digital Empowerment' of citizen by providing access to authentic digital documents to citizen's digital document wallet.", where = "About DigiLocker" }]
+
+[[entries.benefits]]
+text = "It is a secure cloud based platform for storing, sharing and verifying documents and certificates."
+evidence = [{ source_id = "digilocker-home", quote = "DigiLocker is a secure cloud based platform for storage, sharing and verification of documents & certificates.", where = "About DigiLocker" }]
+
+[[entries.steps]]
+text = "Getting started has four steps: register yourself, verify yourself, fetch your documents and share your documents."
+evidence = [{ source_id = "digilocker-home", quote = "Getting started is quick and easy Register yourself Verify yourself Fetch your documents Share your documents", where = "home page" }]
+
+# --- Bangla Sahayata Kendra --------------------------------------------------------------------
+
+[[entries]]
+id = "wb-bangla-sahayata-kendra"
+name = "Bangla Sahayata Kendra (BSK): single-window service centres in West Bengal"
+kind = "service"
+sectors = ["public-services"]
+level = "state"
+state = "West Bengal"
+department = "Personnel & Administrative Reforms and e-Governance Department, Government of West Bengal"
+status = "active"
+source_ids = ["bsk-about", "bsk-faq"]
+last_verified = 2026-10-31
+summary = { en = "Free local centres where an operator helps you apply for, track and receive government services and welfare schemes online.", bn = "বিনামূল্যের স্থানীয় কেন্দ্র, যেখানে একজন অপারেটর সরকারি পরিষেবা ও কল্যাণমূলক প্রকল্পে অনলাইনে আবেদন, তার অবস্থা দেখা ও সুবিধা পেতে সাহায্য করেন।", hi = "निःशुल्क स्थानीय केंद्र जहाँ एक ऑपरेटर सरकारी सेवाओं और कल्याणकारी योजनाओं के लिए ऑनलाइन आवेदन करने, उसकी स्थिति देखने और लाभ पाने में मदद करता है।" }
+target = { en = "Anyone in West Bengal who needs help with a government service, certificate, scheme application or bill payment.", bn = "পশ্চিমবঙ্গের যে কেউ যাঁর সরকারি পরিষেবা, শংসাপত্র, প্রকল্পের আবেদন বা বিল পরিশোধে সাহায্য দরকার।", hi = "पश्चिम बंगाल में कोई भी व्यक्ति जिसे सरकारी सेवा, प्रमाणपत्र, योजना के आवेदन या बिल भुगतान में मदद चाहिए।" }
+not_stated = [
+  "The opening hours. Different pages of the BSK site give different timings, so ask at your centre.",
+  "The exact number of centres and services. The BSK pages give different counts, so none is stated here.",
+  "The full list of services. The FAQ says a detailed list is on the BSK portal.",
+]
+
+[entries.apply]
+label = "Find your nearest BSK"
+url = "https://bsk.wb.gov.in/findbsk"
+evidence = [{ source_id = "bsk-faq", quote = "You can find your nearest BSK on the online portal at https://bsk.wb.gov.in/findbsk.", where = "FAQ 4" }]
+
+[[entries.benefits]]
+text = "BSKs give assisted digital services free of cost, helping citizens apply for, track and receive benefits from government departments."
+evidence = [{ source_id = "bsk-about", quote = "These centres provide assisted digital services free of cost, helping citizens apply for, track, and receive benefits from various government departments through a simple and guided process.", where = "About" }]
+
+[[entries.benefits]]
+text = "The Kendras work as a single service window for welfare schemes, certificates, bill payments and other government facilities."
+evidence = [{ source_id = "bsk-about", quote = "The Kendras function as a single service window for welfare schemes, certificates, bill payments, and other government facilities.", where = "About" }]
+
+[[entries.benefits]]
+text = "Services include Swasthya Sathi card, Digital Ration Card, Income Certificate, Caste Certificate, Kanyashree and Aikyashree applications."
+evidence = [{ source_id = "bsk-faq", quote = "Some of the important services include application for Swasthya Sathi card, Digital Ration Card, Income Certificate, Caste Certificate, Kanyashree, Aikyashree, etc.", where = "FAQ 9" }]
+
+[[entries.benefits]]
+text = "There is no service charge: all services through the Kendras are completely free of cost."
+evidence = [{ source_id = "bsk-about", quote = "All services through Bangla Sahayata Kendras are completely free of cost. Citizens are not required to pay any service charges for availing government services at these centres.", where = "About" }]
+
+[[entries.steps]]
+text = "Go to the nearest BSK. The Data Entry Operator helps you with the service through the online portal and gives the information you need."
+evidence = [{ source_id = "bsk-faq", quote = "A citizen can come to the nearest BSK centre and avail any government service as notified from time to time. The DEO assists the citizen to provide required service through the online portal and/or provide required information, as the case may be", where = "FAQ 5" }]
+
+[[entries.steps]]
+text = "BSKs are in District Magistrate, Sub-Divisional and Block Development offices, Gram Panchayats, health centres, government-aided libraries and urban local bodies."
+evidence = [{ source_id = "bsk-about", quote = "BSKs are strategically located in District Magistrate Offices, Sub-Divisional Offices, Block Development Offices, Gram Panchayats, Health Centres, Government-Aided Libraries, and Urban Local Bodies (ULBs), ensuring service access within local communities.", where = "About" }]
+
+[[entries.steps]]
+text = "If a payment involves cash, ask for and collect your receipt."
+evidence = [{ source_id = "bsk-faq", quote = "Yes, it is mandatory to ask for and collect your receipt for services involving cash deposit.", where = "FAQ 13" }]
+
+[[entries.steps]]
+text = "To check the status of an application, visit the nearest BSK. If an application is rejected you can apply again after checking the reasons."
+evidence = [
+  { source_id = "bsk-faq", quote = "You can visit the nearest BSK to check the status of any your application.", where = "FAQ 16" },
+  { source_id = "bsk-faq", quote = "Yes, you can apply again to avail the said service even if the application gets rejected after verifying the reasons for rejection.", where = "FAQ 15" },
+]
+
+# --- West Bengal: digital ration card ----------------------------------------------------------
+
+[[entries]]
+id = "wb-digital-ration-card"
+name = "Digital Ration Card (DRC), West Bengal"
+kind = "service"
+sectors = ["social-welfare", "public-services"]
+level = "state"
+state = "West Bengal"
+department = "Food & Supplies Department, Government of West Bengal"
+status = "active"
+source_ids = ["bsk-manual-2021"]
+last_verified = 2026-10-31
+summary = { en = "The ration card of West Bengal: a subsidised card for food grains from the ration shop, or a general card used as an important document.", bn = "পশ্চিমবঙ্গের রেশন কার্ড: রেশন দোকান থেকে খাদ্যশস্য পাওয়ার জন্য ভর্তুকিযুক্ত কার্ড, অথবা গুরুত্বপূর্ণ নথি হিসেবে ব্যবহারের সাধারণ কার্ড।", hi = "पश्चिम बंगाल का राशन कार्ड: राशन दुकान से अनाज के लिए रियायती कार्ड, या महत्वपूर्ण दस्तावेज़ के रूप में उपयोग के लिए सामान्य कार्ड।" }
+target = { en = "People living in West Bengal: families that meet a deprivation criterion and no exclusion get the subsidised card, others can get a non-subsidised general card.", bn = "পশ্চিমবঙ্গের বাসিন্দারা: যে পরিবার বঞ্চনার মানদণ্ড পূরণ করে এবং কোনো বর্জনের আওতায় পড়ে না তারা ভর্তুকিযুক্ত কার্ড পায়, অন্যরা ভর্তুকিহীন সাধারণ কার্ড পেতে পারে।", hi = "पश्चिम बंगाल के निवासी: जो परिवार किसी अभाव मानदंड को पूरा करते हैं और किसी बहिष्करण में नहीं आते उन्हें रियायती कार्ड मिलता है, अन्य गैर-रियायती सामान्य कार्ड ले सकते हैं।" }
+not_stated = [
+  "The deprivation and auto-exclusion criteria themselves. The manual says they are printed on the back of the application forms, which were not part of the downloaded text.",
+  "How much grain a card gives and at what price. The manual does not say.",
+  "How long a card takes. The manual does not give a time limit.",
+  "Anything newer than the manual of September 2021. The Food & Supplies portal could not be read by the checking tools, so check it for the current process.",
+]
+
+[entries.apply]
+label = "West Bengal Public Distribution System portal"
+url = "https://wbpds.gov.in/"
+evidence = [{ source_id = "bsk-manual-2021", quote = "Objective of the service/scheme: To provide subsidised DRC (AAY, SPHH, PHH and RKSY-1) for lifting food grains from the FPS under PDS and non-subsidised DRC (General category) for use as an important document", where = "BSK manual: Apply for Digital Ration Card (DRC)" }]
+
+[[entries.benefits]]
+text = "A subsidised card lets the family lift food grains from the fair price shop under the public distribution system; a non-subsidised general card can be used as an important document."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Objective of the service/scheme: To provide subsidised DRC (AAY, SPHH, PHH and RKSY-1) for lifting food grains from the FPS under PDS and non-subsidised DRC (General category) for use as an important document", where = "BSK manual: Apply for Digital Ration Card (DRC)" }]
+
+[[entries.benefits]]
+text = "The same service covers adding a member, corrections, change of ration shop, surrender, change of category, a duplicate card for loss or damage, and a new general category card."
+evidence = [{ source_id = "bsk-manual-2021", quote = "o New DRC (subsidised), o Add member tofamily (New DRC for left-out family member), o Corrections in DRC, o Change of Ration Shop/Dealer, o Surrender, o Change category (RKSY-II to RKSY-I and General category to RKSY-I), o Duplicate DRC due to loss/damage, o New General category DRC (non-subsidised).", where = "BSK manual: Apply for Digital Ration Card (DRC)" }]
+
+[[entries.eligibility]]
+text = "Any Indian citizen living in West Bengal whose family falls under no auto-exclusion criterion and meets one or more deprivation criteria can get the subsidised card. Families under an auto-exclusion criterion may get the non-subsidised general card."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Any Indian citizen residing in West Bengal whose family does not fall under any auto-exclusion criteria and fulfils one or more deprivation criteria is eligible for getting subsidised DRC. Others whose families fall under auto-exclusion criteria may get non-subsidised DRC (General category).", where = "BSK manual: Apply for Digital Ration Card (DRC)" }]
+
+[[entries.documents]]
+text = "Photocopies of the Aadhaar cards of all members above 5 years who apply, a photocopy of the birth certificate for children below 5 years, a photocopy of the voter ID card and of the old paper ration card if available, and at least one valid mobile number."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Required supporting documents: Photocopy of Aadhaar cards of all members above the age of 5 yearswho applied for DRC, photocopy of birth certificate (below 5 years of age), photocopy of EPIC/Voter ID Card, if available, photocopy of old paper ration card, if available, and at least one valid mobile number", where = "BSK manual: Apply for Digital Ration Card (DRC)" }]
+
+[[entries.steps]]
+text = "The physical application goes to the office of the concerned Inspector, Food and Supplies."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Physical application to be submitted to (i.e., full address of the authority): The Inspector, Food andSupplies (Office of the concerned Inspector, Food and Supplies).", where = "BSK manual: Apply for Digital Ration Card (DRC)" }]
+
+[[entries.steps]]
+text = "A new or duplicate card is sent by speed post; a corrected card is given from the office of the Food Inspector."
+evidence = [{ source_id = "bsk-manual-2021", quote = "New and duplicate DRC will be sent through speed post. Corrected DRC will be given from the office of the concerned Food Inspector.", where = "BSK manual: Apply for Digital Ration Card (DRC)" }]
+
+[[entries.steps]]
+text = "The status of an application can be checked on the Food & Supplies websites."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Status of any Digital Ration Card-related application can be checked through the food and supplies websites https://wbpds.wb.gov.in/ and https://wbpds.gov.in/.", where = "BSK manual: Application status: Digital Ration Card" }]
+
+# --- West Bengal: birth and death registration -------------------------------------------------
+
+[[entries]]
+id = "wb-birth-death-registration"
+name = "Birth and death registration and certificate (Civil Registration System), West Bengal"
+kind = "service"
+sectors = ["public-services"]
+level = "state"
+state = "West Bengal"
+department = "Health & Family Welfare Department, Government of West Bengal"
+status = "active"
+source_ids = ["bsk-manual-2021"]
+last_verified = 2026-10-31
+summary = { en = "Reporting a birth or death online to the registrar, so that the event is registered and a certificate can be obtained.", bn = "জন্ম বা মৃত্যুর ঘটনা অনলাইনে নিবন্ধকের কাছে জানানো, যাতে তা নিবন্ধিত হয় এবং শংসাপত্র পাওয়া যায়।", hi = "जन्म या मृत्यु की सूचना ऑनलाइन रजिस्ट्रार को देना, ताकि घटना दर्ज हो और प्रमाणपत्र मिल सके।" }
+target = { en = "Families and relatives who need to report a birth or death that happened at home and get the certificate.", bn = "যেসব পরিবার ও আত্মীয়কে বাড়িতে ঘটা জন্ম বা মৃত্যুর খবর জানাতে হবে এবং শংসাপত্র নিতে হবে।", hi = "वे परिवार और रिश्तेदार जिन्हें घर पर हुए जन्म या मृत्यु की सूचना देनी है और प्रमाणपत्र लेना है।" }
+not_stated = [
+  "The fee, if any, and how long the certificate takes. The manual does not say.",
+  "The procedure for an event reported after the limit, beyond going to the office of the registrar.",
+  "Institutional births and deaths (in a hospital). The manual describes only events at home.",
+  "Anything newer than the manual of September 2021. Check the registrar's office or the Civil Registration portal for the current process.",
+]
+
+[entries.apply]
+label = "Civil Registration System portal"
+url = "https://crsorgi.gov.in/"
+evidence = [{ source_id = "bsk-manual-2021", quote = "Objective of the service/scheme: To implement CRS Birth-Death Registration Application across all registration centres in the country for Automation of Civil Registration System and to ensure 100% registration", where = "BSK manual: Application for Birth and Death Certificate" }]
+
+[[entries.benefits]]
+text = "People get the benefit of an online system for obtaining birth and death certificates."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Common people will get the benefit of online system for obtaining birth and death certificates", where = "BSK manual: Application for Birth and Death Certificate" }]
+
+[[entries.benefits]]
+text = "After submitting the application you get a confirmation mail on the e-mail ID you gave."
+evidence = [{ source_id = "bsk-manual-2021", quote = "After successful submission of the application, users will get a confirmation mail on the provided email ID.", where = "BSK manual: Application for Birth and Death Certificate" }]
+
+[[entries.eligibility]]
+text = "All persons are eligible to get certificates."
+evidence = [{ source_id = "bsk-manual-2021", quote = "All persons will be eligible to get certificates", where = "BSK manual: Application for Birth and Death Certificate" }]
+
+[[entries.documents]]
+text = "For a birth at home reported online: a declaration by the parents in the prescribed pro-forma (Form 1) and a self-attested address proof (voter ID, utility bill, passport, valid ration card, Aadhaar card, running bank account, etc.)."
+evidence = [
+  { source_id = "bsk-manual-2021", quote = "Declaration by parent(s) in prescribed pro-forma (Form 1)", where = "BSK manual: Application for Birth and Death Certificate" },
+  { source_id = "bsk-manual-2021", quote = "Address proof: Copy of any one of the following documents, self-attested – Voter ID Card, electricity/gas/water/telephone bill, passport, valid ration card, Aadhaar card, running bank account, etc.", where = "BSK manual: Application for Birth and Death Certificate" },
+]
+
+[[entries.documents]]
+text = "For a death at home reported online: a declaration by a close relative or family member, the information in the prescribed pro-forma (Form 2) with the death certificate from a medical practitioner (Form 4A), and address proof of the deceased."
+evidence = [
+  { source_id = "bsk-manual-2021", quote = "Declaration by close relative/family member in prescribed pro-forma", where = "BSK manual: Application for Birth and Death Certificate" },
+  { source_id = "bsk-manual-2021", quote = "Information in prescribed pro-forma (i.e., Form 2) and death certificate from medical practitioner (Form 4A)", where = "BSK manual: Application for Birth and Death Certificate" },
+]
+
+[[entries.steps]]
+text = "Births and deaths are registered at the place where the event happened, by the registrar of that area."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Births and deaths are registered at the place of occurrence of the event and by the concerned registrar under whose jurisdiction the event has taken place.", where = "BSK manual: Application for Birth and Death Certificate" }]
+
+[[entries.steps]]
+text = "Only a home event can be reported online within 21 days. After 21 days, you must go to the office of the registrar."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Only domiciliary (house/home) events within 21 days of the occurrence of the event may be reported. If the event has crossed the limit of 21 days, one must approach the office of the concerned registrar (B&D).", where = "BSK manual: Application for Birth and Death Certificate" }]
+
+[[entries.steps]]
+text = "Print the application and hand it to the concerned registrar at the address printed on it, along with the required documents."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Get a print out of the application and forward it to the concerned registrar BY HAND at the given address (address will appear on the bottom of the print out of the application) along with the required documents.", where = "BSK manual: Application for Birth and Death Certificate" }]
+
+# --- West Bengal: minor correction of land records ---------------------------------------------
+
+[[entries]]
+id = "wb-minor-correction-land-records"
+name = "Minor correction of land records (BanglarBhumi), West Bengal"
+kind = "service"
+sectors = ["public-services"]
+level = "state"
+state = "West Bengal"
+department = "Land & Land Reforms Department, Government of West Bengal"
+status = "active"
+source_ids = ["wbgov-minor-correction-page"]
+last_verified = 2026-10-31
+summary = { en = "Getting small mistakes in the land record, such as a misspelt name or a wrong plot detail, corrected by the land revenue office.", bn = "জমির রেকর্ডে ছোট ভুল, যেমন নামের বানান বা প্লটের তথ্যের ভুল, ভূমি রাজস্ব দপ্তরের মাধ্যমে সংশোধন করানো।", hi = "भूमि अभिलेख में छोटी गलतियाँ, जैसे नाम की वर्तनी या प्लॉट के विवरण की भूल, भू-राजस्व कार्यालय से ठीक करवाना।" }
+target = { en = "Recorded landowners, legal heirs and others with a valid interest in the land whose record has a small clerical error.", bn = "রেকর্ডে নথিভুক্ত জমির মালিক, উত্তরাধিকারী এবং জমিতে বৈধ স্বার্থ আছে এমন অন্যরা, যাঁদের রেকর্ডে ছোট করণিক ভুল আছে।", hi = "दर्ज भूमि स्वामी, क़ानूनी वारिस और ज़मीन में वैध हित रखने वाले अन्य लोग, जिनके अभिलेख में छोटी लिपिकीय भूल है।" }
+not_stated = [
+  "The fee and how long a correction takes. The page says only that applicable service fees, if any, are paid through the prescribed mode.",
+  "The law or order the service rests on. The page is a general description by the Information & Cultural Affairs Department, last updated on 26 June 2026.",
+  "Anything beyond that page. The Banglarbhumi portal itself could not be read by the checking tools.",
+]
+
+[entries.apply]
+label = "Banglarbhumi (West Bengal land records portal)"
+url = "https://banglarbhumi.gov.in/"
+evidence = [{ source_id = "wbgov-minor-correction-page", quote = "BanglarBhumi, West Bengal Land Records: https://banglarbhumi.gov.in/", where = "Important Links" }]
+
+[[entries.benefits]]
+text = "Small errors in the Record of Rights can be corrected: spelling mistakes in the landholder's name, the father's or guardian's name, address, plot details, area mismatch, classification, khatian details or other clerical mistakes."
+evidence = [{ source_id = "wbgov-minor-correction-page", quote = "These corrections may relate to spelling mistakes in the name of the landholder, father's or guardian's name, address, plot details, area mismatch, classification errors, Khatian details or other clerical mistakes in the Record of Rights.", where = "introduction" }]
+
+[[entries.benefits]]
+text = "After approval the applicant can obtain corrected land record documents."
+evidence = [{ source_id = "wbgov-minor-correction-page", quote = "Updated Record of Rights: The applicant can obtain corrected land record documents after approval.", where = "Benefits" }]
+
+[[entries.benefits]]
+text = "Citizens can apply online and track the status of correction applications."
+evidence = [{ source_id = "wbgov-minor-correction-page", quote = "Online application and tracking: Citizens can apply online and track the status of correction applications.", where = "Benefits" }]
+
+[[entries.eligibility]]
+text = "The service is generally for persons whose details are recorded in land records or who have a valid legal interest in the land: the recorded landowner or raiyat, a legal heir, a purchaser or transferee, a co-sharer, or an authorised representative."
+evidence = [
+  { source_id = "wbgov-minor-correction-page", quote = "The service is generally available to persons whose details are recorded in land records or who have a valid legal interest in the land.", where = "Eligibility" },
+  { source_id = "wbgov-minor-correction-page", quote = "Authorised representative of the landowner with proper authorisation.", where = "Eligibility" },
+]
+
+[[entries.eligibility]]
+text = "The correction should generally be minor, clerical or documentary. Major ownership, boundary or title disputes may need separate legal or revenue proceedings."
+evidence = [{ source_id = "wbgov-minor-correction-page", quote = "The correction should generally be minor, clerical or documentary in nature. Major ownership disputes, boundary disputes or title disputes may require separate legal or revenue proceedings.", where = "Eligibility" }]
+
+[[entries.documents]]
+text = "Generally: the application form, the existing Record of Rights or khatian extract, identity proof, address proof, and the tax or land revenue receipt."
+evidence = [
+  { source_id = "wbgov-minor-correction-page", quote = "Existing Record of Rights/Khatian / land record extract", where = "Documents generally required" },
+  { source_id = "wbgov-minor-correction-page", quote = "Tax receipt or land revenue receipt", where = "Documents generally required" },
+]
+
+[[entries.documents]]
+text = "For a name correction, a birth certificate, Aadhaar card, voter ID, PAN card or other proof; if a legal heir applies, the death certificate and legal heir documents; if a representative applies, an authorisation letter."
+evidence = [
+  { source_id = "wbgov-minor-correction-page", quote = "Birth certificate, Aadhaar card, voter ID, PAN card or other proof for name correction", where = "Documents generally required" },
+  { source_id = "wbgov-minor-correction-page", quote = "Death certificate and legal heir documents, if applied by legal heir", where = "Documents generally required" },
+  { source_id = "wbgov-minor-correction-page", quote = "Authorisation letter, if application is submitted through a representative", where = "Documents generally required" },
+]
+
+[[entries.steps]]
+text = "Identify the specific error in the land record and collect supporting documents proving the correct information."
+evidence = [
+  { source_id = "wbgov-minor-correction-page", quote = "The applicant should identify the specific error in the land record, such as name, address, guardian details, plot number, area, classification or Khatian entry.", where = "How to apply/process" },
+  { source_id = "wbgov-minor-correction-page", quote = "The applicant should collect supporting documents proving the correct information.", where = "How to apply/process" },
+]
+
+[[entries.steps]]
+text = "Apply online through the State land records portal, or submit an application physically at the concerned land revenue office."
+evidence = [{ source_id = "wbgov-minor-correction-page", quote = "The applicant may apply online through the State land records portal or submit an application physically at the concerned land revenue office.", where = "How to apply/process" }]
+
+[[entries.steps]]
+text = "An acknowledgement or application number is generated; the revenue authority checks the record and documents, and a field enquiry, hearing or notice may follow if required."
+evidence = [
+  { source_id = "wbgov-minor-correction-page", quote = "An acknowledgement or application number is generated after submission.", where = "How to apply/process" },
+  { source_id = "wbgov-minor-correction-page", quote = "Field enquiry, hearing or notice may be conducted if required.", where = "How to apply/process" },
+]
+
+[[entries.steps]]
+text = "If the correction is valid, the competent authority approves it, the official record is updated, and the applicant can download or collect the corrected Record of Rights, khatian, plot information or correction certificate."
+evidence = [
+  { source_id = "wbgov-minor-correction-page", quote = "If the correction is found valid, the competent authority approves the correction.", where = "How to apply/process" },
+  { source_id = "wbgov-minor-correction-page", quote = "The applicant can download or collect the corrected Record of Rights, khatian Plot information or correction certificate, as applicable.", where = "How to apply/process" },
+]
+
+# --- West Bengal: patta application ------------------------------------------------------------
+
+[[entries]]
+id = "wb-patta-application"
+name = "Patta (land possession or allotment document) application, West Bengal"
+kind = "service"
+sectors = ["public-services", "housing"]
+level = "state"
+state = "West Bengal"
+department = "Land & Land Reforms Department, Government of West Bengal"
+status = "active"
+source_ids = ["wbgov-patta-page"]
+last_verified = 2026-10-31
+summary = { en = "An official document recording a person's right over a piece of land allotted or settled by the government, which supports housing, utility and other services.", bn = "সরকার কর্তৃক বরাদ্দ বা বন্দোবস্ত করা জমির উপর একজনের অধিকার লিপিবদ্ধকারী সরকারি নথি, যা বাসস্থান, পরিষেবা সংযোগ ও অন্যান্য কাজে সাহায্য করে।", hi = "सरकार द्वारा आवंटित या बंदोबस्त की गई ज़मीन पर किसी व्यक्ति के अधिकार को दर्ज करने वाला सरकारी दस्तावेज़, जो आवास, उपयोगिता और अन्य सेवाओं में काम आता है।" }
+target = { en = "Landless, homeless and other eligible households and persons, depending on the State's land rules and the kind of patta.", bn = "ভূমিহীন, গৃহহীন ও অন্যান্য যোগ্য পরিবার ও ব্যক্তি, রাজ্যের জমি-বিধি ও পাট্টার ধরন অনুযায়ী।", hi = "भूमिहीन, बेघर और अन्य पात्र परिवार व व्यक्ति, राज्य के भूमि नियमों और पट्टे के प्रकार के अनुसार।" }
+not_stated = [
+  "Exact eligibility. The page says eligibility depends on the State land laws and the category of patta, and lists only what it may include. It names no particular West Bengal law, ceiling or order.",
+  "The fee and how long it takes. The page says only that applicable fees, if any, go with the application.",
+  "Anything beyond that page (last updated on 26 June 2026). The Banglarbhumi portal itself could not be read by the checking tools; ask the Block Land and Land Reforms Office which patta category applies to you.",
+]
+
+[entries.apply]
+label = "Banglarbhumi (West Bengal land records portal)"
+url = "https://banglarbhumi.gov.in/"
+evidence = [{ source_id = "wbgov-patta-page", quote = "BanglarBhumi, West Bengal Land Records: https://banglarbhumi.gov.in/", where = "Important Links" }]
+
+[[entries.benefits]]
+text = "A patta is an official land allotment or possession document issued by the competent land authority; it records the person's right over a specific piece of land allotted or settled by the government."
+evidence = [{ source_id = "wbgov-patta-page", quote = "Patta is an official land allotment or land possession document issued by the competent land authority to eligible persons or households. It records the right of a person over a specific piece of land allotted or settled by the government.", where = "introduction" }]
+
+[[entries.benefits]]
+text = "It gives official recognition of possession or allotment, and protects eligible beneficiaries from arbitrary eviction, subject to applicable land laws."
+evidence = [
+  { source_id = "wbgov-patta-page", quote = "Legal recognition of possession: Patta provides official recognition of possession or allotment of land.", where = "Benefits" },
+  { source_id = "wbgov-patta-page", quote = "Land tenure security: It protects eligible beneficiaries from arbitrary eviction, subject to applicable land laws.", where = "Benefits" },
+]
+
+[[entries.benefits]]
+text = "A patta can support applications for electricity, water, sanitation and other basic services, and may be used for housing, agriculture and livelihood schemes."
+evidence = [
+  { source_id = "wbgov-patta-page", quote = "Proof for utility connections: Patta can support applications for electricity, water, sanitation and other basic services.", where = "Benefits" },
+  { source_id = "wbgov-patta-page", quote = "Access to government schemes: Patta holders may use the document for housing, agriculture, livelihood, sanitation, electricity and water supply schemes.", where = "Benefits" },
+]
+
+[[entries.eligibility]]
+text = "Eligibility depends on the State land laws and the category of patta."
+evidence = [{ source_id = "wbgov-patta-page", quote = "Eligibility depends on the State land laws and category of patta. General eligibility may include:", where = "Eligibility" }]
+
+[[entries.eligibility]]
+text = "General eligibility may include being landless, homeless, a marginal farmer, sharecropper, occupant or other eligible beneficiary under State land distribution rules."
+evidence = [{ source_id = "wbgov-patta-page", quote = "Applicant should be landless, homeless, marginal farmer, sharecropper, occupant or eligible beneficiary under State land distribution rules.", where = "Eligibility" }]
+
+[[entries.exclusions]]
+text = "Land must be eligible for settlement or regularisation. Encroachment on restricted, forest, waterbody, public utility or prohibited land may not be eligible."
+evidence = [{ source_id = "wbgov-patta-page", quote = "Land should be eligible for settlement or regularisation under applicable rules. Encroachment on restricted, forest, waterbody, public utility or prohibited land may not be eligible.", where = "Eligibility" }]
+
+[[entries.documents]]
+text = "Generally: a filled application form, Aadhaar card or other identity proof, voter ID or residence proof, ration card, a photograph of the applicant, and any existing possession proof or previous land record where applicable."
+evidence = [
+  { source_id = "wbgov-patta-page", quote = "Aadhaar card or other identity proof", where = "Documents generally required" },
+  { source_id = "wbgov-patta-page", quote = "Existing possession proof, where applicable", where = "Documents generally required" },
+  { source_id = "wbgov-patta-page", quote = "Previous land record, khatian or plot details, if available", where = "Documents generally required" },
+]
+
+[[entries.documents]]
+text = "If required or applicable: an income certificate, a caste certificate, a landlessness certificate or declaration, and a self-declaration or affidavit."
+evidence = [
+  { source_id = "wbgov-patta-page", quote = "Landlessness certificate or declaration, if required", where = "Documents generally required" },
+  { source_id = "wbgov-patta-page", quote = "Caste certificate, if applicable", where = "Documents generally required" },
+]
+
+[[entries.steps]]
+text = "Visit the Gram Panchayat, the Block Land and Land Reforms office, the Revenue Inspector office or the State land records portal, and collect the prescribed patta application form or choose the online land settlement service."
+evidence = [
+  { source_id = "wbgov-patta-page", quote = "The applicant should visit the Gram Panchayat, BL & LRO office, Revenue Inspector office or State land records portal.", where = "How to apply/process" },
+  { source_id = "wbgov-patta-page", quote = "The applicant should collect the prescribed Patta application form or select the relevant online land settlement service.", where = "How to apply/process" },
+]
+
+[[entries.steps]]
+text = "Submit the application with the documents to the concerned land authority along with applicable fees, if any."
+evidence = [{ source_id = "wbgov-patta-page", quote = "The application is submitted to the concerned land authority along with applicable fees, if any.", where = "How to apply/process" }]
+
+[[entries.steps]]
+text = "The revenue authority verifies identity, residence, landlessness or eligibility and the land details; a field enquiry may be made, and the Gram Panchayat may give verification about possession, residence and eligibility."
+evidence = [
+  { source_id = "wbgov-patta-page", quote = "The revenue authority verifies the applicant's identity, residence, landlessness or eligibility status and land details.", where = "How to apply/process" },
+  { source_id = "wbgov-patta-page", quote = "The Gram Panchayat or local authority may provide verification regarding possession, residence and eligibility.", where = "How to apply/process" },
+]
+
+[[entries.steps]]
+text = "After verification the competent authority approves or rejects the application; if approved, the patta certificate or land settlement order is issued."
+evidence = [
+  { source_id = "wbgov-patta-page", quote = "After verification, the competent authority approves or rejects the application.", where = "How to apply/process" },
+  { source_id = "wbgov-patta-page", quote = "If approved, the Patta certificate or land settlement order is issued to the applicant.", where = "How to apply/process" },
+]

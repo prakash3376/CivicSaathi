@@ -1,0 +1,1880 @@
+# Budget records: the Union Budget 2026-27 (presented 1 February 2026) and the West Bengal
+# Budget 2026-27 (full budget of June 2026, with the interim speech of February 2026).
+# Every figure carries its basis (Budget Estimate, Revised Estimate or Actual) and the
+# financial year it is for. Nothing is computed. Sources: backend/data/sources/budget.toml.
+
+[[records]]
+id = "union-2026-27-total-expenditure"
+budget_year = "2026-27"
+level = "central"
+kind = "allocation"
+title = "Union Budget 2026-27: total expenditure of the Government of India"
+department = "Ministry of Finance, Government of India"
+source_ids = ["union-budget-speech-2026-27", "union-budget-summary-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows how much the Government of India plans to spend in the year, next to what it now expects to have spent in the year before.", bn = "এখানে দেখানো হয়েছে ভারত সরকার এই বছরে মোট কত খরচ করার পরিকল্পনা করেছে এবং আগের বছরে এখন কত খরচ হবে বলে ধরা হচ্ছে।", hi = "यहाँ दिखाया गया है कि भारत सरकार इस वर्ष कुल कितना खर्च करने की योजना बना रही है और पिछले वर्ष के लिए अब कितना खर्च अनुमानित है।" }
+meaning = "The Budget Speech gives total expenditure of 53.5 lakh crore rupees in the 2026-27 Budget Estimates, and 49.6 lakh crore in the 2025-26 Revised Estimates. Both are estimates made while the year is still running or has not begun, not final spending."
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 53.5
+unit = "lakh_crore"
+evidence = [
+    { source_id = "union-budget-speech-2026-27", quote = "Budget Estimates 2026-27 96. Coming to 2026-27, the non-debt receipts and the total expenditure are estimated as ₹36.5 lakh crore and ₹53.5 lakh crore respectively.", where = "page 19" },
+  ]
+
+[[records.figures]]
+basis = "revised_estimate"
+year = "2025-26"
+amount = 49.6
+unit = "lakh_crore"
+evidence = [
+    { source_id = "union-budget-summary-2026-27", quote = "Revised Estimates 2025-26 The Revised Estimates of the non-debt receipts are ₹34 lakh crore of which the Centre’s net tax receipts are ₹26.7 lakh crore. The Revised Estimate of the total expenditure is ₹49.6 lakh crore, of which the capital expenditure is about ₹11 lakh crore.", where = "page 7" },
+  ]
+
+[[records.statements]]
+text = "The Centre’s net tax receipts are estimated at ₹28.7 lakh crore for 2026-27."
+evidence = [
+    { source_id = "union-budget-speech-2026-27", quote = "Coming to 2026-27, the non-debt receipts and the total expenditure are estimated as ₹36.5 lakh crore and ₹53.5 lakh crore respectively. The Centre’s net tax receipts are estimated at ₹28.7 lakh crore.", where = "page 19" },
+  ]
+
+[[records.statements]]
+text = "To finance the fiscal deficit, net market borrowings from dated securities are estimated at ₹11.7 lakh crore and gross market borrowings at ₹17.2 lakh crore."
+evidence = [
+    { source_id = "union-budget-speech-2026-27", quote = "To finance the fiscal deficit, the net market borrowings from dated securities are estimated at ₹11.7 lakh crore. The balance financing is expected to come from small savings and other sources. The gross market borrowings are estimated at ₹17.2 lakh crore.", where = "page 19" },
+  ]
+
+[[records]]
+id = "union-2026-27-fiscal-deficit"
+budget_year = "2026-27"
+level = "central"
+kind = "allocation"
+title = "Union Budget 2026-27: fiscal deficit of the Government of India"
+department = "Ministry of Finance, Government of India"
+source_ids = ["union-budget-summary-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows how much the Government of India expects to borrow, as a share of the size of the economy, in the year and the year before.", bn = "এখানে দেখানো হয়েছে অর্থনীতির আকারের তুলনায় ভারত সরকার এই বছরে এবং আগের বছরে কতটা ধার নেওয়ার আশা করছে।", hi = "यहाँ दिखाया गया है कि अर्थव्यवस्था के आकार की तुलना में भारत सरकार इस वर्ष और पिछले वर्ष कितना उधार लेने की उम्मीद करती है।" }
+meaning = "The fiscal deficit is the gap between what the government spends and what it earns, which it must borrow. The Budget estimates it at 4.3 percent of GDP in 2026-27, against 4.4 percent in the 2025-26 Revised Estimates."
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 4.3
+unit = "percent"
+evidence = [
+    { source_id = "union-budget-summary-2026-27", quote = "The fiscal deficit in BE 2026-27 is estimated to be 4.3 percent of GDP.", where = "page 15" },
+  ]
+
+[[records.figures]]
+basis = "revised_estimate"
+year = "2025-26"
+amount = 4.4
+unit = "percent"
+evidence = [
+    { source_id = "union-budget-summary-2026-27", quote = "In RE 2025-26, the fiscal deficit has been estimated at par with BE of 2025-26 at 4.4 percent of GDP.", where = "page 15" },
+  ]
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2025-26"
+amount = 4.4
+unit = "percent"
+evidence = [
+    { source_id = "union-budget-summary-2026-27", quote = "In RE 2025-26, the fiscal deficit has been estimated at par with BE of 2025-26 at 4.4 percent of GDP.", where = "page 15" },
+  ]
+
+[[records]]
+id = "union-2026-27-debt-to-gdp"
+budget_year = "2026-27"
+level = "central"
+kind = "allocation"
+title = "Union Budget 2026-27: debt of the Government of India compared with GDP"
+department = "Ministry of Finance, Government of India"
+source_ids = ["union-budget-summary-2026-27", "union-budget-speech-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows how large the Government of India's debt is compared with the size of the economy, now and in the year before.", bn = "এখানে দেখানো হয়েছে অর্থনীতির আকারের তুলনায় ভারত সরকারের ঋণ কত বড়, এখন এবং আগের বছরে।", hi = "यहाँ दिखाया गया है कि अर्थव्यवस्था के आकार की तुलना में भारत सरकार का कर्ज कितना बड़ा है, अभी और पिछले वर्ष।" }
+meaning = "The Budget estimates the debt of the Government of India at 55.6 percent of GDP in 2026-27, against 56.1 percent in the 2025-26 Revised Estimates. The document says a falling ratio frees up money for priority spending by reducing interest payments."
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 55.6
+unit = "percent"
+evidence = [
+    { source_id = "union-budget-summary-2026-27", quote = "The debt-to-GDP ratio is estimated to be 55.6 percent of GDP in BE 2026-27, compared to 56.1 percent of GDP in RE 2025-26.", where = "page 15" },
+  ]
+
+[[records.figures]]
+basis = "revised_estimate"
+year = "2025-26"
+amount = 56.1
+unit = "percent"
+evidence = [
+    { source_id = "union-budget-summary-2026-27", quote = "The debt-to-GDP ratio is estimated to be 55.6 percent of GDP in BE 2026-27, compared to 56.1 percent of GDP in RE 2025-26.", where = "page 15" },
+  ]
+
+[[records.statements]]
+text = "A declining debt-to-GDP ratio will gradually free up resources for priority sector expenditure by reducing the outgo on interest payments."
+evidence = [
+    { source_id = "union-budget-speech-2026-27", quote = "A declining debt-to-GDP ratio will gradually free up resources for priority sector expenditure by reducing the outgo on interest payments.", where = "page 18" },
+  ]
+
+[[records]]
+id = "union-2026-27-capital-expenditure"
+budget_year = "2026-27"
+level = "central"
+kind = "allocation"
+title = "Union Budget 2026-27: public capital expenditure"
+department = "Ministry of Finance, Government of India"
+source_ids = ["union-budget-summary-2026-27", "union-budget-speech-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows how much the Government of India plans to spend on long-lasting assets such as infrastructure, compared with the year before.", bn = "এখানে দেখানো হয়েছে অবকাঠামোর মতো দীর্ঘস্থায়ী সম্পদে ভারত সরকার কত খরচ করার পরিকল্পনা করেছে, আগের বছরের তুলনায়।", hi = "यहाँ दिखाया गया है कि बुनियादी ढांचे जैसी टिकाऊ संपत्तियों पर भारत सरकार कितना खर्च करने की योजना बना रही है, पिछले वर्ष की तुलना में।" }
+meaning = "The Finance Minister said public capital expenditure was 11.2 lakh crore rupees in the 2025-26 Budget Estimates and proposed to raise it to 12.2 lakh crore in 2026-27. The documents do not list here which projects it pays for."
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 12.2
+unit = "lakh_crore"
+evidence = [
+    { source_id = "union-budget-summary-2026-27", quote = "The Finance Minister said, Public capex has increased manifold from ₹2 lakh crore in FY2014-15 to an allocation of ₹11.2 lakh crore in BE 2025-26. In FY2026-27, she proposed to increase it to ₹12.2 lakh crore to continue the momentum.", where = "page 5" },
+  ]
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2025-26"
+amount = 11.2
+unit = "lakh_crore"
+evidence = [
+    { source_id = "union-budget-summary-2026-27", quote = "The Finance Minister said, Public capex has increased manifold from ₹2 lakh crore in FY2014-15 to an allocation of ₹11.2 lakh crore in BE 2025-26. In FY2026-27, she proposed to increase it to ₹12.2 lakh crore to continue the momentum.", where = "page 5" },
+  ]
+
+[[records]]
+id = "union-2026-27-finance-commission-grants"
+budget_year = "2026-27"
+level = "central"
+kind = "allocation"
+title = "Union Budget 2026-27: grants to States on the Finance Commission's recommendation"
+department = "Ministry of Finance, Government of India"
+source_ids = ["union-budget-speech-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows how much the Union Budget provides to all the States as grants recommended by the Finance Commission.", bn = "এখানে দেখানো হয়েছে অর্থ কমিশনের সুপারিশ অনুযায়ী কেন্দ্রীয় বাজেট সব রাজ্যকে অনুদান হিসেবে কত দিচ্ছে।", hi = "यहाँ दिखाया गया है कि वित्त आयोग की सिफारिश के अनुसार केंद्रीय बजट सभी राज्यों को अनुदान के रूप में कितना दे रहा है।" }
+meaning = "The Finance Minister said the Government accepted the Finance Commission's recommendation to keep the States' share of central taxes at 41%, and provided 1.4 lakh crore rupees to the States for 2026-27 as Finance Commission Grants, including grants to rural and urban local bodies and for disaster management. This is the total for all States, not for one."
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 1.4
+unit = "lakh_crore"
+evidence = [
+    { source_id = "union-budget-speech-2026-27", quote = "As recommended by the Commission, I have provided ₹1.4 lakh crore to the States for the FY 2026-27 as Finance Commission Grants. These include Rural and Urban Local Body and Disaster Management Grants.", where = "page 18" },
+  ]
+
+[[records.statements]]
+text = "The Government has accepted the Commission's recommendation to retain the vertical share of devolution at 41%."
+evidence = [
+    { source_id = "union-budget-speech-2026-27", quote = "The Government has accepted the recommendation of the Commission to retain the vertical share of devolution at 41%.", where = "page 18" },
+  ]
+
+[[records]]
+id = "union-2026-27-education-allocation"
+budget_year = "2026-27"
+level = "central"
+sector = "education"
+kind = "allocation"
+title = "Union Budget 2026-27: allocation for education"
+department = "Ministry of Education, Government of India"
+source_ids = ["union-pib-education-skilling-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows how much the Union Budget allocates to education in the year, as stated by the Press Information Bureau.", bn = "এখানে দেখানো হয়েছে কেন্দ্রীয় বাজেট এই বছরে শিক্ষাখাতে কত বরাদ্দ করেছে, প্রেস ইনফরমেশন ব্যুরোর বিবরণ অনুযায়ী।", hi = "यहाँ दिखाया गया है कि केंद्रीय बजट इस वर्ष शिक्षा के लिए कितना आवंटित करता है, जैसा प्रेस सूचना ब्यूरो ने बताया।" }
+meaning = "A Press Information Bureau note says the Union Budget 2026-27 provides a total allocation of 1.39 lakh crore rupees for the education sector, 8.27% more than the 2025-26 Budget Estimates. The note does not list the figure by scheme."
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 1.39
+unit = "lakh_crore"
+evidence = [
+    { source_id = "union-pib-education-skilling-2026-27", quote = "The Union Budget 2026–27 provides further impetus to the education sector with a total allocation of ₹1.39 lakh crore. This represents an increase of 8.27% over the Budget Estimates of 2025–26.", where = "page 2" },
+  ]
+
+[[records]]
+id = "union-2026-27-education-announcements"
+budget_year = "2026-27"
+level = "central"
+sector = "education"
+kind = "announcement"
+title = "Union Budget 2026-27: announcements on education"
+department = "Ministry of Education, Government of India"
+source_ids = ["union-budget-speech-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "The Budget speech announced new university towns, a girls' hostel in every district for higher education STEM institutions and creative technology labs in schools.", bn = "বাজেট বক্তৃতায় নতুন বিশ্ববিদ্যালয় শহর, উচ্চশিক্ষার বিজ্ঞান-প্রযুক্তি প্রতিষ্ঠানগুলির জন্য প্রতি জেলায় একটি ছাত্রীনিবাস এবং স্কুলে সৃজনশীল প্রযুক্তি ল্যাবের ঘোষণা করা হয়েছে।", hi = "बजट भाषण में नए विश्वविद्यालय नगरों, उच्च शिक्षा के विज्ञान-प्रौद्योगिकी संस्थानों के लिए हर जिले में एक छात्रा छात्रावास और स्कूलों में रचनात्मक प्रौद्योगिकी प्रयोगशालाओं की घोषणा की गई।" }
+meaning = "These are proposals in the Budget Speech. The speech does not give a start date, an amount or an application process for them."
+
+[[records.statements]]
+text = "The Government will support States, through the challenge route, in creating 5 University Townships near major industrial and logistic corridors."
+evidence = [
+    { source_id = "union-budget-speech-2026-27", quote = "Our Government will support States, through challenge route, in creating 5 University Townships in the vicinity of major industrial and logistic corridors.", where = "page 12" },
+  ]
+
+[[records.statements]]
+text = "Through VGF/capital support, 1 girls’ hostel will be established in every district for girl students of higher education STEM institutions."
+evidence = [
+    { source_id = "union-budget-speech-2026-27", quote = "In Higher Education STEM institutions, prolonged hours of study and laboratory work pose some challenges for girl students. Through VGF/capital support, 1 girls’ hostel will be established in every district.", where = "page 13" },
+  ]
+
+[[records.statements]]
+text = "The Indian Institute of Creative Technologies, Mumbai will be supported in setting up AVGC Content Creator Labs in 15,000 secondary schools and 500 colleges."
+evidence = [
+    { source_id = "union-budget-speech-2026-27", quote = "I propose to support the Indian Institute of Creative Technologies, Mumbai in setting up AVGC Content Creator Labs in 15,000 secondary schools and 500 colleges.", where = "page 12" },
+  ]
+
+[[records.statements]]
+text = "A new National Institute of Design will be established through the challenge route to boost design education in the eastern region of India."
+evidence = [
+    { source_id = "union-budget-speech-2026-27", quote = "I propose to establish through challenge route, a new National Institute of Design to boost design education and development in the eastern region of India.", where = "page 12" },
+  ]
+
+[[records]]
+id = "union-2026-27-health-allocation"
+budget_year = "2026-27"
+level = "central"
+sector = "health"
+kind = "allocation"
+title = "Union Budget 2026-27: allocation for the Ministry of Health and Family Welfare"
+department = "Ministry of Health and Family Welfare, Government of India"
+source_ids = ["union-pib-health-budget-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows how much the Union Budget allocates to the Ministry of Health and Family Welfare in the year.", bn = "এখানে দেখানো হয়েছে কেন্দ্রীয় বাজেট এই বছরে স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রকের জন্য কত বরাদ্দ করেছে।", hi = "यहाँ दिखाया गया है कि केंद्रीय बजट इस वर्ष स्वास्थ्य और परिवार कल्याण मंत्रालय के लिए कितना आवंटित करता है।" }
+meaning = "A Press Information Bureau explainer says the Union Budget 2026-27 allocates 1,06,530.42 crore rupees to the Ministry of Health and Family Welfare, a 10% increase, and 4,821.21 crore to the Department of Health Research. It is a plan for the year, not money already spent."
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 106530.42
+unit = "crore"
+evidence = [
+    { source_id = "union-pib-health-budget-2026-27", quote = "The Union Budget 2026 –27 has increased allocation for the Ministry of Health and Family Welfare by 10%, to Rs. 1,06,530.42 crore from the revised estimates of 2025 –26.", where = "page 1" },
+  ]
+
+[[records.statements]]
+text = "The Department of Health Research has been allocated Rs. 4,821.21 crore."
+evidence = [
+    { source_id = "union-pib-health-budget-2026-27", quote = "The Department of Health Research has been allocated Rs. 4,821.21 crore.", where = "page 1" },
+  ]
+
+[[records]]
+id = "union-2026-27-national-health-mission"
+budget_year = "2026-27"
+level = "central"
+sector = "health"
+kind = "allocation"
+title = "Union Budget 2026-27: National Health Mission"
+department = "Ministry of Health and Family Welfare, Government of India"
+source_ids = ["union-pib-health-budget-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows the Union Budget amount for the National Health Mission, which supports health services across the States.", bn = "এখানে জাতীয় স্বাস্থ্য মিশনের জন্য কেন্দ্রীয় বাজেটের বরাদ্দ দেখানো হয়েছে, যা রাজ্যগুলিতে স্বাস্থ্য পরিষেবাকে সহায়তা করে।", hi = "यहाँ राष्ट्रीय स्वास्थ्य मिशन के लिए केंद्रीय बजट की राशि दिखाई गई है, जो राज्यों में स्वास्थ्य सेवाओं में सहायता करता है।" }
+meaning = "The PIB table gives the National Health Mission 39,390.00 crore rupees in the 2026-27 Budget Estimates, against 37,100.07 crore in the 2025-26 Revised Estimates."
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 39390.0
+unit = "crore"
+evidence = [
+    { source_id = "union-pib-health-budget-2026-27", quote = "Many health initiatives were allocated more funds this year (in crore rupees ). 2 Scheme/Program Budget Estimates 2026 -27 Revised Estimates 2025 -26 Increase % Increase", where = "page 2" },
+    { source_id = "union-pib-health-budget-2026-27", quote = "National Health Mission (NHM) 39,390.00 37,100.07 2,289.93 6.17%", where = "page 2" },
+  ]
+
+[[records.figures]]
+basis = "revised_estimate"
+year = "2025-26"
+amount = 37100.07
+unit = "crore"
+evidence = [
+    { source_id = "union-pib-health-budget-2026-27", quote = "Many health initiatives were allocated more funds this year (in crore rupees ). 2 Scheme/Program Budget Estimates 2026 -27 Revised Estimates 2025 -26 Increase % Increase", where = "page 2" },
+    { source_id = "union-pib-health-budget-2026-27", quote = "National Health Mission (NHM) 39,390.00 37,100.07 2,289.93 6.17%", where = "page 2" },
+  ]
+
+[[records]]
+id = "union-2026-27-pm-jay"
+budget_year = "2026-27"
+level = "central"
+sector = "health"
+kind = "allocation"
+title = "Union Budget 2026-27: Pradhan Mantri Jan Arogya Yojana (PM-JAY)"
+department = "Ministry of Health and Family Welfare, Government of India"
+source_ids = ["union-pib-health-budget-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows the Union Budget amount for Pradhan Mantri Jan Arogya Yojana, the public health insurance scheme.", bn = "এখানে প্রধানমন্ত্রী জন আরোগ্য যোজনার জন্য কেন্দ্রীয় বাজেটের বরাদ্দ দেখানো হয়েছে, যা সরকারি স্বাস্থ্য বিমা প্রকল্প।", hi = "यहाँ प्रधानमंत्री जन आरोग्य योजना के लिए केंद्रीय बजट की राशि दिखाई गई है, जो सरकारी स्वास्थ्य बीमा योजना है।" }
+meaning = "The PIB table gives PM-JAY 9,500.00 crore rupees in the 2026-27 Budget Estimates, against 9,000.00 crore in the 2025-26 Revised Estimates. This is the Budget amount for the scheme, not what a family receives."
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 9500.0
+unit = "crore"
+evidence = [
+    { source_id = "union-pib-health-budget-2026-27", quote = "Many health initiatives were allocated more funds this year (in crore rupees ). 2 Scheme/Program Budget Estimates 2026 -27 Revised Estimates 2025 -26 Increase % Increase", where = "page 2" },
+    { source_id = "union-pib-health-budget-2026-27", quote = "Pradhan Mantri Jan Arogya Yojana (PM -JAY) 9,500.00 9,000.00 500.00 5.56%", where = "page 2" },
+  ]
+
+[[records.figures]]
+basis = "revised_estimate"
+year = "2025-26"
+amount = 9000.0
+unit = "crore"
+evidence = [
+    { source_id = "union-pib-health-budget-2026-27", quote = "Many health initiatives were allocated more funds this year (in crore rupees ). 2 Scheme/Program Budget Estimates 2026 -27 Revised Estimates 2025 -26 Increase % Increase", where = "page 2" },
+    { source_id = "union-pib-health-budget-2026-27", quote = "Pradhan Mantri Jan Arogya Yojana (PM -JAY) 9,500.00 9,000.00 500.00 5.56%", where = "page 2" },
+  ]
+
+[[records]]
+id = "union-2026-27-pm-abhim"
+budget_year = "2026-27"
+level = "central"
+sector = "health"
+kind = "allocation"
+title = "Union Budget 2026-27: PM-Ayushman Bharat Health Infrastructure Mission (PM-ABHIM)"
+department = "Ministry of Health and Family Welfare, Government of India"
+source_ids = ["union-pib-health-budget-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows the Union Budget amount for the PM-Ayushman Bharat Health Infrastructure Mission, which builds up health facilities.", bn = "এখানে পিএম-আয়ুষ্মান ভারত স্বাস্থ্য পরিকাঠামো মিশনের জন্য কেন্দ্রীয় বাজেটের বরাদ্দ দেখানো হয়েছে, যা স্বাস্থ্য পরিকাঠামো গড়ে তোলে।", hi = "यहाँ पीएम-आयुष्मान भारत स्वास्थ्य अवसंरचना मिशन के लिए केंद्रीय बजट की राशि दिखाई गई है, जो स्वास्थ्य सुविधाओं को बढ़ाता है।" }
+meaning = "The PIB table gives PM-ABHIM 4,770.00 crore rupees in the 2026-27 Budget Estimates, against 2,845.00 crore in the 2025-26 Revised Estimates."
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 4770.0
+unit = "crore"
+evidence = [
+    { source_id = "union-pib-health-budget-2026-27", quote = "Many health initiatives were allocated more funds this year (in crore rupees ). 2 Scheme/Program Budget Estimates 2026 -27 Revised Estimates 2025 -26 Increase % Increase", where = "page 2" },
+    { source_id = "union-pib-health-budget-2026-27", quote = "PM -Ayushman Bharat Health Infrastructure Mission (PM -ABHIM) 4,770.00 2,845.00 1,925.00 67.66%", where = "page 2" },
+  ]
+
+[[records.figures]]
+basis = "revised_estimate"
+year = "2025-26"
+amount = 2845.0
+unit = "crore"
+evidence = [
+    { source_id = "union-pib-health-budget-2026-27", quote = "Many health initiatives were allocated more funds this year (in crore rupees ). 2 Scheme/Program Budget Estimates 2026 -27 Revised Estimates 2025 -26 Increase % Increase", where = "page 2" },
+    { source_id = "union-pib-health-budget-2026-27", quote = "PM -Ayushman Bharat Health Infrastructure Mission (PM -ABHIM) 4,770.00 2,845.00 1,925.00 67.66%", where = "page 2" },
+  ]
+
+[[records]]
+id = "union-2026-27-health-announcements"
+budget_year = "2026-27"
+level = "central"
+sector = "health"
+kind = "announcement"
+title = "Union Budget 2026-27: announcements on health"
+department = "Ministry of Health and Family Welfare, Government of India"
+source_ids = ["union-budget-speech-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "The Budget speech announced more trained health workers, regional medical hubs, new Ayurveda institutes and more emergency and trauma care.", bn = "বাজেট বক্তৃতায় আরও প্রশিক্ষিত স্বাস্থ্যকর্মী, আঞ্চলিক চিকিৎসা কেন্দ্র, নতুন আয়ুর্বেদ প্রতিষ্ঠান এবং আরও জরুরি ও ট্রমা চিকিৎসার ঘোষণা করা হয়েছে।", hi = "बजट भाषण में अधिक प्रशिक्षित स्वास्थ्य कर्मियों, क्षेत्रीय चिकित्सा केंद्रों, नए आयुर्वेद संस्थानों और अधिक आपातकालीन व ट्रॉमा देखभाल की घोषणा की गई।" }
+meaning = "These are proposals in the Budget Speech. The speech does not give a start date or an amount for each of them."
+
+[[records.statements]]
+text = "Institutions for Allied Health Professionals will be upgraded and new ones established, adding 100,000 allied health professionals over the next 5 years."
+evidence = [
+    { source_id = "union-budget-speech-2026-27", quote = "Existing institutions for Allied Health Professionals (AHPs) will be upgraded and new AHP Institutions established in private and Government sectors. This will cover 10 selected disciplines, including optometry, radiology, anesthesia, OT Technology, Applied Psychology and Behavioural Health and add 100,000 AHPs over the next 5 years.", where = "page 11" },
+  ]
+
+[[records.statements]]
+text = "In the coming year, 1.5 lakh caregivers will be trained."
+evidence = [
+    { source_id = "union-budget-speech-2026-27", quote = "In the coming year, 1.5 lakh caregivers will be trained.", where = "page 11" },
+  ]
+
+[[records.statements]]
+text = "A scheme will support States in establishing five Regional Medical Hubs, in partnership with the private sector."
+evidence = [
+    { source_id = "union-budget-speech-2026-27", quote = "I propose to launch a Scheme to support States in establishing five Regional Medical Hubs, in partnership with the private sector.", where = "page 11" },
+  ]
+
+[[records.statements]]
+text = "The speech proposes to set up 3 new All India Institutes of Ayurveda."
+evidence = [
+    { source_id = "union-budget-speech-2026-27", quote = "I propose to (i) set up 3 new All India Institutes of Ayurveda;", where = "page 12" },
+  ]
+
+[[records.statements]]
+text = "A NIMHANS-2 will be set up in north India, and the National Mental Health Institutes in Ranchi and Tezpur will be upgraded as Regional Apex Institutions."
+evidence = [
+    { source_id = "union-budget-speech-2026-27", quote = "There are no national institutes for mental healthcare in north India. We will therefore set up a NIMHANS-2 and also upgrade National Mental Health Institutes in Ranchi and Tezpur as Regional Apex Institutions.", where = "page 17" },
+  ]
+
+[[records.statements]]
+text = "Capacities will be strengthened and increased by 50% in District Hospitals by establishing Emergency and Trauma Care Centres."
+evidence = [
+    { source_id = "union-budget-speech-2026-27", quote = "We will strengthen and increase these capacities by 50% in District Hospitals by establishing Emergency and Trauma Care Centres.", where = "page 17" },
+  ]
+
+[[records]]
+id = "union-2026-27-agriculture-allocation"
+budget_year = "2026-27"
+level = "central"
+sector = "agriculture"
+kind = "allocation"
+title = "Union Budget 2026-27: allocation for the Department of Agriculture and Farmers Welfare (two documents differ)"
+department = "Ministry of Agriculture and Farmers Welfare, Government of India"
+source_ids = ["union-pib-agriculture-march-2026", "union-pib-agriculture-august-2026"]
+last_verified = 2026-10-31
+summary = { en = "Two official explainers give different amounts for this year for the Department of Agriculture and Farmers Welfare, so no single figure is shown.", bn = "দুটি সরকারি ব্যাখ্যামূলক নথিতে কৃষি ও কৃষক কল্যাণ বিভাগের জন্য এই বছরের বরাদ্দের পরিমাণ আলাদা, তাই কোনো একটি সংখ্যা দেখানো হয়নি।", hi = "दो सरकारी व्याख्यात्मक दस्तावेजों में कृषि एवं किसान कल्याण विभाग के लिए इस वर्ष की राशि अलग-अलग है, इसलिए कोई एक आंकड़ा नहीं दिखाया गया।" }
+meaning = "An earlier Press Information Bureau explainer gives Rs. 1,30,561.38 crore for the Department of Agriculture and Farmers Welfare in 2026-27, and a later explainer gives Rs. 1,40,528.78 crore for the same department and year. The documents do not say why they differ. The Expenditure Budget, which would settle it, could not be downloaded by our tool, so check it before relying on either amount."
+
+[[records.statements]]
+text = "The earlier PIB explainer gives Rs. 1,30,561.38 crore as the 2026-27 allocation to the Department of Agriculture and Farmers Welfare."
+evidence = [
+    { source_id = "union-pib-agriculture-march-2026", quote = "Building on this trajectory, the budget allocated (2026-27) of Rs. 1,30,561.38 crore (approximately USD 15.73 billion) to the Department of Agriculture and Farmers Welfare reaffirms the con1nued priori1za1on of agricultural development.", where = "page 5" },
+  ]
+
+[[records.statements]]
+text = "The later PIB explainer gives Rs. 1,40,528.78 crore as the 2026-27 budget allocation for the Department of Agriculture and Farmers Welfare."
+evidence = [
+    { source_id = "union-pib-agriculture-august-2026", quote = "Budget allocation for the Department of Agriculture and Farmers Welfare increased from Rs. 27,663 crore in 2013 -14 to Rs. 1,40,528.78 crore in 2026 -27.", where = "page 1" },
+  ]
+
+[[records]]
+id = "union-2026-27-agriculture-announcements"
+budget_year = "2026-27"
+level = "central"
+sector = "agriculture"
+kind = "announcement"
+title = "Union Budget 2026-27: announcements for farmers, fisheries and animal husbandry"
+department = "Ministry of Agriculture and Farmers Welfare, Government of India"
+source_ids = ["union-budget-speech-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "The Budget speech announced a multilingual AI advisory tool for farmers, support for coconut, cashew and cocoa, and new help for fisheries and animal husbandry.", bn = "বাজেট বক্তৃতায় কৃষকদের জন্য বহুভাষিক কৃত্রিম বুদ্ধিমত্তা পরামর্শ ব্যবস্থা, নারকেল, কাজু ও কোকোর জন্য সহায়তা এবং মৎস্য ও পশুপালনে নতুন সাহায্যের ঘোষণা করা হয়েছে।", hi = "बजट भाषण में किसानों के लिए बहुभाषी एआई सलाह उपकरण, नारियल, काजू और कोको के लिए सहायता तथा मत्स्य पालन और पशुपालन के लिए नई मदद की घोषणा की गई।" }
+meaning = "These are proposals in the Budget Speech. The speech does not give a start date, an amount or an application process for them."
+
+[[records.statements]]
+text = "Bharat-VISTAAR, a multilingual AI tool integrating the AgriStack portals and the ICAR package on agricultural practices, will be launched to give farmers customised advisory support."
+evidence = [
+    { source_id = "union-budget-speech-2026-27", quote = "I propose to launch Bharat-VISTAAR—a multilingual AI tool that shall integrate the AgriStack portals and the ICAR package on agricultural practices with AI systems. This will enhance farm productivity, enable better decisions for farmers and reduce risk by providing customised advisory support.", where = "page 16" },
+  ]
+
+[[records.statements]]
+text = "A Coconut Promotion Scheme is proposed to increase production and productivity, including replacing old and non-productive trees with new saplings in major coconut growing States."
+evidence = [
+    { source_id = "union-budget-speech-2026-27", quote = "I propose a Coconut Promotion Scheme to increase production and enhance productivity through various interventions", where = "page 15" },
+    { source_id = "union-budget-speech-2026-27", quote = "including replacing old and non-productive trees with new saplings/plants/varieties in major coconut growing States.", where = "page 16" },
+  ]
+
+[[records.statements]]
+text = "A dedicated programme is proposed for Indian cashew and cocoa to make India self-reliant in raw cashew and cocoa production and processing."
+evidence = [
+    { source_id = "union-budget-speech-2026-27", quote = "A dedicated programme is proposed for Indian cashew and cocoa to make India self-reliant in raw cashew and cocoa production and processing", where = "page 16" },
+  ]
+
+[[records.statements]]
+text = "Initiatives are planned for integrated development of 500 reservoirs and Amrit Sarovars for fisheries."
+evidence = [
+    { source_id = "union-budget-speech-2026-27", quote = "Fisheries: We will undertake initiatives (i) for integrated development of 500 reservoirs and Amrit Sarovars", where = "page 15" },
+  ]
+
+[[records.statements]]
+text = "A loan-linked capital subsidy scheme is proposed for veterinary and para-vet colleges, hospitals, laboratories and breeding facilities in the private sector, to add more than 20,000 veterinary professionals."
+evidence = [
+    { source_id = "union-budget-speech-2026-27", quote = "To scale up availability of veterinary professionals by more than 20,000, I propose to roll out a loan-linked capital subsidy support scheme for establishment of veterinary and para-vet colleges, veterinary hospitals, diagnostic laboratories and breeding facilities in the private sector.", where = "page 12" },
+  ]
+
+[[records]]
+id = "union-2026-27-income-tax-act-and-forms"
+budget_year = "2026-27"
+level = "central"
+kind = "tax"
+title = "Union Budget 2026-27: new Income Tax Act and simpler forms"
+department = "Ministry of Finance, Government of India"
+source_ids = ["union-budget-speech-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "The Budget speech confirmed that the new Income Tax Act comes into effect in April and that simpler rules and forms will follow.", bn = "বাজেট বক্তৃতায় নিশ্চিত করা হয়েছে যে নতুন আয়কর আইন এপ্রিল মাস থেকে কার্যকর হবে এবং সহজ নিয়ম ও ফর্ম পরে আসবে।", hi = "बजट भाषण में पुष्टि की गई कि नया आयकर अधिनियम अप्रैल से लागू होगा और सरल नियम तथा फॉर्म बाद में अधिसूचित होंगे।" }
+meaning = "According to the Budget speech, the Income Tax Act, 2025 comes into effect from 1st April 2026, the simplified rules and forms are to be notified shortly, and interest awarded by the Motor Accident Claims Tribunal to a natural person will be exempt from income tax."
+
+[[records.statements]]
+text = "The Income Tax Act, 2025 will come into effect from 1st April, 2026."
+evidence = [
+    { source_id = "union-budget-speech-2026-27", quote = "This was completed in a record time and the Income Tax Act, 2025 will come into effect from 1st April, 2026.", where = "page 20" },
+  ]
+
+[[records.statements]]
+text = "The simplified Income Tax Rules and Forms will be notified shortly, and the forms have been redesigned so that ordinary citizens can comply without difficulty."
+evidence = [
+    { source_id = "union-budget-speech-2026-27", quote = "The simplified Income Tax Rules and Forms will be notified shortly, giving adequate time to taxpayers to acquaint themselves with its requirements.", where = "page 20" },
+    { source_id = "union-budget-speech-2026-27", quote = "The forms have been redesigned such that ordinary citizens can comply without difficulty.", where = "page 20" },
+  ]
+
+[[records.statements]]
+text = "Any interest awarded by the Motor Accident Claims Tribunal to a natural person will be exempt from income tax, and any TDS on this account will be done away with."
+evidence = [
+    { source_id = "union-budget-speech-2026-27", quote = "I propose that any interest awarded by the Motor Accident Claims Tribunal to a natural person will be exempt from Income Tax, and any TDS on this account will be done away with.", where = "page 20" },
+  ]
+
+[[records]]
+id = "union-2026-27-tcs-and-tds-changes"
+budget_year = "2026-27"
+level = "central"
+kind = "tax"
+title = "Union Budget 2026-27: changes in tax collected at source (TCS) and return deadlines"
+department = "Ministry of Finance, Government of India"
+source_ids = ["union-budget-summary-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "The Budget proposes lower tax collected at source on foreign education and medical remittances and overseas tour packages, and more time to revise tax returns.", bn = "বাজেটে বিদেশে পড়াশোনা ও চিকিৎসার জন্য টাকা পাঠানো এবং বিদেশ ভ্রমণ প্যাকেজে উৎসে সংগৃহীত করের হার কমানো এবং কর রিটার্ন সংশোধনের বেশি সময় দেওয়ার প্রস্তাব রয়েছে।", hi = "बजट में विदेश में पढ़ाई और इलाज के लिए धन भेजने तथा विदेश यात्रा पैकेज पर स्रोत पर कर संग्रह की दर घटाने और कर रिटर्न संशोधित करने के लिए अधिक समय देने का प्रस्ताव है।" }
+meaning = "These are proposals in the Budget summary. It does not give the date from which each change applies."
+
+[[records.statements]]
+text = "TCS for pursuing education and for medical purposes under the Liberalized Remittance Scheme (LRS) is reduced from 5 percent to 2 percent."
+evidence = [
+    { source_id = "union-budget-summary-2026-27", quote = "Further, TCS for pursuing education and for medical purposes under the Liberalized Remittance Scheme (LRS) reduced from 5 percent to 2 percent.", where = "page 9" },
+  ]
+
+[[records.statements]]
+text = "The overseas tour programme package TCS is reduced from the current 5 percent and 20 percent to 2 percent, without any stipulation of amount."
+evidence = [
+    { source_id = "union-budget-summary-2026-27", quote = "The Overseas tour program package is reduced from the current 5 percent and 20 percent to 2 percent without any stipulation of amount.", where = "page 9" },
+  ]
+
+[[records.statements]]
+text = "The time available for revising returns is proposed to be extended from 31st December to up to 31st March, with payment of a nominal fee."
+evidence = [
+    { source_id = "union-budget-summary-2026-27", quote = "Also, the time available for revising returns is proposed to be extended from 31st", where = "page 9" },
+    { source_id = "union-budget-summary-2026-27", quote = "December to up to 31st March with the payment of a nominal fee.", where = "page 10" },
+  ]
+
+[[records]]
+id = "union-2026-27-customs-ease-of-living"
+budget_year = "2026-27"
+level = "central"
+kind = "tax"
+title = "Union Budget 2026-27: customs duty changes for personal imports and medicines"
+department = "Ministry of Finance, Government of India"
+source_ids = ["union-budget-summary-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "The Budget proposes a lower customs tariff rate on goods imported for personal use and no basic customs duty on some medicines.", bn = "বাজেটে ব্যক্তিগত ব্যবহারের জন্য আমদানি করা পণ্যে শুল্কের হার কমানো এবং কিছু ওষুধে মূল আমদানি শুল্ক না রাখার প্রস্তাব রয়েছে।", hi = "बजट में व्यक्तिगत उपयोग के लिए आयातित वस्तुओं पर सीमा शुल्क दर घटाने और कुछ दवाओं पर मूल सीमा शुल्क हटाने का प्रस्ताव है।" }
+meaning = "These are proposals in the Budget summary. It does not name the 17 medicines or the date from which the changes apply."
+
+[[records.statements]]
+text = "The tariff rate on all dutiable goods imported for personal use will be reduced from 20 per cent to 10 per cent."
+evidence = [
+    { source_id = "union-budget-summary-2026-27", quote = "To enhance the Ease of Living, the Finance Minister stated that the tariff rate on all dutiable goods imported for personal use will be reduced from 20 per cent to 10 per cent.", where = "page 13" },
+  ]
+
+[[records.statements]]
+text = "The basic customs duty on 17 drugs or medicines will be exempted, and 7 more rare diseases will be added for exempting import duties on personal imports of drugs, medicines and Food for Special Medical Purposes used in their treatment."
+evidence = [
+    { source_id = "union-budget-summary-2026-27", quote = "The basic customs duty on 17 drugs or medicines will be exempted. 7 more rare diseases will be added for the purposes of exempting import duties on personal imports of drugs, medicines and Food for Special Medical Purposes (FSMP) used in their treatment.", where = "page 13" },
+  ]
+
+[[records]]
+id = "union-2026-27-stt-and-mat"
+budget_year = "2026-27"
+level = "central"
+kind = "tax"
+title = "Union Budget 2026-27: securities transaction tax and minimum alternate tax"
+department = "Ministry of Finance, Government of India"
+source_ids = ["union-budget-summary-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "The Budget proposes a higher securities transaction tax on futures and options and a lower final minimum alternate tax for companies.", bn = "বাজেটে ফিউচারস ও অপশনসে সিকিউরিটিজ লেনদেন কর বাড়ানো এবং কোম্পানির জন্য ন্যূনতম বিকল্প করের চূড়ান্ত হার কমানোর প্রস্তাব রয়েছে।", hi = "बजट में वायदा और विकल्प सौदों पर प्रतिभूति लेनदेन कर बढ़ाने और कंपनियों के लिए न्यूनतम वैकल्पिक कर की अंतिम दर घटाने का प्रस्ताव है।" }
+meaning = "These are proposals in the Budget summary. They mainly affect people who trade in futures and options and companies, not salaried taxpayers."
+
+[[records.statements]]
+text = "STT on futures is to be raised to 0.05 percent from the present 0.02 percent."
+evidence = [
+    { source_id = "union-budget-summary-2026-27", quote = "Another notable tax proposal is the move to raise STT on Futures to 0.05 percent from present 0.02 percent.", where = "page 12" },
+  ]
+
+[[records.statements]]
+text = "STT on options premium and exercise of options will be raised to 0.15 percent from the present rate of 0.1 percent and 0.125 percent, respectively."
+evidence = [
+    { source_id = "union-budget-summary-2026-27", quote = "STT on options premium and exercise of options will also be raised to 0.15 percent from the present rate of 0.1 percent and 0.125 percent, respectively.", where = "page 12" },
+  ]
+
+[[records.statements]]
+text = "MAT will become the final tax with no further credit accumulation from 1st April 2026, and the rate of final tax will be reduced to 14 percent from the current MAT rate of 15 percent."
+evidence = [
+    { source_id = "union-budget-summary-2026-27", quote = "Proposing to make MAT the final tax, Smt. Sitharaman said that there will be no further credit accumulation from 1st April 2026. The rate of final tax will be reduced to 14 percent from the current MAT rate of 15 percent.", where = "page 12" },
+  ]
+
+[[records]]
+id = "union-2026-27-infrastructure-announcements"
+budget_year = "2026-27"
+level = "central"
+sector = "transport"
+kind = "announcement"
+title = "Union Budget 2026-27: announcements on freight corridors, waterways and high-speed rail"
+department = "Ministry of Railways and Ministry of Ports, Shipping and Waterways, Government of India"
+source_ids = ["union-budget-summary-2026-27", "union-budget-speech-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "The Budget speech announced a new freight corridor from Dankuni to Surat, new national waterways, high-speed rail corridors including Varanasi to Siliguri, and money for city economic regions.", bn = "বাজেট বক্তৃতায় ডানকুনি থেকে সুরাট পর্যন্ত নতুন মালবাহী করিডর, নতুন জাতীয় জলপথ, বারাণসী থেকে শিলিগুড়ি সহ দ্রুতগতির রেল করিডর এবং শহর অর্থনৈতিক অঞ্চলের জন্য অর্থের ঘোষণা করা হয়েছে।", hi = "बजट भाषण में डनकुनी से सूरत तक नए माल गलियारे, नए राष्ट्रीय जलमार्ग, वाराणसी से सिलीगुड़ी सहित हाई-स्पीड रेल गलियारे और शहर आर्थिक क्षेत्रों के लिए धन की घोषणा की गई।" }
+meaning = "These are proposals in the Budget documents. They describe the purpose and the routes, not a benefit paid to individuals, and the documents give no completion dates."
+
+[[records.statements]]
+text = "New Dedicated Freight Corridors will be established connecting Dankuni in the East to Surat in the West."
+evidence = [
+    { source_id = "union-budget-summary-2026-27", quote = "New Dedicated Freight Corridors to be established connecting Dankuni in the East, to Surat in the West", where = "page 18" },
+  ]
+
+[[records.statements]]
+text = "20 new National Waterways will be operationalised over the next 5 years, starting with NW-5 in Odisha."
+evidence = [
+    { source_id = "union-budget-summary-2026-27", quote = "20 new National Waterways (NW) to be operationalised over next 5 years, starting with NW-5 in Odisha", where = "page 18" },
+  ]
+
+[[records.statements]]
+text = "Seven High-Speed Rail corridors between cities will be developed as growth connectors, including Delhi-Varanasi and Varanasi-Siliguri."
+evidence = [
+    { source_id = "union-budget-summary-2026-27", quote = "Government to develop Seven High-Speed Rail corridors between cities as ‘growth connectors’ to promote environmentally sustainable passenger systems. These include:", where = "page 18" },
+    { source_id = "union-budget-summary-2026-27", quote = "vi) Delhi-Varanasi, vii) Varanasi-Siliguri.", where = "page 19" },
+  ]
+
+[[records.statements]]
+text = "An allocation of ₹5000 crore over 5 years per city economic region is announced, for implementing their plans through a challenge mode with a reform-cum-results based financing mechanism."
+evidence = [
+    { source_id = "union-budget-summary-2026-27", quote = "An allocation of ₹5000 crore over 5 years, per city economic regions (CER) announced, for implementing their plans through a challenge mode with a reform-cum-results based financing mechanism.", where = "page 18" },
+  ]
+
+[[records]]
+id = "union-2026-27-eastern-states-announcements"
+budget_year = "2026-27"
+level = "central"
+kind = "announcement"
+title = "Union Budget 2026-27: announcements for the Purvodaya States and the North-East"
+department = "Ministry of Finance, Government of India"
+source_ids = ["union-budget-speech-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "The Budget speech announced an East Coast Industrial Corridor with a node at Durgapur, tourism destinations and e-buses for the eastern States.", bn = "বাজেট বক্তৃতায় দুর্গাপুরে একটি কেন্দ্র সহ পূর্ব উপকূল শিল্প করিডর, পর্যটন কেন্দ্র এবং পূর্বাঞ্চলীয় রাজ্যগুলির জন্য ই-বাসের ঘোষণা করা হয়েছে।", hi = "बजट भाषण में दुर्गापुर में एक केंद्र के साथ पूर्वी तट औद्योगिक गलियारे, पर्यटन स्थलों और पूर्वी राज्यों के लिए ई-बसों की घोषणा की गई।" }
+meaning = "These are proposals in the Budget Speech for the eastern States, which include West Bengal. The speech gives no amounts or dates for them."
+
+[[records.statements]]
+text = "An integrated East Coast Industrial Corridor with a well-connected node at Durgapur is proposed, along with 5 tourism destinations in the 5 Purvodaya States and 4,000 e-buses."
+evidence = [
+    { source_id = "union-budget-speech-2026-27", quote = "Purvodaya: I propose the development of an integrated East Coast Industrial Corridor with a well-connected node at Durgapur, creation of 5 tourism destinations in the 5 Purvodaya States, and the provision of 4,000 e-buses.", where = "page 17" },
+  ]
+
+[[records]]
+id = "union-2026-27-business-announcements"
+budget_year = "2026-27"
+level = "central"
+sector = "business"
+kind = "announcement"
+title = "Union Budget 2026-27: announcements for small businesses and manufacturing"
+department = "Ministry of Micro, Small and Medium Enterprises, Government of India"
+source_ids = ["union-budget-speech-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "The Budget speech announced a fund for small and medium enterprises, more money for micro enterprises and larger outlays for some manufacturing schemes.", bn = "বাজেট বক্তৃতায় ছোট ও মাঝারি উদ্যোগের জন্য একটি তহবিল, ক্ষুদ্র উদ্যোগের জন্য আরও অর্থ এবং কিছু উৎপাদন প্রকল্পের জন্য বড় বরাদ্দের ঘোষণা করা হয়েছে।", hi = "बजट भाषण में छोटे और मध्यम उद्यमों के लिए एक कोष, सूक्ष्म उद्यमों के लिए अधिक धन और कुछ विनिर्माण योजनाओं के लिए बड़े परिव्यय की घोषणा की गई।" }
+meaning = "These are proposals in the Budget Speech. The speech does not describe how an individual business would apply."
+
+[[records.statements]]
+text = "A dedicated ₹10,000 crore SME Growth Fund is proposed to create future champions, incentivizing enterprises based on select criteria."
+evidence = [
+    { source_id = "union-budget-speech-2026-27", quote = "I propose to introduce a dedicated ₹10,000 crore SME Growth Fund, to create future Champions, incentivizing enterprises based on select criteria.", where = "page 6" },
+  ]
+
+[[records.statements]]
+text = "The Self-Reliant India Fund will be topped up with ₹2,000 crore to continue support to micro enterprises and maintain their access to risk capital."
+evidence = [
+    { source_id = "union-budget-speech-2026-27", quote = "I also propose to top up the Self-Reliant India Fund set up in 2021, with ₹2,000 crore to continue support to micro enterprises and maintain their access to risk capital.", where = "page 6" },
+  ]
+
+[[records.statements]]
+text = "The outlay of the Electronics Components Manufacturing Scheme is proposed to be increased to ₹40,000 crore."
+evidence = [
+    { source_id = "union-budget-speech-2026-27", quote = "We propose to increase the outlay to ₹40,000 crore to capitalise on the momentum.", where = "page 5" },
+  ]
+
+[[records]]
+id = "wb-2026-27-total-expenditure"
+budget_year = "2026-27"
+level = "state"
+state = "West Bengal"
+kind = "allocation"
+title = "West Bengal Budget 2026-27: total expenditure"
+department = "Finance Department, Government of West Bengal"
+source_ids = ["wb-budget-at-a-glance-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows how much the West Bengal government plans to spend in the year, next to the spending of the earlier years.", bn = "এখানে দেখানো হয়েছে পশ্চিমবঙ্গ সরকার এই বছরে মোট কত খরচ করার পরিকল্পনা করেছে এবং আগের বছরগুলিতে কত খরচ হয়েছিল।", hi = "यहाँ दिखाया गया है कि पश्चिम बंगाल सरकार इस वर्ष कुल कितना खर्च करने की योजना बना रही है और पिछले वर्षों में कितना खर्च हुआ था।" }
+meaning = "The state's Budget at a Glance gives the total expenditure planned for 2026-27 as 4,28,775.29 crore rupees, next to 3,07,216.35 crore actually spent in 2024-25 and the 2025-26 Budget and Revised Estimates. The 2026-27 figure is a Budget Estimate, a plan for the year, not money already spent."
+
+[[records.figures]]
+basis = "actual"
+year = "2024-25"
+amount = 307216.35
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Expenditure at a Glance (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget", where = "page 7" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Total Expenditure 3,07,216.35 3,74,194.09 3,46,692.19 4,28,775.29", where = "page 7" },
+  ]
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2025-26"
+amount = 374194.09
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Expenditure at a Glance (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget", where = "page 7" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Total Expenditure 3,07,216.35 3,74,194.09 3,46,692.19 4,28,775.29", where = "page 7" },
+  ]
+
+[[records.figures]]
+basis = "revised_estimate"
+year = "2025-26"
+amount = 346692.19
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Expenditure at a Glance (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget", where = "page 7" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Total Expenditure 3,07,216.35 3,74,194.09 3,46,692.19 4,28,775.29", where = "page 7" },
+  ]
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 428775.29
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Expenditure at a Glance (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget", where = "page 7" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Total Expenditure 3,07,216.35 3,74,194.09 3,46,692.19 4,28,775.29", where = "page 7" },
+  ]
+
+[[records.statements]]
+text = "The department-wise statement gives a total of 4,28,775.29 crore rupees, and a grand total of 4,38,775.29 crore rupees once Ways & Means Advances of 10,000.00 crore rupees are added."
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Total : 2,20,488.29 2,07,979.00 308.00 4,28,775.29 Ways & Means Advances : 10,000.00 ... ... 10,000.00", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Grand Total : 2,30,488.29 2,07,979.00 308.00 4,38,775.29", where = "page 31" },
+  ]
+
+[[records]]
+id = "wb-2026-27-capital-expenditure"
+budget_year = "2026-27"
+level = "state"
+state = "West Bengal"
+kind = "allocation"
+title = "West Bengal Budget 2026-27: capital expenditure"
+department = "Finance Department, Government of West Bengal"
+source_ids = ["wb-budget-at-a-glance-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows how much of the state's spending is capital expenditure, which pays for long-lasting assets and also includes repayment of loans.", bn = "এখানে দেখানো হয়েছে রাজ্যের খরচের কতটা মূলধনী খরচ, যা দীর্ঘস্থায়ী সম্পদের জন্য এবং ঋণ পরিশোধও এর মধ্যে ধরা হয়।", hi = "यहाँ दिखाया गया है कि राज्य के खर्च का कितना हिस्सा पूंजीगत व्यय है, जो टिकाऊ संपत्तियों के लिए होता है और जिसमें ऋण की अदायगी भी शामिल है।" }
+meaning = "The Budget at a Glance lists 86,306.03 crore rupees of capital expenditure for 2026-27 (a Budget Estimate). In the same document this total includes the repayment of loans, which is shown as a separate line, so it is larger than the money spent on roads, buildings and other projects alone."
+
+[[records.figures]]
+basis = "actual"
+year = "2024-25"
+amount = 53789.35
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Expenditure at a Glance (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget", where = "page 7" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Total Capital Expenditure 53,789.35 72,818.72 60,661.24 86,306.03", where = "page 7" },
+  ]
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2025-26"
+amount = 72818.72
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Expenditure at a Glance (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget", where = "page 7" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Total Capital Expenditure 53,789.35 72,818.72 60,661.24 86,306.03", where = "page 7" },
+  ]
+
+[[records.figures]]
+basis = "revised_estimate"
+year = "2025-26"
+amount = 60661.24
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Expenditure at a Glance (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget", where = "page 7" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Total Capital Expenditure 53,789.35 72,818.72 60,661.24 86,306.03", where = "page 7" },
+  ]
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 86306.03
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Expenditure at a Glance (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget", where = "page 7" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Total Capital Expenditure 53,789.35 72,818.72 60,661.24 86,306.03", where = "page 7" },
+  ]
+
+[[records.statements]]
+text = "Repayment of loans to the Central Government and others is listed inside capital expenditure, at 44,606.53 crore rupees for 2026-27."
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Expenditure at a Glance (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget", where = "page 7" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Repayment of Loans to Central Govt. and Others 31,464.66 32,732.08 33,795.10 44,606.53", where = "page 7" },
+  ]
+
+[[records]]
+id = "wb-2026-27-fiscal-deficit"
+budget_year = "2026-27"
+level = "state"
+state = "West Bengal"
+kind = "allocation"
+title = "West Bengal Budget 2026-27: fiscal deficit"
+department = "Finance Department, Government of West Bengal"
+source_ids = ["wb-budget-at-a-glance-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows how much the state needs to borrow in the year because its spending is more than its income, next to the earlier years.", bn = "এখানে দেখানো হয়েছে আয়ের চেয়ে খরচ বেশি হওয়ায় রাজ্যকে এই বছরে কত ধার নিতে হবে, আগের বছরগুলির পাশাপাশি।", hi = "यहाँ दिखाया गया है कि आय से अधिक खर्च होने के कारण राज्य को इस वर्ष कितना उधार लेना होगा, पिछले वर्षों के साथ।" }
+meaning = "The Key Indicators table of the Budget at a Glance gives a fiscal deficit of 62,421.37 crore rupees for 2026-27 (Budget Estimate), against 67,773.98 crore in the 2025-26 Revised Estimates."
+
+[[records.figures]]
+basis = "actual"
+year = "2024-25"
+amount = 61924.25
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Key Indicators (Rupees in crores) .", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget .", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "B. Fiscal Deficit 61,924.25 73,177.96 67,773.98 62,421.37", where = "page 31" },
+  ]
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2025-26"
+amount = 73177.96
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Key Indicators (Rupees in crores) .", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget .", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "B. Fiscal Deficit 61,924.25 73,177.96 67,773.98 62,421.37", where = "page 31" },
+  ]
+
+[[records.figures]]
+basis = "revised_estimate"
+year = "2025-26"
+amount = 67773.98
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Key Indicators (Rupees in crores) .", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget .", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "B. Fiscal Deficit 61,924.25 73,177.96 67,773.98 62,421.37", where = "page 31" },
+  ]
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 62421.37
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Key Indicators (Rupees in crores) .", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget .", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "B. Fiscal Deficit 61,924.25 73,177.96 67,773.98 62,421.37", where = "page 31" },
+  ]
+
+[[records]]
+id = "wb-2026-27-outstanding-debt"
+budget_year = "2026-27"
+level = "state"
+state = "West Bengal"
+kind = "allocation"
+title = "West Bengal Budget 2026-27: outstanding debt"
+department = "Finance Department, Government of West Bengal"
+source_ids = ["wb-budget-at-a-glance-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows how much debt the state owes, including provident funds, reserve funds and deposits, next to the earlier years.", bn = "এখানে দেখানো হয়েছে ভবিষ্য নিধি, সংরক্ষিত তহবিল ও জমা সহ রাজ্যের মোট দেনা কত, আগের বছরগুলির পাশাপাশি।", hi = "यहाँ दिखाया गया है कि भविष्य निधि, आरक्षित निधि और जमाओं सहित राज्य पर कुल कितना कर्ज है, पिछले वर्षों के साथ।" }
+meaning = "The Key Indicators table gives the outstanding debt, counting provident fund, reserve fund and deposits, as 8,15,891.35 crore rupees in the 2026-27 Budget Estimate. It is a balance owed at the end of the year, not spending in the year."
+
+[[records.figures]]
+basis = "actual"
+year = "2024-25"
+amount = 698996.6
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Key Indicators (Rupees in crores) .", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget .", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "D. Outstanding Debt. [including PF, Reserve Fund & Deposits] 6,98,996.60 7,71,670.40 7,62,326.61 8,15,891.35", where = "page 31" },
+  ]
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2025-26"
+amount = 771670.4
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Key Indicators (Rupees in crores) .", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget .", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "D. Outstanding Debt. [including PF, Reserve Fund & Deposits] 6,98,996.60 7,71,670.40 7,62,326.61 8,15,891.35", where = "page 31" },
+  ]
+
+[[records.figures]]
+basis = "revised_estimate"
+year = "2025-26"
+amount = 762326.61
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Key Indicators (Rupees in crores) .", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget .", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "D. Outstanding Debt. [including PF, Reserve Fund & Deposits] 6,98,996.60 7,71,670.40 7,62,326.61 8,15,891.35", where = "page 31" },
+  ]
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 815891.35
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Key Indicators (Rupees in crores) .", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget .", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "D. Outstanding Debt. [including PF, Reserve Fund & Deposits] 6,98,996.60 7,71,670.40 7,62,326.61 8,15,891.35", where = "page 31" },
+  ]
+
+[[records]]
+id = "wb-2026-27-state-tax-revenue"
+budget_year = "2026-27"
+level = "state"
+state = "West Bengal"
+kind = "tax"
+title = "West Bengal Budget 2026-27: the state's own tax revenue"
+department = "Finance Department, Government of West Bengal"
+source_ids = ["wb-budget-at-a-glance-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows how much the state expects to collect in its own taxes, such as state GST, excise, sales tax and stamp duty.", bn = "এখানে দেখানো হয়েছে রাজ্য নিজস্ব করে, যেমন রাজ্য জিএসটি, আবগারি, বিক্রয় কর ও স্ট্যাম্প শুল্কে কত আদায়ের আশা করছে।", hi = "यहाँ दिखाया गया है कि राज्य अपने करों, जैसे राज्य जीएसटी, आबकारी, बिक्री कर और स्टांप शुल्क से कितनी वसूली की उम्मीद करता है।" }
+meaning = "The Budget at a Glance expects State Tax Revenue of 1,30,669.68 crore rupees in 2026-27 (Budget Estimate). The largest line is State Goods and Services Tax at 61,535.00 crore rupees. This is money the state expects to collect, not a benefit paid to anyone."
+
+[[records.figures]]
+basis = "actual"
+year = "2024-25"
+amount = 97993.56
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "(Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget REVENUE RECEIPTS", where = "page 5" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "State Tax Revenue 97,993.56 1,12,543.80 1,11,737.13 1,30,669.68", where = "page 5" },
+  ]
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2025-26"
+amount = 112543.8
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "(Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget REVENUE RECEIPTS", where = "page 5" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "State Tax Revenue 97,993.56 1,12,543.80 1,11,737.13 1,30,669.68", where = "page 5" },
+  ]
+
+[[records.figures]]
+basis = "revised_estimate"
+year = "2025-26"
+amount = 111737.13
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "(Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget REVENUE RECEIPTS", where = "page 5" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "State Tax Revenue 97,993.56 1,12,543.80 1,11,737.13 1,30,669.68", where = "page 5" },
+  ]
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 130669.68
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "(Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget REVENUE RECEIPTS", where = "page 5" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "State Tax Revenue 97,993.56 1,12,543.80 1,11,737.13 1,30,669.68", where = "page 5" },
+  ]
+
+[[records.statements]]
+text = "State Goods and Services Tax is the largest of the state's own taxes in the 2026-27 Budget, at 61,535.00 crore rupees."
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "TABLE - 4 Rupees in Crore State Tax Revenue Budget 2026-2027 State Goods and Services Tax (SGST) 61,535.00", where = "page 11" },
+  ]
+
+[[records]]
+id = "wb-2026-27-central-grants-in-aid"
+budget_year = "2026-27"
+level = "state"
+state = "West Bengal"
+kind = "allocation"
+title = "West Bengal Budget 2026-27: grants-in-aid expected from the Central Government"
+department = "Finance Department, Government of West Bengal"
+source_ids = ["wb-budget-at-a-glance-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows how much money the state expects to receive from the Central Government as grants, next to the earlier years.", bn = "এখানে দেখানো হয়েছে রাজ্য কেন্দ্রীয় সরকারের কাছ থেকে অনুদান হিসেবে কত টাকা পাওয়ার আশা করছে, আগের বছরগুলির পাশাপাশি।", hi = "यहाँ दिखाया गया है कि राज्य को केंद्र सरकार से अनुदान के रूप में कितना धन मिलने की उम्मीद है, पिछले वर्षों के साथ।" }
+meaning = "This is a receipt of the state, not spending. The Budget at a Glance lists Grants-in-aid from the Central Government of 71,393.19 crore rupees in the 2026-27 Budget Estimate, against 22,068.85 crore in the 2025-26 Revised Estimates."
+
+[[records.figures]]
+basis = "actual"
+year = "2024-25"
+amount = 15205.17
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "(Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget REVENUE RECEIPTS", where = "page 5" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Grants-in-aid from Central Govt. 15,205.17 37,157.57 22,068.85 71,393.19", where = "page 5" },
+  ]
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2025-26"
+amount = 37157.57
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "(Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget REVENUE RECEIPTS", where = "page 5" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Grants-in-aid from Central Govt. 15,205.17 37,157.57 22,068.85 71,393.19", where = "page 5" },
+  ]
+
+[[records.figures]]
+basis = "revised_estimate"
+year = "2025-26"
+amount = 22068.85
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "(Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget REVENUE RECEIPTS", where = "page 5" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Grants-in-aid from Central Govt. 15,205.17 37,157.57 22,068.85 71,393.19", where = "page 5" },
+  ]
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 71393.19
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "(Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget REVENUE RECEIPTS", where = "page 5" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Grants-in-aid from Central Govt. 15,205.17 37,157.57 22,068.85 71,393.19", where = "page 5" },
+  ]
+
+[[records]]
+id = "wb-2026-27-education-outlay"
+budget_year = "2026-27"
+level = "state"
+state = "West Bengal"
+sector = "education"
+kind = "allocation"
+title = "West Bengal Budget 2026-27: outlay on education, sports, art and culture"
+department = "Finance Department, Government of West Bengal"
+source_ids = ["wb-budget-at-a-glance-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows how much the state plans to spend on education, sports, art and culture in the year.", bn = "এখানে দেখানো হয়েছে রাজ্য এই বছরে শিক্ষা, ক্রীড়া, শিল্প ও সংস্কৃতিতে কত খরচ করার পরিকল্পনা করেছে।", hi = "यहाँ दिखाया गया है कि राज्य इस वर्ष शिक्षा, खेल, कला और संस्कृति पर कितना खर्च करने की योजना बना रहा है।" }
+meaning = "The Budget at a Glance gives an outlay of 54,798.30 crore rupees for Education, Sports, Art and Culture in 2026-27 (Budget Estimate), against 36,262.29 crore in the 2025-26 Revised Estimates. It covers school, higher and technical education together with sports, art and culture."
+
+[[records.figures]]
+basis = "actual"
+year = "2024-25"
+amount = 40835.14
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "9. Education, Sports, Art and Culture 40,835.14 50,559.16 36,262.29 54,798.30", where = "page 21" },
+  ]
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2025-26"
+amount = 50559.16
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "9. Education, Sports, Art and Culture 40,835.14 50,559.16 36,262.29 54,798.30", where = "page 21" },
+  ]
+
+[[records.figures]]
+basis = "revised_estimate"
+year = "2025-26"
+amount = 36262.29
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "9. Education, Sports, Art and Culture 40,835.14 50,559.16 36,262.29 54,798.30", where = "page 21" },
+  ]
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 54798.3
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "9. Education, Sports, Art and Culture 40,835.14 50,559.16 36,262.29 54,798.30", where = "page 21" },
+  ]
+
+[[records]]
+id = "wb-2026-27-health-outlay"
+budget_year = "2026-27"
+level = "state"
+state = "West Bengal"
+sector = "health"
+kind = "allocation"
+title = "West Bengal Budget 2026-27: outlay on health and family welfare"
+department = "Finance Department, Government of West Bengal"
+source_ids = ["wb-budget-at-a-glance-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows how much the state plans to spend on health and family welfare in the year.", bn = "এখানে দেখানো হয়েছে রাজ্য এই বছরে স্বাস্থ্য ও পরিবার কল্যাণে কত খরচ করার পরিকল্পনা করেছে।", hi = "यहाँ दिखाया गया है कि राज्य इस वर्ष स्वास्थ्य और परिवार कल्याण पर कितना खर्च करने की योजना बना रहा है।" }
+meaning = "The Budget at a Glance gives an outlay of 25,530.12 crore rupees for Health and Family Welfare in 2026-27 (Budget Estimate), against 20,834.96 crore in the 2025-26 Revised Estimates."
+
+[[records.figures]]
+basis = "actual"
+year = "2024-25"
+amount = 19042.11
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "10. Health and Family Welfare 19,042.11 21,938.52 20,834.96 25,530.12", where = "page 21" },
+  ]
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2025-26"
+amount = 21938.52
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "10. Health and Family Welfare 19,042.11 21,938.52 20,834.96 25,530.12", where = "page 21" },
+  ]
+
+[[records.figures]]
+basis = "revised_estimate"
+year = "2025-26"
+amount = 20834.96
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "10. Health and Family Welfare 19,042.11 21,938.52 20,834.96 25,530.12", where = "page 21" },
+  ]
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 25530.12
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "10. Health and Family Welfare 19,042.11 21,938.52 20,834.96 25,530.12", where = "page 21" },
+  ]
+
+[[records]]
+id = "wb-2026-27-agriculture-outlay"
+budget_year = "2026-27"
+level = "state"
+state = "West Bengal"
+sector = "agriculture"
+kind = "allocation"
+title = "West Bengal Budget 2026-27: outlay on agriculture and allied activities"
+department = "Finance Department, Government of West Bengal"
+source_ids = ["wb-budget-at-a-glance-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows how much the state plans to spend on agriculture and allied activities in the year.", bn = "এখানে দেখানো হয়েছে রাজ্য এই বছরে কৃষি ও সহযোগী কাজে কত খরচ করার পরিকল্পনা করেছে।", hi = "यहाँ दिखाया गया है कि राज्य इस वर्ष कृषि और संबद्ध गतिविधियों पर कितना खर्च करने की योजना बना रहा है।" }
+meaning = "The Budget at a Glance gives an outlay of 19,900.22 crore rupees for Agriculture and Allied Activities in 2026-27 (Budget Estimate), against 19,823.35 crore in the 2025-26 Revised Estimates and 23,283.13 crore in the 2025-26 Budget Estimates. Rural development is listed as a separate sector."
+
+[[records.figures]]
+basis = "actual"
+year = "2024-25"
+amount = 18443.78
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "1. Agriculture and Allied Activities 18,443.78 23,283.13 19,823.35 19,900.22", where = "page 21" },
+  ]
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2025-26"
+amount = 23283.13
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "1. Agriculture and Allied Activities 18,443.78 23,283.13 19,823.35 19,900.22", where = "page 21" },
+  ]
+
+[[records.figures]]
+basis = "revised_estimate"
+year = "2025-26"
+amount = 19823.35
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "1. Agriculture and Allied Activities 18,443.78 23,283.13 19,823.35 19,900.22", where = "page 21" },
+  ]
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 19900.22
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "1. Agriculture and Allied Activities 18,443.78 23,283.13 19,823.35 19,900.22", where = "page 21" },
+  ]
+
+[[records]]
+id = "wb-2026-27-rural-development-outlay"
+budget_year = "2026-27"
+level = "state"
+state = "West Bengal"
+sector = "agriculture"
+kind = "allocation"
+title = "West Bengal Budget 2026-27: outlay on rural development"
+department = "Finance Department, Government of West Bengal"
+source_ids = ["wb-budget-at-a-glance-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows how much the state plans to spend on rural development in the year, which is listed apart from farming.", bn = "এখানে দেখানো হয়েছে রাজ্য এই বছরে গ্রামোন্নয়নে কত খরচ করার পরিকল্পনা করেছে, যা কৃষি থেকে আলাদা ভাবে দেখানো হয়।", hi = "यहाँ दिखाया गया है कि राज्य इस वर्ष ग्रामीण विकास पर कितना खर्च करने की योजना बना रहा है, जिसे खेती से अलग दिखाया जाता है।" }
+meaning = "The Budget at a Glance gives an outlay of 24,554.54 crore rupees for Rural Development in 2026-27 (Budget Estimate), against 10,599.67 crore in the 2025-26 Revised Estimates."
+
+[[records.figures]]
+basis = "actual"
+year = "2024-25"
+amount = 10737.54
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "2. Rural Development 10,737.54 14,227.46 10,599.67 24,554.54", where = "page 21" },
+  ]
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2025-26"
+amount = 14227.46
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "2. Rural Development 10,737.54 14,227.46 10,599.67 24,554.54", where = "page 21" },
+  ]
+
+[[records.figures]]
+basis = "revised_estimate"
+year = "2025-26"
+amount = 10599.67
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "2. Rural Development 10,737.54 14,227.46 10,599.67 24,554.54", where = "page 21" },
+  ]
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 24554.54
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "2. Rural Development 10,737.54 14,227.46 10,599.67 24,554.54", where = "page 21" },
+  ]
+
+[[records]]
+id = "wb-2026-27-transport-outlay"
+budget_year = "2026-27"
+level = "state"
+state = "West Bengal"
+sector = "transport"
+kind = "allocation"
+title = "West Bengal Budget 2026-27: outlay on transport"
+department = "Finance Department, Government of West Bengal"
+source_ids = ["wb-budget-at-a-glance-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows how much the state plans to spend on transport, such as roads and bridges, in the year.", bn = "এখানে দেখানো হয়েছে রাজ্য এই বছরে সড়ক ও সেতুর মতো পরিবহনে কত খরচ করার পরিকল্পনা করেছে।", hi = "यहाँ दिखाया गया है कि राज्य इस वर्ष सड़क और पुल जैसे परिवहन पर कितना खर्च करने की योजना बना रहा है।" }
+meaning = "The Budget at a Glance gives an outlay of 15,887.16 crore rupees for Transport in 2026-27 (Budget Estimate), against 13,460.36 crore in the 2025-26 Revised Estimates. The document does not list the projects."
+
+[[records.figures]]
+basis = "actual"
+year = "2024-25"
+amount = 6557.77
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "7. Transport 6,557.77 9,287.24 13,460.36 15,887.16", where = "page 21" },
+  ]
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2025-26"
+amount = 9287.24
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "7. Transport 6,557.77 9,287.24 13,460.36 15,887.16", where = "page 21" },
+  ]
+
+[[records.figures]]
+basis = "revised_estimate"
+year = "2025-26"
+amount = 13460.36
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "7. Transport 6,557.77 9,287.24 13,460.36 15,887.16", where = "page 21" },
+  ]
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 15887.16
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "7. Transport 6,557.77 9,287.24 13,460.36 15,887.16", where = "page 21" },
+  ]
+
+[[records]]
+id = "wb-2026-27-water-housing-urban-outlay"
+budget_year = "2026-27"
+level = "state"
+state = "West Bengal"
+sector = "housing"
+kind = "allocation"
+title = "West Bengal Budget 2026-27: outlay on water supply, sanitation, housing and urban development"
+department = "Finance Department, Government of West Bengal"
+source_ids = ["wb-budget-at-a-glance-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows how much the state plans to spend on drinking water, sanitation, housing and urban development in the year.", bn = "এখানে দেখানো হয়েছে রাজ্য এই বছরে পানীয় জল, স্যানিটেশন, আবাসন ও নগরোন্নয়নে কত খরচ করার পরিকল্পনা করেছে।", hi = "यहाँ दिखाया गया है कि राज्य इस वर्ष पेयजल, स्वच्छता, आवास और शहरी विकास पर कितना खर्च करने की योजना बना रहा है।" }
+meaning = "The Budget at a Glance gives an outlay of 40,992.11 crore rupees for Water Supply, Sanitation, Housing and Urban Development in 2026-27 (Budget Estimate), against 38,416.87 crore in the 2025-26 Revised Estimates and 48,720.01 crore in the 2025-26 Budget Estimates."
+
+[[records.figures]]
+basis = "actual"
+year = "2024-25"
+amount = 22686.2
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "11. Water Supply, Sanitation, Housing and Urban Development 22,686.20 48,720.01 38,416.87 40,992.11", where = "page 21" },
+  ]
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2025-26"
+amount = 48720.01
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "11. Water Supply, Sanitation, Housing and Urban Development 22,686.20 48,720.01 38,416.87 40,992.11", where = "page 21" },
+  ]
+
+[[records.figures]]
+basis = "revised_estimate"
+year = "2025-26"
+amount = 38416.87
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "11. Water Supply, Sanitation, Housing and Urban Development 22,686.20 48,720.01 38,416.87 40,992.11", where = "page 21" },
+  ]
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 40992.11
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "11. Water Supply, Sanitation, Housing and Urban Development 22,686.20 48,720.01 38,416.87 40,992.11", where = "page 21" },
+  ]
+
+[[records]]
+id = "wb-2026-27-social-welfare-nutrition-outlay"
+budget_year = "2026-27"
+level = "state"
+state = "West Bengal"
+sector = "social-welfare"
+kind = "allocation"
+title = "West Bengal Budget 2026-27: outlay on social welfare and nutrition"
+department = "Finance Department, Government of West Bengal"
+source_ids = ["wb-budget-at-a-glance-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows how much the state plans to spend on social welfare and nutrition in the year.", bn = "এখানে দেখানো হয়েছে রাজ্য এই বছরে সমাজ কল্যাণ ও পুষ্টিতে কত খরচ করার পরিকল্পনা করেছে।", hi = "यहाँ दिखाया गया है कि राज्य इस वर्ष सामाजिक कल्याण और पोषण पर कितना खर्च करने की योजना बना रहा है।" }
+meaning = "The Budget at a Glance gives an outlay of 63,894.03 crore rupees for Social Welfare and Nutrition in 2026-27 (Budget Estimate), against 53,695.90 crore in the 2025-26 Revised Estimates. It is the largest of the named sectors in that table."
+
+[[records.figures]]
+basis = "actual"
+year = "2024-25"
+amount = 45653.03
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "13. Social Welfare and Nutrition 45,653.03 47,233.87 53,695.90 63,894.03", where = "page 21" },
+  ]
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2025-26"
+amount = 47233.87
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "13. Social Welfare and Nutrition 45,653.03 47,233.87 53,695.90 63,894.03", where = "page 21" },
+  ]
+
+[[records.figures]]
+basis = "revised_estimate"
+year = "2025-26"
+amount = 53695.9
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "13. Social Welfare and Nutrition 45,653.03 47,233.87 53,695.90 63,894.03", where = "page 21" },
+  ]
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 63894.03
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "13. Social Welfare and Nutrition 45,653.03 47,233.87 53,695.90 63,894.03", where = "page 21" },
+  ]
+
+[[records]]
+id = "wb-2026-27-sc-st-obc-welfare-outlay"
+budget_year = "2026-27"
+level = "state"
+state = "West Bengal"
+sector = "social-welfare"
+kind = "allocation"
+title = "West Bengal Budget 2026-27: outlay on welfare of Scheduled Castes, Scheduled Tribes and Other Backward Classes"
+department = "Finance Department, Government of West Bengal"
+source_ids = ["wb-budget-at-a-glance-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows how much the state plans to spend on the welfare of Scheduled Castes, Scheduled Tribes and Other Backward Classes in the year.", bn = "এখানে দেখানো হয়েছে রাজ্য এই বছরে তফসিলি জাতি, তফসিলি উপজাতি ও অন্যান্য পশ্চাৎপদ শ্রেণির কল্যাণে কত খরচ করার পরিকল্পনা করেছে।", hi = "यहाँ दिखाया गया है कि राज्य इस वर्ष अनुसूचित जाति, अनुसूचित जनजाति और अन्य पिछड़ा वर्ग के कल्याण पर कितना खर्च करने की योजना बना रहा है।" }
+meaning = "The Budget at a Glance gives an outlay of 3,744.17 crore rupees for the Welfare of Scheduled Castes, Scheduled Tribes and Other Backward Classes in 2026-27 (Budget Estimate). This is lower than the 4,629.51 crore of the 2025-26 Revised Estimates and the 8,218.21 crore of the 2025-26 Budget Estimates. The document does not say why."
+
+[[records.figures]]
+basis = "actual"
+year = "2024-25"
+amount = 5417.65
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "12. Welfare of Scheduled Castes, Scheduled Tribes and Other Backward Classes 5,417.65 8,218.21 4,629.51 3,744.17", where = "page 21" },
+  ]
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2025-26"
+amount = 8218.21
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "12. Welfare of Scheduled Castes, Scheduled Tribes and Other Backward Classes 5,417.65 8,218.21 4,629.51 3,744.17", where = "page 21" },
+  ]
+
+[[records.figures]]
+basis = "revised_estimate"
+year = "2025-26"
+amount = 4629.51
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "12. Welfare of Scheduled Castes, Scheduled Tribes and Other Backward Classes 5,417.65 8,218.21 4,629.51 3,744.17", where = "page 21" },
+  ]
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 3744.17
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "12. Welfare of Scheduled Castes, Scheduled Tribes and Other Backward Classes 5,417.65 8,218.21 4,629.51 3,744.17", where = "page 21" },
+  ]
+
+[[records]]
+id = "wb-2026-27-industry-minerals-outlay"
+budget_year = "2026-27"
+level = "state"
+state = "West Bengal"
+sector = "business"
+kind = "allocation"
+title = "West Bengal Budget 2026-27: outlay on industry and minerals"
+department = "Finance Department, Government of West Bengal"
+source_ids = ["wb-budget-at-a-glance-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows how much the state plans to spend on industry and minerals in the year.", bn = "এখানে দেখানো হয়েছে রাজ্য এই বছরে শিল্প ও খনিজে কত খরচ করার পরিকল্পনা করেছে।", hi = "यहाँ दिखाया गया है कि राज्य इस वर्ष उद्योग और खनिज पर कितना खर्च करने की योजना बना रहा है।" }
+meaning = "The Budget at a Glance gives an outlay of 5,303.75 crore rupees for Industry and Minerals in 2026-27 (Budget Estimate), against 1,095.42 crore in the 2025-26 Revised Estimates."
+
+[[records.figures]]
+basis = "actual"
+year = "2024-25"
+amount = 664.52
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "6. Industry and Minerals 664.52 2,693.60 1,095.42 5,303.75", where = "page 21" },
+  ]
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2025-26"
+amount = 2693.6
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "6. Industry and Minerals 664.52 2,693.60 1,095.42 5,303.75", where = "page 21" },
+  ]
+
+[[records.figures]]
+basis = "revised_estimate"
+year = "2025-26"
+amount = 1095.42
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "6. Industry and Minerals 664.52 2,693.60 1,095.42 5,303.75", where = "page 21" },
+  ]
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 5303.75
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - VI Outlays for Sectors/Heads of Development (Rupees in crores) 2024-2025 Actuals 2025-2026 Budget 2025-2026 Revised 2026-2027 Budget Sectors/Heads", where = "page 21" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "6. Industry and Minerals 664.52 2,693.60 1,095.42 5,303.75", where = "page 21" },
+  ]
+
+[[records]]
+id = "wb-2026-27-dept-school-education"
+budget_year = "2026-27"
+level = "state"
+state = "West Bengal"
+sector = "education"
+kind = "allocation"
+title = "West Bengal Budget 2026-27: School Education department"
+department = "Finance Department, Government of West Bengal"
+source_ids = ["wb-budget-at-a-glance-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows the budget of the School Education department of the state for the year.", bn = "এখানে রাজ্যের স্কুল শিক্ষা দপ্তরের এই বছরের বাজেট দেখানো হয়েছে।", hi = "यहाँ राज्य के स्कूल शिक्षा विभाग का इस वर्ष का बजट दिखाया गया है।" }
+meaning = "The department-wise statement gives the School Education department a Total Budget of 44,948.21 crore rupees for 2026-27, of which 32,297.21 crore is administrative expenditure and 12,651.00 crore is for state development schemes. The statement is headed Budget Estimate (net)."
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 44948.21
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - XI Department Wise Budget Estimate 2026-27 (NET)", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Sl. No Demand / Serial Name of the Department Administrative Expenditure State Development Schemes # Central Sector Schemes Total Budget", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "47. 15 School Education 32,297.21 12,651.00 ... 44,948.21", where = "page 31" },
+  ]
+
+[[records]]
+id = "wb-2026-27-dept-higher-education"
+budget_year = "2026-27"
+level = "state"
+state = "West Bengal"
+sector = "education"
+kind = "allocation"
+title = "West Bengal Budget 2026-27: Higher Education department"
+department = "Finance Department, Government of West Bengal"
+source_ids = ["wb-budget-at-a-glance-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows the budget of the Higher Education department of the state for the year.", bn = "এখানে রাজ্যের উচ্চশিক্ষা দপ্তরের এই বছরের বাজেট দেখানো হয়েছে।", hi = "यहाँ राज्य के उच्च शिक्षा विभाग का इस वर्ष का बजट दिखाया गया है।" }
+meaning = "The department-wise statement gives the Higher Education department a Total Budget of 7,168.60 crore rupees for 2026-27 (Budget Estimate, net)."
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 7168.6
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - XI Department Wise Budget Estimate 2026-27 (NET)", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Sl. No Demand / Serial Name of the Department Administrative Expenditure State Development Schemes # Central Sector Schemes Total Budget", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "20. 70 Higher Education 5,590.60 1,578.00 ... 7,168.60", where = "page 31" },
+  ]
+
+[[records]]
+id = "wb-2026-27-dept-health-family-welfare"
+budget_year = "2026-27"
+level = "state"
+state = "West Bengal"
+sector = "health"
+kind = "allocation"
+title = "West Bengal Budget 2026-27: Health & Family Welfare department"
+department = "Finance Department, Government of West Bengal"
+source_ids = ["wb-budget-at-a-glance-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows the budget of the Health and Family Welfare department of the state for the year.", bn = "এখানে রাজ্যের স্বাস্থ্য ও পরিবার কল্যাণ দপ্তরের এই বছরের বাজেট দেখানো হয়েছে।", hi = "यहाँ राज्य के स्वास्थ्य और परिवार कल्याण विभाग का इस वर्ष का बजट दिखाया गया है।" }
+meaning = "The department-wise statement gives the Health & Family Welfare department a Total Budget of 24,753.72 crore rupees for 2026-27 (Budget Estimate, net)."
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 24753.72
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - XI Department Wise Budget Estimate 2026-27 (NET)", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Sl. No Demand / Serial Name of the Department Administrative Expenditure State Development Schemes # Central Sector Schemes Total Budget", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "19. 24 Health & Family Welfare 10,961.72 13,792.00 ... 24,753.72", where = "page 31" },
+  ]
+
+[[records]]
+id = "wb-2026-27-dept-agriculture"
+budget_year = "2026-27"
+level = "state"
+state = "West Bengal"
+sector = "agriculture"
+kind = "allocation"
+title = "West Bengal Budget 2026-27: Agriculture department"
+department = "Finance Department, Government of West Bengal"
+source_ids = ["wb-budget-at-a-glance-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows the budget of the Agriculture department of the state for the year.", bn = "এখানে রাজ্যের কৃষি দপ্তরের এই বছরের বাজেট দেখানো হয়েছে।", hi = "यहाँ राज्य के कृषि विभाग का इस वर्ष का बजट दिखाया गया है।" }
+meaning = "The department-wise statement gives the Agriculture department a Total Budget of 8,565.84 crore rupees for 2026-27 (Budget Estimate, net), of which 7,797.00 crore is for state development schemes."
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 8565.84
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - XI Department Wise Budget Estimate 2026-27 (NET)", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Sl. No Demand / Serial Name of the Department Administrative Expenditure State Development Schemes # Central Sector Schemes Total Budget", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "2. 05 Agriculture 768.84 7,797.00 ... 8,565.84", where = "page 31" },
+  ]
+
+[[records]]
+id = "wb-2026-27-dept-panchayats-rural-development"
+budget_year = "2026-27"
+level = "state"
+state = "West Bengal"
+kind = "allocation"
+title = "West Bengal Budget 2026-27: Panchayats & Rural Development department"
+department = "Finance Department, Government of West Bengal"
+source_ids = ["wb-budget-at-a-glance-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows the budget of the Panchayats and Rural Development department of the state for the year.", bn = "এখানে রাজ্যের পঞ্চায়েত ও গ্রামোন্নয়ন দপ্তরের এই বছরের বাজেট দেখানো হয়েছে।", hi = "यहाँ राज्य के पंचायत और ग्रामीण विकास विभाग का इस वर्ष का बजट दिखाया गया है।" }
+meaning = "The department-wise statement gives the Panchayats & Rural Development department a Total Budget of 51,836.55 crore rupees for 2026-27 (Budget Estimate, net), of which 49,456.00 crore is for state development schemes."
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 51836.55
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - XI Department Wise Budget Estimate 2026-27 (NET)", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Sl. No Demand / Serial Name of the Department Administrative Expenditure State Development Schemes # Central Sector Schemes Total Budget", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "37. 40 Panchayats & Rural Development 2,378.55 49,456.00 2.00 51,836.55", where = "page 31" },
+  ]
+
+[[records]]
+id = "wb-2026-27-dept-women-child-social-welfare"
+budget_year = "2026-27"
+level = "state"
+state = "West Bengal"
+sector = "women-child"
+kind = "allocation"
+title = "West Bengal Budget 2026-27: Women & Child Development and Social Welfare department"
+department = "Finance Department, Government of West Bengal"
+source_ids = ["wb-budget-at-a-glance-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows the budget of the Women and Child Development and Social Welfare department of the state for the year.", bn = "এখানে রাজ্যের নারী ও শিশু উন্নয়ন এবং সমাজ কল্যাণ দপ্তরের এই বছরের বাজেট দেখানো হয়েছে।", hi = "यहाँ राज्य के महिला एवं बाल विकास और सामाजिक कल्याण विभाग का इस वर्ष का बजट दिखाया गया है।" }
+meaning = "The department-wise statement gives the Women & Child Development and Social Welfare department a Total Budget of 52,308.50 crore rupees for 2026-27 (Budget Estimate, net), of which 51,757.00 crore is for state development schemes."
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 52308.5
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - XI Department Wise Budget Estimate 2026-27 (NET)", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Sl. No Demand / Serial Name of the Department Administrative Expenditure State Development Schemes # Central Sector Schemes Total Budget", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "57. 74 Women & Child Development and Social Welfare 551.50 51,757.00 ... 52,308.50", where = "page 31" },
+  ]
+
+[[records]]
+id = "wb-2026-27-dept-public-health-engineering"
+budget_year = "2026-27"
+level = "state"
+state = "West Bengal"
+sector = "public-services"
+kind = "allocation"
+title = "West Bengal Budget 2026-27: Public Health Engineering department"
+department = "Finance Department, Government of West Bengal"
+source_ids = ["wb-budget-at-a-glance-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows the budget of the Public Health Engineering department of the state for the year.", bn = "এখানে রাজ্যের জনস্বাস্থ্য কারিগরি দপ্তরের এই বছরের বাজেট দেখানো হয়েছে।", hi = "यहाँ राज्य के जन स्वास्थ्य अभियांत्रिकी विभाग का इस वर्ष का बजट दिखाया गया है।" }
+meaning = "The department-wise statement gives the Public Health Engineering department a Total Budget of 12,935.33 crore rupees for 2026-27 (Budget Estimate, net). The statement does not list the schemes behind it."
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 12935.33
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - XI Department Wise Budget Estimate 2026-27 (NET)", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Sl. No Demand / Serial Name of the Department Administrative Expenditure State Development Schemes # Central Sector Schemes Total Budget", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "45. 45 Public Health Engineering 1,735.33 11,200.00 ... 12,935.33", where = "page 31" },
+  ]
+
+[[records]]
+id = "wb-2026-27-dept-urban-development"
+budget_year = "2026-27"
+level = "state"
+state = "West Bengal"
+sector = "housing"
+kind = "allocation"
+title = "West Bengal Budget 2026-27: Urban Development and Municipal Affairs department"
+department = "Finance Department, Government of West Bengal"
+source_ids = ["wb-budget-at-a-glance-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows the budget of the Urban Development and Municipal Affairs department of the state for the year.", bn = "এখানে রাজ্যের নগরোন্নয়ন ও পুর বিষয়ক দপ্তরের এই বছরের বাজেট দেখানো হয়েছে।", hi = "यहाँ राज्य के शहरी विकास और नगरपालिका मामलों के विभाग का इस वर्ष का बजट दिखाया गया है।" }
+meaning = "The department-wise statement gives the Urban Development and Municipal Affairs department a Total Budget of 14,609.77 crore rupees for 2026-27 (Budget Estimate, net)."
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 14609.77
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - XI Department Wise Budget Estimate 2026-27 (NET)", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Sl. No Demand / Serial Name of the Department Administrative Expenditure State Development Schemes # Central Sector Schemes Total Budget", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "55. 72 Urban Development and Municipal Affairs 3,324.77 11,285.00 ... 14,609.77", where = "page 31" },
+  ]
+
+[[records]]
+id = "wb-2026-27-dept-transport"
+budget_year = "2026-27"
+level = "state"
+state = "West Bengal"
+sector = "transport"
+kind = "allocation"
+title = "West Bengal Budget 2026-27: Transport department"
+department = "Finance Department, Government of West Bengal"
+source_ids = ["wb-budget-at-a-glance-2026-27"]
+last_verified = 2026-10-31
+summary = { en = "This shows the budget of the Transport department of the state for the year.", bn = "এখানে রাজ্যের পরিবহন দপ্তরের এই বছরের বাজেট দেখানো হয়েছে।", hi = "यहाँ राज्य के परिवहन विभाग का इस वर्ष का बजट दिखाया गया है।" }
+meaning = "The department-wise statement gives the Transport department a Total Budget of 2,697.42 crore rupees for 2026-27 (Budget Estimate, net). Roads and bridges are in the Public Works department, which is listed separately."
+
+[[records.figures]]
+basis = "budget_estimate"
+year = "2026-27"
+amount = 2697.42
+unit = "crore"
+evidence = [
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Statement - XI Department Wise Budget Estimate 2026-27 (NET)", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "Sl. No Demand / Serial Name of the Department Administrative Expenditure State Development Schemes # Central Sector Schemes Total Budget", where = "page 31" },
+    { source_id = "wb-budget-at-a-glance-2026-27", quote = "53. 53 Transport 1,468.42 1,229.00 ... 2,697.42", where = "page 31" },
+  ]
+
+[[records]]
+id = "wb-2026-27-interim-women-child"
+budget_year = "2026-27"
+level = "state"
+state = "West Bengal"
+sector = "women-child"
+kind = "announcement"
+title = "West Bengal interim budget speech (February 2026): women and child development"
+department = "Finance Department, Government of West Bengal"
+source_ids = ["wb-budget-speech-2026-27-interim"]
+last_verified = 2026-10-31
+summary = { en = "The interim budget speech proposed more money for women under Lakshmir Bhandar and higher pay for anganwadi workers.", bn = "অন্তর্বর্তী বাজেট বক্তৃতায় লক্ষ্মীর ভান্ডারে মহিলাদের জন্য বেশি অর্থ এবং অঙ্গনওয়াড়ি কর্মীদের জন্য বেশি সম্মানভাতার প্রস্তাব করা হয়েছিল।", hi = "अंतरिम बजट भाषण में लक्ष्मीर भंडार के तहत महिलाओं के लिए अधिक राशि और आंगनवाड़ी कार्यकर्ताओं के लिए अधिक मानदेय का प्रस्ताव किया गया था।" }
+meaning = "The speech proposed that every woman covered by Lakshmir Bhandar would get an extra 500 rupees a month, and that the monthly honorarium of anganwadi workers and helpers would go up by 1,000 rupees. This comes from the interim budget speech, which asked the Assembly to approve spending for the first months of the year only. The full budget was presented later, and its speech could not be read by our tool, so a proposal here may have been changed or dropped. Check with the department before relying on it."
+
+[[records.statements]]
+text = "The interim speech proposed that all women covered by the Lakshmir Bhandar scheme would be entitled to an additional Rs. 500 per month from February 2026."
+evidence = [
+    { source_id = "wb-budget-speech-2026-27-interim", quote = "I am happy to propose that all women covered under this Scheme will be entitled to an additional amount of Rs. 500 per month from February, 2026 onwards.", where = "page 179" },
+  ]
+
+[[records.statements]]
+text = "The interim speech proposed an additional annual allocation of Rs. 15,000 crore for this in 2026-27."
+evidence = [
+    { source_id = "wb-budget-speech-2026-27-interim", quote = "For this, I propose an additional annual allocation of Rs. 15,000 crore in the next Financial Year 2026-27.", where = "page 179" },
+  ]
+
+[[records.statements]]
+text = "The interim speech announced that the monthly honorarium of Anganwadi Workers and Anganwadi Sahayaks would increase by Rs. 1,000 from April 2026."
+evidence = [
+    { source_id = "wb-budget-speech-2026-27-interim", quote = "I am happy to announce that the monthly honorarium of the Anganwari Workers and Anganwari Sahayaks will be increased by Rs. 1,000 from April, 2026 onwards.", where = "page 175" },
+  ]
+
+[[records.statements]]
+text = "Rs. 250 crore was proposed for the Anganwadi honorarium increase in the budget of 2026-27."
+evidence = [
+    { source_id = "wb-budget-speech-2026-27-interim", quote = "I propose an allocation of Rs. 250 crore in the Budget of the next Financial Year 2026-27.", where = "page 175" },
+  ]
+
+[[records]]
+id = "wb-2026-27-interim-employment"
+budget_year = "2026-27"
+level = "state"
+state = "West Bengal"
+sector = "employment"
+kind = "announcement"
+title = "West Bengal interim budget speech (February 2026): jobs and work"
+department = "Finance Department, Government of West Bengal"
+source_ids = ["wb-budget-speech-2026-27-interim"]
+last_verified = 2026-10-31
+summary = { en = "The interim budget speech proposed a monthly allowance for unemployed youth and money for the hundred-day work scheme.", bn = "অন্তর্বর্তী বাজেট বক্তৃতায় বেকার যুবকদের জন্য মাসিক ভাতা এবং একশো দিনের কাজের প্রকল্পের জন্য অর্থের প্রস্তাব করা হয়েছিল।", hi = "अंतरिम बजट भाषण में बेरोजगार युवाओं के लिए मासिक भत्ते और सौ दिन के काम की योजना के लिए धन का प्रस्ताव किया गया था।" }
+meaning = "The speech proposed a new scheme, Banglar Yuba-Sathi, giving a monthly assistance of 1,500 rupees to unemployed youth who meet the stated conditions, and money for the Mahatma-Shree scheme of 100 days of work. This comes from the interim budget speech, which asked the Assembly to approve spending for the first months of the year only. The full budget was presented later, and its speech could not be read by our tool, so a proposal here may have been changed or dropped. Check with the department before relying on it."
+
+[[records.statements]]
+text = "The interim speech described who the Banglar Yuba-Sathi scheme is for: youth aged 21 years to 40 years who have passed Madhyamik and are unemployed."
+evidence = [
+    { source_id = "wb-budget-speech-2026-27-interim", quote = "youth aged 21 years to 40 years who have passed Madhyamik, are unemployed and are not", where = "page 178" },
+  ]
+
+[[records.statements]]
+text = "Those covered by Banglar Yuba-Sathi would be entitled to a monthly assistance of Rs. 1,500 till they get employment or up to 5 years, whichever is earlier, if they are not covered under any other social security scheme of the government (educational benefit or scholarship excepted)."
+evidence = [
+    { source_id = "wb-budget-speech-2026-27-interim", quote = "covered under any social security scheme of the government other than educational benefit or scholarship, shall be entitled to a monthly assistance of Rs. 1,500 till they get employment or up to 5 years, whichever is earlier.", where = "page 179" },
+  ]
+
+[[records.statements]]
+text = "Rs. 5,000 crore was proposed for the Banglar Yuba-Sathi scheme in the budget of 2026-27."
+evidence = [
+    { source_id = "wb-budget-speech-2026-27-interim", quote = "For this Scheme, I propose an allocation of Rs. 5,000 crore in the Budget of next Financial Year 2026-27.", where = "page 179" },
+  ]
+
+[[records.statements]]
+text = "The interim speech said that the Mahatma-Shree scheme ensures a minimum of 100 days of work for each Job Card-holder."
+evidence = [
+    { source_id = "wb-budget-speech-2026-27-interim", quote = "Through this Scheme, a minimum of 100 days of work is ensured for each Job Card-holder.", where = "page 176" },
+  ]
+
+[[records.statements]]
+text = "Rs. 2,000 crore was proposed for the Mahatma-Shree scheme in the budget of 2026-27."
+evidence = [
+    { source_id = "wb-budget-speech-2026-27-interim", quote = "I propose an allocation of Rs. 2,000 crore for this Scheme in the Budget of next Financial Year 2026-27.", where = "page 177" },
+  ]
+
+[[records]]
+id = "wb-2026-27-interim-agriculture-health"
+budget_year = "2026-27"
+level = "state"
+state = "West Bengal"
+sector = "agriculture"
+kind = "announcement"
+title = "West Bengal interim budget speech (February 2026): farm workers, irrigation and ASHA workers"
+department = "Finance Department, Government of West Bengal"
+source_ids = ["wb-budget-speech-2026-27-interim"]
+last_verified = 2026-10-31
+summary = { en = "The interim budget speech proposed yearly support for landless farm workers, free government irrigation and higher pay for ASHA workers.", bn = "অন্তর্বর্তী বাজেট বক্তৃতায় ভূমিহীন কৃষি শ্রমিকদের বার্ষিক সহায়তা, সরকারি সেচ বিনামূল্যে এবং আশা কর্মীদের বেশি সম্মানভাতার প্রস্তাব করা হয়েছিল।", hi = "अंतरिम बजट भाषण में भूमिहीन कृषि मजदूरों को सालाना सहायता, सरकारी सिंचाई शुल्क की माफी और आशा कार्यकर्ताओं के लिए अधिक मानदेय का प्रस्ताव किया गया था।" }
+meaning = "The speech proposed yearly support for landless agricultural labourers who are not covered by Krishak Bandhu (Natun), a waiver of irrigation charges for small and marginal farmers on government tubewells and river lift irrigation schemes, and a higher monthly honorarium for ASHA workers. This comes from the interim budget speech, which asked the Assembly to approve spending for the first months of the year only. The full budget was presented later, and its speech could not be read by our tool, so a proposal here may have been changed or dropped. Check with the department before relying on it."
+
+[[records.statements]]
+text = "The interim speech proposed an annual support of Rs 4,000 to each landless agricultural labourer, paid in two instalments of Rs. 2,000 each, one in the Rabi season and one in the Kharif season."
+evidence = [
+    { source_id = "wb-budget-speech-2026-27-interim", quote = "I propose an annual support of Rs 4,000 to each such labourer. The amount will be paid in two installment of Rs. 2,000 each, one during Rabi Crop season and the other during Kharif Crop season.", where = "page 177" },
+  ]
+
+[[records.statements]]
+text = "The interim speech announced a complete waiver of the fee or charge on irrigation by Government Tubewells and RLI Schemes, to reduce the cost of cultivation of small and marginal farmers."
+evidence = [
+    { source_id = "wb-budget-speech-2026-27-interim", quote = "I am happy to announce the complete waiver of the fee or charge on irrigation by Government Tubewells and RLI Schemes.", where = "page 177" },
+  ]
+
+[[records.statements]]
+text = "The interim speech announced that the monthly honorarium of ASHA workers would increase by Rs. 1,000 from April 2026, with maternity leave of 180 days and a one-time compensation of Rs. 5 lakh to the next of kin in case of death before the age of 60 years."
+evidence = [
+    { source_id = "wb-budget-speech-2026-27-interim", quote = "I am happy to announce that the monthly honorarium of the ASHA workers will be increased by Rs. 1,000 from April, 2026 onwards. Like other workers of similar nature they will also be entitled to maternity leave of 180 days from April, 2026 onwards. In addition, the next of kin of an ASHA worker will be entitled for onetime compensation of Rs. 5 lakh in case of death before attaining the age of 60 years.", where = "page 174" },
+  ]
+
+[[records]]
+id = "wb-2026-27-interim-tax-and-pay"
+budget_year = "2026-27"
+level = "state"
+state = "West Bengal"
+kind = "tax"
+title = "West Bengal interim budget speech (February 2026): tea tax exemption and dearness allowance"
+department = "Finance Department, Government of West Bengal"
+source_ids = ["wb-budget-speech-2026-27-interim"]
+last_verified = 2026-10-31
+summary = { en = "The interim budget speech extended a tax exemption for small tea garden owners and announced a dearness allowance instalment for state staff and pensioners.", bn = "অন্তর্বর্তী বাজেট বক্তৃতায় ছোট চা বাগান মালিকদের কর ছাড় বাড়ানো হয়েছিল এবং রাজ্য কর্মী ও অবসরপ্রাপ্তদের জন্য মহার্ঘ ভাতার একটি কিস্তি ঘোষণা করা হয়েছিল।", hi = "अंतरिम बजट भाषण में छोटे चाय बागान मालिकों की कर छूट बढ़ाई गई और राज्य कर्मचारियों व पेंशनभोगियों के लिए महंगाई भत्ते की एक किस्त घोषित की गई।" }
+meaning = "The speech extended the exemption of agricultural income tax on green tea leaves and of the cess on tea production, both until the date stated in the quote, and announced a further dearness allowance instalment for government and semi-government employees, teaching and non-teaching staff and pensioners. This comes from the interim budget speech, which asked the Assembly to approve spending for the first months of the year only. The full budget was presented later, and its speech could not be read by our tool, so a proposal here may have been changed or dropped. Check with the department before relying on it."
+
+[[records.statements]]
+text = "The interim speech extended the exemption of Agricultural Income Tax on green tea leaves, for the benefit of small tea garden owners, by one year, till 31.03.2027, and extended the exemption of the cess on tea production till 31.03.2027."
+evidence = [
+    { source_id = "wb-budget-speech-2026-27-interim", quote = "I am happy to announce that for the benefit of small tea garden owners of the State, the exemption of Agricultural Income Tax on green tea leaves is further extended for one year, i.e. till 31.03.2027. Further the exemption of Cess on Tea production is also extended till 31.03.2027.", where = "page 174" },
+  ]
+
+[[records.statements]]
+text = "The interim speech announced another instalment of dearness allowance of 4 percent for government and semi-government employees, teaching and non-teaching staff and pensioners, with effect from 1st April 2026."
+evidence = [
+    { source_id = "wb-budget-speech-2026-27-interim", quote = "the government has decided to release another installment of DA of 4 percent with effect from 1st April, 2026.", where = "page 178" },
+  ]

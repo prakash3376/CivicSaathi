@@ -1,0 +1,35 @@
+# --- Python / backend ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Node / frontend ---
+node_modules/
+dist/
+dist-ssr/
+coverage/
+*.tsbuildinfo
+
+# --- Environment files and secrets (templates named .env.example stay tracked) ---
+.env
+.env.*
+!.env.example
+
+# --- Logs ---
+*.log
+
+# --- Runtime data: downloaded documents, the vector index and the embedding model ---
+backend/storage/
+
+# --- Editors / OS ---
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db

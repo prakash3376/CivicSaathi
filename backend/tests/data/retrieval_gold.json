@@ -1,0 +1,128 @@
+{
+  "description": "Questions a citizen might ask about the registered scholarship sources, in English, Hindi and Bengali. 'expect' lists phrases of which at least one must appear in a retrieved passage for the retrieval to count as a hit. Comparison ignores case, spacing and punctuation. Hindi and Bengali phrasing was written by the assistant that built this phase: have a native speaker review it before treating small differences as meaningful.",
+  "questions": [
+    {
+      "id": "svmcm-income-limit",
+      "expect": ["2,50,000"],
+      "en": "What is the maximum family income to get the SVMCM scholarship?",
+      "hi": "SVMCM छात्रवृत्ति पाने के लिए परिवार की अधिकतम आय कितनी होनी चाहिए?",
+      "bn": "SVMCM বৃত্তি পেতে পরিবারের সর্বোচ্চ আয় কত হতে হবে?"
+    },
+    {
+      "id": "svmcm-ug-marks",
+      "expect": ["At least 60% marks in Last Qualifying Exam", "will be 60% in aggregate"],
+      "en": "How many marks do I need for the SVMCM undergraduate scholarship?",
+      "hi": "SVMCM स्नातक छात्रवृत्ति के लिए कितने अंक चाहिए?",
+      "bn": "SVMCM স্নাতক বৃত্তির জন্য কত নম্বর লাগে?"
+    },
+    {
+      "id": "svmcm-ug-science-rate",
+      "expect": ["1500/-"],
+      "en": "How much monthly scholarship does an undergraduate science student get under SVMCM?",
+      "hi": "SVMCM के तहत स्नातक विज्ञान के छात्र को हर महीने कितनी छात्रवृत्ति मिलती है?",
+      "bn": "SVMCM-এ স্নাতক বিজ্ঞান শাখার ছাত্রছাত্রীরা প্রতি মাসে কত বৃত্তি পায়?"
+    },
+    {
+      "id": "svmcm-pg-marks",
+      "expect": ["At least 53% marks"],
+      "en": "What marks are required for the postgraduate SVMCM scholarship?",
+      "hi": "SVMCM स्नातकोत्तर छात्रवृत्ति के लिए कितने प्रतिशत अंक आवश्यक हैं?",
+      "bn": "SVMCM স্নাতকোত্তর বৃত্তির জন্য কত শতাংশ নম্বর প্রয়োজন?"
+    },
+    {
+      "id": "svmcm-renewal",
+      "expect": ["within one month"],
+      "en": "How do I renew my SVMCM scholarship?",
+      "hi": "मैं अपनी SVMCM छात्रवृत्ति का नवीनीकरण कैसे करूँ?",
+      "bn": "আমি কীভাবে আমার SVMCM বৃত্তি নবায়ন করব?"
+    },
+    {
+      "id": "svmcm-other-scholarship",
+      "expect": ["any other governmental"],
+      "en": "Can I get SVMCM and another government scholarship together?",
+      "hi": "क्या मुझे SVMCM और कोई अन्य सरकारी छात्रवृत्ति एक साथ मिल सकती है?",
+      "bn": "আমি কি SVMCM এবং অন্য কোনো সরকারি বৃত্তি একসঙ্গে পেতে পারি?"
+    },
+    {
+      "id": "pragati-amount",
+      "expect": ["Rs. 50,000.00 per annum", "Rs 50,000 per annum"],
+      "en": "How much money does the Pragati scholarship give each year?",
+      "hi": "प्रगति छात्रवृत्ति में हर साल कितनी राशि मिलती है?",
+      "bn": "প্রগতি বৃত্তিতে প্রতি বছর কত টাকা দেওয়া হয়?"
+    },
+    {
+      "id": "pragati-income",
+      "expect": ["less than Rs. 8 Lakh"],
+      "en": "What is the family income limit for the Pragati scholarship?",
+      "hi": "प्रगति छात्रवृत्ति के लिए पारिवारिक आय की सीमा क्या है?",
+      "bn": "প্রগতি বৃত্তির জন্য পারিবারিক আয়ের সীমা কত?"
+    },
+    {
+      "id": "pragati-girls-per-family",
+      "expect": ["Up to Two Girls per family"],
+      "en": "How many girls per family can get the Pragati scholarship?",
+      "hi": "प्रगति छात्रवृत्ति परिवार की कितनी लड़कियों को मिल सकती है?",
+      "bn": "প্রগতি বৃত্তি পরিবারের কতজন মেয়ে পেতে পারে?"
+    },
+    {
+      "id": "pragati-aadhaar",
+      "expect": ["Aadhaar card and Aadhaar seeded bank account"],
+      "en": "Is an Aadhaar card required for the Pragati scholarship?",
+      "hi": "क्या प्रगति छात्रवृत्ति के लिए आधार कार्ड ज़रूरी है?",
+      "bn": "প্রগতি বৃত্তির জন্য কি আধার কার্ড লাগবে?"
+    },
+    {
+      "id": "pragati-duration",
+      "expect": ["Maximum of 4 years duration"],
+      "en": "For how many years is the Pragati scholarship paid?",
+      "hi": "प्रगति छात्रवृत्ति कितने वर्षों तक मिलती है?",
+      "bn": "প্রগতি বৃত্তি কত বছর ধরে পাওয়া যায়?"
+    },
+    {
+      "id": "pragati-helpline",
+      "expect": ["helpdesk@nsp.gov.in", "pragati@aicte-india.org"],
+      "en": "Who do I contact for help with the Pragati scholarship portal?",
+      "hi": "प्रगति छात्रवृत्ति पोर्टल पर मदद के लिए किससे संपर्क करें?",
+      "bn": "প্রগতি বৃত্তির পোর্টালে সাহায্যের জন্য কার সঙ্গে যোগাযোগ করব?"
+    },
+    {
+      "id": "aicte-deadline-2026",
+      "expect": ["31.10.2026"],
+      "en": "What is the last date to apply for AICTE scholarships in 2026-27?",
+      "hi": "2026-27 में AICTE छात्रवृत्ति के लिए आवेदन की अंतिम तिथि क्या है?",
+      "bn": "২০২৬-২৭ সালে AICTE বৃত্তির জন্য আবেদনের শেষ তারিখ কবে?"
+    },
+    {
+      "id": "pragati-other-scholarship",
+      "expect": [
+        "NOT be recipient of any of the Central Govt",
+        "already in receipt of any of the scholarships"
+      ],
+      "en": "Can a student who already gets another scholarship receive Pragati?",
+      "hi": "क्या पहले से कोई अन्य छात्रवृत्ति पाने वाली छात्रा को प्रगति छात्रवृत्ति मिल सकती है?",
+      "bn": "যে ছাত্রী ইতিমধ্যে অন্য বৃত্তি পাচ্ছে সে কি প্রগতি বৃত্তি পেতে পারে?"
+    }
+  ],
+  "off_topic": {
+    "en": [
+      "What is the weather in Kolkata today?",
+      "Who won the cricket world cup?",
+      "How do I bake a chocolate cake?",
+      "What is the capital of France?",
+      "How do I apply for a passport?",
+      "What is the GST rate on restaurant bills?",
+      "How do I renew my driving licence?",
+      "How much is the PM Kisan Samman Nidhi payment?"
+    ],
+    "hi": [
+      "आज कोलकाता में मौसम कैसा है?",
+      "चॉकलेट केक कैसे बनाएं?",
+      "पासपोर्ट के लिए आवेदन कैसे करें?"
+    ],
+    "bn": [
+      "আজ কলকাতার আবহাওয়া কেমন?",
+      "চকোলেট কেক কীভাবে বানাব?",
+      "পাসপোর্টের জন্য কীভাবে আবেদন করব?"
+    ]
+  }
+}

@@ -1,0 +1,266 @@
+# Public services and citizen rights: official sources for the catalogue (sector public-services).
+# Format and rules: see scholarships.toml and docs/DATA_SOURCES.md. A source is added only after a
+# person has opened the URL; `verify` runs before `ingest`.
+
+# --- e-Shram ---------------------------------------------------------------------------------
+
+[[sources]]
+id = "eshram-faqs"
+title = "e-Shram: Frequently Asked Questions (official page)"
+scheme = "e-Shram (National Database of Unorganised Workers)"
+authority = "Ministry of Labour & Employment, Government of India"
+level = "central"
+doc_type = "faq"
+format = "html"
+url = "https://eshram.gov.in/faqs"
+expected_phrases = ["eShram", "Ministry of Labour"]
+curated_on = 2026-10-31
+notes = """\
+The Ministry's own FAQ page on the e-Shram portal (eshram.gov.in). It states who may register, the \
+documents, the fee and the helpline. The page shows a "Last Update" date (31-Oct-2026)."""
+
+[[sources]]
+id = "wb-castcert-how-to-apply"
+title = "OSCAR portal: How to apply for an SC/ST/OBC certificate"
+scheme = "Caste certificates (SC/ST/OBC) in West Bengal"
+authority = "Backward Classes Welfare Department, Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "service_page"
+format = "html"
+url = "https://castcertificatewb.gov.in/how_to_applyy"
+legacy_tls = true
+expected_phrases = ["How To Apply", "certificate"]
+curated_on = 2026-10-31
+notes = """\
+The application guideline of the Online Submission of Caste-Certificate Application Request (OSCAR) \
+portal (castcertificatewb.gov.in). The server cannot negotiate secure TLS renegotiation; the \
+certificate and hostname are still verified."""
+
+
+[[sources]]
+id = "pib-vbgramg-commencement"
+title = "PIB: Historic operationalisation of the VB-G RAM G Act (11 May 2026)"
+scheme = "Viksit Bharat - Guarantee for Rozgar and Ajeevika Mission (Gramin) (VB-G RAM G)"
+authority = "Ministry of Rural Development, Government of India"
+level = "central"
+doc_type = "notification"
+format = "pdf"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/may/doc2026511867601.pdf"
+expected_phrases = ["VB", "G RAM G", "MGNREGA"]
+curated_on = 2026-10-31
+notes = """\
+A Press Information Bureau document of the Ministry of Rural Development dated May 11, 2026. It \
+states that the Act came into force on 01/07/2026 and that MGNREGA stands repealed from that date. \
+The PDF text has stray spaces inside words ("VB -G RAM G"); quotes are copied as extracted."""
+
+[[sources]]
+id = "mgnrega-faq-2021"
+title = "MGNREGA: Frequently Asked Questions (Ministry of Rural Development, 2021)"
+scheme = "Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA), 2005"
+authority = "Ministry of Rural Development, Government of India"
+level = "central"
+doc_type = "faq"
+format = "pdf"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2021/nov/doc2021112931.pdf"
+expected_phrases = ["MGNREGA", "Job Card"]
+curated_on = 2026-10-31
+notes = """\
+The Ministry's FAQ dated November 29, 2021, published on PIB. It describes MGNREGA before it was \
+repealed on 01/07/2026, so it is kept only to describe the earlier rules, with the status shown on \
+the catalogue entry."""
+
+# --- Right to Information --------------------------------------------------------------------
+
+[[sources]]
+id = "rti-act-2005"
+title = "The Right to Information Act, 2005 (PDF)"
+scheme = "Right to Information"
+authority = "Department of Personnel & Training, Government of India"
+level = "central"
+doc_type = "notification"
+format = "pdf"
+url = "https://rti.dopt.gov.in/Writereaddata/RTI-Act.pdf"
+expected_phrases = ["RIGHT TO INFORMATION"]
+curated_on = 2026-10-31
+notes = "The Act as published on the DoPT RTI portal (rti.dopt.gov.in)."
+
+[[sources]]
+id = "digilocker-home"
+title = "DigiLocker: home page"
+scheme = "DigiLocker"
+authority = "Ministry of Electronics & Information Technology, Government of India"
+level = "central"
+doc_type = "service_page"
+format = "html"
+url = "https://www.digilocker.gov.in/"
+expected_phrases = ["DigiLocker"]
+curated_on = 2026-10-31
+notes = """\
+The official DigiLocker home page. Its FAQ page answers HTTP 403 to the tool, so only the home \
+page text (about, and the four getting-started steps) is used."""
+
+# --- West Bengal: land records (Banglarbhumi) ------------------------------------------------
+
+[[sources]]
+id = "wb-mutation-citizen-guide"
+title = "West Bengal: Mutation of names in the R.O.Rs under section 50 of the WBLR Act, 1955 (PDF)"
+scheme = "Mutation of land records, West Bengal"
+authority = "Land & Land Reforms Department, Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "guidelines"
+format = "pdf"
+url = "https://wb.gov.in/acts/act_land_mutation_of_land.pdf"
+expected_phrases = ["Mutation", "WBLR Act"]
+curated_on = 2026-10-31
+notes = """A two-page citizen guide published on the West Bengal state portal (wb.gov.in): what mutation covers, where to apply, the fee and the documents. It cites a 2005 circular for the fees, so the amounts may have changed. The portal page on the same subject (wb.gov.in/government-schemes-details-mutation-of-land-records.aspx) holds its text inside an HTML form, which the extractor drops, so it is not used."""
+
+[[sources]]
+id = "wb-mutation-proforma"
+title = "West Bengal: Proforma application for mutation (PDF)"
+scheme = "Mutation of land records, West Bengal"
+authority = "Land & Land Reforms Department, Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "service_page"
+format = "pdf"
+url = "https://bsk.wb.gov.in/download/34.pdf"
+legacy_tls = true
+expected_phrases = ["PROFORMA APPLICATION FOR MUTATION"]
+curated_on = 2026-10-31
+notes = """The application form for mutation, served by the Bangla Sahayata Kendra site (bsk.wb.gov.in). It says it was revised by a 2009 order of the Land & Land Reforms Department. The server cannot negotiate secure TLS renegotiation; the certificate and hostname are still verified."""
+
+# --- Bangla Sahayata Kendra (BSK) --------------------------------------------------------------
+
+[[sources]]
+id = "bsk-about"
+title = "Bangla Sahayata Kendra: About (official page)"
+scheme = "Bangla Sahayata Kendra (BSK)"
+authority = "Personnel & Administrative Reforms and e-Governance Department, Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "service_page"
+format = "html"
+url = "https://bsk.wb.gov.in/v3_about"
+legacy_tls = true
+expected_phrases = ["Bangla Sahayata Kendra"]
+curated_on = 2026-10-31
+notes = """The BSK portal's own about page (bsk.wb.gov.in). The server cannot negotiate secure TLS renegotiation; the certificate and hostname are still verified."""
+
+[[sources]]
+id = "bsk-faq"
+title = "Bangla Sahayata Kendra: FAQ (official page)"
+scheme = "Bangla Sahayata Kendra (BSK)"
+authority = "Personnel & Administrative Reforms and e-Governance Department, Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "faq"
+format = "html"
+url = "https://bsk.wb.gov.in/faq"
+legacy_tls = true
+expected_phrases = ["BSK"]
+curated_on = 2026-10-31
+notes = """The BSK portal's own FAQ (bsk.wb.gov.in). Its figures (number of centres, services, opening hours) differ from the about page and from other BSK pages, so none of them is stated in the catalogue. The server cannot negotiate secure TLS renegotiation; the certificate and hostname are still verified."""
+
+[[sources]]
+id = "bsk-manual-2021"
+title = "Manual for Bangla Sahayata Kendra: service guidelines (PDF, September 2021)"
+scheme = "Bangla Sahayata Kendra (BSK)"
+authority = "Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "guidelines"
+format = "pdf"
+url = "https://bsk.wb.gov.in/download/BSK%20Manual_English.pdf"
+legacy_tls = true
+expected_phrases = ["Bangla Sahayata Kendra", "Manual for Bangla Sahayata Kendra"]
+curated_on = 2026-10-31
+notes = """The BSK operators' manual of September 2021, served by bsk.wb.gov.in: for each service it gives the provider, eligibility, how to apply and the documents. It is a compiled version of inputs from the departments and is more than a year old, so procedures may have changed. The text extracted from the PDF repeats blocks and mixes neighbouring services, so quotes are chosen from single lines and the `where` names the service heading. The server cannot negotiate secure TLS renegotiation; the certificate and hostname are still verified. The file is large (about 4.5 million characters)."""
+
+[[sources]]
+id = "rti-portal-home"
+title = "RTI Portal: home page (Department of Personnel & Training)"
+scheme = "Right to Information"
+authority = "Department of Personnel & Training, Government of India"
+level = "central"
+doc_type = "service_page"
+format = "html"
+url = "https://rti.gov.in/"
+expected_phrases = ["Citizen Gateway", "Department of Personnel"]
+curated_on = 2026-10-31
+notes = """\
+The RTI portal's home page (rti.gov.in redirects to rti.dopt.gov.in, both official domains). It is a \
+short page of links; it is used only to confirm what the portal is for."""
+
+# --- West Bengal State Portal scheme pages (wb.gov.in), read after the extractor fix ------------
+
+[[sources]]
+id = "wbgov-mutation-page"
+title = "West Bengal State Portal: Mutation of Land Records (scheme page)"
+scheme = "Mutation of land records (BanglarBhumi), West Bengal"
+authority = "Information & Cultural Affairs Department, Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "scheme_page"
+format = "html"
+url = "https://wb.gov.in/government-schemes-details-mutation-of-land-records.aspx"
+expected_phrases = ["Mutation of Land Records"]
+curated_on = 2026-10-31
+notes = """A page of the West Bengal state portal (wb.gov.in), shown as "Last updated on: Friday, 26th June, 2026". Its text is general and hedged ("generally", "where applicable"), not a rulebook, and it does not name the rule or order behind each statement. The page's content sits inside an HTML form, which the extractor now unwraps."""
+
+[[sources]]
+id = "wbgov-minor-correction-page"
+title = "West Bengal State Portal: Minor Correction of Land Records (scheme page)"
+scheme = "Minor correction of land records (BanglarBhumi), West Bengal"
+authority = "Information & Cultural Affairs Department, Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "scheme_page"
+format = "html"
+url = "https://wb.gov.in/government-schemes-details-minor-correction-of-land-records.aspx"
+expected_phrases = ["Minor Correction of Land Records"]
+curated_on = 2026-10-31
+notes = """A page of the West Bengal state portal (wb.gov.in), shown as "Last updated on: Friday, 26th June, 2026". Its text is general and hedged ("generally", "where applicable"), not a rulebook, and it does not name the rule or order behind each statement. The page's content sits inside an HTML form, which the extractor now unwraps."""
+
+[[sources]]
+id = "wbgov-patta-page"
+title = "West Bengal State Portal: Patta Application (scheme page)"
+scheme = "Patta (land title) application, West Bengal"
+authority = "Information & Cultural Affairs Department, Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "scheme_page"
+format = "html"
+url = "https://wb.gov.in/government-schemes-details-patta-application.aspx"
+expected_phrases = ["Patta Application"]
+curated_on = 2026-10-31
+notes = """A page of the West Bengal state portal (wb.gov.in), shown as "Last updated on: Friday, 26th June, 2026". Its text is general and hedged ("generally", "where applicable"), not a rulebook, and it does not name the rule or order behind each statement. The page's content sits inside an HTML form, which the extractor now unwraps."""
+
+[[sources]]
+id = "wbgov-jobcard-page"
+title = "West Bengal State Portal: Job Cards under VB-G RAM-G Scheme / MGNREGS (scheme page)"
+scheme = "Job Card under VB-G RAM G / MGNREGS, West Bengal"
+authority = "Information & Cultural Affairs Department, Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "scheme_page"
+format = "html"
+url = "https://wb.gov.in/government-schemes-details-job-cards-under-vb-g-ram-g-scheme-mgnregs.aspx"
+expected_phrases = ["Job Cards under VB-G RAM-G Scheme"]
+curated_on = 2026-10-31
+notes = """A page of the West Bengal state portal (wb.gov.in), shown as "Last updated on: Friday, 26th June, 2026". Its text is general and hedged ("generally", "where applicable"), not a rulebook, and it does not name the rule or order behind each statement. The page's content sits inside an HTML form, which the extractor now unwraps."""
+
+[[sources]]
+id = "wbgov-e-shram-page"
+title = "West Bengal State Portal: E-Shram Card (scheme page)"
+scheme = "e-Shram (National Database of Unorganised Workers)"
+authority = "Information & Cultural Affairs Department, Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "scheme_page"
+format = "html"
+url = "https://wb.gov.in/government-schemes-details-e-shram-card.aspx"
+expected_phrases = ["E-Shram Card"]
+curated_on = 2026-10-31
+notes = """A page of the West Bengal state portal (wb.gov.in), shown as "Last updated on: Friday, 26th June, 2026". Its text is general and hedged ("generally", "where applicable"), not a rulebook, and it does not name the rule or order behind each statement. The page's content sits inside an HTML form, which the extractor now unwraps."""

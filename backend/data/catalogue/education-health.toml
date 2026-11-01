@@ -1,0 +1,986 @@
+# Education and Health: programmes in the catalogue. Every statement carries a quote that
+# `python -m app.cli catalogue-check` finds in the indexed document. English wording only (the
+# quotes are English); the summary and the "who is it for" line are in three languages and hold no
+# figure. The Bengali and Hindi are drafts by a non-native speaker and need a native speaker's review.
+#
+# The two scholarship schemes that have a questionnaire (aicte-pragati, svmcm) are in data/schemes.
+
+# =================================================================================================
+# EDUCATION
+# =================================================================================================
+
+[[entries]]
+id = "wb-student-credit-card"
+name = "West Bengal Student Credit Card Scheme"
+kind = "scheme"
+sectors = ["education"]
+level = "state"
+state = "West Bengal"
+department = "Higher Education Department, Government of West Bengal"
+status = "active"
+source_ids = ["wbscc-gazette-2021", "wbscc-faq", "wbscc-about"]
+last_verified = 2026-10-31
+published_on = 2021-06-30
+effective_on = 2021-06-30
+summary = { en = "A low-interest education loan, taken on a credit card from a bank, for students who have lived in West Bengal for years.", bn = "যাঁরা বহু বছর ধরে পশ্চিমবঙ্গে বসবাস করছেন, সেই শিক্ষার্থীদের জন্য ব্যাংক থেকে ক্রেডিট কার্ডের মাধ্যমে কম সুদে শিক্ষা ঋণ।", hi = "जो विद्यार्थी कई वर्षों से पश्चिम बंगाल में रह रहे हैं, उनके लिए बैंक से क्रेडिट कार्ड के ज़रिए कम ब्याज पर शिक्षा ऋण।" }
+target = { en = "Students from West Bengal who study from class X onwards, in India or abroad, including those preparing for competitive exams at a coaching institute.", bn = "পশ্চিমবঙ্গের যে শিক্ষার্থীরা দশম শ্রেণি থেকে ভারতে বা বিদেশে পড়াশোনা করছেন, প্রতিযোগিতামূলক পরীক্ষার কোচিং প্রতিষ্ঠানের শিক্ষার্থীরাও এর মধ্যে আছেন।", hi = "पश्चिम बंगाल के वे विद्यार्थी जो दसवीं कक्षा से आगे भारत या विदेश में पढ़ रहे हैं, प्रतियोगी परीक्षा की कोचिंग लेने वाले भी इसमें शामिल हैं।" }
+not_stated = [
+  "A closing date. The scheme documents do not give one; a student can apply at any time during the course.",
+  "Later changes. The portal lists amendments after the June 2021 notification; this entry follows the original scheme text, the portal FAQ and the portal's About page.",
+  "The exact bank that will lend, and the bank's own paperwork. The documents say the bank's forms and RBI rules apply.",
+]
+
+[entries.apply]
+label = "WBSCC portal (Student Credit Card)"
+url = "https://wbscc.wb.gov.in/"
+evidence = [{ source_id = "wbscc-faq", quote = "click on tab STUDENT CREDIT CARD or visit wbscc.wb.gov.in", where = "page 1" }]
+
+[[entries.benefits]]
+text = "A student can get a loan of up to Rs. 10.00 lakhs at 4% simple interest from the State Co-operative Banks, their affiliated banks, and public and private sector banks in West Bengal."
+evidence = [{ source_id = "wbscc-gazette-2021", quote = "obtain maximum loan of Rs. 10.00 lakhs at the rate of 4% simple interest from State Co-operative Banks and its affiliated Central Cooperative Banks and District Central Cooperative Banks and Public Sector/ Private Sector Banks operating in the State of West Bengal.", where = "page 3, para 3" }]
+
+[[entries.benefits]]
+text = "A 1% interest concession is given to a borrower who pays the interest in full during the study period."
+evidence = [{ source_id = "wbscc-about", quote = "1% interest concession will be provided to borrower if the interest is fully serviced during the study period.", where = "About the Scheme" }]
+
+[[entries.benefits]]
+text = "The repayment period is fifteen (15) years, including the moratorium (repayment holiday)."
+evidence = [{ source_id = "wbscc-about", quote = "The repayment period shall be fifteen (15) years for any loan availed under this Credit Card including the Moratorium/ repayment holiday.", where = "About the Scheme" }]
+
+[[entries.benefits]]
+text = "The loan can be used for course fees, hostel or rent, books and computers, and other costs of completing the course such as study tours and project work."
+evidence = [
+  { source_id = "wbscc-faq", quote = "Course fees payable to the School/College/ University / Professional Institutes/coaching institute where the student is enrolled for appearing in entrance examination", where = "page 2, question 10" },
+  { source_id = "wbscc-gazette-2021", quote = "(b) Fees required for accommodation in School/ Madrasah/ College/ University/ Institution hostel or rent/ license fees payable for living outside the hostel or fees required for living as a Paying Guest.", where = "page 3, para 4" },
+  { source_id = "wbscc-gazette-2021", quote = "(d) Cost of purchasing of books/ Computer/ Lap-top/ Tablet/ equipments etc.", where = "page 3, para 4" },
+  { source_id = "wbscc-gazette-2021", quote = "(e) Any other expense required to complete the course such as study tours, project works, thesis, etc.", where = "page 3, para 4" },
+]
+
+[[entries.benefits]]
+text = "Up to 20% of the loan can be used for living expenses during the course, and up to 30% for non-institutional expenses in all."
+evidence = [
+  { source_id = "wbscc-gazette-2021", quote = "(f) The student can incur expenditure up to 30% of the total loan sanctioned for non-institutional expenses for the whole course of study.", where = "page 3, para 4" },
+  { source_id = "wbscc-gazette-2021", quote = "(g) Up to 20% of the total loan sanctioned can be used as living expenses for the duration of the course.", where = "page 3, para 4" },
+]
+
+[[entries.eligibility]]
+text = "The student must be an Indian national and have lived in West Bengal for the last 10 years. A self-declaration in the application form is accepted."
+evidence = [{ source_id = "wbscc-gazette-2021", quote = "The student seeking loan under the scheme should be an Indian national and resident of West Bengal for the last 10 years. Self-declaration by the student as appended in the application form will be accepted.", where = "page 3, para 5(a)" }]
+
+[[entries.eligibility]]
+text = "The student must not be more than 40 years old when applying."
+evidence = [{ source_id = "wbscc-gazette-2021", quote = "The interested students should not be aged more than 40 (forty) years at the time of applying for loan.", where = "page 3, para 5(d)" }]
+
+[[entries.eligibility]]
+text = "The student must have passed Class IX from a recognised board active in West Bengal and be enrolled in Class X or a higher course (or a coaching institute for a competitive exam)."
+evidence = [{ source_id = "wbscc-faq", quote = "Minimum eligibility to apply for the loan under the scheme is Class IX passed from any of the recognized Boards which are active in West Bengal.", where = "page 3, question 15" }]
+
+[[entries.eligibility]]
+text = "There is no marks percentage condition for applying."
+evidence = [{ source_id = "wbscc-faq", quote = "No, there are no marks percentage criteria for applying in the scheme.", where = "page 4, question 22" }]
+
+[[entries.eligibility]]
+text = "The loan application is made by the student together with a parent or legal guardian as co-borrower."
+evidence = [{ source_id = "wbscc-gazette-2021", quote = "The loan application should be submitted by the student and the parent/ legal guardian as co-borrower.", where = "page 4, para 6(e)" }]
+
+[[entries.documents]]
+text = "Upload with the online form: photographs and signatures of the student and the co-borrower, the student's Aadhaar card, proof of age, the co-borrower's address proof, the admission receipt, and PAN cards (or an undertaking if there is no PAN card)."
+evidence = [
+  { source_id = "wbscc-faq", quote = "Coloured Photograph of the co-applicant / co-borrower", where = "page 1, question 4" },
+  { source_id = "wbscc-faq", quote = "5. Student’s AADHAR Card (should be in. Pdf format, between 400 KB and 50 KB)", where = "page 1, question 4" },
+  { source_id = "wbscc-faq", quote = "Address Proof of Co-applicant/Co-borrower", where = "page 1, question 4" },
+  { source_id = "wbscc-faq", quote = "Signature of the student (shouldbein.jpeg/.jpg format, between 50KB and 10 KB)", where = "page 1, question 4" },
+  { source_id = "wbscc-faq", quote = "Age Proof of the Applicant (should be in.pdf format between 400 KB and 50 KB)", where = "page 1, question 4" },
+  { source_id = "wbscc-faq", quote = "Admission Receipt (should be in .pdf between400 KB and 50 KB)", where = "page 1, question 4" },
+  { source_id = "wbscc-faq", quote = "Student’s PAN Card/undertaking if there is no PAN Card", where = "page 1, question 4" },
+]
+
+[[entries.documents]]
+text = "No domicile certificate or caste certificate is needed."
+evidence = [{ source_id = "wbscc-faq", quote = "No. There is no need to furnish the copy of domicile certificate and Caste certificate.", where = "page 2, question 5" }]
+
+[[entries.steps]]
+text = "Register and fill in the online form on the scheme portal, through your school, college or institute."
+evidence = [{ source_id = "wbscc-gazette-2021", quote = "Aspiring Student will apply online as per the format given at Annexure-I, through a web-based portal to be maintained by the Higher Education Department through the respective School/ Madrasah/ College/ Univer-sity/ Institute in which he has got enrolled.", where = "page 3, para 5(c)" }]
+
+[[entries.steps]]
+text = "The Higher Education Department examines the application and sends it to the bank, which sanctions it and issues the credit card."
+evidence = [
+  { source_id = "wbscc-gazette-2021", quote = "The Higher Education Department will forward the applications after due examination to the Bank for sanc-tion and issuance of Credit Card.", where = "page 4, para 5(f)" },
+  { source_id = "wbscc-gazette-2021", quote = "The concerned Bank will sanction the applications after due examination and issue the credit card in physical form", where = "page 4, para 5(g)" },
+]
+
+[[entries.steps]]
+text = "No hard copy of the form has to be sent after registration."
+evidence = [{ source_id = "wbscc-faq", quote = "Do I need to send any hard copy of the completed form once the registration and filling up of form is over?", where = "page 2, question 7" }]
+
+# -------------------------------------------------------------------------------------------------
+
+[[entries]]
+id = "pm-usp-csss"
+name = "Pradhan Mantri Uchchatar Shiksha Protsahan (PM-USP): Central Sector Scheme of Scholarship for College and University Students"
+kind = "scheme"
+sectors = ["education"]
+level = "central"
+department = "Department of Higher Education, Ministry of Education, Government of India"
+status = "active"
+source_ids = ["pmusp-csss-guidelines", "pmusp-csss-faq"]
+last_verified = 2026-10-31
+summary = { en = "A yearly scholarship for meritorious students from poor families who join a regular college or university course after Class XII.", bn = "দ্বাদশ শ্রেণির পর নিয়মিত কলেজ বা বিশ্ববিদ্যালয়ের পাঠক্রমে ভর্তি হওয়া দরিদ্র পরিবারের মেধাবী শিক্ষার্থীদের জন্য বার্ষিক বৃত্তি।", hi = "बारहवीं के बाद नियमित कॉलेज या विश्वविद्यालय के पाठ्यक्रम में दाखिला लेने वाले ग़रीब परिवारों के मेधावी विद्यार्थियों के लिए वार्षिक छात्रवृत्ति।" }
+target = { en = "Students from low-income families who did very well in the Class XII board examination and study a regular degree course.", bn = "কম আয়ের পরিবারের যে শিক্ষার্থীরা দ্বাদশ শ্রেণির বোর্ড পরীক্ষায় খুব ভালো ফল করেছেন এবং নিয়মিত ডিগ্রি পাঠক্রমে পড়ছেন।", hi = "कम आय वाले परिवारों के वे विद्यार्थी जिन्होंने बारहवीं बोर्ड परीक्षा में बहुत अच्छा प्रदर्शन किया और नियमित डिग्री पाठ्यक्रम में पढ़ रहे हैं।" }
+not_stated = [
+  "This year's opening and closing dates. The guidelines say the National Scholarship Portal gives the timelines.",
+  "A fixed list of documents. The guidelines say verification of caste and qualifications is done through DigiLocker, and an income certificate is needed only for fresh applicants.",
+  "Whether the rates changed after the 2022-23 guidelines. The 2025-26 FAQ repeats the same rates.",
+]
+
+[entries.apply]
+label = "National Scholarship Portal"
+url = "https://scholarships.gov.in/"
+evidence = [{ source_id = "pmusp-csss-guidelines", quote = "Beneficiaries/ Applicants under the scheme must apply online in the National Scholarships Portal (www.scholarships.gov.in) for the fresh/ renewal scholarships.", where = "page 2, para 4(ix)" }]
+
+[[entries.benefits]]
+text = "The scholarship is Rs.12,000/- per year at graduation level for the first three years, and Rs.20,000/- per year at post-graduation level."
+evidence = [{ source_id = "pmusp-csss-guidelines", quote = "The rate of scholarship is Rs.12,000/-per annum at Graduation level for first three years of College and University courses and Rs.20,000/-per annum at Post-Graduation level.", where = "page 3, para 7" }]
+
+[[entries.benefits]]
+text = "The money is paid straight into the student's savings bank account by Direct Benefit Transfer."
+evidence = [{ source_id = "pmusp-csss-guidelines", quote = "The scholarship will be disbursed directly into the savings bank accounts of the beneficiaries through Direct Benefit Transfer (DBT)", where = "page 3, para 8" }]
+
+[[entries.eligibility]]
+text = "The student must be above the 80th percentile of successful candidates in the relevant stream in the Class XII board examination."
+evidence = [{ source_id = "pmusp-csss-guidelines", quote = "Students who are above 80th percentile of successful candidates in the relevant stream from the respective Board of Examination in Class XII of 10+2 pattern or equivalent;", where = "page 1, para 4(i)" }]
+
+[[entries.eligibility]]
+text = "The student must follow a regular degree course, not distance mode or a diploma, at a recognised college or institution."
+evidence = [
+  { source_id = "pmusp-csss-guidelines", quote = "Pursuing regular degree courses and not correspondence or distance mode or pursuing Diploma courses;", where = "page 2, para 4(ii)" },
+  { source_id = "pmusp-csss-guidelines", quote = "Pursuing courses at colleges/institutions recognized by All India Council for Technical Education and respective Regulatory Bodies concerned;", where = "page 2, para 4(iii)" },
+]
+
+[[entries.eligibility]]
+text = "Gross parental or family income must be up to Rs. 4.5 lakh per year. An income certificate is needed only from fresh applicants."
+evidence = [{ source_id = "pmusp-csss-guidelines", quote = "Students with gross parental/family income upto Rs. 4.5 lakh per annum are eligible for scholarship under the scheme. Income certificate will be required only for the fresh applicants;", where = "page 2, para 4(v)" }]
+
+[[entries.eligibility]]
+text = "Half of the scholarships are earmarked for girls."
+evidence = [{ source_id = "pmusp-csss-guidelines", quote = "50% of the scholarships are earmarked for girls.", where = "page 1, para 3" }]
+
+[[entries.exclusions]]
+text = "A student who already gets another scholarship, including a State scholarship or a fee waiver or reimbursement scheme, is not eligible."
+evidence = [{ source_id = "pmusp-csss-guidelines", quote = "Not availing benefit of any other scholarship schemes including State run scholarship schemes/ fee waiver & reimbursement scheme;", where = "page 2, para 4(iv)" }]
+
+[[entries.exclusions]]
+text = "Diploma students are not eligible."
+evidence = [{ source_id = "pmusp-csss-faq", quote = "Diploma students are not eligible under the scheme.", where = "page 1, question 1" }]
+
+[[entries.steps]]
+text = "Apply online only, on the National Scholarship Portal. Applications sent directly to the Ministry are not accepted."
+evidence = [{ source_id = "pmusp-csss-guidelines", quote = "Fresh/Renewal applications sent directly to the Ministry of Education shall not be accepted.", where = "page 2, para 4(ix)" }]
+
+[[entries.steps]]
+text = "The institute where the student studies verifies the online application first, and then the State Higher Education Department or the agency the State names."
+evidence = [{ source_id = "pmusp-csss-guidelines", quote = "Online applications will be verified at two levels i.e by the Institute, where the student is studying and thereafter by the concerned State Higher Education Department or any other Agency/ Official nominated by the State as State Nodal Agency", where = "page 3, para 6(v)" }]
+
+[[entries.steps]]
+text = "To renew each year, the student must get at least 50% marks in the annual examination and keep attendance of at least 75%, and must apply for renewal on the portal."
+evidence = [{ source_id = "pmusp-csss-guidelines", quote = "viii. For renewal of scholarship in each year of study, besides getting at least 50% marks in the Annual Examination, maintenance of adequate attendance of at least 75%, will also be the criteria.", where = "page 2, para 4(viii)" }]
+
+# -------------------------------------------------------------------------------------------------
+
+[[entries]]
+id = "post-matric-scholarship-sc"
+name = "Post Matric Scholarship for Scheduled Caste students (PMS-SC)"
+kind = "scheme"
+sectors = ["education"]
+level = "central"
+department = "Ministry of Social Justice and Empowerment, Government of India (applications in West Bengal through the OASIS portal)"
+status = "active"
+source_ids = ["oasis-pms-sc-leaflet", "oasis-user-manual"]
+last_verified = 2026-10-31
+summary = { en = "Help with fees and a yearly allowance for Scheduled Caste students who study after Class X.", bn = "দশম শ্রেণির পরে পড়াশোনা করা তপশিলি জাতির শিক্ষার্থীদের জন্য ফি-তে সহায়তা ও বার্ষিক ভাতা।", hi = "दसवीं के बाद पढ़ाई करने वाले अनुसूचित जाति के विद्यार्थियों के लिए फ़ीस में मदद और वार्षिक भत्ता।" }
+target = { en = "Scheduled Caste students from families with limited income who study a recognised course from Class XI onwards.", bn = "সীমিত আয়ের পরিবারের তপশিলি জাতির যে শিক্ষার্থীরা একাদশ শ্রেণি থেকে স্বীকৃত পাঠক্রমে পড়ছেন।", hi = "सीमित आय वाले परिवारों के अनुसूचित जाति के वे विद्यार्थी जो ग्यारहवीं कक्षा से आगे किसी मान्यता प्राप्त पाठ्यक्रम में पढ़ रहे हैं।" }
+not_stated = [
+  "The closing date for applications.",
+  "The full scheme guidelines. The ministry's guidelines page could not be read by the tools (it is built by a script), so this entry rests on the one-page summary published on the West Bengal OASIS portal and the OASIS student manual. That summary is undated.",
+  "The conditions for renewal, such as marks and attendance.",
+]
+
+[entries.apply]
+label = "OASIS scholarship portal (West Bengal)"
+url = "https://oasis.wb.gov.in/"
+evidence = [{ source_id = "oasis-user-manual", quote = "OASIS (Online Application for Scholarship in Studies) is a dedicated initiative by the Backward Classes Welfare Department and the Tribal Development Department, Government of West Bengal.", where = "page 2" }]
+
+[[entries.benefits]]
+text = "The scholarship pays the compulsory non-refundable fees (including tuition fee) and an academic allowance of Rs. 2500 to Rs. 13500 per year."
+evidence = [{ source_id = "oasis-pms-sc-leaflet", quote = "Compulsory non-refundable fees (including tuition fee) Academic allowance ranging from Rs. 2500 to Rs. 13500 per annum", where = "leaflet" }]
+
+[[entries.benefits]]
+text = "Students with a disability get an extra allowance of 10%."
+evidence = [{ source_id = "oasis-pms-sc-leaflet", quote = "10% extra allowance for Divyang (specially abled) students", where = "leaflet" }]
+
+[[entries.eligibility]]
+text = "The student must belong to the Scheduled Caste category, and the parents' or guardian's yearly income must not be more than Rs. 2.50 lakh."
+evidence = [{ source_id = "oasis-pms-sc-leaflet", quote = "Parents/Guardians annual income not exceeding Rs. 2.50 Lakh Students belonging to SC category", where = "leaflet" }]
+
+[[entries.eligibility]]
+text = "The student must study a recognised course from Class XI onwards in a recognised institution, university, college or school."
+evidence = [{ source_id = "oasis-pms-sc-leaflet", quote = "Students pursuing courses in recognised Institutions/Universities/Colleges/Schools All recognised courses from class XI onwards", where = "leaflet" }]
+
+[[entries.eligibility]]
+text = "On the West Bengal OASIS portal the applicant must be a permanent resident (domicile) of West Bengal, and the scholarship is for studies within India only."
+evidence = [{ source_id = "oasis-user-manual", quote = "The applicant must be a permanent resident (domicile) of West Bengal. The scholarship is valid for studies within India only.", where = "page 2" }]
+
+[[entries.documents]]
+text = "A valid mobile number, an Aadhaar number, an Aadhaar-seeded bank account, an income certificate and a caste certificate."
+evidence = [{ source_id = "oasis-pms-sc-leaflet", quote = "Student should have a valid Mobile Number, Aadhaar Number (UID), Aadhaar seeded Bank Account, Income Certificate and Caste Certificate", where = "leaflet" }]
+
+[[entries.steps]]
+text = "Apply on the OASIS portal. One candidate can make only one application, and applying for another scholarship at the same time disqualifies the candidate from the OASIS scholarship."
+evidence = [{ source_id = "oasis-user-manual", quote = "The application restriction is 1 Candidate = 1 Application. Applying for any other scholarship concurrently will disqualify the candidate from receiving the OASIS scholarship.", where = "page 2" }]
+
+[[entries.steps]]
+text = "The name, birth year and gender on the portal must match the Aadhaar card exactly, and the student must have an active individual bank account."
+evidence = [
+  { source_id = "oasis-user-manual", quote = "Candidates must possess an active, individual bank account.", where = "page 2" },
+  { source_id = "oasis-user-manual", quote = "The student's name, spelling, birth year, and gender on the OASIS portal must match their Aadhaar card exactly.", where = "page 2" },
+]
+
+# -------------------------------------------------------------------------------------------------
+
+[[entries]]
+id = "post-matric-scholarship-obc-ebc-dnt"
+name = "Centrally Sponsored Scheme of Post-Matric Scholarship for OBC, EBC and DNT students"
+kind = "scheme"
+sectors = ["education"]
+level = "central"
+department = "Department of Social Justice and Empowerment, Government of India (run by each State or UT government)"
+status = "active"
+source_ids = ["pms-obc-guidelines", "oasis-user-manual"]
+last_verified = 2026-10-31
+summary = { en = "Financial help for students of Other Backward Classes, Economically Backward Classes and Denotified Tribes who study after Class X, with a freeship card so fees need not be paid in advance.", bn = "দশম শ্রেণির পরে পড়াশোনা করা অন্যান্য অনগ্রসর শ্রেণি, অর্থনৈতিকভাবে অনগ্রসর শ্রেণি ও বিমুক্ত যাযাবর উপজাতির শিক্ষার্থীদের আর্থিক সহায়তা; ফ্রিশিপ কার্ড থাকলে আগাম ফি দিতে হয় না।", hi = "दसवीं के बाद पढ़ने वाले अन्य पिछड़ा वर्ग, आर्थिक रूप से पिछड़ा वर्ग और विमुक्त जनजाति के विद्यार्थियों के लिए आर्थिक सहायता; फ्रीशिप कार्ड से फ़ीस पहले नहीं देनी पड़ती।" }
+target = { en = "Indian students of OBC, EBC and DNT families with limited income who study a recognised course after Class X.", bn = "সীমিত আয়ের ওবিসি, ইবিসি ও ডিএনটি পরিবারের যে ভারতীয় শিক্ষার্থীরা দশম শ্রেণির পরে স্বীকৃত পাঠক্রমে পড়ছেন।", hi = "सीमित आय वाले ओबीसी, ईबीसी और डीएनटी परिवारों के भारतीय विद्यार्थी जो दसवीं के बाद किसी मान्यता प्राप्त पाठ्यक्रम में पढ़ रहे हैं।" }
+not_stated = [
+  "Whether the amounts below are still current, or whether the State tops them up. The guidelines say a State may top up the academic allowance from its own money.",
+  "The closing date. The guidelines say each State announces the details and invites applications, starting from April.",
+  "How a West Bengal student applies for this particular scheme. The OASIS student manual says OBC students are eligible for OASIS scholarships, but does not name this scheme.",
+]
+
+[entries.apply]
+label = "OASIS scholarship portal (West Bengal)"
+url = "https://oasis.wb.gov.in/"
+evidence = [{ source_id = "oasis-user-manual", quote = "Eligible Categories: Students belonging to Scheduled Caste (SC), Scheduled Tribe (ST), and Other Backward Classes (OBC).", where = "page 2" }]
+
+[[entries.benefits]]
+text = "Financial assistance to OBC, EBC and DNT students at the post-matriculation or post-secondary stage, to help them complete their education."
+evidence = [{ source_id = "pms-obc-guidelines", quote = "The objective of the scheme is to provide financial assistance to the OBC, EBC and DNT students studying at post-matriculation or post-secondary stage to enable them to complete their education.", where = "page 1, para 1" }]
+
+[[entries.benefits]]
+text = "The yearly amount depends on the group of course: Rs. 20000 for professional degree and postgraduate courses (Group 1), Rs. 13000 for other professional courses (Group 2), Rs. 8000 for other graduate and postgraduate courses (Group 3), and Rs. 5000 for other post-matriculation non-degree courses (Group 4)."
+evidence = [{ source_id = "pms-obc-guidelines", quote = "Group 1: Degree and Post Graduate level professional courses 10000 10000 20000 Group 2: Other Professional Courses leading to Degree, Diploma, Certificate 8000 5000 13000 Group 3: Graduate and Post Graduate courses not covered under Group I & Group II 6000 2000 8000 Group 4: All post-matriculation (Post Class X level) non-degree courses 5000 0 5000", where = "page 7, para 7.1" }]
+
+[[entries.benefits]]
+text = "A Freeship Card lets an eligible student take admission without paying the tuition fee or hostel fee in advance."
+evidence = [{ source_id = "pms-obc-guidelines", quote = "The institutions should be willing to honour the FREESHIP CARD issued by the State/District Authority through the scholarship portal and admit the student without insisting on pre-payment of the college/tuition fee or hostel fee.", where = "page 2, para 4.1" }]
+
+[[entries.benefits]]
+text = "The whole scholarship amount is paid straight into the student's account by Direct Benefit Transfer."
+evidence = [{ source_id = "pms-obc-guidelines", quote = "The entire scholarship amount - both from the State and Central Government -including the tuition fees, academic allowance and any other admissible allowance will be paid directly into the account of the students ONLY through DBT", where = "page 9, para 12.2" }]
+
+[[entries.eligibility]]
+text = "The scholarship is open to Indian nationals who belong to OBCs, EBCs and DNTs as notified by the Centre or the State."
+evidence = [{ source_id = "pms-obc-guidelines", quote = "The scholarships will be open to Indian nationals belonging to OBCs, EBCs and DNTs, as notified by the Central Govt./State Govt./ UT Admin.", where = "page 3, para 5" }]
+
+[[entries.eligibility]]
+text = "Annual income up to Rs 2.50 lakh makes a student eligible."
+evidence = [{ source_id = "pms-obc-guidelines", quote = "All the OBC/EBC/DNT students with annual income of up to Rs 2.50 lakh per annum would be eligible under the scheme.", where = "page 5, para 6.1" }]
+
+[[entries.eligibility]]
+text = "The student must have passed the Matriculation, higher secondary or a higher examination, and belong to the State or UT where he or she is permanently settled."
+evidence = [{ source_id = "pms-obc-guidelines", quote = "who have passed the Matriculation or Higher secondary or any higher examination of a recognized University or Board of Secondary Education will be eligible.", where = "page 3, para 5(iii)" }]
+
+[[entries.exclusions]]
+text = "A scholarship holder under this scheme cannot hold any other scholarship or stipend."
+evidence = [{ source_id = "pms-obc-guidelines", quote = "A scholarship holder under this Scheme will not hold any other scholarship/ stipend.", where = "page 4, para 5" }]
+
+[[entries.exclusions]]
+text = "Students who study the same stage of education again in a different subject (for example B.Sc. after B.A.) are not eligible."
+evidence = [{ source_id = "pms-obc-guidelines", quote = "Candidates who, after passing one stage of education, are studying in the same stage of education in different subject e.g. B.Sc. after B.A or B.Com.after B.A. or M.A. in a subject after M.A in another subject will not be eligible.", where = "page 3, para 5(iv)" }]
+
+[[entries.exclusions]]
+text = "Only two boys of the same parents or guardian can receive the scholarship; this limit does not apply to girls."
+evidence = [{ source_id = "pms-obc-guidelines", quote = "Only two boys of the same parents/guardian will be entitled to receive scholarships. This restriction will, however, not apply to girls.", where = "page 4, para 5(x)" }]
+
+[[entries.documents]]
+text = "Scanned and uploaded documents include a passport size photograph, certificates of examinations passed, a caste certificate signed by the authorised officer, and a valid income certificate."
+evidence = [{ source_id = "pms-obc-guidelines", quote = "passport size photograph , copy of each of the certificates for diploma, degree etc. in respect of all examinations passed, Caste certificate duly signed by the authorized officer, valid Income certificate issued by the competent", where = "page 7, para 8.3" }]
+
+[[entries.steps]]
+text = "Register on the State scholarship portal for a Freeship Card well before admission, giving the Aadhaar number and the course you want to join."
+evidence = [{ source_id = "pms-obc-guidelines", quote = "The student shall, well before the expected date of admission, register for issuance of a Freeship Card on the respective scholarship portal giving the details like the Aadhaar number, the name of the course in which he/she wants to take admission", where = "page 7, para 8.2" }]
+
+[[entries.steps]]
+text = "The State completes verification within 30 days of the registration and issues the Freeship Card on the portal."
+evidence = [{ source_id = "pms-obc-guidelines", quote = "all States/UTs will complete the verification process within 30 days from the receipt of the registration request from the students and issue the Freeship Card through the IT portal", where = "page 8, para 8.4" }]
+
+[[entries.steps]]
+text = "On the day of admission the student applies for the scholarship on the portal, and the institution confirms the admission."
+evidence = [
+  { source_id = "pms-obc-guidelines", quote = "apply on the IT portal for the scholarship, along with documents needs to be uploaded as notified by the prescribed authority, on the same day as the date of admission into the institution.", where = "page 8, para 9.1" },
+  { source_id = "pms-obc-guidelines", quote = "the institution shall verify on the scholarship portal that the student has taken admission in the institution with the same course as mentioned on the Freeship card", where = "page 8, para 9.2" },
+]
+
+# -------------------------------------------------------------------------------------------------
+
+[[entries]]
+id = "shikshashree"
+name = "Shikshashree"
+kind = "scheme"
+sectors = ["education"]
+level = "state"
+state = "West Bengal"
+department = "Backward Classes Welfare Department, Government of West Bengal"
+status = "active"
+status_note = "The state portal pages were updated in 2022 and 2026 (see the sources); the department's form dates from 2014. None of them gives a closing date for this year."
+source_ids = ["wbgov-shikshashree", "wbgov-sikshasree", "shikshashree-district-page", "shikshashree-bcw-form", "bcw-notice-archive"]
+last_verified = 2026-10-31
+summary = { en = "A yearly scholarship paid into the bank account of day-scholar students from Scheduled Caste families (some official pages also name Scheduled Tribes) in the middle school classes.", bn = "মাঝের স্কুল-স্তরের ক্লাসে পড়া তপশিলি জাতির (কিছু সরকারি পাতায় তপশিলি উপজাতিও আছে) ডে-স্কলার শিক্ষার্থীদের ব্যাংক অ্যাকাউন্টে বার্ষিক বৃত্তি।", hi = "मध्य विद्यालय की कक्षाओं में पढ़ने वाले अनुसूचित जाति (कुछ सरकारी पृष्ठों में अनुसूचित जनजाति भी) के डे-स्कॉलर विद्यार्थियों के बैंक खाते में वार्षिक छात्रवृत्ति।" }
+target = { en = "Day-scholar students of Scheduled Caste families, and by some official pages Scheduled Tribe families, in classes V to VIII of West Bengal schools.", bn = "পশ্চিমবঙ্গের স্কুলে পঞ্চম থেকে অষ্টম শ্রেণিতে পড়া তপশিলি জাতির এবং কিছু সরকারি পাতা অনুযায়ী তপশিলি উপজাতির পরিবারের ডে-স্কলার শিক্ষার্থী।", hi = "पश्चिम बंगाल के स्कूलों में पाँचवीं से आठवीं कक्षा में पढ़ने वाले अनुसूचित जाति और कुछ सरकारी पृष्ठों के अनुसार अनुसूचित जनजाति परिवारों के डे-स्कॉलर विद्यार्थी।" }
+not_stated = [
+  "Whether the scheme is for Scheduled Caste students only or for Scheduled Caste and Scheduled Tribe students, and this is NOT resolved. One state portal page (updated 2022) and the district page's description name Scheduled Caste students only. The other state portal page, the district page's beneficiary line and the department's own application form name Scheduled Caste and Scheduled Tribe students. Check with the school or the Backward Classes Welfare Department.",
+  "The closing date. The department's notice list mentions a cut-off date notice for the Shikshashree portal, but its text could not be read.",
+  "Income limits. The department's form asks for the family's yearly income but does not state a limit.",
+]
+
+[entries.apply]
+label = "Backward Classes Welfare Department website"
+url = "https://anagrasarkalyan.gov.in/"
+evidence = [{ source_id = "shikshashree-bcw-form", quote = "can be used by copying or downloading from the official website of the BCW Department www.anagrasarkalyan.gov.in / www.bcwdwb.gov.in;", where = "page 2, note 1" }]
+
+[[entries.benefits]]
+text = "Annual scholarship of Rs 800 per student for classes V to VIII, paid into the student's bank account by Direct Benefit Transfer (from the state portal page that names SC and ST students)."
+evidence = [
+  { source_id = "wbgov-sikshasree", quote = "Annual financial assistance (scholarship) of Rs 800 per student for Classes V to VIII.", where = "Benefits" },
+  { source_id = "wbgov-sikshasree", quote = "Direct Benefit Transfer (DBT) of the amount into the student's bank account.", where = "Benefits" },
+]
+
+[[entries.benefits]]
+text = "The aim is to help students in classes V to VIII take part in the pre-matric stage and to reduce drop-out, especially of girls."
+evidence = [{ source_id = "wbgov-shikshashree", quote = "The objective of the scheme is to provide financial assistance to the SC students reading in classes V to VIII to improve their participation in Pre-matric stages and minimize the incidence of drop-out especially in case of girl students.", where = "Scheme description" }]
+
+[[entries.benefits]]
+text = "It replaces the earlier Book Grant and Maintenance Grant with one scheme, and the scholarship is paid only through a bank account."
+evidence = [
+  { source_id = "wbgov-shikshashree", quote = "'Shikshashree' scheme of providing assistance to SC day-scholars of Class V-VIII is evolved by merging the existing schemes of Book Grant and Maintenance Grant.", where = "Scheme description" },
+  { source_id = "shikshashree-bcw-form", quote = "Payment of scholarship will be made only through Bank Account.", where = "page 2, note 3" },
+]
+
+[[entries.eligibility]]
+text = "The scheme applies to day scholars of West Bengal reading in classes V to VIII in any Government, Government-aided or Government-recognised school of West Bengal."
+evidence = [{ source_id = "wbgov-shikshashree", quote = "It is applicable to the day scholars of West Bengal reading in class V-VIII in any Government, Government-aided and all Government recognized schools of West Bengal.", where = "Scheme description" }]
+
+[[entries.eligibility]]
+text = "One state portal page says the applicant must be a permanent resident of West Bengal and belong to the Scheduled Caste (SC) or Scheduled Tribe (ST) category."
+evidence = [
+  { source_id = "wbgov-sikshasree", quote = "The applicant must be a permanent resident of West Bengal.", where = "Eligibility" },
+  { source_id = "wbgov-sikshasree", quote = "Must belong to the Scheduled Caste (SC) or Scheduled Tribe (ST) category.", where = "Eligibility" },
+]
+
+[[entries.eligibility]]
+text = "The department's application form is for SC and ST students studying in classes V to VIII."
+evidence = [{ source_id = "shikshashree-bcw-form", quote = "APPLICATION FOR SIKSHASHREE SCHOLARSHIP TO SC / ST STUDENT STUDYING IN CLASS V TO VIII", where = "page 1" }]
+
+[[entries.documents]]
+text = "An income, caste and residential certificate signed by a Member of Parliament or of the State Legislature, a municipal commissioner or councillor, a panchayat pradhan or member, or a Government officer."
+evidence = [{ source_id = "shikshashree-bcw-form", quote = "INCOME, CASTE AND RESIDENTIAL CERTIFICATE (Should be signed either by a Member of Parliament or Member of a State Legislature or a Municipal Commissioner / Councilor / Panchayat Prodhan / Member of Zilla Parishad / Savapati of Panchayat Samity or a Government Officer.", where = "page 2" }]
+
+[[entries.documents]]
+text = "Attested copies of all documents in support of the claim, with the originals shown for verification when the form is submitted."
+evidence = [{ source_id = "shikshashree-bcw-form", quote = "Attested copies of all documents in support of claims for scholarship to be furnished along with this application. Original documents will be required to be produced for verification at the time of submission.", where = "page 2, note 2" }]
+
+[[entries.steps]]
+text = "Visit the Backward Classes Welfare Department website and open the Shikshashree application."
+evidence = [
+  { source_id = "shikshashree-district-page", quote = "The candidate needs to visit the Backward Classes Welfare Department West Bengal official website.", where = "How To Apply" },
+  { source_id = "shikshashree-district-page", quote = "Then, click on Sikshashree Scholarship Application.", where = "How To Apply" },
+]
+
+[[entries.steps]]
+text = "Log in by choosing the user type, district, sub-division, block or municipality and school, then fill in the application form and submit it."
+evidence = [{ source_id = "shikshashree-district-page", quote = "Fill the application form and click on Submit.", where = "How To Apply" }]
+
+[[entries.steps]]
+text = "The Head of the Institution signs the form to say the statements are correct."
+evidence = [{ source_id = "shikshashree-bcw-form", quote = "The statements made by the applicant at Serial No. 1 to 13 are correct to the best of my knowledge. Signature of Head of Institution", where = "page 2" }]
+
+# -------------------------------------------------------------------------------------------------
+
+[[entries]]
+id = "medhashree"
+name = "West Bengal Medhashree Scheme"
+kind = "scheme"
+sectors = ["education"]
+level = "state"
+state = "West Bengal"
+department = "Backward Classes Welfare Department, Government of West Bengal"
+status = "active"
+status_note = "From the state portal page (updated June 2026). It describes the scheme in its own words; the notification itself could not be read."
+source_ids = ["wbgov-medhashree", "bcw-notice-archive"]
+last_verified = 2026-10-31
+summary = { en = "A yearly scholarship paid into the bank account of students of Other Backward Classes in the middle school classes.", bn = "মাঝের স্কুল-স্তরের ক্লাসে পড়া অন্যান্য অনগ্রসর শ্রেণির শিক্ষার্থীদের ব্যাংক অ্যাকাউন্টে বার্ষিক বৃত্তি।", hi = "मध्य विद्यालय की कक्षाओं में पढ़ने वाले अन्य पिछड़ा वर्ग के विद्यार्थियों के बैंक खाते में वार्षिक छात्रवृत्ति।" }
+target = { en = "Students of Other Backward Classes in classes V to VIII of government, government-aided or recognised schools in West Bengal, from families with limited income.", bn = "পশ্চিমবঙ্গের সরকারি, সরকার-সাহায্যপ্রাপ্ত বা স্বীকৃত স্কুলে পঞ্চম থেকে অষ্টম শ্রেণিতে পড়া সীমিত আয়ের পরিবারের অন্যান্য অনগ্রসর শ্রেণির শিক্ষার্থী।", hi = "पश्चिम बंगाल के सरकारी, सरकारी सहायता प्राप्त या मान्यता प्राप्त स्कूलों में पाँचवीं से आठवीं कक्षा में पढ़ने वाले सीमित आय वाले परिवारों के अन्य पिछड़ा वर्ग के विद्यार्थी।" }
+not_stated = [
+  "The closing date. The department's notice list has a notice titled 'Cut off Date of Shikshashree and Medhashree Portal', but its text is not available.",
+  "The date of the department's notification and its exact wording; only its title and the portal page are available.",
+  "The portal's address. The page says the school submits details on 'the official portal' without naming it.",
+  "A discrepancy in the page: its first sentence says the scheme supports 'higher education', while its benefits and eligibility say schooling up to Class VIII. This entry follows the benefits and eligibility lines.",
+]
+
+[entries.apply]
+label = "Backward Classes Welfare Department: notices"
+url = "https://anagrasarkalyan.gov.in/all_notice"
+evidence = [{ source_id = "bcw-notice-archive", quote = "NOTIFICATION-Medhashree- Pre-matric Scholarship to Other Backward Classes Students studying in Class V to VIII", where = "Notice Archive" }]
+
+[[entries.benefits]]
+text = "Annual financial assistance of Rs 800 per student, renewed yearly up to Class VIII."
+evidence = [
+  { source_id = "wbgov-medhashree", quote = "Annual financial assistance of Rs 800 per student.", where = "Benefits" },
+  { source_id = "wbgov-medhashree", quote = "Renewable yearly benefit through the schooling period (up to Class VIII).", where = "Benefits" },
+]
+
+[[entries.benefits]]
+text = "The amount is paid directly into the student's bank account by Direct Benefit Transfer."
+evidence = [{ source_id = "wbgov-medhashree", quote = "Direct Benefit Transfer (DBT) of the amount into the student's bank account.", where = "Benefits" }]
+
+[[entries.eligibility]]
+text = "The applicant must be a permanent resident of West Bengal and belong to the OBC category."
+evidence = [
+  { source_id = "wbgov-medhashree", quote = "The applicant must be a permanent resident of West Bengal.", where = "Eligibility" },
+  { source_id = "wbgov-medhashree", quote = "Must belong to the OBC category.", where = "Eligibility" },
+]
+
+[[entries.eligibility]]
+text = "The student must be in classes V to VIII in a government, government-aided or government-recognised school."
+evidence = [{ source_id = "wbgov-medhashree", quote = "Must be studying in Classes V-VIII in a government, government-aided, or government-recognized school.", where = "Eligibility" }]
+
+[[entries.eligibility]]
+text = "Annual family income should generally not be more than Rs 2.5 lakh."
+evidence = [{ source_id = "wbgov-medhashree", quote = "Annual family income should generally not exceed Rs 2.5 lakh.", where = "Eligibility" }]
+
+[[entries.eligibility]]
+text = "The student must have a valid bank account."
+evidence = [{ source_id = "wbgov-medhashree", quote = "Must have a valid bank account.", where = "Eligibility" }]
+
+[[entries.exclusions]]
+text = "A student who already receives another similar scholarship is not eligible."
+evidence = [{ source_id = "wbgov-medhashree", quote = "Student should not be receiving any other similar scholarship.", where = "Eligibility" }]
+
+[[entries.documents]]
+text = "Caste certificate, income certificate, Aadhaar and bank account details."
+evidence = [{ source_id = "wbgov-medhashree", quote = "Required documents are submitted, including caste certificate, income certificate, Aadhaar, and bank account details.", where = "Application Details" }]
+
+[[entries.steps]]
+text = "School authorities (the Headmaster or Headmistress) identify the students, and the school submits their details on the official portal."
+evidence = [
+  { source_id = "wbgov-medhashree", quote = "Students are identified by school authorities (Headmaster/Headmistress).", where = "Application Details" },
+  { source_id = "wbgov-medhashree", quote = "School submits student details on the official portal.", where = "Application Details" },
+]
+
+[[entries.steps]]
+text = "The application form is filled in (online or offline) with basic details and the documents are submitted."
+evidence = [{ source_id = "wbgov-medhashree", quote = "Application form is filled (online/offline) with basic details.", where = "Application Details" }]
+
+[[entries.steps]]
+text = "The school and the concerned government department verify the application, and on approval the amount is transferred by DBT."
+evidence = [
+  { source_id = "wbgov-medhashree", quote = "Verification is carried out by the school and the concerned government department.", where = "Application Details" },
+  { source_id = "wbgov-medhashree", quote = "Upon approval, the scholarship amount is transferred directly to the student's bank account through DBT.", where = "Application Details" },
+]
+
+# -------------------------------------------------------------------------------------------------
+
+[[entries]]
+id = "pre-matric-scholarship-sc-st-obc"
+name = "Pre-Matric Scholarship for SC, ST and OBC students"
+kind = "scheme"
+sectors = ["education"]
+level = "state"
+state = "West Bengal"
+department = "Government of West Bengal (applications through the OASIS portal)"
+status = "active"
+status_note = "From the state portal page (updated June 2026), which describes the scheme in general terms."
+source_ids = ["wbgov-pre-matric"]
+last_verified = 2026-10-31
+summary = { en = "Financial help with fees, a monthly allowance and other school costs for students of Scheduled Caste, Scheduled Tribe and Other Backward Classes families at school level.", bn = "স্কুল স্তরে পড়া তপশিলি জাতি, তপশিলি উপজাতি ও অন্যান্য অনগ্রসর শ্রেণির পরিবারের শিক্ষার্থীদের ফি, মাসিক ভাতা ও অন্যান্য স্কুল খরচে আর্থিক সহায়তা।", hi = "स्कूल स्तर पर पढ़ने वाले अनुसूचित जाति, अनुसूचित जनजाति और अन्य पिछड़ा वर्ग परिवारों के विद्यार्थियों के लिए फ़ीस, मासिक भत्ते और स्कूल के अन्य ख़र्चों में आर्थिक मदद।" }
+target = { en = "School students from SC, ST and OBC families with limited income who live in West Bengal.", bn = "পশ্চিমবঙ্গে বসবাসকারী সীমিত আয়ের তপশিলি জাতি, তপশিলি উপজাতি ও অন্যান্য অনগ্রসর শ্রেণির পরিবারের স্কুল-ছাত্রছাত্রী।", hi = "पश्चिम बंगाल में रहने वाले सीमित आय वाले अनुसूचित जाति, अनुसूचित जनजाति और अन्य पिछड़ा वर्ग परिवारों के स्कूली विद्यार्थी।" }
+not_stated = [
+  "The amounts. The page says they differ by state, category and component.",
+  "The closing date.",
+  "The exact classes in West Bengal. The page says 'generally Class 9 - 10' with some variants, and that the income limit varies slightly for OBC.",
+]
+
+[entries.apply]
+label = "OASIS scholarship portal (West Bengal)"
+url = "https://oasis.wb.gov.in/"
+evidence = [{ source_id = "wbgov-pre-matric", quote = "Register on oasis.wb.gov.in by creating a One-Time Registration (OTR) ID.", where = "Application Details" }]
+
+[[entries.benefits]]
+text = "Maintenance allowance (a monthly stipend) and reimbursement of tuition fees and other academic charges where they apply."
+evidence = [
+  { source_id = "wbgov-pre-matric", quote = "Maintenance allowance to cover daily expenses (monthly stipend for students).", where = "Benefits" },
+  { source_id = "wbgov-pre-matric", quote = "Reimbursement of tuition fees and other academic charges (as applicable).", where = "Benefits" },
+]
+
+[[entries.benefits]]
+text = "Support for compulsory non-refundable fees such as exam and admission fees, extra support for hostellers, and extra allowances for students with disabilities."
+evidence = [
+  { source_id = "wbgov-pre-matric", quote = "Financial aid for compulsory non-refundable fees (e.g., exam fees, admission fees).", where = "Benefits" },
+  { source_id = "wbgov-pre-matric", quote = "Additional support for hostellers, including higher maintenance allowance.", where = "Benefits" },
+  { source_id = "wbgov-pre-matric", quote = "Support for students with disabilities (extra allowances where applicable).", where = "Benefits" },
+]
+
+[[entries.benefits]]
+text = "The exact amount differs by state, category and component of the scheme, as it is implemented by state governments."
+evidence = [{ source_id = "wbgov-pre-matric", quote = "The exact amount differs by state, category (SC/ST/OBC), and component of the scheme, as it is implemented by state governments.", where = "Benefits" }]
+
+[[entries.eligibility]]
+text = "The student must belong to the SC, ST or OBC community and have a valid caste certificate."
+evidence = [{ source_id = "wbgov-pre-matric", quote = "Must belong to SC/ST/OBC community and possess a valid caste certificate.", where = "Eligibility" }]
+
+[[entries.eligibility]]
+text = "The annual family income limit for SC and ST students is Rs 2.5 lakh (it varies slightly for OBC depending on the scheme or state)."
+evidence = [{ source_id = "wbgov-pre-matric", quote = "Annual family income limit should not exceed: Rs 2.5 lakh for SC/ST students (varies slightly for OBC depending on scheme/state).", where = "Eligibility" }]
+
+[[entries.eligibility]]
+text = "The student must be a regular, full-time student of a recognised school and must belong to the state or UT from which they apply."
+evidence = [
+  { source_id = "wbgov-pre-matric", quote = "Must be a regular/full-time student enrolled in school.", where = "Eligibility" },
+  { source_id = "wbgov-pre-matric", quote = "Domicile requirement: Must belong to the state/UT from where applying.", where = "Eligibility" },
+]
+
+[[entries.exclusions]]
+text = "A student who already gets another scholarship for the same purpose is not eligible."
+evidence = [{ source_id = "wbgov-pre-matric", quote = "Only one scholarship at a time: Student should not be availing another scholarship for the same purpose.", where = "Eligibility" }]
+
+[[entries.documents]]
+text = "Caste certificate, income certificate, Aadhaar and the previous marksheet."
+evidence = [{ source_id = "wbgov-pre-matric", quote = "Upload required documents, such as caste certificate, income certificate, Aadhaar, and previous marksheet.", where = "Application Details" }]
+
+[[entries.steps]]
+text = "Register on the OASIS portal with a One-Time Registration (OTR) ID, fill in the online form with personal, academic and bank details, and upload the documents."
+evidence = [
+  { source_id = "wbgov-pre-matric", quote = "Register on oasis.wb.gov.in by creating a One-Time Registration (OTR) ID.", where = "Application Details" },
+  { source_id = "wbgov-pre-matric", quote = "Fill out the online application form with personal, academic, and bank details.", where = "Application Details" },
+]
+
+[[entries.steps]]
+text = "The school verifies the application and then the state authorities do; you can track the status on the portal."
+evidence = [
+  { source_id = "wbgov-pre-matric", quote = "Application verification is carried out by the school and then by state authorities.", where = "Application Details" },
+  { source_id = "wbgov-pre-matric", quote = "Track application status on the portal.", where = "Application Details" },
+]
+
+# -------------------------------------------------------------------------------------------------
+
+[[entries]]
+id = "pre-post-matric-scholarship-minority"
+name = "Pre and Post Matric Scholarships for Minority Students"
+kind = "scheme"
+sectors = ["education"]
+level = "state"
+state = "West Bengal"
+department = "Government of West Bengal (scholarships under the national scheme, applied for through the state's portal)"
+status = "active"
+status_note = "From the state portal page (updated June 2026), which describes the scheme in general terms."
+source_ids = ["wbgov-minority-scholarships"]
+last_verified = 2026-10-31
+summary = { en = "Scholarships with fee support and a monthly allowance for students of notified minority communities, from Class IX up to PhD.", bn = "বিজ্ঞাপিত সংখ্যালঘু সম্প্রদায়ের শিক্ষার্থীদের জন্য নবম শ্রেণি থেকে পিএইচডি পর্যন্ত ফি-তে সহায়তা ও মাসিক ভাতা সহ বৃত্তি।", hi = "अधिसूचित अल्पसंख्यक समुदायों के विद्यार्थियों के लिए नौवीं कक्षा से पीएचडी तक फ़ीस में सहायता और मासिक भत्ते वाली छात्रवृत्ति।" }
+target = { en = "Students from Muslim, Christian, Sikh, Buddhist, Jain and Parsi communities, from Class IX to PhD, from families with limited income.", bn = "নবম শ্রেণি থেকে পিএইচডি পর্যন্ত পড়া মুসলিম, খ্রিস্টান, শিখ, বৌদ্ধ, জৈন ও পার্সি সম্প্রদায়ের সীমিত আয়ের পরিবারের শিক্ষার্থী।", hi = "नौवीं कक्षा से पीएचडी तक पढ़ने वाले मुस्लिम, ईसाई, सिख, बौद्ध, जैन और पारसी समुदायों के सीमित आय वाले परिवारों के विद्यार्थी।" }
+not_stated = [
+  "The amounts of the allowances and fee ceilings.",
+  "The closing date.",
+  "The application portal's address. The page links a portal at nspwb.wbmdfs.org, which is not a .gov.in address, so it is not used here; the apply link below is the national scholarship portal.",
+  "The scheme's own guidelines. Older central guidelines (2018 to 2020) were downloaded but may be superseded, so they are not used.",
+]
+
+[entries.apply]
+label = "National Scholarship Portal"
+url = "https://scholarships.gov.in/"
+evidence = [{ source_id = "wbgov-minority-scholarships", quote = "West Bengal government provides scholarships under NSP WB for Minority Students to financially assist students from Classes IX to Ph.D belonging to minority communities", where = "Scheme description" }]
+
+[[entries.benefits]]
+text = "Pre-Matric (Classes IX-X): coverage of admission and tuition fees and a monthly maintenance allowance for day scholars and hostellers."
+evidence = [
+  { source_id = "wbgov-minority-scholarships", quote = "Coverage of admission and tuition fees (primarily for Classes IX-X, as per scheme norms).", where = "Benefits" },
+  { source_id = "wbgov-minority-scholarships", quote = "Monthly maintenance allowance for both day scholars and hostellers to support study-related expenses.", where = "Benefits" },
+]
+
+[[entries.benefits]]
+text = "Post-Matric (Class XI to higher education): reimbursement of admission and tuition fees, a maintenance allowance at higher rates than pre-matric, and cover for technical and professional courses within ceilings."
+evidence = [
+  { source_id = "wbgov-minority-scholarships", quote = "Reimbursement of admission and tuition fees (subject to course category and scheme limits).", where = "Benefits" },
+  { source_id = "wbgov-minority-scholarships", quote = "Monthly maintenance allowance for day scholars and hostellers, with higher rates than pre-matric level.", where = "Benefits" },
+  { source_id = "wbgov-minority-scholarships", quote = "Coverage for technical and professional courses, including additional approved fees (within prescribed ceilings).", where = "Benefits" },
+]
+
+[[entries.eligibility]]
+text = "The applicant must belong to a recognised minority community: Muslim, Christian, Sikh, Buddhist, Jain or Parsi."
+evidence = [{ source_id = "wbgov-minority-scholarships", quote = "Applicant must belong to a recognized minority community (Muslim, Christian, Sikh, Buddhist, Jain, or Parsi)", where = "Eligibility" }]
+
+[[entries.eligibility]]
+text = "The student must have secured at least 50% marks in the previous final examination."
+evidence = [{ source_id = "wbgov-minority-scholarships", quote = "Must have secured at least 50% marks in the previous final examination", where = "Eligibility" }]
+
+[[entries.eligibility]]
+text = "Annual family income must not be more than 1 lakh for pre-matric and 2 lakh for post-matric."
+evidence = [{ source_id = "wbgov-minority-scholarships", quote = "Annual family income should not exceed 1 lakhs for pre matric and 2 lakhs for post matric", where = "Eligibility" }]
+
+[[entries.exclusions]]
+text = "A student who already receives another scholarship is not eligible."
+evidence = [{ source_id = "wbgov-minority-scholarships", quote = "The student should not be receiving any other scholarship", where = "Eligibility" }]
+
+[[entries.documents]]
+text = "Documents to upload include the income certificate, minority certificate, marksheet and bank proof; registration uses name, mobile, email, EPIC and Aadhaar."
+evidence = [
+  { source_id = "wbgov-minority-scholarships", quote = "Upload documents (income, minority certificate, marksheet, bank proof, etc.)", where = "Application Details" },
+  { source_id = "wbgov-minority-scholarships", quote = "Register with basic details (name, mobile, email), EPIC, Aadhaar", where = "Application Details" },
+]
+
+[[entries.steps]]
+text = "Apply online on the state's NSP-WB portal, fill in the personal, academic and bank details and submit before the deadline."
+evidence = [
+  { source_id = "wbgov-minority-scholarships", quote = "Apply online via NSP-WB portal", where = "Application Details" },
+  { source_id = "wbgov-minority-scholarships", quote = "Fill application form (personal, academic, bank details)", where = "Application Details" },
+]
+
+[[entries.steps]]
+text = "The institute verifies and forwards the application, and the approved amount is credited by DBT to the student's bank account."
+evidence = [
+  { source_id = "wbgov-minority-scholarships", quote = "Institute verifies and forwards for further verification", where = "Application Details" },
+  { source_id = "wbgov-minority-scholarships", quote = "Approved amount is credited via DBT to student's bank account", where = "Application Details" },
+]
+
+# =================================================================================================
+# HEALTH
+# =================================================================================================
+
+[[entries]]
+id = "swasthya-sathi"
+name = "Swasthya Sathi"
+kind = "scheme"
+sectors = ["health"]
+level = "state"
+state = "West Bengal"
+department = "Government of West Bengal"
+status = "active"
+status_note = "The portal pages have no date. The About page's latest dated figure is from 2018, and the counts of families and hospitals on both pages are not used."
+source_ids = ["swasthyasathi-home", "swasthyasathi-about"]
+last_verified = 2026-10-31
+summary = { en = "Cashless health cover for hospital treatment, paid for entirely by the West Bengal government, with a smart card for each family.", bn = "হাসপাতালে চিকিৎসার জন্য নগদহীন স্বাস্থ্য সুরক্ষা, যার পুরো খরচ পশ্চিমবঙ্গ সরকার বহন করে; প্রতিটি পরিবারের জন্য একটি স্মার্ট কার্ড।", hi = "अस्पताल में इलाज के लिए कैशलेस स्वास्थ्य कवर, जिसका पूरा ख़र्च पश्चिम बंगाल सरकार उठाती है; हर परिवार के लिए एक स्मार्ट कार्ड।" }
+target = { en = "Families in certain groups, such as self help group members, ICDS workers and helpers, ASHA workers and civic volunteers, and families listed under certain government databases.", bn = "কিছু গোষ্ঠীর পরিবার, যেমন স্বনির্ভর গোষ্ঠীর সদস্য, আইসিডিএস কর্মী ও সহায়িকা, আশা কর্মী ও সিভিক ভলান্টিয়ার, এবং কিছু সরকারি তালিকাভুক্ত পরিবার।", hi = "कुछ समूहों के परिवार, जैसे स्वयं सहायता समूह के सदस्य, आईसीडीएस कार्यकर्ता व सहायिकाएँ, आशा कार्यकर्ता और सिविक वॉलंटियर, तथा कुछ सरकारी सूचियों में शामिल परिवार।" }
+not_stated = [
+  "Whether the list of eligible groups is still the same. The About page says 'at present' and its latest dated figure is from 2018.",
+  "How to enrol, and which documents to bring. Neither page says.",
+  "The list of empanelled hospitals and the treatments covered.",
+  "How the scheme fits with Ayushman Bharat PM-JAY in West Bengal. The portal home page lists an FAQ on the two schemes, but it is delivered by a script and could not be read.",
+]
+
+[entries.apply]
+label = "Swasthya Sathi portal"
+url = "https://swasthyasathi.gov.in/"
+evidence = [{ source_id = "swasthyasathi-home", quote = "Android based Swasthya Sathi Mobile app for assistance to the beneficiaries", where = "Main Features of the Scheme" }]
+
+[[entries.benefits]]
+text = "Basic health cover for secondary and tertiary care of up to Rs. 5 lakh per year per family."
+evidence = [{ source_id = "swasthyasathi-home", quote = "Basic health cover for secondary and tertiary care up to Rs. 5 lakh per annum per family.", where = "Main Features of the Scheme" }]
+
+[[entries.benefits]]
+text = "The scheme is paperless, cashless and smart card based."
+evidence = [{ source_id = "swasthyasathi-home", quote = "Paperless, Cashless, Smart Card based.", where = "Main Features of the Scheme" }]
+
+[[entries.benefits]]
+text = "All pre-existing diseases are covered."
+evidence = [{ source_id = "swasthyasathi-home", quote = "All pre-existing diseases are covered.", where = "Main Features of the Scheme" }]
+
+[[entries.benefits]]
+text = "There is no cap on family size; both spouses' parents and dependent physically challenged family members are included."
+evidence = [{ source_id = "swasthyasathi-home", quote = "There is no cap on the family size and Parents from both the Spouse are included. All dependent physically challenged persons in the family are also covered.", where = "Main Features of the Scheme" }]
+
+[[entries.benefits]]
+text = "The whole cost is borne by the State Government; the family pays nothing."
+evidence = [{ source_id = "swasthyasathi-home", quote = "The entire cost is borne by the State Government and no contribution from the beneficiary.", where = "Main Features of the Scheme" }]
+
+[[entries.benefits]]
+text = "The state extended the cover to Rs. 5 lakh per year irrespective of disease classification by a notification of 4th October, 2018."
+evidence = [{ source_id = "swasthyasathi-about", quote = "State Government vide notification number 6371-F[P1] dated 4 th October, 2018 further extended the coverage up to Rs. 5 lakh per annum irrespective of disease classifications.", where = "About the Scheme" }]
+
+[[entries.eligibility]]
+text = "Families of self help group members, ICDS workers and helpers, ASHA workers, Civic Volunteer Force and Civil Defence volunteers, and certain categories of contractual employees are included at present."
+evidence = [{ source_id = "swasthyasathi-about", quote = "Families of theSelf Help Group Members, ICDS Workers &Helpers, ASHAKarmee, Civic Volunteer Force, Civil defence Volunteers andcertain categories of contractual employees included under thescheme at present.", where = "About the Scheme" }]
+
+[[entries.eligibility]]
+text = "All RSBY beneficiaries and other beneficiaries based on SECC deprivation criteria are also brought under the scheme."
+evidence = [{ source_id = "swasthyasathi-about", quote = "All RSBY beneficiaries and other beneficiaries based on SECC deprivation criteria are also brought under the scheme.", where = "About the Scheme" }]
+
+[[entries.steps]]
+text = "The family gets an online Swasthya Sathi smart card on the day of enrolment."
+evidence = [{ source_id = "swasthyasathi-home", quote = "Online Swathya Sathi Smart card is provided to each family on the day of Enrolment.", where = "Main Features of the Scheme" }]
+
+[[entries.steps]]
+text = "A 24 hours a day, 7 days a week toll-free call centre is available on 18003455384."
+evidence = [{ source_id = "swasthyasathi-home", quote = "24X7 toll free Call Centre (18003455384) with feedback option", where = "Main Features of the Scheme" }]
+
+# -------------------------------------------------------------------------------------------------
+
+[[entries]]
+id = "ab-pm-jay"
+name = "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB PM-JAY)"
+kind = "scheme"
+sectors = ["health"]
+level = "central"
+department = "Ministry of Health and Family Welfare, Government of India (National Health Authority)"
+status = "active"
+status_note = "National scheme. The West Bengal government's scheme portal lists it (page updated June 2026), but no downloaded document says from when it works in West Bengal: see 'not stated'."
+source_ids = ["mohfw-achievements-2025", "wbgov-pmjay"]
+last_verified = 2026-10-31
+summary = { en = "Free hospital cover for serious illness, for each eligible family every year, at hospitals that are part of the scheme.", bn = "যোগ্য প্রতিটি পরিবারের জন্য প্রতি বছর গুরুতর অসুখে হাসপাতালে চিকিৎসার সুরক্ষা, প্রকল্পভুক্ত হাসপাতালে।", hi = "हर पात्र परिवार के लिए हर साल गंभीर बीमारी में अस्पताल में इलाज का कवर, योजना से जुड़े अस्पतालों में।" }
+target = { en = "Eligible families, ASHA and anganwadi workers and helpers, and senior citizens of a certain age and above, in the States and Union Territories that run the scheme.", bn = "যে রাজ্য ও কেন্দ্রশাসিত অঞ্চলে প্রকল্পটি চালু আছে সেখানকার যোগ্য পরিবার, আশা ও অঙ্গনওয়াড়ি কর্মী ও সহায়িকা এবং নির্দিষ্ট বয়স ও তার বেশি বয়সের প্রবীণ নাগরিক।", hi = "जिन राज्यों और केंद्र शासित प्रदेशों में योजना चलती है वहाँ के पात्र परिवार, आशा और आँगनवाड़ी कार्यकर्ता व सहायिकाएँ, और एक निश्चित आयु व उससे अधिक के वरिष्ठ नागरिक।" }
+not_stated = [
+  "From when PM-JAY works in West Bengal, and how it fits with Swasthya Sathi. The West Bengal government's own scheme portal describes PM-JAY in its list of schemes (updated June 2026) but gives no start date; the Ministry review (January 2026) records only the 2025 expansion to Delhi and Odisha and does not mention West Bengal. The Press Information Bureau's press-release pages answered the tools with HTTP 403 and the scheme's own portal timed out, so no later official text could be read.",
+  "Which documents to bring, and how to check eligibility, beyond the Ayushman App.",
+  "A helpline number, and the form for senior citizens aged 70 or older (the portal page says a specific application form is needed).",
+]
+
+[entries.apply]
+label = "Ayushman Bharat beneficiary portal (National Health Authority)"
+url = "https://beneficiary.nha.gov.in/"
+evidence = [{ source_id = "wbgov-pmjay", quote = 'Check eligibility: Visit the PM-JAY website or use the "Am I Eligible" feature, or check at a nearby Common Service Centre (CSC)', where = "Application Details" }]
+
+[[entries.benefits]]
+text = "Health cover of Rs. 5 lakhs per family per year for secondary and tertiary care hospitalisation."
+evidence = [{ source_id = "mohfw-achievements-2025", quote = "The second pillar of Ayushman Bharat is the Pradhan Mantri - Jan Arogya Yojana (AB PM-JAY), the largest publicly funded health assurance scheme in the world which provides health cover of Rs. 5 lakhs per family per year for secondary and tertiary care hospitalization.", where = "page 2" }]
+
+[[entries.benefits]]
+text = "Treatment is at hospitals empanelled under the scheme: 32,574 hospitals on 1st December 2025, 15,532 of them private."
+evidence = [{ source_id = "mohfw-achievements-2025", quote = "As on 1st December, 2025, a total of 32,574 hospitals including 15,532 private hospitals are empanelled under AB PM-JAY to provide healthcare services to scheme beneficiaries.", where = "page 3" }]
+
+[[entries.eligibility]]
+text = "All senior citizens aged 70 years and above get the benefits of the scheme, whatever their socio-economic status, with the Ayushman Vay Vandana card."
+evidence = [{ source_id = "mohfw-achievements-2025", quote = "On 29th October 2024, Prime Minister launched “Ayushman Vay Vandana card” under which all senior citizens of age 70 years and above will be provided all the benefits of AB PM-JAY irrespective of their socio-economic status.", where = "page 3" }]
+
+[[entries.eligibility]]
+text = "ASHA workers, anganwadi workers and anganwadi helpers have been included under the scheme from February 2024."
+evidence = [{ source_id = "mohfw-achievements-2025", quote = "Approximately 37 lakhs ASHA, AWWs, and AWH were included under AB PM-JAY scheme from February 2024.", where = "page 2" }]
+
+[[entries.eligibility]]
+text = "Many States and Union Territories that run the scheme have widened the list of beneficiaries at their own cost."
+evidence = [{ source_id = "mohfw-achievements-2025", quote = "Many States/UTs implementing AB PM-JAY have further expanded the beneficiary base, at their own cost, for their state/UT scheme.", where = "page 2" }]
+
+[[entries.eligibility]]
+text = "Families are identified from the Socio-Economic Caste Census (SECC) database, and a family must be listed in the PM-JAY beneficiary database to get the benefits."
+evidence = [
+  { source_id = "wbgov-pmjay", quote = "Beneficiaries are identified usingthe Socio-Economic Caste Census (SECC) database", where = "Eligibility" },
+  { source_id = "wbgov-pmjay", quote = "Must be listed in PM-JAY beneficiary database to avail benefits", where = "Eligibility" },
+]
+
+[[entries.eligibility]]
+text = "No income cap is applied: eligibility depends on deprivation and occupational criteria. Senior citizens aged 70 years or older come under a special cover and apply on a specific form."
+evidence = [
+  { source_id = "wbgov-pmjay", quote = "No income cap required - eligibility is determined by deprivation and occupational criteria rather than income level", where = "Eligibility" },
+  { source_id = "wbgov-pmjay", quote = "Additionally, all senior citizens aged 70 years or older can come under special health coverage. Such applicant will have to apply in specific application form.", where = "Eligibility" },
+]
+
+[[entries.benefits]]
+text = "Cover is cashless and paperless at empanelled public and private hospitals across India, and includes all pre-existing diseases from day one of enrolment."
+evidence = [
+  { source_id = "wbgov-pmjay", quote = "Cashless and paperless treatment at empaneled public and private hospitals across India", where = "Benefits" },
+  { source_id = "wbgov-pmjay", quote = "Covers all pre-existing diseases from day one of enrolment", where = "Benefits" },
+]
+
+[[entries.steps]]
+text = "No formal application form is required for eligible families: they are identified automatically from the SECC database, then go to an empanelled hospital or Arogya Mitra desk to be verified."
+evidence = [
+  { source_id = "wbgov-pmjay", quote = "No formal application form required: Eligible families are automatically identified from the SECC database", where = "Application Details" },
+  { source_id = "wbgov-pmjay", quote = "Visit empaneled hospital or Arogya Mitra desk: Go to a listed hospital or help desk for assistance with enrollment and validation", where = "Application Details" },
+]
+
+[[entries.steps]]
+text = "An Ayushman Card can be created on the Ayushman App, using face authentication, OTP, iris or fingerprint."
+evidence = [{ source_id = "mohfw-achievements-2025", quote = "The app has been developed using latest technology and provided different modes of authentication i.e. face-auth, OTP, IRIS, and fingerprint for Ayushman Card creation.", where = "page 3" }]
+
+# -------------------------------------------------------------------------------------------------
+
+[[entries]]
+id = "pm-bhartiya-janaushadhi-pariyojana"
+name = "Pradhan Mantri Bhartiya Janaushadhi Pariyojana (PMBJP)"
+kind = "scheme"
+sectors = ["health", "business"]
+level = "central"
+department = "Department of Pharmaceuticals, Ministry of Chemicals and Fertilizers, Government of India"
+status = "active"
+status_note = "The scheme note used is from 2022; the number of stores and products in it is not repeated here because it may be out of date."
+source_ids = ["pmbjp-pharma-dept"]
+last_verified = 2026-10-31
+summary = { en = "Shops called Janaushadhi Kendras that sell quality generic medicines at much lower prices than branded ones, and a way for entrepreneurs to open such a shop with an incentive.", bn = "জনঔষধি কেন্দ্র নামের দোকান, যেখানে ব্র্যান্ডের ওষুধের চেয়ে অনেক কম দামে ভালো মানের জেনেরিক ওষুধ মেলে; এবং সুবিধা নিয়ে এমন দোকান খোলার সুযোগ।", hi = "जनऔषधि केंद्र नाम की दुकानें, जहाँ ब्रांडेड दवाओं से बहुत कम दाम पर अच्छी गुणवत्ता की जेनेरिक दवाएँ मिलती हैं; और प्रोत्साहन के साथ ऐसी दुकान खोलने का अवसर।" }
+target = { en = "Anyone who buys medicines, and entrepreneurs, government agencies and others who want to open a Janaushadhi Kendra.", bn = "যাঁরা ওষুধ কেনেন, এবং যাঁরা জনঔষধি কেন্দ্র খুলতে চান সেই উদ্যোক্তা, সরকারি সংস্থা ও অন্যরা।", hi = "दवाएँ ख़रीदने वाले सभी लोग, और जनऔषधि केंद्र खोलना चाहने वाले उद्यमी, सरकारी एजेंसियाँ और अन्य।" }
+not_stated = [
+  "How to apply to open a Kendra, the conditions and the paperwork. The scheme's own guidelines page could not be read by the tools (it is built by a script).",
+  "A list of medicines or the nearest Kendra.",
+  "Whether the incentive amounts are still current; the note is from 2022.",
+]
+
+[entries.apply]
+label = "Janaushadhi website (Pharmaceuticals and Medical Devices Bureau of India)"
+url = "https://janaushadhi.gov.in/"
+evidence = [{ source_id = "pmbjp-pharma-dept", quote = "Pharmaceuticals & Medical Devices Bureau of India (PMBI) is the implementing agency of Pradhan Mantri Bhartiya Janaushadhi Pariyojana (PMBJP).", where = "page 1" }]
+
+[[entries.benefits]]
+text = "Dedicated outlets called Janaushadhi Kendras provide generic medicines at affordable prices."
+evidence = [{ source_id = "pmbjp-pharma-dept", quote = "Under the scheme, dedicated outlets known as Janaushadhi Kendras are opened to provide generic medicines at affordable prices.", where = "page 1" }]
+
+[[entries.benefits]]
+text = "Jan Aushadhi medicines cost 50% to 90% less than branded medicines in the open market."
+evidence = [{ source_id = "pmbjp-pharma-dept", quote = "Prices of the Jan Aushadhi medicines are 50%-90% less than that of branded medicines prices in the open market.", where = "page 1" }]
+
+[[entries.benefits]]
+text = "Each batch of medicine is tested at laboratories accredited by NABL for quality."
+evidence = [{ source_id = "pmbjp-pharma-dept", quote = "Each batch of drug is tested at laboratories accredited by ‘National Accreditation Board for Testing and Calibration Laboratories’ (NABL) for ensuring best quality.", where = "page 1" }]
+
+[[entries.benefits]]
+text = "Bio-degradable sanitary napkins are sold at Rs. 1 per pad at Jan Aushadhi Kendras."
+evidence = [{ source_id = "pmbjp-pharma-dept", quote = "Bio-degradable environment friendly sanitary napkins are provided at Rs. 1 per pad at Jan Aushadhi kendras.", where = "page 1" }]
+
+[[entries.benefits]]
+text = "For a person who opens a Kendra: an incentive of Rs. 5.00 lakh, given at 15% of monthly purchases up to Rs. 15,000 per month."
+evidence = [{ source_id = "pmbjp-pharma-dept", quote = "Providing Rs. 5.00 lakh as incentive to Jan Aushadhi Kendras which is to be given @ 15% of monthly purchases made, subject to a ceiling of Rs. 15,000/- per month.", where = "page 1" }]
+
+[[entries.eligibility]]
+text = "The scheme is run by government agencies and by private entrepreneurs, and one aim is to give employment to individual entrepreneurs who open a Kendra."
+evidence = [
+  { source_id = "pmbjp-pharma-dept", quote = "The Scheme is operated by government agencies as well as by private entrepreneurs:", where = "page 1" },
+  { source_id = "pmbjp-pharma-dept", quote = "Generate employment by engaging individual entrepreneurs in opening of PMBJP Kendra.", where = "page 1" },
+]
+
+[[entries.eligibility]]
+text = "A one-time extra incentive of Rs. 2.00 lakh for furniture, fixtures, computer and printer goes to Kendras opened in North-Eastern States, Himalayan areas, island territories and backward aspirational districts, or opened by women entrepreneurs, Divyang persons, SCs and STs."
+evidence = [{ source_id = "pmbjp-pharma-dept", quote = "One-time incentive of Rs. 2.00 lakh is to be provided for furniture & fixtures and computer & printers to the PMBJP Kendras opened in North-Eastern States, Himalayan areas, Island territories and backward areas mentioned as aspirational district by NITI Aayog or opened by women entrepreneur, Divyang, SCs& STs.", where = "page 1" }]
+
+# -------------------------------------------------------------------------------------------------
+
+[[entries]]
+id = "janani-suraksha-yojana"
+name = "Janani Suraksha Yojana (JSY)"
+kind = "scheme"
+sectors = ["health"]
+level = "central"
+department = "National Health Mission, Ministry of Health and Family Welfare, Government of India"
+status = "active"
+status_note = "The National Health Mission page has no date. The guidelines it links are from 2012 and differ from the page on some figures; the page is followed where they differ."
+source_ids = ["jsy-nhm-page", "jsy-nhm-guidelines"]
+last_verified = 2026-10-31
+summary = { en = "Cash assistance for poor pregnant women who give birth in a government or accredited private health centre.", bn = "সরকারি বা স্বীকৃত বেসরকারি স্বাস্থ্যকেন্দ্রে সন্তান প্রসব করা দরিদ্র গর্ভবতী মহিলাদের জন্য নগদ সহায়তা।", hi = "सरकारी या मान्यता प्राप्त निजी स्वास्थ्य केंद्र में प्रसव कराने वाली ग़रीब गर्भवती महिलाओं के लिए नक़द सहायता।" }
+target = { en = "Pregnant women from families below the poverty line, or from Scheduled Caste or Scheduled Tribe families, who deliver in a health centre.", bn = "দারিদ্র্যসীমার নিচের পরিবারের, বা তপশিলি জাতি বা তপশিলি উপজাতি পরিবারের যে গর্ভবতী মহিলারা স্বাস্থ্যকেন্দ্রে প্রসব করেন।", hi = "ग़रीबी रेखा से नीचे के, या अनुसूचित जाति या अनुसूचित जनजाति के परिवारों की वे गर्भवती महिलाएँ जो स्वास्थ्य केंद्र में प्रसव कराती हैं।" }
+not_stated = [
+  "Whether the age and number-of-births limits in the 2012 guidelines (for example BPL women aged 19 years and above, up to two live births in high performing states) still apply. The National Health Mission page does not mention them.",
+  "Cash for a delivery at home. The 2012 guidelines give an amount; the National Health Mission page does not, so it is not stated here.",
+  "A closing date or an application form. The guidelines say the ASHA or another link health worker helps the woman register.",
+  "The transport assistance a State may add. Ask the ASHA or the auxiliary nurse midwife.",
+]
+
+[entries.apply]
+label = "National Health Mission: Janani Suraksha Yojana"
+url = "https://nhm.gov.in/index1.php?lang=1&level=3&lid=309&sublinkid=841"
+evidence = [{ source_id = "jsy-nhm-page", quote = "is a safe motherhood intervention under the National Health Mission", where = "page text" }]
+
+[[entries.benefits]]
+text = "The page names ten States as low performing (Uttar Pradesh, Uttarakhand, Bihar, Jharkhand, Madhya Pradesh, Chhattisgarh, Assam, Rajasthan, Orissa, and Jammu and Kashmir); every other State, West Bengal included, is a high performing State. In a high performing State the mother's package is Rs. 700 in a rural area and Rs. 600 in an urban area, and the ASHA's package is Rs. 600 in a rural area and Rs. 400 in an urban area."
+evidence = [
+  { source_id = "jsy-nhm-page", quote = "While these states have been named Low Performing States (LPS), the remaining states have been named High Performing states (HPS).", where = "page text" },
+  { source_id = "jsy-nhm-page", quote = "Category: HPS; Rural area: 700; : 600; Total: 1300; Urban area: 600; : 400; Total: 1000", where = "cash assistance table" },
+]
+
+[[entries.benefits]]
+text = "JSY joins cash assistance with delivery care and care after delivery."
+evidence = [{ source_id = "jsy-nhm-page", quote = "JSY is a centrally sponsored scheme, which integrates cash assistance with delivery and post-delivery care.", where = "page text" }]
+
+[[entries.eligibility]]
+text = "In a high performing State, BPL, Scheduled Caste and Scheduled Tribe women who deliver in a government health centre (sub centre, PHC, CHC, FRU or the general ward of a district or state hospital) are eligible."
+evidence = [{ source_id = "jsy-nhm-page", quote = "All BPL/Scheduled Caste/Scheduled Tribe (SC/ST) women delivering in a government health centre, such as SC/PHC/CHC/FRU/general wards of district or state hospital", where = "eligibility for cash assistance" }]
+
+[[entries.eligibility]]
+text = "BPL, SC and ST women who deliver in an accredited private institution are also eligible."
+evidence = [{ source_id = "jsy-nhm-page", quote = "BPL/SC/ST women in accredited private institutions", where = "eligibility for cash assistance" }]
+
+[[entries.documents]]
+text = "A woman who delivers in an accredited private institution must show a proper BPL or SC/ST certificate to get the benefit."
+evidence = [{ source_id = "jsy-nhm-guidelines", quote = "will have to produce a proper BPL or a SC/ST certificate in order to access JSY benefits", where = "page 3, para 4.4" }]
+
+[[entries.documents]]
+text = "Where BPL cards have not been issued or updated, the State sets a simple way to certify that the family is poor and needy, through the gram pradhan or ward member."
+evidence = [{ source_id = "jsy-nhm-guidelines", quote = "However, where BPL cards have not yet been issued or have not been updated, States/UTs would formulate a simple criterion for certification of poor and needy status of the expectant mother’s family by empowering the gram pradhan or ward member.", where = "page 3, para 4.3" }]
+
+[[entries.documents]]
+text = "Each registered woman should have a JSY card along with a MCH card."
+evidence = [{ source_id = "jsy-nhm-guidelines", quote = "Each beneficiary registered under this Yojana should have a JSY card along with a MCH card.", where = "page 3, para 4.2" }]
+
+[[entries.steps]]
+text = "The ASHA (or other link health worker) identifies the pregnant woman as a beneficiary and helps her register for antenatal check-ups."
+evidence = [{ source_id = "jsy-nhm-guidelines", quote = "Identify pregnant woman as a beneficiary of the scheme and report or facilitate registration for ANC", where = "page 2, para 3.1" }]
+
+[[entries.steps]]
+text = "The cash assistance to the mother is paid at the institution itself."
+evidence = [{ source_id = "jsy-nhm-guidelines", quote = "As the cash assistance to the mother is mainly to meet the cost of delivery, it should be disbursed effectively at the institution itself.", where = "page 4, para 4.7" }]
+
+# -------------------------------------------------------------------------------------------------
+
+[[entries]]
+id = "pm-surakshit-matritva-abhiyan"
+name = "Pradhan Mantri Surakshit Matritva Abhiyan (PMSMA)"
+kind = "scheme"
+sectors = ["health"]
+level = "central"
+department = "Ministry of Health and Family Welfare, Government of India"
+status = "active"
+status_note = "The programme page has no date; the guidelines are from 2016."
+source_ids = ["pmsma-about", "pmsma-guidelines"]
+last_verified = 2026-10-31
+summary = { en = "Free, quality check-ups for pregnant women, held on a fixed day every month at government health facilities.", bn = "সরকারি স্বাস্থ্যকেন্দ্রে প্রতি মাসে একটি নির্দিষ্ট দিনে গর্ভবতী মহিলাদের জন্য বিনামূল্যে ভালো মানের স্বাস্থ্য পরীক্ষা।", hi = "सरकारी स्वास्थ्य केंद्रों पर हर महीने एक तय दिन गर्भवती महिलाओं के लिए मुफ़्त, गुणवत्तापूर्ण जाँच।" }
+target = { en = "Every pregnant woman, in the second or third trimester of pregnancy.", bn = "প্রতিটি গর্ভবতী মহিলা, গর্ভাবস্থার দ্বিতীয় বা তৃতীয় ত্রৈমাসিকে।", hi = "हर गर्भवती महिला, गर्भावस्था की दूसरी या तीसरी तिमाही में।" }
+not_stated = [
+  "Which documents to bring. The pages say pregnant women are given Mother and Child Protection Cards and safe motherhood booklets.",
+  "The exact clinic nearest to you. Ask the ASHA or the auxiliary nurse midwife, or the nearest public health facility.",
+  "Whether anything changed after the 2016 guidelines. The programme page mentions the e-PMSMA tracking of high risk pregnancies started in January 2022.",
+]
+
+[entries.apply]
+label = "PMSMA portal"
+url = "https://pmsma.mohfw.gov.in/"
+evidence = [{ source_id = "pmsma-about", quote = "The Pradhan Mantri Surakshit Matritva Abhiyan has been launched by the Ministry of Health & Family Welfare (MoHFW), Government of India.", where = "What is the program?" }]
+
+[[entries.benefits]]
+text = "Assured, comprehensive and quality antenatal care, free of cost, for all pregnant women on the 9th of every month."
+evidence = [{ source_id = "pmsma-about", quote = "The program aims to provide assured, comprehensive and quality antenatal care, free of cost, universally to all pregnant women on the 9th of every month.", where = "What is the program?" }]
+
+[[entries.benefits]]
+text = "A minimum package of check-ups including one ultrasound in the 2nd trimester, and medicines such as IFA and calcium supplements, at the PMSMA clinics."
+evidence = [{ source_id = "pmsma-about", quote = "a minimum package of investigations (including one ultrasound during the 2nd trimester of pregnancy) and medicines such as IFA supplements, calcium supplements etc would be provided to all pregnant women attending the PMSMA clinics.", where = "Key Features of PMSMA" }]
+
+[[entries.benefits]]
+text = "Pregnant women are given Mother and Child Protection Cards and safe motherhood booklets."
+evidence = [{ source_id = "pmsma-about", quote = "Pregnant women would be given Mother and Child Protection Cards and safe motherhood booklets.", where = "Key Features of PMSMA" }]
+
+[[entries.eligibility]]
+text = "The care is for women in their 2nd or 3rd trimester of pregnancy, at designated government health facilities."
+evidence = [{ source_id = "pmsma-about", quote = "PMSMA guarantees a minimum package of antenatal care services to women in their 2nd / 3rd trimesters of pregnancy at designated government health facilities", where = "What is the program?" }]
+
+[[entries.eligibility]]
+text = "Special efforts are made to reach women who have not registered for antenatal care, women who dropped out, and women with high-risk pregnancies."
+evidence = [{ source_id = "pmsma-about", quote = "special efforts would be made to reach out to women who have not registered for ANC (left out/missed ANC) and also those who have registered but not availed ANC services (dropout) as well as High Risk pregnant women.", where = "Key Features of PMSMA" }]
+
+[[entries.steps]]
+text = "Go to an identified public health facility (PHC, CHC, district hospital or urban health facility) on the 9th day of the month, in addition to routine antenatal check-ups."
+evidence = [{ source_id = "pmsma-about", quote = "A minimum package of antenatal care services (including investigations and drugs) would be provided to the beneficiaries on the 9th day of every month at identified public health facilities (PHCs/ CHCs, DHs/ urban health facilities etc) in both urban and rural areas in addition to the routine ANC at the health facility/ outreach.", where = "Key Features of PMSMA" }]
+
+[[entries.steps]]
+text = "If the 9th is a Sunday or a holiday, the clinic is held on the next working day."
+evidence = [{ source_id = "pmsma-guidelines", quote = "If the 9th day of the month is a Sunday/ a holiday, then the Clinic should be organized on the next working day.", where = "page 16" }]

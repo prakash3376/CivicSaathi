@@ -1,0 +1,243 @@
+# Official sources for Housing & Basic Amenities, Transport & Infrastructure, and Environment &
+# Energy. See scholarships.toml for the fields. Every source here was downloaded through the real
+# pipeline (official host, TLS, robots.txt, file type, identity phrases) on 2026-10-31.
+
+# --- Housing -----------------------------------------------------------------------------------
+
+[[sources]]
+id = "pmay-u2-guidelines"
+title = "PMAY-Urban 2.0: Scheme Guidelines (PDF)"
+scheme = "Pradhan Mantri Awas Yojana - Urban 2.0 (PMAY-U 2.0)"
+authority = "Ministry of Housing and Urban Affairs, Government of India"
+level = "central"
+doc_type = "guidelines"
+format = "pdf"
+url = "https://pmaymis.gov.in/PMAYMIS2_2024/Operational-Guidelines-of-PMAY-U-2.pdf"
+expected_phrases = ["PMAY-U 2.0"]
+curated_on = 2026-10-31
+notes = "The scheme's own guidelines (September 2024), served by the PMAY-U MIS portal (pmaymis.gov.in)."
+
+[[sources]]
+id = "pmayg-pib-2024"
+title = "Pradhan Mantri Awas Yojana - Rural: Building a Better Future for Rural India (PIB, 19 November 2024)"
+scheme = "Pradhan Mantri Awaas Yojana - Gramin (PMAY-G)"
+authority = "Ministry of Rural Development, Government of India (published by the Press Information Bureau)"
+level = "central"
+doc_type = "scheme_page"
+format = "pdf"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/nov/doc20241119437801.pdf"
+expected_phrases = ["PMAY"]
+curated_on = 2026-10-31
+notes = "A Ministry of Rural Development explainer published by PIB. It is not the Framework for Implementation (the official guidelines), which the tools could not download."
+
+[[sources]]
+id = "jjm-about"
+title = "Jal Jeevan Mission: About JJM (official portal page)"
+scheme = "Jal Jeevan Mission (Har Ghar Jal)"
+authority = "Department of Drinking Water and Sanitation, Ministry of Jal Shakti, Government of India"
+level = "central"
+doc_type = "scheme_page"
+format = "html"
+url = "https://jaljeevanmission.gov.in/about_jjm"
+expected_phrases = ["Jal Jeevan Mission"]
+curated_on = 2026-10-31
+notes = "Vision, mission, objectives and components, from the mission's portal. It still gives 2024 as the target year."
+
+[[sources]]
+id = "jjm-pib-2025oct"
+title = "Jal Jeevan Mission factsheet (PIB, October 2025)"
+scheme = "Jal Jeevan Mission (Har Ghar Jal)"
+authority = "Press Information Bureau, Government of India"
+level = "central"
+doc_type = "scheme_page"
+format = "pdf"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/oct/doc20251026676401.pdf"
+expected_phrases = ["Jal Jeevan Mission"]
+curated_on = 2026-10-31
+notes = "Progress and impact as on 22 October 2025."
+
+[[sources]]
+id = "jjm-samvad-2026-03"
+title = "Jal Jeevan Samvad, March 2026 (DDWS newsletter, PDF)"
+scheme = "Jal Jeevan Mission (Har Ghar Jal)"
+authority = "Department of Drinking Water and Sanitation, Ministry of Jal Shakti, Government of India"
+level = "central"
+doc_type = "circular"
+format = "pdf"
+url = "https://jaljeevanmission.gov.in/sites/default/files/2026-05/Jal-Jeevan-Samvad-march-2026.pdf"
+expected_phrases = ["Jal Jeevan"]
+curated_on = 2026-10-31
+notes = "The department's own newsletter. It reports the Union Cabinet's approval to extend the mission (JJM 2.0)."
+
+[[sources]]
+id = "sbm-ddws-about"
+title = "Swachh Bharat Mission (Grameen): About SBM (official portal page)"
+scheme = "Swachh Bharat Mission"
+authority = "Department of Drinking Water and Sanitation, Ministry of Jal Shakti, Government of India"
+level = "central"
+doc_type = "scheme_page"
+format = "html"
+url = "https://swachhbharatmission.ddws.gov.in/about_sbm"
+expected_phrases = ["Swachh Bharat"]
+curated_on = 2026-10-31
+notes = "Phases and objectives of the rural mission, from its portal."
+
+[[sources]]
+id = "sbm-explainer-pib"
+title = "Swachh Bharat Mission (Grameen and Urban): Explainer (PIB, 2022)"
+scheme = "Swachh Bharat Mission"
+authority = "Press Information Bureau, Government of India"
+level = "central"
+doc_type = "scheme_page"
+format = "pdf"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/sep/doc2022926109401.pdf"
+expected_phrases = ["Swachh Bharat"]
+curated_on = 2026-10-31
+notes = "Explainer for both the rural and the urban mission; dated April 2022, updated September 2022."
+
+[[sources]]
+id = "sbm-pib-2024"
+title = "Swachh Bharat Mission successfully transforms India's sanitation landscape (PIB, September 2024)"
+scheme = "Swachh Bharat Mission"
+authority = "Press Information Bureau, Government of India"
+level = "central"
+doc_type = "scheme_page"
+format = "pdf"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/sep/doc202496389901.pdf"
+expected_phrases = ["Swachh Bharat"]
+curated_on = 2026-10-31
+notes = "Overview of both missions, dated September 2024."
+
+# --- Transport & infrastructure ----------------------------------------------------------------
+
+[[sources]]
+id = "pmgsy-pib-2025dec"
+title = "Celebrating 25th Anniversary: Pradhan Mantri Gram Sadak Yojana (PIB, 25 December 2025)"
+scheme = "Pradhan Mantri Gram Sadak Yojana (PMGSY)"
+authority = "Press Information Bureau, Government of India"
+level = "central"
+doc_type = "scheme_page"
+format = "pdf"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/dec/doc20251225745101.pdf"
+expected_phrases = ["PMGSY"]
+curated_on = 2026-10-31
+notes = "Phases, PMGSY-IV targets and quality monitoring. Some words in the extracted text carry a stray digit where a ligature was (for example 'Introduc2on'); quotes avoid them."
+
+[[sources]]
+id = "pmgsy-pib-2025sep"
+title = "Pradhan Mantri Gram Sadak Yojana: Enhancing Rural Connectivity, Key Takeaways (PIB, September 2025)"
+scheme = "Pradhan Mantri Gram Sadak Yojana (PMGSY)"
+authority = "Press Information Bureau, Government of India"
+level = "central"
+doc_type = "scheme_page"
+format = "pdf"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/sep/doc2025914636101.pdf"
+expected_phrases = ["PMGSY"]
+curated_on = 2026-10-31
+notes = "Phases, PMGSY-IV eligibility by Census 2011 population, and technology."
+
+[[sources]]
+id = "pm-ebus-sewa-pib"
+title = "PM-eBus Sewa: factsheet (PIB, 24 August 2023)"
+scheme = "PM-eBus Sewa"
+authority = "Press Information Bureau, Government of India"
+level = "central"
+doc_type = "scheme_page"
+format = "pdf"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2023/aug/doc2023824243601.pdf"
+expected_phrases = ["eBus"]
+curated_on = 2026-10-31
+notes = "Describes the Union Cabinet approval of 24 August 2023. The Ministry's own guidelines PDF (mohua.gov.in) answered HTTP 403 and could not be downloaded."
+
+[[sources]]
+id = "amrit-bharat-pib-2025"
+title = "Amrit Bharat Station Scheme: A New Era for Indian Rail Infrastructure (PIB, 20 May 2025)"
+scheme = "Amrit Bharat Station Scheme"
+authority = "Press Information Bureau, Government of India"
+level = "central"
+doc_type = "scheme_page"
+format = "pdf"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/may/doc2025520557901.pdf"
+expected_phrases = ["Amrit Bharat"]
+curated_on = 2026-10-31
+notes = "Overview of the scheme's aims and the kind of station improvements, from PIB."
+
+# --- Environment & energy ----------------------------------------------------------------------
+
+[[sources]]
+id = "pmsg-pib-2024"
+title = "PM Surya Ghar: Muft Bijli Yojana, Redefining Solar Power and Energy Access (PIB, 12 August 2024)"
+scheme = "PM Surya Ghar: Muft Bijli Yojana"
+authority = "Press Information Bureau, Government of India (Ministry of New and Renewable Energy)"
+level = "central"
+doc_type = "scheme_page"
+format = "pdf"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/aug/doc2024812373601.pdf"
+expected_phrases = ["Surya Ghar"]
+curated_on = 2026-10-31
+notes = "Benefits, eligibility and the application steps, as of August 2024."
+
+[[sources]]
+id = "pmsg-pib-annex"
+title = "Criteria and details of incentives available to individuals under solar schemes of MNRE (PIB annexure)"
+scheme = "PM Surya Ghar: Muft Bijli Yojana"
+authority = "Ministry of New and Renewable Energy, Government of India (published by the Press Information Bureau)"
+level = "central"
+doc_type = "scheme_page"
+format = "pdf"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/aug/doc202487368301.pdf"
+expected_phrases = ["Surya Ghar"]
+curated_on = 2026-10-31
+notes = "Annexure I of a Parliament reply: the criteria and the central financial assistance rates."
+
+[[sources]]
+id = "pmuy-about"
+title = "Pradhan Mantri Ujjwala Yojana: About PMUY (official portal page)"
+scheme = "Pradhan Mantri Ujjwala Yojana (PMUY)"
+authority = "Ministry of Petroleum and Natural Gas, Government of India"
+level = "central"
+doc_type = "scheme_page"
+format = "html"
+url = "https://pmuy.gov.in/about.html"
+expected_phrases = ["Ujjwala"]
+curated_on = 2026-10-31
+notes = "Purpose, targets and the cash assistance, from the scheme's portal."
+
+[[sources]]
+id = "pmuy-faq"
+title = "Pradhan Mantri Ujjwala Yojana: FAQs (official portal page)"
+scheme = "Pradhan Mantri Ujjwala Yojana (PMUY)"
+authority = "Ministry of Petroleum and Natural Gas, Government of India"
+level = "central"
+doc_type = "faq"
+format = "html"
+url = "https://pmuy.gov.in/faq.html"
+expected_phrases = ["Ujjwala"]
+curated_on = 2026-10-31
+notes = "Who is eligible, what is included, documents and how to apply."
+
+[[sources]]
+id = "pmuy-apply"
+title = "Pradhan Mantri Ujjwala Yojana: Apply for a new connection (official portal page)"
+scheme = "Pradhan Mantri Ujjwala Yojana (PMUY)"
+authority = "Ministry of Petroleum and Natural Gas, Government of India"
+level = "central"
+doc_type = "service_page"
+format = "html"
+url = "https://pmuy.gov.in/ujjwala2.html"
+expected_phrases = ["Ujjwala"]
+curated_on = 2026-10-31
+notes = "Eligibility criteria and the documents required."
+
+[[sources]]
+id = "nghm-pib-2024"
+title = "National Green Hydrogen Mission: Transforming India's Energy Landscape (PIB)"
+scheme = "National Green Hydrogen Mission"
+authority = "Press Information Bureau, Government of India (Ministry of New and Renewable Energy)"
+level = "central"
+doc_type = "scheme_page"
+format = "pdf"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/jun/doc2024623343401.pdf"
+expected_phrases = ["Green Hydrogen"]
+curated_on = 2026-10-31
+notes = "The factsheet prints 22 June 2023 at the top but mentions events of June 2024, and gives the Cabinet approval as 4 January 2022 in one place and 2023 in another."

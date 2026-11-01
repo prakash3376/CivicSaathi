@@ -1,0 +1,722 @@
+# Housing & Basic Amenities, Transport & Infrastructure, Environment & Energy: programmes in the
+# catalogue. Every statement carries a quote that `python -m app.cli catalogue-check` finds in the
+# downloaded document. English wording only (the quotes are English); the summary and the "who is
+# it for" line are in three languages and hold no figure. The Bengali and Hindi are drafts by a
+# non-native speaker and need a native speaker's review.
+
+# =================================================================================================
+# HOUSING
+# =================================================================================================
+
+[[entries]]
+id = "pmay-urban-2"
+name = "Pradhan Mantri Awas Yojana - Urban 2.0 (PMAY-U 2.0)"
+kind = "scheme"
+sectors = ["housing"]
+level = "central"
+department = "Ministry of Housing and Urban Affairs, Government of India"
+status = "active"
+status_note = "The guidelines say the Mission is implemented for five years from the date given below. Check the portal for any later change."
+source_ids = ["pmay-u2-guidelines"]
+last_verified = 2026-10-31
+effective_on = 2024-09-01
+summary = { en = "Help for urban families to build, buy or rent an affordable pucca house, through four routes: building your own house, affordable housing projects, rental housing and a home-loan interest subsidy.", bn = "শহরের পরিবারগুলিকে সাশ্রয়ী পাকা বাড়ি তৈরি, কেনা বা ভাড়া নিতে সহায়তা, চারটি পথে: নিজের বাড়ি তৈরি, সাশ্রয়ী আবাসন প্রকল্প, ভাড়ার আবাসন এবং গৃহঋণের সুদে ভর্তুকি।", hi = "शहरी परिवारों को किफ़ायती पक्का मकान बनाने, खरीदने या किराये पर लेने में सहायता, चार रास्तों से: अपना मकान बनाना, किफ़ायती आवास परियोजनाएँ, किराये का आवास और गृह ऋण के ब्याज पर सब्सिडी।" }
+target = { en = "Urban families in the lower, low and middle income groups who do not own a pucca house anywhere in India.", bn = "শহরের নিম্ন, স্বল্প ও মধ্যম আয়ের পরিবার, যাদের ভারতের কোথাও পাকা বাড়ি নেই।", hi = "शहरी निम्न, अल्प और मध्यम आय वर्ग के परिवार, जिनके पास भारत में कहीं भी पक्का मकान नहीं है।" }
+not_stated = [
+  "How much central assistance a family gets for each house. The guidelines have a funding table by State or Union Territory (page 43 of the guidelines); read it for your State.",
+  "A last date to apply. The guidelines give the period of the Mission, not a deadline for families.",
+  "An application fee or a helpline for families (the guidelines give contact details for the Ministry only).",
+  "Anything issued after the guidelines of September 2024.",
+]
+
+[entries.apply]
+label = "PMAY-Urban portal"
+url = "https://pmay-urban.gov.in/"
+evidence = [{ source_id = "pmay-u2-guidelines", quote = "For availing the benefit under ISS vertical, eligible beneficiaries will be required to register their demand through Unified web-portal.", where = "para 5.4.8, page 38" }]
+
+[[entries.benefits]]
+text = "The Mission runs for five years from 1 September 2024 and gives central assistance, through States, Union Territories and lending institutions, to construct, purchase or rent a house at an affordable cost."
+evidence = [{ source_id = "pmay-u2-guidelines", quote = "Housing for All’ Mission for urban areas will be implemented for 5 years from 01.09.2024 to provide Central Assistance to all eligible beneficiaries/households/ implementing agencies through States/Union Territories (UTs)/Primary Lending Institutions (PLIs) to construct, purchase or rent a house at an affordable cost.", where = "para 1.1, page 15" }]
+
+[[entries.benefits]]
+text = "There are four routes: Beneficiary Led Construction (BLC), Affordable Housing in Partnership (AHP), Affordable Rental Housing (ARH) and the Interest Subsidy Scheme (ISS)."
+evidence = [{ source_id = "pmay-u2-guidelines", quote = "i. Beneficiary Led Construction (BLC) ii. Affordable Housing in Partnership (AHP) iii. Affordable Rental Housing (ARH) iv. Interest Subsidy Scheme (ISS)", where = "para 1.2, page 15" }]
+
+[[entries.benefits]]
+text = "Building your own house (BLC): families in the economically weaker section (EWS) get financial assistance to build a new pucca house on their own land."
+evidence = [{ source_id = "pmay-u2-guidelines", quote = "The BLC vertical of the Scheme shall provide financial assistance to individual eligible families belonging to EWS categories to construct new pucca houses (an all-weather dwelling unit) on their own available land.", where = "para 5.1.1, page 20" }]
+
+[[entries.benefits]]
+text = "For a house built under BLC, central assistance is paid in three instalments in the ratio 40:40:20 as the construction progresses, by direct transfer to the beneficiary's bank account."
+evidence = [{ source_id = "pmay-u2-guidelines", quote = "Central Assistance shall be released in three instalments of 40:40:20 ratio, considering physical progress of construction of house, through Direct Benefit Transfer (DBT) mode to the bank account of beneficiary identified in projects through States/UTs.", where = "para 5.1.12, page 21" }]
+
+[[entries.benefits]]
+text = "Affordable housing projects (AHP): public or private agencies build affordable houses of 30-45 sqm carpet area and make them available for allotment to eligible EWS families."
+evidence = [{ source_id = "pmay-u2-guidelines", quote = "This vertical is a supply side intervention where affordable houses of 30-45 sqm carpet area will be constructed by Public/Private Agencies and made available for allotment to the eligible beneficiaries of EWS category.", where = "para 5.2.2, page 24" }]
+
+[[entries.benefits]]
+text = "Home-loan interest subsidy (ISS): households with income up to ₹9 lakh, a loan up to ₹25 lakh and a property value up to ₹35 lakh get a subsidy of 4.0% on the first ₹8 lakh of the loan, for a tenure up to 12 years, with a maximum release of ₹1.80 lakh."
+evidence = [
+  { source_id = "pmay-u2-guidelines", quote = "A maximum release of interest subsidy of ₹1.80 lakh having maximum NPV of ₹1.50 lakh (at Discount Rate of 8.5%) shall be provided to eligible beneficiaries having a loan tenure of more than five years.", where = "para 5.4.3, page 37" },
+  { source_id = "pmay-u2-guidelines", quote = "Households having income up to ₹9 lakh, loan value up to ₹25 lakh for property value up to ₹35 lakh would be eligible for a subsidy at 4.0 % on first ₹8 lakh for a tenure up to 12 years.", where = "para 5.4.3, page 37" },
+]
+
+[[entries.eligibility]]
+text = "Families in the EWS, LIG or MIG category, living in urban areas, with no pucca house anywhere in the country, are eligible to purchase or construct a house."
+evidence = [{ source_id = "pmay-u2-guidelines", quote = "Families belonging to EWS/LIG/MIG category, living in urban areas, having no pucca house anywhere in the country, are eligible to purchase or construct a house under PMAY-U 2.0.", where = "para 3.1, page 17" }]
+
+[[entries.eligibility]]
+text = "The income groups: EWS households have an annual income up to ₹3.0 lakh, LIG from ₹3.0 lakh up to ₹6.0 lakh, and MIG from ₹6 lakh up to ₹9 lakh."
+evidence = [
+  { source_id = "pmay-u2-guidelines", quote = "Economically Weaker Section (EWS) Households having an annual income up to ₹3.0 lakh.", where = "definitions, page 10" },
+  { source_id = "pmay-u2-guidelines", quote = "Low Income Group (LIG) Households having an annual income from ₹3.0 lakh up to ₹ 6.0 lakh.", where = "definitions, page 10" },
+  { source_id = "pmay-u2-guidelines", quote = "Middle Income Group (MIG) Households having an annual income from ₹6 lakh up to ₹9 lakh.", where = "definitions, page 10" },
+]
+
+[[entries.eligibility]]
+text = "A beneficiary family means husband, wife, unmarried sons and/or unmarried daughters."
+evidence = [{ source_id = "pmay-u2-guidelines", quote = "A beneficiary family will comprise of husband, wife, unmarried sons and/or unmarried daughters.", where = "definitions, page 9" }]
+
+[[entries.exclusions]]
+text = "A family that was allotted a house under any housing scheme of the Central Government, a State or UT Government or a local body in the last 20 years, in urban or rural areas, is not eligible."
+evidence = [{ source_id = "pmay-u2-guidelines", quote = "The beneficiary who has been allotted house under any of the housing scheme of Central Government, State/UT Government and Local Self Government in last 20 years in urban or rural areas, shall not be eligible to seek benefit under PMAY-U 2.0.", where = "para 3.2, page 17" }]
+
+[[entries.exclusions]]
+text = "The interest subsidy is given only once for a property; if it is sold, the buyer cannot take the subsidy on it."
+evidence = [{ source_id = "pmay-u2-guidelines", quote = "The subsidy under the scheme will be provided only once for a property. If it is sold to someone else, the purchaser can’t take benefit of ISS on this property.", where = "para 5.4.5, page 37" }]
+
+[[entries.exclusions]]
+text = "There is a lock-in of five years: the beneficiary may not sell or transfer the house during that period."
+evidence = [{ source_id = "pmay-u2-guidelines", quote = "Under the scheme, there shall be a mandatory lock-in period of five years from the date of completion of house under BLC, possession of house under AHP and disbursal of first instalment of home loan under ISS verticals and the beneficiary shall not be allowed to sell/ transfer the house during the lock-in period.", where = "para 4.10, page 19" }]
+
+[[entries.documents]]
+text = "A signed undertaking, in the format given in the guidelines, that the family meets the income condition and owns no pucca house anywhere in India."
+evidence = [{ source_id = "pmay-u2-guidelines", quote = "An undertaking from the beneficiary will be taken as a declaration of the fulfilment of eligibility criteria of income and not owning a pucca house anywhere in India on his/her name or any other family members in a specified format as per Annexure-2 (A, B & C) of the Scheme Guidelines.", where = "para 1.10, page 16" }]
+
+[[entries.documents]]
+text = "An Aadhaar number or Aadhaar Virtual ID for every eligible beneficiary, including family members."
+evidence = [{ source_id = "pmay-u2-guidelines", quote = "All eligible beneficiaries (including family members) should have an Aadhaar/ Aadhaar Virtual ID integrated with the details of beneficiaries.", where = "para 3.8, page 17" }]
+
+[[entries.documents]]
+text = "For BLC, proof of ownership of the land. For a home loan under ISS, a self-certificate or affidavit as proof of income."
+evidence = [
+  { source_id = "pmay-u2-guidelines", quote = "Beneficiaries desirous of availing this assistance shall approach the ULBs/ Implementing Agencies or register their demand through Unified Web Portal with necessary documents, including ownership proof of land and submit the application.", where = "para 5.1.5, page 20" },
+  { source_id = "pmay-u2-guidelines", quote = "For identification as an EWS/LIG/MIG beneficiary under the Scheme, an individual loan applicant will submit self-certificate/affidavit as proof of income.", where = "para 5.4.2, page 37" },
+]
+
+[[entries.steps]]
+text = "For BLC: approach your urban local body or implementing agency, or register your demand on the unified web portal, with the documents, and submit the application."
+evidence = [{ source_id = "pmay-u2-guidelines", quote = "Beneficiaries desirous of availing this assistance shall approach the ULBs/ Implementing Agencies or register their demand through Unified Web Portal with necessary documents, including ownership proof of land and submit the application.", where = "para 5.1.5, page 20" }]
+
+[[entries.steps]]
+text = "For the interest subsidy: register your demand on the unified web portal."
+evidence = [{ source_id = "pmay-u2-guidelines", quote = "For availing the benefit under ISS vertical, eligible beneficiaries will be required to register their demand through Unified web-portal.", where = "para 5.4.8, page 38" }]
+
+# -------------------------------------------------------------------------------------------------
+
+[[entries]]
+id = "pmay-gramin"
+name = "Pradhan Mantri Awaas Yojana - Gramin (PMAY-G)"
+kind = "scheme"
+sectors = ["housing"]
+level = "central"
+department = "Ministry of Rural Development, Government of India"
+status = "active"
+status_note = "The explainer says the Union Cabinet approved two crore more houses on 9 August 2024, with the outlay stated for the financial years 2024 to 2029."
+source_ids = ["pmayg-pib-2024"]
+last_verified = 2026-10-31
+published_on = 2024-11-19
+summary = { en = "Money to build a pucca house for houseless rural families and families living in kutcha houses, paid straight into the bank account.", bn = "গৃহহীন এবং কাঁচা বাড়িতে থাকা গ্রামীণ পরিবারগুলিকে পাকা বাড়ি তৈরির জন্য সহায়তা, সরাসরি ব্যাংক অ্যাকাউন্টে।", hi = "बेघर और कच्चे मकानों में रहने वाले ग्रामीण परिवारों को पक्का मकान बनाने के लिए सहायता, सीधे बैंक खाते में।" }
+target = { en = "Rural households that have no shelter or live in kutcha houses, picked from the official survey lists and checked by the Gram Sabha.", bn = "যেসব গ্রামীণ পরিবারের আশ্রয় নেই বা কাঁচা বাড়িতে থাকে, সরকারি জরিপের তালিকা থেকে বাছাই করে গ্রামসভা যাচাই করে।", hi = "वे ग्रामीण परिवार जिनके पास आश्रय नहीं है या जो कच्चे मकान में रहते हैं, आधिकारिक सर्वेक्षण सूची से चुने और ग्राम सभा द्वारा सत्यापित।" }
+not_stated = [
+  "The official guidelines (the Framework for Implementation) could not be downloaded; this entry rests on a Ministry of Rural Development explainer published by PIB.",
+  "A fee, a last date to apply, or a helpline.",
+  "How the lists are made in your village: families are picked from the survey lists, so ask your Gram Panchayat whether your household is on the list.",
+]
+
+[entries.apply]
+label = "PMAY-G registration (UMANG)"
+url = "https://web.umang.gov.in/landing/department/pmayg.html"
+evidence = [{ source_id = "pmayg-pib-2024", quote = "To avail benefits under PMAY-G, beneficiaries must go through a simple online registration process: https://web.umang.gov.in/landing/department/pmayg.html", where = "page 2" }]
+
+[[entries.benefits]]
+text = "The Union Cabinet approved assistance for two crore more houses, at Rs.1.20 lakh per house in plain areas and Rs.1.30 lakh in the North-Eastern States and the hill States and Union Territories named in the approval."
+evidence = [{ source_id = "pmayg-pib-2024", quote = "On August 9, 2024, the Union Cabinet, chaired by Prime Minister Shri Narendra Modi, approved the proposal for financial assistance to be provided for the construction of two crore more houses at the existing unit assistance of Rs.1.20 lakh in plain areas and Rs.1.30 lakh in North Eastern Region States and Hill States of Himachal Pradesh, Uttarakhand, Union Territories of Jammu & Kashmir, and Ladakh.", where = "page 2" }]
+
+[[entries.benefits]]
+text = "The house must be at least 25 sq. mt., including a dedicated area for hygienic cooking."
+evidence = [{ source_id = "pmayg-pib-2024", quote = "A minimum unit (house) size of 25 sq. mt., including a dedicated area for hygienic cooking.", where = "page 2" }]
+
+[[entries.benefits]]
+text = "A loan up to ₹70,000 at a 3% reduced interest rate is available to eligible beneficiaries for building the house."
+evidence = [{ source_id = "pmayg-pib-2024", quote = "Loan up to ₹70,000 is available to eligible beneficiaries at a 3% reduced interest rate for the construction of their permanent house.", where = "page 3" }]
+
+[[entries.benefits]]
+text = "PMAY-G works with other schemes: up to ₹12,000 for a toilet under Swachh Bharat Mission-Gramin, and a free LPG connection for each house under Pradhan Mantri Ujjwala Yojana."
+evidence = [
+  { source_id = "pmayg-pib-2024", quote = "Swachh Bharat Mission-Gramin (SBM-G): Beneficiaries receive up to ₹12,000 to construct toilets, ensuring better sanitation facilities in rural homes.", where = "page 3" },
+  { source_id = "pmayg-pib-2024", quote = "Pradhan Mantri Ujjwala Yojana (PMUY): Under this scheme, each house is entitled to a free LPG connection, promoting cleaner and safer cooking fuel.", where = "page 4" },
+]
+
+[[entries.eligibility]]
+text = "Beneficiaries are identified through the SECC 2011 and Awaas+ (2018) surveys, verified by Gram Sabhas."
+evidence = [{ source_id = "pmayg-pib-2024", quote = "Under this scheme, the beneficiaries are identified through SECC 2011 and Awaas+ (2018) surveys, verified by Gram Sabhas.", where = "page 4" }]
+
+[[entries.eligibility]]
+text = "Houseless households (all households without any shelter) are eligible."
+evidence = [{ source_id = "pmayg-pib-2024", quote = "Houseless Households: All households without any shelter.", where = "page 4" }]
+
+[[entries.eligibility]]
+text = "Households living in homes with kutcha walls and kutcha roofs, or houses with zero, one or two rooms as per SECC 2011, are eligible."
+evidence = [{ source_id = "pmayg-pib-2024", quote = "Households with Kuccha Houses: Households living in homes with kuccha walls and kuccha roofs or houses with zero, one, or two rooms as per the Socio Economic and Caste Census (SECC) 2011.", where = "page 4" }]
+
+[[entries.eligibility]]
+text = "Some groups are included automatically, such as destitute households, manual scavengers, Primitive Tribal Groups and legally released bonded labourers, and houseless households get priority."
+evidence = [
+  { source_id = "pmayg-pib-2024", quote = "The following categories of people are automatically included in the list of beneficiaries:", where = "page 5" },
+  { source_id = "pmayg-pib-2024", quote = "Within the universe of eligible beneficiaries, priority will be given to the following categories:", where = "page 5" },
+]
+
+[[entries.eligibility]]
+text = "At least 60% of targets are reserved for SC/ST households."
+evidence = [{ source_id = "pmayg-pib-2024", quote = "The scheme reserves minimum 60% of targets for SC/ST households", where = "page 5" }]
+
+[[entries.exclusions]]
+text = "Households with a Kisan Credit Card with a credit limit of ₹50,000 or above are automatically excluded."
+evidence = [{ source_id = "pmayg-pib-2024", quote = "Households with a Kisan Credit Card having a credit limit of ₹50,000 or above.", where = "page 6" }]
+
+[[entries.exclusions]]
+text = "Government employees, and households with non-agricultural enterprises, are automatically excluded."
+evidence = [{ source_id = "pmayg-pib-2024", quote = "Government employees or those with non-agricultural enterprises.", where = "page 6" }]
+
+[[entries.exclusions]]
+text = "Households with a monthly income over ₹15,000, or that pay income tax, are automatically excluded."
+evidence = [{ source_id = "pmayg-pib-2024", quote = "Households with monthly income over ₹15,000 or those paying income tax.", where = "page 6" }]
+
+[[entries.exclusions]]
+text = "Households that own assets such as refrigerators, landline phones, or irrigated land (more than 2.5 acres) are automatically excluded."
+evidence = [{ source_id = "pmayg-pib-2024", quote = "Households owning assets such as refrigerators, landline phones, or irrigated land (more than 2.5 acres).", where = "page 6" }]
+
+[[entries.documents]]
+text = "A bank account or post office account linked to Aadhaar: all payments are made electronically into it."
+evidence = [{ source_id = "pmayg-pib-2024", quote = "Payments are directly transferred to the beneficiaries' bank accounts or post office accounts that are linked to Aadhaar, ensuring that funds reach the intended recipients without delays.", where = "page 4" }]
+
+[[entries.steps]]
+text = "Register online through the UMANG page for PMAY-G."
+evidence = [{ source_id = "pmayg-pib-2024", quote = "To avail benefits under PMAY-G, beneficiaries must go through a simple online registration process: https://web.umang.gov.in/landing/department/pmayg.html", where = "page 2" }]
+
+[[entries.steps]]
+text = "Beneficiaries are selected through a three-stage validation: the survey lists, Gram Sabha approval and geo-tagging."
+evidence = [{ source_id = "pmayg-pib-2024", quote = "Beneficiaries are selected through a rigorous three-stage validation process that includes the Socio-Economic Caste Census (SECC 2011) and Awaas+ (2018) surveys, Gram Sabha approvals, and geo-tagging.", where = "page 1" }]
+
+# -------------------------------------------------------------------------------------------------
+
+[[entries]]
+id = "jal-jeevan-mission"
+name = "Jal Jeevan Mission (Har Ghar Jal)"
+kind = "infrastructure"
+sectors = ["housing"]
+level = "central"
+department = "Department of Drinking Water and Sanitation, Ministry of Jal Shakti, Government of India"
+status = "active"
+status_note = "The mission's portal page still gives 2024 as the target year for a tap in every rural household. A March 2026 department newsletter lists the Union Cabinet's approval to extend the mission up to December 2028 (JJM 2.0). The JJM 2.0 guidelines could not be read by the tools (the PDF has no text layer), so the details here come from the portal page and the PIB factsheet."
+source_ids = ["jjm-about", "jjm-pib-2025oct", "jjm-samvad-2026-03"]
+last_verified = 2026-10-31
+summary = { en = "A national programme that builds piped water supply in villages so that every rural household has a tap with enough safe water, and that also serves schools, Anganwadi centres and health centres.", bn = "গ্রামে পাইপের জল সরবরাহ গড়ে তোলার জাতীয় কর্মসূচি, যাতে প্রতিটি গ্রামীণ পরিবারের কলে পর্যাপ্ত নিরাপদ জল থাকে; স্কুল, অঙ্গনওয়াড়ি ও স্বাস্থ্যকেন্দ্রেও জল পৌঁছায়।", hi = "गाँवों में पाइप से पानी की आपूर्ति बनाने का राष्ट्रीय कार्यक्रम, ताकि हर ग्रामीण परिवार के नल में पर्याप्त सुरक्षित पानी हो; स्कूल, आंगनवाड़ी और स्वास्थ्य केंद्र भी इसमें आते हैं।" }
+target = { en = "Rural households and rural public buildings such as schools and Anganwadi centres. It is a public works programme run with States and village communities, not a payment to a person.", bn = "গ্রামীণ পরিবার এবং স্কুল ও অঙ্গনওয়াড়ির মতো গ্রামীণ সরকারি ভবন। এটি রাজ্য ও গ্রামীণ সম্প্রদায়ের সঙ্গে চালানো জনকল্যাণমূলক নির্মাণ কর্মসূচি, কোনো ব্যক্তিকে টাকা দেওয়া নয়।", hi = "ग्रामीण परिवार और स्कूल व आंगनवाड़ी जैसे ग्रामीण सार्वजनिक भवन। यह राज्यों और ग्रामीण समुदायों के साथ चलने वाला सार्वजनिक निर्माण कार्यक्रम है, किसी व्यक्ति को पैसे देना नहीं।" }
+not_stated = [
+  "How a household asks for a tap connection, and whether it must pay a share. The documents describe the programme and the community's role, not an application for a person.",
+  "The JJM 2.0 rules: the guidelines released in 2026 could not be read by the tools.",
+  "A fee or a helpline for households.",
+]
+
+[entries.apply]
+label = "Jal Jeevan Mission portal"
+url = "https://jaljeevanmission.gov.in/"
+evidence = [{ source_id = "jjm-about", quote = "Every rural household has drinking water supply in adequate quantity of prescribed quality on regular and long-term basis at affordable service delivery charges leading to improvement in living standards of rural communities.", where = "About JJM, Vision" }]
+
+[[entries.benefits]]
+text = "The aim is that every rural household has drinking water in adequate quantity and of the prescribed quality, on a regular and long-term basis, at affordable service charges."
+evidence = [{ source_id = "jjm-about", quote = "Every rural household has drinking water supply in adequate quantity of prescribed quality on regular and long-term basis at affordable service delivery charges leading to improvement in living standards of rural communities.", where = "About JJM, Vision" }]
+
+[[entries.benefits]]
+text = "The mission supports in-village piped water supply so that every rural household gets a tap connection."
+evidence = [{ source_id = "jjm-about", quote = "Development of in-village piped water supply infrastructure to provide tap water connection to every rural household", where = "About JJM, Components" }]
+
+[[entries.benefits]]
+text = "Schools, Anganwadi centres, Gram Panchayat buildings, health centres, wellness centres and community buildings are also to get functional tap connections."
+evidence = [{ source_id = "jjm-about", quote = "To provide functional tap connection to Schools, Anganwadi centres, GP buildings, Health centres, wellness centres and community buildings", where = "About JJM, Objectives" }]
+
+[[entries.benefits]]
+text = "Priority goes to areas with water-quality problems, drought-prone and desert villages and Sansad Adarsh Gram Yojana villages."
+evidence = [{ source_id = "jjm-about", quote = "To prioritize provision of FHTCs in quality-affected areas, villages in drought prone and desert areas, Sansad Adarsh Gram Yojana (SAGY) villages, etc.", where = "About JJM, Objectives" }]
+
+[[entries.benefits]]
+text = "The mission also pays for water sources, treatment where water is contaminated, and upgrading old schemes to give a household tap at a minimum service level of 55 litres per person per day (lpcd)."
+evidence = [
+  { source_id = "jjm-about", quote = "Technological interventions for removal of contaminants where water quality is an issue", where = "About JJM, Components" },
+  { source_id = "jjm-about", quote = "Retrofitting of completed and ongoing schemes to provide FHTCs at minimum service level of 55 lpcd;", where = "About JJM, Components" },
+]
+
+[[entries.benefits]]
+text = "As on 22 October 2025, more than 15.72 crore rural homes were receiving safe drinking water through household taps."
+evidence = [{ source_id = "jjm-pib-2025oct", quote = "As of 22 October 2025, more than 15.72 crore rural homes are receiving safe drinking water through household taps, marking a significant step towards universal water security in rural India.", where = "page 1" }]
+
+[[entries.benefits]]
+text = "A department newsletter lists the Union Cabinet's approval of an extension of the mission up to December 2028."
+evidence = [{ source_id = "jjm-samvad-2026-03", quote = "New Dawn for Rural Water Supply Canvas: Union Cabinet’s approval on extension of JJM up to December 2028", where = "contents, page 3" }]
+
+[[entries.eligibility]]
+text = "The mission is meant for every rural household; the community is asked to take part, including by giving cash, kind or labour."
+evidence = [
+  { source_id = "jjm-about", quote = "To provide FHTC to every rural household.", where = "About JJM, Objectives" },
+  { source_id = "jjm-about", quote = "To promote and ensure voluntary ownership among local community by way of contribution in cash, kind and/ or labour and voluntary labour (shramdaan)", where = "About JJM, Objectives" },
+]
+
+# =================================================================================================
+# HOUSING + ENVIRONMENT
+# =================================================================================================
+
+[[entries]]
+id = "swachh-bharat-mission"
+name = "Swachh Bharat Mission (Grameen and Urban)"
+kind = "scheme"
+sectors = ["housing", "environment"]
+level = "central"
+department = "Department of Drinking Water and Sanitation, Ministry of Jal Shakti (rural), and Ministry of Housing and Urban Affairs (urban), Government of India"
+status = "active"
+status_note = "The rural mission's portal gives Phase II as 2020-21 to 2025-26, and the urban 2.0 mission was launched for five years from 1 October 2021. The documents do not say what follows once those periods end; check the portals."
+source_ids = ["sbm-ddws-about", "sbm-explainer-pib", "sbm-pib-2024"]
+last_verified = 2026-10-31
+summary = { en = "A national cleanliness mission: toilets for households and communities, and the management of solid and liquid waste, in villages and cities.", bn = "জাতীয় পরিচ্ছন্নতা মিশন: পরিবার ও সম্প্রদায়ের জন্য শৌচাগার এবং গ্রাম ও শহরে কঠিন ও তরল বর্জ্যের ব্যবস্থাপনা।", hi = "राष्ट्रीय स्वच्छता मिशन: परिवारों और समुदायों के लिए शौचालय, और गाँवों व शहरों में ठोस व तरल कचरे का प्रबंधन।" }
+target = { en = "Rural and urban households and communities. The rural mission also gives an incentive for building an individual household toilet.", bn = "গ্রামীণ ও শহরের পরিবার ও সম্প্রদায়। গ্রামীণ মিশন ব্যক্তিগত পারিবারিক শৌচাগার তৈরির জন্য উৎসাহ ভাতাও দেয়।", hi = "ग्रामीण और शहरी परिवार व समुदाय। ग्रामीण मिशन व्यक्तिगत घरेलू शौचालय बनाने के लिए प्रोत्साहन राशि भी देता है।" }
+not_stated = [
+  "Who qualifies for the household toilet incentive, and how to apply. The pages the tools could download do not say.",
+  "Whether the incentive is still the amount in the 2022 explainer: later guidelines were not available as text.",
+  "Anything for urban households about toilet grants.",
+]
+
+[entries.apply]
+label = "Swachh Bharat Mission (Grameen) portal"
+url = "https://swachhbharatmission.ddws.gov.in/"
+evidence = [{ source_id = "sbm-ddws-about", quote = "Improve the level of cleanliness in rural areas through solid and liquid waste management activities, making villages ODF Plus.", where = "About SBM, Phase II" }]
+
+[[entries.benefits]]
+text = "The campaign aims at household-owned and community-owned toilets, their use, and solid and liquid waste management, to reach an Open Defecation Free (ODF) Plus India."
+evidence = [{ source_id = "sbm-explainer-pib", quote = "It is a nation-wide campaign which aims at construction of household-owned and community-owned toilets, their usage and Solid and Liquid Waste Management (SLWM) thereby establishing an accountable mechanism for achieving Open Defecation Free (ODF) Plus India.", where = "page 1" }]
+
+[[entries.benefits]]
+text = "Under the rural mission, the incentive for building an individual household toilet was raised from Rs.10,000 to Rs.12,000, to provide for a water storage facility for hand-washing and cleaning the toilet."
+evidence = [{ source_id = "sbm-explainer-pib", quote = "Under SBM (G), the incentive for construction of IHHL was enhanced from Rs.10,000 to Rs.12,000 to provide for water storage facility for hand-washing and cleaning of the toilet.", where = "page 1" }]
+
+[[entries.benefits]]
+text = "Rural Phase II aims to keep villages open-defecation free and manage solid and liquid waste by 2024-25, moving villages from ODF to the ODF Plus Model."
+evidence = [{ source_id = "sbm-ddws-about", quote = "SBM-G Phase II was launched with the objective of achieving Sampoorn Swachhata, i.e., sustaining the ODF status and managing solid and liquid waste by 2024-25 and transforming all the villages from ODF to ODF Plus Model.", where = "About SBM, Phase II" }]
+
+[[entries.benefits]]
+text = "The urban mission (Swachh Bharat Mission-Urban 2.0) was launched on 1 October 2021 with the goal of making cities Garbage-Free."
+evidence = [
+  { source_id = "sbm-explainer-pib", quote = "Prime Minister Narendra Modi launched Swachh Bharat Mission-Urban 2.0 and Atal Mission for Rejuvenation and Urban Transformation 2.0 on October 1, 2021.", where = "page 3" },
+  { source_id = "sbm-explainer-pib", quote = "PM informed that the goal of 'Swachh Bharat Mission-Urban 2.0' is to make cities Garbage-Free.", where = "page 3" },
+]
+
+[[entries.benefits]]
+text = "A village is called Aspiring, Rising or Model by how well it manages solid and liquid waste and keeps visually clean, while staying open-defecation free."
+evidence = [
+  { source_id = "sbm-ddws-about", quote = "Aspiring: The village which is sustaining its ODF status and has arrangements for Solid Waste Management or Liquid Waste Management.", where = "About SBM, Phase II" },
+  { source_id = "sbm-ddws-about", quote = "Model: The village which is sustaining its ODF status; has arrangements for both Solid Waste Management and Liquid Waste Management; observes visual cleanliness", where = "About SBM, Phase II" },
+]
+
+# =================================================================================================
+# TRANSPORT & INFRASTRUCTURE
+# =================================================================================================
+
+[[entries]]
+id = "pmgsy"
+name = "Pradhan Mantri Gram Sadak Yojana (PMGSY)"
+kind = "infrastructure"
+sectors = ["transport"]
+level = "central"
+department = "Ministry of Rural Development, Government of India"
+status = "active"
+status_note = "The December 2025 PIB note describes Phase IV as running over the financial years 2024-25 to 2028-29."
+source_ids = ["pmgsy-pib-2025dec", "pmgsy-pib-2025sep"]
+last_verified = 2026-10-31
+summary = { en = "A national programme that builds all-weather roads to rural habitations that had no road, so that villages reach markets, schools and health care.", bn = "জাতীয় কর্মসূচি, যা সড়কবিহীন গ্রামীণ বসতিতে সব-ঋতুর সড়ক গড়ে তোলে, যাতে গ্রাম বাজার, স্কুল ও স্বাস্থ্যসেবার সঙ্গে যুক্ত হয়।", hi = "राष्ट्रीय कार्यक्रम जो बिना सड़क वाली ग्रामीण बस्तियों तक हर मौसम की सड़कें बनाता है, ताकि गाँव बाज़ार, स्कूल और स्वास्थ्य सेवाओं से जुड़ें।" }
+target = { en = "Rural habitations that are not yet connected by an all-weather road. It is public road building, not money paid to a person.", bn = "যেসব গ্রামীণ বসতি এখনও সব-ঋতুর সড়কে যুক্ত নয়। এটি সরকারি সড়ক নির্মাণ, কোনো ব্যক্তিকে টাকা দেওয়া নয়।", hi = "वे ग्रामीण बस्तियाँ जो अभी तक हर मौसम की सड़क से जुड़ी नहीं हैं। यह सार्वजनिक सड़क निर्माण है, किसी व्यक्ति को पैसे देना नहीं।" }
+not_stated = [
+  "How a village or a citizen can ask for a road to be included. The documents describe the programme and its criteria, not a request process.",
+  "Which habitations or roads are chosen in your area.",
+  "The PMGSY-IV guidelines themselves: the portal that hosts them did not respond to the tools.",
+]
+
+[entries.apply]
+label = "PMGSY programme site (National Rural Infrastructure Development Agency)"
+url = "https://pmgsy.nic.in/"
+evidence = [{ source_id = "pmgsy-pib-2025sep", quote = "Pradhan Mantri Gram Sadak Yojana (PMGSY) is a flagship rural development programme of the Government.", where = "page 2" }]
+
+[[entries.benefits]]
+text = "PMGSY was launched on 25 December 2000 to give all-weather connectivity to unconnected rural habitations, helping farm growth, jobs, and access to education and health services."
+evidence = [{ source_id = "pmgsy-pib-2025dec", quote = "Launched on 25 December 2000 to ensure all-weather connectivity to previously unconnected rural habitations, the programme has emerged as a key enabler of agricultural growth, employment generation, improved access to education and health services, and poverty alleviation.", where = "page 1" }]
+
+[[entries.benefits]]
+text = "Phase IV plans 62,500 kilometres of road with an outlay of Rs. 70,125 crore, to connect 25,000 unconnected rural habitations."
+evidence = [{ source_id = "pmgsy-pib-2025dec", quote = "A total road length of 62,500 kilometres is proposed to be constructed during the implementation period from FY 2024– 25 to 2028–29, with an overall financial outlay of Rs. 70,125 crore.", where = "page 2" }, { source_id = "pmgsy-pib-2025dec", quote = "Phase IV of the Pradhan Mantri Gram Sadak Yojana (PMGSY) aims to provide all-weather road connectivity to 25,000 unconnected rural habitations, based on Census 2011 population criteria:", where = "page 2" }]
+
+[[entries.benefits]]
+text = "Quality is checked at three levels: the executing agencies, independent State Quality Monitors and surprise inspections by National Quality Monitors."
+evidence = [{ source_id = "pmgsy-pib-2025dec", quote = "To ensure the quality and long-term durability of rural roads, a robust three-tier Quality Monitoring System has been institutionalized.", where = "page 4" }]
+
+[[entries.benefits]]
+text = "Roads are maintained for five years from completion, and contractor payments in that period are linked to how the road performs."
+evidence = [{ source_id = "pmgsy-pib-2025dec", quote = "With the introduction of e-MARG as a dedicated software module for maintenance payments, contractor payments during the DLP are now directly linked to road performance and quality outcomes.", where = "page 3" }, { source_id = "pmgsy-pib-2025dec", quote = "ensure systematic monitoring of PMGSY road maintenance for a period of five years from the date of completion", where = "page 3" }]
+
+[[entries.eligibility]]
+text = "Which habitations Phase IV covers, by Census 2011 population: 500 and above in plain areas, 250 and above in North-Eastern and Himalayan States and Union Territories, and habitations in special category areas such as Tribal (Schedule V) regions, Aspirational Districts or Blocks, and Desert areas."
+evidence = [
+  { source_id = "pmgsy-pib-2025dec", quote = "Phase IV of the Pradhan Mantri Gram Sadak Yojana (PMGSY) aims to provide all-weather road connectivity to 25,000 unconnected rural habitations, based on Census 2011 population criteria:", where = "page 2" },
+  { source_id = "pmgsy-pib-2025dec", quote = "Habitats with a population of 500 and above in plain areas,", where = "page 2" },
+  { source_id = "pmgsy-pib-2025dec", quote = "250 and above in North-Eastern and Himalayan States/UTs, and", where = "page 2" },
+  { source_id = "pmgsy-pib-2025dec", quote = "Habitations located in special category areas, including Tribal (Schedule V) regions, Aspirational Districts/Blocks, and Desert areas.", where = "page 2" },
+]
+
+# -------------------------------------------------------------------------------------------------
+
+[[entries]]
+id = "pm-ebus-sewa"
+name = "PM-eBus Sewa"
+kind = "infrastructure"
+sectors = ["transport"]
+level = "central"
+department = "Ministry of Housing and Urban Affairs, Government of India"
+status = "active"
+status_note = "Described from the factsheet on the Union Cabinet approval of 24 August 2023. The Ministry's guidelines could not be downloaded, so later changes are not covered."
+source_ids = ["pm-ebus-sewa-pib"]
+last_verified = 2026-10-31
+published_on = 2023-08-24
+summary = { en = "A programme to put electric buses on city roads, with the Centre helping the cities that run them and paying for depots, charging and other green transport facilities.", bn = "শহরের রাস্তায় বৈদ্যুতিক বাস নামানোর কর্মসূচি, যেখানে কেন্দ্র বাস চালানো শহরগুলিকে সাহায্য করে এবং ডিপো, চার্জিং ও অন্যান্য সবুজ পরিবহন সুবিধার খরচ দেয়।", hi = "शहरों की सड़कों पर इलेक्ट्रिक बसें चलाने का कार्यक्रम, जिसमें केंद्र बसें चलाने वाले शहरों की मदद करता है और डिपो, चार्जिंग व अन्य हरित परिवहन सुविधाओं का खर्च उठाता है।" }
+target = { en = "Cities with an organised bus service in mind, chosen by population and region, and the people who travel by city bus. It is for cities and States to run, not a payment to a person.", bn = "জনসংখ্যা ও অঞ্চল অনুযায়ী নির্বাচিত শহর এবং শহরের বাসের যাত্রীরা। এটি শহর ও রাজ্যের চালানোর প্রকল্প, কোনো ব্যক্তিকে টাকা দেওয়া নয়।", hi = "जनसंख्या और क्षेत्र के आधार पर चुने गए शहर और शहरी बस के यात्री। इसे शहर और राज्य चलाते हैं, किसी व्यक्ति को पैसे नहीं मिलते।" }
+not_stated = [
+  "Which cities are in the scheme, or when buses start in yours: the factsheet gives the number of cities, not their names.",
+  "Fares and routes.",
+  "Any way for a citizen to apply: it is a scheme for cities and States.",
+  "The Ministry's guidelines (mohua.gov.in answered HTTP 403 to the tools).",
+]
+
+[entries.apply]
+label = "PM-eBus Sewa programme site (Ministry of Housing and Urban Affairs)"
+url = "https://pm-ebus-sewa.mohua.gov.in/"
+evidence = [{ source_id = "pm-ebus-sewa-pib", quote = "The Union Cabinet chaired by Prime Minister Narendra Modi has approved a bus scheme “PM-eBus Sewa” for augmenting city bus operation by 10,000 e-buses on the PPP model.", where = "page 1" }]
+
+[[entries.benefits]]
+text = "The Union Cabinet approved a scheme to add 10,000 e-buses to city bus services on the public-private partnership (PPP) model."
+evidence = [{ source_id = "pm-ebus-sewa-pib", quote = "The Union Cabinet chaired by Prime Minister Narendra Modi has approved a bus scheme “PM-eBus Sewa” for augmenting city bus operation by 10,000 e-buses on the PPP model.", where = "page 1" }]
+
+[[entries.benefits]]
+text = "The estimated cost is Rs.57,613 crore, of which Rs.20,000 crore is central assistance; the scheme supports bus operations for 10 years."
+evidence = [{ source_id = "pm-ebus-sewa-pib", quote = "The Scheme would have an estimated cost of Rs.57,613 crore, out of which support of Rs.20,000 crore will be provided as Central assistance. The Scheme will support bus operations for 10 years", where = "page 1" }]
+
+[[entries.benefits]]
+text = "Depot infrastructure and the power infrastructure behind the meter for e-buses are supported under the bus-operations part of the scheme."
+evidence = [{ source_id = "pm-ebus-sewa-pib", quote = "Associated Infrastructure will provide support for the Development/up-gradation of depot infrastructure; and the creation of behind-the-meter power infrastructure (substation, etc.) for e-buses.", where = "page 2" }]
+
+[[entries.benefits]]
+text = "A second part of the scheme supports green urban mobility: bus priority, multimodal interchange facilities, card-based automated fare collection and charging infrastructure."
+evidence = [{ source_id = "pm-ebus-sewa-pib", quote = "The scheme envisages green initiatives like bus priority, infrastructure, multimodal interchange facilities, NCMC-based Automated Fare Collection Systems, Charging infrastructure, etc.", where = "page 2" }]
+
+[[entries.benefits]]
+text = "Public impact: less noise and air pollution, and fewer carbon emissions; the scheme is expected to generate 45,000 to 55,000 direct jobs."
+evidence = [
+  { source_id = "pm-ebus-sewa-pib", quote = "Adoption of Electric mobility will reduce noise and air pollution and curb carbon emission.", where = "page 2" },
+  { source_id = "pm-ebus-sewa-pib", quote = "The scheme will generate 45,000 to 55,000 direct jobs through the deployment of around 10,000 buses.", where = "page 1" },
+]
+
+[[entries.eligibility]]
+text = "Cities of three lakh and above population (Census 2011), including all Union Territory capitals and the capitals of North-Eastern and hill States, are covered; cities with no organised bus service get priority."
+evidence = [{ source_id = "pm-ebus-sewa-pib", quote = "will cover cities of three lakh and above population as per the census 2011 including all the Capital cities of Union Territories, North Eastern Region and Hill States. Under this scheme, priority will be given to cities having no organized bus service.", where = "page 1" }]
+
+[[entries.eligibility]]
+text = "States and cities run the bus services and pay the bus operators; the Central Government supports the operations with a subsidy."
+evidence = [{ source_id = "pm-ebus-sewa-pib", quote = "Under the scheme, States/Cities shall be responsible for running the bus services and making payments to the bus operators. The Central Government will support these bus operations by providing subsidy to the extent specified in the proposed scheme.", where = "page 2" }]
+
+# -------------------------------------------------------------------------------------------------
+
+[[entries]]
+id = "amrit-bharat-station-scheme"
+name = "Amrit Bharat Station Scheme"
+kind = "infrastructure"
+sectors = ["transport"]
+level = "central"
+department = "Ministry of Railways, Government of India"
+status = "active"
+status_note = "The May 2025 PIB note describes the scheme as a long-term plan carried out in phases."
+source_ids = ["amrit-bharat-pib-2025"]
+last_verified = 2026-10-31
+published_on = 2025-05-20
+summary = { en = "A long-term plan to improve railway stations step by step, with better entrances, waiting halls, toilets, platforms, lifts, signs and links to other transport.", bn = "রেলস্টেশন ধাপে ধাপে উন্নত করার দীর্ঘমেয়াদি পরিকল্পনা: ভালো প্রবেশপথ, অপেক্ষাগার, শৌচাগার, প্ল্যাটফর্ম, লিফট, সাইনবোর্ড এবং অন্যান্য পরিবহনের সঙ্গে সংযোগ।", hi = "रेलवे स्टेशनों को चरणबद्ध तरीके से सुधारने की दीर्घकालिक योजना: बेहतर प्रवेश-द्वार, प्रतीक्षालय, शौचालय, प्लेटफ़ॉर्म, लिफ़्ट, संकेत-बोर्ड और अन्य परिवहन से जुड़ाव।" }
+target = { en = "Railway passengers and the towns and cities around stations. It is station building, not money paid to a person.", bn = "রেলযাত্রী এবং স্টেশনের আশেপাশের শহর। এটি স্টেশন নির্মাণ, কোনো ব্যক্তিকে টাকা দেওয়া নয়।", hi = "रेल यात्री और स्टेशनों के आसपास के शहर। यह स्टेशन निर्माण है, किसी व्यक्ति को पैसे देना नहीं।" }
+not_stated = [
+  "The list of stations, or when work at a particular station starts or ends.",
+  "The cost of the scheme.",
+  "Any way for a citizen to apply: it is a programme run by Indian Railways.",
+]
+
+[entries.apply]
+label = "Indian Railways"
+url = "https://indianrailways.gov.in/"
+evidence = [{ source_id = "amrit-bharat-pib-2025", quote = "The Amrit Bharat Station Scheme is a long-term plan to improve railway stations across India in a step-by-step manner.", where = "page 1" }]
+
+[[entries.benefits]]
+text = "A long-term plan to improve railway stations across India step by step: detailed plans are made for each station and the work is done in phases, based on what each station needs."
+evidence = [{ source_id = "amrit-bharat-pib-2025", quote = "The Amrit Bharat Station Scheme is a long-term plan to improve railway stations across India in a step-by-step manner. Under this scheme, detailed plans are made for each station and the work is done in phases, based on what each station needs.", where = "page 1" }]
+
+[[entries.benefits]]
+text = "The goal is cleaner, more comfortable stations that are easier to use: better entry and exit points, waiting halls, toilets, platforms and roofing, with lifts, escalators and free Wi-Fi where needed."
+evidence = [{ source_id = "amrit-bharat-pib-2025", quote = "The goal is to make stations cleaner, more comfortable, and easier to use. This includes improving entry and exit points, waiting halls, toilets, platforms, and roofing. Facilities like lifts, escalators, and free Wi-Fi are added wherever needed.", where = "page 2" }]
+
+[[entries.benefits]]
+text = "Stations are also linked with other transport such as buses and metros, and special care is taken to make them friendly for persons with disabilities."
+evidence = [
+  { source_id = "amrit-bharat-pib-2025", quote = "connecting both sides of the city through the station, and linking stations with other transport options like buses and metros.", where = "page 2" },
+  { source_id = "amrit-bharat-pib-2025", quote = "Special care is being taken to make stations friendly for persons with disabilities.", where = "page 2" },
+]
+
+[[entries.benefits]]
+text = "Kiosks at stations sell local products under the 'One Station One Product' idea."
+evidence = [{ source_id = "amrit-bharat-pib-2025", quote = "Local products will be sold at kiosks under the ‘One Station One Product’ scheme", where = "page 2" }]
+
+# =================================================================================================
+# ENVIRONMENT & ENERGY
+# =================================================================================================
+
+[[entries]]
+id = "pm-surya-ghar"
+name = "PM Surya Ghar: Muft Bijli Yojana"
+kind = "scheme"
+sectors = ["environment"]
+level = "central"
+department = "Ministry of New and Renewable Energy, Government of India"
+status = "active"
+status_note = "Described from a PIB explainer of August 2024 and an annexure to a Parliament reply of the same month. Check the national portal for the current rates."
+source_ids = ["pmsg-pib-2024", "pmsg-pib-annex"]
+last_verified = 2026-10-31
+published_on = 2024-08-12
+summary = { en = "Government help with the cost of putting solar panels on your home's roof, so your household makes its own electricity and can cut its bill.", bn = "বাড়ির ছাদে সোলার প্যানেল বসানোর খরচে সরকারি সাহায্য, যাতে পরিবার নিজের বিদ্যুৎ তৈরি করে বিল কমাতে পারে।", hi = "घर की छत पर सोलर पैनल लगवाने के खर्च में सरकारी मदद, ताकि आपका परिवार अपनी बिजली बनाए और बिल घटा सके।" }
+target = { en = "Households that own a house with a suitable roof and have an electricity connection, and have not taken another subsidy for solar panels.", bn = "যে পরিবারের উপযুক্ত ছাদসহ বাড়ি আছে, বিদ্যুতের সংযোগ আছে এবং সোলার প্যানেলের জন্য অন্য কোনো ভর্তুকি নেয়নি।", hi = "वे परिवार जिनका उपयुक्त छत वाला अपना मकान है, बिजली कनेक्शन है और जिन्होंने सोलर पैनल के लिए कोई अन्य सब्सिडी नहीं ली है।" }
+not_stated = [
+  "An end date for the scheme.",
+  "Extra help from your State or electricity company: the documents describe only the central assistance.",
+  "The current rates, if they have changed since August 2024.",
+]
+
+[entries.apply]
+label = "PM Surya Ghar national portal"
+url = "https://pmsuryaghar.gov.in/"
+evidence = [{ source_id = "pmsg-pib-2024", quote = "Households can apply for the subsidy through the National Portal, where they can also select a suitable vendor for installing rooftop solar.", where = "page 2" }]
+
+[[entries.benefits]]
+text = "Central financial assistance is Rs 30,000 per kWp for the first 2 kWp of rooftop solar capacity and Rs 18,000 per kWp for the next 1 kWp, with no extra assistance beyond 3 kWp. Special category States get Rs 33,000 and Rs 19,800."
+evidence = [{ source_id = "pmsg-pib-annex", quote = "1 Residential Sector (first 2 kWp of RTS capacity or part thereof) Rs 30,000/kWp Rs 33,000/kWp 2 Residential Sector (with additional RTS capacity of 1 kWp or part thereof) Rs 18,000/kWp Rs 19,800/kWp 3 Residential Sector (additional RTS capacity beyond 3 kWp) No additional CFA No additional CFA", where = "Annexure I, page 1" }]
+
+[[entries.benefits]]
+text = "Households get free electricity by installing subsidised rooftop solar panels, which reduces their energy costs."
+evidence = [{ source_id = "pmsg-pib-2024", quote = "The scheme provides households with free electricity by installing subsidised rooftop solar panels, significantly reducing their energy costs.", where = "page 1" }]
+
+[[entries.benefits]]
+text = "Collateral-free, low-interest loans at around 7% are available for rooftop solar systems up to 3 kW."
+evidence = [{ source_id = "pmsg-pib-2024", quote = "Households will have access to collateral-free, low-interest loans at around 7% interest for installing residential rooftop solar (RTS) systems up to 3 kW.", where = "page 2" }]
+
+[[entries.benefits]]
+text = "Households can earn extra income by selling surplus power from their rooftop systems to the electricity distribution company (DISCOM)."
+evidence = [{ source_id = "pmsg-pib-2024", quote = "they will have the opportunity to earn extra income by selling surplus power generated by their rooftop solar systems to DISCOMs.", where = "page 4" }]
+
+[[entries.eligibility]]
+text = "The household must be an Indian citizen."
+evidence = [{ source_id = "pmsg-pib-2024", quote = "The household must be an Indian citizen.", where = "page 3" }]
+
+[[entries.eligibility]]
+text = "The household must own a house with a roof suitable for solar panels, and have a valid electricity connection."
+evidence = [
+  { source_id = "pmsg-pib-2024", quote = "The household must own a house with a roof that is suitable for installing solar panels.", where = "page 3" },
+  { source_id = "pmsg-pib-2024", quote = "The household must have a valid electricity connection.", where = "page 3" },
+]
+
+[[entries.eligibility]]
+text = "The Parliament-reply annexure puts it more simply: any consumer tagged to a residential power connection of the local DISCOM is eligible, and the system can go on a roof, terrace, balcony or elevated structure."
+evidence = [{ source_id = "pmsg-pib-annex", quote = "Any consumer tagged to a particular residential power connection of the local DISCOM, is eligible to take benefit under the scheme and can install RTS system on a roof/terrace/balcony or on top of elevated structures.", where = "Annexure I, page 1" }]
+
+[[entries.exclusions]]
+text = "A household that has already taken another subsidy for solar panels is not eligible."
+evidence = [{ source_id = "pmsg-pib-2024", quote = "The household must not have availed any other subsidy for solar panels.", where = "page 3" }]
+
+[[entries.documents]]
+text = "Your electricity consumer number and mobile number, to log in; and at the end, bank details and a cancelled cheque."
+evidence = [
+  { source_id = "pmsg-pib-2024", quote = "Step-3 : Login with Consumer Number & Mobile Number.", where = "page 3" },
+  { source_id = "pmsg-pib-2024", quote = "Step 9: Submit bank details and a cancelled cheque.", where = "page 3" },
+]
+
+[[entries.steps]]
+text = "Visit the official website, register with your personal details, log in with your consumer number and mobile number, and fill in the online application for rooftop solar."
+evidence = [
+  { source_id = "pmsg-pib-2024", quote = "Step-1 : Visit the official website", where = "page 3" },
+  { source_id = "pmsg-pib-2024", quote = "Step-2 : Provide personal details for registration", where = "page 3" },
+  { source_id = "pmsg-pib-2024", quote = "Step-5 : Fill out the online application form.", where = "page 3" },
+]
+
+[[entries.steps]]
+text = "Wait for the DISCOM's approval, then install the plant with a registered vendor."
+evidence = [{ source_id = "pmsg-pib-2024", quote = "Step 6: Await DISCOM approval and then install the plant with a registered vendor.", where = "page 3" }]
+
+[[entries.steps]]
+text = "After installation, submit the plant details and apply for a net meter; after the net meter is installed and the DISCOM inspects, get the commissioning certificate from the portal."
+evidence = [
+  { source_id = "pmsg-pib-2024", quote = "Step-7 : Once installation is over, submit the plant details and apply for net meter.", where = "page 3" },
+  { source_id = "pmsg-pib-2024", quote = "Step 8: After net meter installation and DISCOM inspection, obtain the commissioning certificate from the portal.", where = "page 3" },
+]
+
+[[entries.steps]]
+text = "Submit your bank details and a cancelled cheque, and receive the subsidy within 30 days."
+evidence = [{ source_id = "pmsg-pib-2024", quote = "Step 9: Submit bank details and a cancelled cheque. Receive subsidy within 30 days.", where = "page 3" }]
+
+# -------------------------------------------------------------------------------------------------
+
+[[entries]]
+id = "pm-ujjwala-yojana"
+name = "Pradhan Mantri Ujjwala Yojana (PMUY)"
+kind = "scheme"
+sectors = ["environment"]
+level = "central"
+department = "Ministry of Petroleum and Natural Gas, Government of India"
+status = "active"
+status_note = "The portal's about page says an additional 25 lakh LPG connections were approved and are currently being released."
+source_ids = ["pmuy-about", "pmuy-faq", "pmuy-apply"]
+last_verified = 2026-10-31
+summary = { en = "A deposit-free LPG gas connection, with a free first refill and stove, for adult women of poor households, so that families can cook with clean fuel.", bn = "দরিদ্র পরিবারের প্রাপ্তবয়স্ক মহিলাদের জন্য জামানতহীন এলপিজি সংযোগ, প্রথম রিফিল ও চুলা বিনামূল্যে, যাতে পরিবার পরিষ্কার জ্বালানিতে রান্না করতে পারে।", hi = "गरीब परिवारों की वयस्क महिलाओं के लिए बिना जमा राशि का एलपीजी कनेक्शन, पहला रिफ़िल और चूल्हा मुफ़्त, ताकि परिवार स्वच्छ ईंधन पर खाना पका सकें।" }
+target = { en = "Adult women, aged eighteen or more, in poor households that have no other LPG connection.", bn = "আঠারো বছর বা তার বেশি বয়সের প্রাপ্তবয়স্ক মহিলা, দরিদ্র পরিবারের, যে পরিবারে অন্য কোনো এলপিজি সংযোগ নেই।", hi = "अठारह वर्ष या उससे अधिक आयु की वयस्क महिलाएँ, गरीब परिवारों की, जिनके घर में कोई अन्य एलपीजी कनेक्शन नहीं है।" }
+not_stated = [
+  "An income figure for who counts as poor: the documents rely on a deprivation declaration in a prescribed format.",
+  "A last date to apply.",
+  "How many connections are still available in your area.",
+]
+
+[entries.apply]
+label = "Apply for a new PMUY connection"
+url = "https://pmuy.gov.in/ujjwala2.html"
+evidence = [{ source_id = "pmuy-apply", quote = "Applicants may apply to any distributor of her choice either by submitting application at the distributor or by submitting a request through Online Portal.", where = "Apply page" }]
+
+[[entries.benefits]]
+text = "The aim is to make clean cooking fuel such as LPG available to rural and deprived households that were using firewood, coal, cow-dung cakes and similar fuels."
+evidence = [{ source_id = "pmuy-about", quote = "with an objective to make clean cooking fuel such as LPG available to the rural and deprived households which were otherwise using traditional cooking fuels such as firewood, coal, cow-dung cakes etc.", where = "About PMUY" }]
+
+[[entries.benefits]]
+text = "A security-deposit-free LPG connection with no installation charges, with the cylinder (14.2 kg or 5 kg), a pressure regulator, a hose pipe and a booklet, plus a free first refill and a free two-burner stove."
+evidence = [
+  { source_id = "pmuy-faq", quote = "A PMUY beneficiary receives Security deposit free LPG Connection with no installation charges which covers:", where = "FAQ Q3" },
+  { source_id = "pmuy-faq", quote = "14.2 Kg LPG Cylinder/5 Kg LPG Cylinder(s)", where = "FAQ Q3" },
+  { source_id = "pmuy-faq", quote = "Free first refill(s)", where = "FAQ Q3" },
+  { source_id = "pmuy-faq", quote = "Free two burner stove", where = "FAQ Q3" },
+]
+
+[[entries.benefits]]
+text = "Cash assistance from the Government of India is Rs. 1600 for a connection with a 14.2 kg cylinder, or Rs. 1150 for a 5 kg cylinder."
+evidence = [{ source_id = "pmuy-about", quote = "Cash assistance for PMUY connections is provided by Government of India - Rs. 1600 (for a connection 14.2kg cylinder/ Rs. 1150 for a 5 kg cylinder).", where = "About PMUY, PMUY Benefits" }]
+
+[[entries.benefits]]
+text = "The customer does not have to pay anything for a new connection, apart from any stamp fee that applies in the State."
+evidence = [{ source_id = "pmuy-faq", quote = "No. The customer does not have to pay anything while taking a new connection.", where = "FAQ Q5" }]
+
+[[entries.eligibility]]
+text = "The applicant must be a woman aged 18 or more."
+evidence = [{ source_id = "pmuy-apply", quote = "The applicant must be a woman who has attained 18 years of age.", where = "Apply page, eligibility" }]
+
+[[entries.eligibility]]
+text = "There must be no other LPG connection from any oil marketing company in the same household."
+evidence = [{ source_id = "pmuy-apply", quote = "There should be no other LPG connection from any Oil Marketing Company (OMC) within the same household.", where = "Apply page, eligibility" }]
+
+[[entries.eligibility]]
+text = "The adult woman must belong to a poor household, shown by a deprivation declaration in the prescribed format."
+evidence = [
+  { source_id = "pmuy-apply", quote = "The adult woman must belong to a poor household based on submission of a deprivation declaration (as per prescribed format).", where = "Apply page, eligibility" },
+  { source_id = "pmuy-faq", quote = "The deprivation declaration submitted by the applicant is the basic criteria to consider it as an eligible Poor household under the scheme.", where = "FAQ Q2" },
+]
+
+[[entries.exclusions]]
+text = "A connection can only be given in the name of an adult woman of the household; a man cannot apply."
+evidence = [{ source_id = "pmuy-faq", quote = "No. PMUY connections can only be released in the name of adult female members of the Poor household.", where = "FAQ Q12" }]
+
+[[entries.documents]]
+text = "The KYC application form, with a recent photograph and signature; an Aadhaar copy for the applicant and for all adult family members listed in the ration card or other family document."
+evidence = [
+  { source_id = "pmuy-faq", quote = "Application/KYC form in the standard format, affixed with the applicant's recent photograph and bearing their signature.", where = "FAQ Q6" },
+  { source_id = "pmuy-faq", quote = "Copy of Aadhaar card of all adult family members as mentioned in Ration Card or other family composition document.", where = "FAQ Q6" },
+]
+
+[[entries.documents]]
+text = "A ration card (or another government document that shows the family), bank account details with a passbook copy or cancelled cheque, and the deprivation declaration."
+evidence = [
+  { source_id = "pmuy-faq", quote = "Bank account details of the applicant along with a copy of the passbook /cancelled cheque.", where = "FAQ Q6" },
+  { source_id = "pmuy-faq", quote = "Deprivation declaration in support of Poor household duly signed by applicant as per standard format.", where = "FAQ Q6" },
+  { source_id = "pmuy-apply", quote = "Ration Card issued by the State from which application is being made / other State Govt. document certifying family composition", where = "Apply page, documents" },
+]
+
+[[entries.steps]]
+text = "Apply to any distributor of your choice, either at the distributor or through the online portal."
+evidence = [{ source_id = "pmuy-apply", quote = "Applicants may apply to any distributor of her choice either by submitting application at the distributor or by submitting a request through Online Portal.", where = "Apply page" }]
+
+[[entries.steps]]
+text = "Online, there is no fee for self-submission; a charge of ₹20 applies if the application is submitted through a Common Service Centre."
+evidence = [{ source_id = "pmuy-faq", quote = "There is no fee for self-submission. However, a charge of ₹20 will be applicable if the application is submitted through CSC Centres.", where = "FAQ Q4" }]
+
+[[entries.steps]]
+text = "Biometric Aadhaar authentication (eKYC) is mandatory and is carried out by the LPG distributor."
+evidence = [{ source_id = "pmuy-faq", quote = "Biometric Aadhaar authentication is mandatory and it will be carried out by the LPG distributor of OMCs.", where = "FAQ Q17" }]
+
+# -------------------------------------------------------------------------------------------------
+
+[[entries]]
+id = "national-green-hydrogen-mission"
+name = "National Green Hydrogen Mission"
+kind = "infrastructure"
+sectors = ["environment"]
+level = "central"
+department = "Ministry of New and Renewable Energy, Government of India"
+status = "active"
+status_note = "Described from a PIB factsheet whose own date is unclear (it prints June 2023 at the top and mentions events of June 2024)."
+source_ids = ["nghm-pib-2024"]
+last_verified = 2026-10-31
+summary = { en = "A national mission to produce green hydrogen and green ammonia in India from renewable power, to cut fossil fuel imports and carbon emissions. It supports industry and research, not individuals.", bn = "নবায়নযোগ্য বিদ্যুৎ থেকে ভারতে সবুজ হাইড্রোজেন ও সবুজ অ্যামোনিয়া উৎপাদনের জাতীয় মিশন, জীবাশ্ম জ্বালানি আমদানি ও কার্বন নির্গমন কমাতে। এটি শিল্প ও গবেষণাকে সহায়তা করে, ব্যক্তিকে নয়।", hi = "नवीकरणीय बिजली से भारत में हरित हाइड्रोजन और हरित अमोनिया बनाने का राष्ट्रीय मिशन, ताकि जीवाश्म ईंधन का आयात और कार्बन उत्सर्जन घटे। यह उद्योग और शोध को सहायता देता है, व्यक्तियों को नहीं।" }
+target = { en = "Industry, fertiliser and energy producers, and researchers. It is not a payment or a service for an individual household.", bn = "শিল্প, সার ও জ্বালানি উৎপাদক এবং গবেষক। এটি কোনো পরিবারের জন্য টাকা বা সেবা নয়।", hi = "उद्योग, उर्वरक और ऊर्जा उत्पादक, तथा शोधकर्ता। यह किसी परिवार के लिए भुगतान या सेवा नहीं है।" }
+not_stated = [
+  "Any benefit for an individual or a household.",
+  "How a company applies for the incentives, and the terms of each scheme: only the mission's aims are in the factsheet.",
+  "An approval date: the factsheet gives 4 January 2022 in one place and 4th January, 2023 in another.",
+]
+
+[entries.apply]
+label = "National Green Hydrogen Mission site (MNRE)"
+url = "https://nghm.mnre.gov.in/"
+evidence = [{ source_id = "nghm-pib-2024", quote = "The National Green Hydrogen Mission represents India's ambition to emerge as a global leader in the production and export of green hydrogen.", where = "page 1" }]
+
+[[entries.benefits]]
+text = "The mission aims for a production capacity of 5 million tonnes of green hydrogen a year by 2030."
+evidence = [{ source_id = "nghm-pib-2024", quote = "this mission aims to achieve a targeted production capacity of 5 million tonnes per annum of Green Hydrogen by 2030.", where = "page 1" }]
+
+[[entries.benefits]]
+text = "The Union Cabinet approved the mission with an outlay of ₹19,744 crore."
+evidence = [{ source_id = "nghm-pib-2024", quote = "The National Green Hydrogen Mission was approved by the Union Cabinet on 4th January, 2023, with an outlay of ₹19,744 crore.", where = "page 4" }]
+
+[[entries.benefits]]
+text = "It works in three ways: creating demand so Indian green hydrogen is competitive at home and abroad, incentives on the supply side, and building an enabling ecosystem of infrastructure and technology."
+evidence = [
+  { source_id = "nghm-pib-2024", quote = "Demand Creation: Making Indian-produced green hydrogen competitive both domestically and for export markets.", where = "page 2" },
+  { source_id = "nghm-pib-2024", quote = "Supply-side Interventions: Implementing incentive frameworks to address constraints in production and distribution.", where = "page 2" },
+  { source_id = "nghm-pib-2024", quote = "Building an Enabling Ecosystem: Supporting scaling and development through infrastructure and technological advancements.", where = "page 2" },
+]
+
+[[entries.benefits]]
+text = "Expected public impact: lower dependence on imported fossil fuels, large cuts in carbon emissions, and over 6 lakh jobs across the value chain."
+evidence = [
+  { source_id = "nghm-pib-2024", quote = "Reduced Dependence on Imports: Diminished reliance on imported fossil fuels, enhancing energy security.", where = "page 7" },
+  { source_id = "nghm-pib-2024", quote = "Employment Opportunities: Creation of over 6 lakh jobs throughout the value chain, from production to utilization.", where = "page 7" },
+]

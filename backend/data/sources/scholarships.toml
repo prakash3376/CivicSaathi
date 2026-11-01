@@ -1,0 +1,95 @@
+# Curated registry of official scholarship sources.
+#
+# A source is added by a person, after opening the URL and confirming that it is the real
+# document. The pipeline then re-checks it on every run (see docs/DATA_SOURCES.md).
+#
+#   expected_phrases  identity: if one is missing the source is REJECTED (wrong or replaced document)
+#   expected_facts    figures a person confirmed: if one is missing the source is FLAGGED
+#   legacy_tls        only for a known official server that cannot negotiate modern TLS
+#
+# Add the next source as another [[sources]] table. Run `python -m app.cli verify <id>` before
+# `ingest`.
+
+# --- West Bengal: Swami Vivekananda Merit-cum-Means Scholarship (SVMCM) ----------------------
+
+[[sources]]
+id = "wb-svmcm-guidelines"
+title = "SVMCM Scholarship: Guidelines (PDF)"
+scheme = "Swami Vivekananda Merit-cum-Means Scholarship (SVMCM)"
+authority = "Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "guidelines"
+format = "pdf"
+url = "https://svmcm.wb.gov.in/readwrite/SVMCM_GUIDELINES.pdf"
+legacy_tls = true
+expected_phrases = ["SVMCM", "Government of West Bengal"]
+expected_facts = ["2,50,000"]
+curated_on = 2026-10-31
+notes = """\
+The scheme's own guidelines, served by the SVMCM portal (svmcm.wb.gov.in, a wb.gov.in host). \
+PDF metadata: created 2025-12-03, modified 2026-04-28. The server only supports legacy TLS \
+renegotiation (no RFC 5746), which OpenSSL 3 refuses by default; legacy_tls is therefore set. \
+The certificate chain and hostname are still verified."""
+
+[[sources]]
+id = "wb-svmcm-scheme-page"
+title = "SVMCM Scholarship: About the scheme (official portal page)"
+scheme = "Swami Vivekananda Merit-cum-Means Scholarship (SVMCM)"
+authority = "Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "scheme_page"
+format = "html"
+url = "https://svmcm.wb.gov.in/page/about.php"
+content_selector = "div.about_main"
+legacy_tls = true
+expected_phrases = ["Swami Vivekananda Merit Cum Means", "West Bengal"]
+expected_facts = ["2,50,000"]
+curated_on = 2026-10-31
+notes = """\
+The portal's web version of the same guidelines, which makes it a second official copy to \
+cross-check the PDF against (SPEC rule R7). The page is mostly site furniture; the content \
+selector keeps only the guidelines. Its allocation table is nested inside another table and \
+uses rowspans, which the HTML extractor expands. Like the PDF, it comes from a server that \
+only supports legacy TLS renegotiation (no RFC 5746), so legacy_tls is set; the certificate \
+chain and hostname are still verified."""
+
+# --- AICTE: Pragati scholarship for girl students in technical education ----------------------
+
+[[sources]]
+id = "aicte-pragati-faq"
+title = "AICTE Pragati Scholarship Scheme: Frequently Asked Questions (PDF)"
+scheme = "AICTE Pragati Scholarship Scheme"
+authority = "All India Council for Technical Education (AICTE), Ministry of Education, Government of India"
+level = "central"
+doc_type = "faq"
+format = "pdf"
+url = "https://aicte.gov.in/sites/default/files/stdc/Pragati/FAQs-Pragati%20Scheme.pdf"
+expected_phrases = ["PRAGATI SCHOLARSHIP SCHEME", "Frequently Asked Questions"]
+expected_facts = ["Rs. 8 Lakh"]
+curated_on = 2026-10-31
+notes = """\
+Linked from AICTE's Pragati page as the scheme FAQ. The PDF was created in November 2021, so \
+verification warns that it is older than 12 months (SPEC rule R4): it may predate changes. \
+The first two-column eligibility table is flattened by PDF extraction."""
+
+[[sources]]
+id = "aicte-pragati-notification-2026-27"
+title = "AICTE notification: applications open for Pragati, Saksham and Swanath, 2026-27 (PDF)"
+scheme = "AICTE Pragati, Saksham and Swanath Scholarship Schemes"
+authority = "All India Council for Technical Education (AICTE), Ministry of Education, Government of India"
+level = "central"
+doc_type = "notification"
+format = "pdf"
+url = "https://aicte.gov.in/sites/default/files/Notification%20A.Y.%202026-27.pdf"
+published_on = 2026-06-19
+expected_phrases = ["ALL INDIA COUNCIL FOR TECHNICAL EDUCATION", "Pragati", "Saksham", "Swanath"]
+expected_facts = ["31.10.2026"]
+curated_on = 2026-10-31
+notes = """\
+The current-year notification, linked from AICTE's Pragati page. It is a scan with a hidden \
+OCR text layer: the Hindi letterhead is garbled and some dates are misread (for example the \
+15 November date appears as '1 5"' Novcmber.2026'), so verification flags the OCR layer and \
+the figures must be checked against the original (SPEC test T7). published_on is the date \
+printed on the letter (19.06.2026)."""

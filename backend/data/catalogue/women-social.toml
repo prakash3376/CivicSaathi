@@ -1,0 +1,1078 @@
+# Catalogue entries for the Women & Child Development and Social Welfare & Pensions sectors.
+# Every statement carries a verbatim quote from an official document (see sources in
+# data/sources/women-social.toml). Bengali and Hindi texts are drafts that need a native speaker.
+
+# ==============================================================================================
+# WOMEN & CHILD DEVELOPMENT
+# ==============================================================================================
+
+[[entries]]
+id = "saksham-anganwadi-poshan-2"
+name = "Saksham Anganwadi and Poshan 2.0"
+kind = "scheme"
+sectors = ["women-child"]
+level = "central"
+department = "Ministry of Women and Child Development, Government of India"
+status = "active"
+status_note = "The guidelines cover the Finance Commission period that ended with 2025-26; the documents read here do not say what applies after that."
+source_ids = ["mwcd-saksham-guidelines"]
+last_verified = 2026-10-31
+summary = { en = "Nutrition, pre-school learning and health services for young children, pregnant women and nursing mothers, and some adolescent girls, given through Anganwadi centres.", bn = "অঙ্গনওয়াড়ি কেন্দ্রের মাধ্যমে ছোট শিশু, অন্তঃসত্ত্বা ও স্তন্যদানকারী মা এবং কিছু কিশোরীকে পুষ্টি, প্রাক-প্রাথমিক শিক্ষা ও স্বাস্থ্য পরিষেবা।", hi = "आंगनवाड़ी केंद्रों के ज़रिए छोटे बच्चों, गर्भवती और स्तनपान कराने वाली माताओं और कुछ किशोरियों को पोषण, पूर्व-विद्यालय शिक्षा और स्वास्थ्य सेवाएँ।" }
+target = { en = "Children up to six years old, pregnant women, nursing mothers and adolescent girls in certain districts and states.", bn = "ছয় বছর পর্যন্ত শিশু, অন্তঃসত্ত্বা নারী, স্তন্যদানকারী মা এবং নির্দিষ্ট জেলা ও রাজ্যের কিশোরী।", hi = "छह साल तक के बच्चे, गर्भवती महिलाएँ, स्तनपान कराने वाली माताएँ और कुछ ज़िलों व राज्यों की किशोरियाँ।" }
+not_stated = [
+  "A separate application form or fee: the guidelines say the only pre-condition is registration at the nearest Anganwadi Centre.",
+  "Which Anganwadi Centre serves your address, or the opening hours of the centre. Ask your local Anganwadi worker or the block child development office.",
+  "What changed after the guidelines were issued in 2022. The guidelines also say the nutritional norms are under revision.",
+]
+
+[entries.apply]
+label = "Ministry of Women and Child Development: Saksham Anganwadi and Poshan 2.0"
+url = "https://wcd.gov.in/pregnant-lactating-women-children/nutrition-mission-saksham-anganwadi-and-poshan-2-0"
+evidence = [{ source_id = "mwcd-saksham-guidelines", quote = "The only pre-condition is that the beneficiary has to be registered at the nearest Anganwadi Centre with Aadhaar identification.", where = "page 18" }]
+
+[[entries.benefits]]
+text = "Anganwadi centres give six services together: supplementary nutrition, pre-school non-formal education, nutrition and health education, immunization, health check-up and referral services."
+evidence = [
+  { source_id = "mwcd-saksham-guidelines", quote = "The Anganwadi Services Scheme provides the following package of services in an integrated manner to eligible beneficiaries:", where = "page 18, section 3.1" },
+  { source_id = "mwcd-saksham-guidelines", quote = "i. supplementary nutrition ii. pre-school non-formal education iii. nutrition & health education iv. immunization v. health check-up and vi. referral services", where = "page 18, section 3.1" },
+]
+
+[[entries.benefits]]
+text = "Pregnant women, nursing mothers, children aged 6 months to 3 years, severely malnourished children and adolescent girls aged 14 to 18 (where the scheme applies) are entitled to a take-home ration, and children aged 3 to 6 years to a hot cooked meal and morning snacks, at the Anganwadi centre where they are registered."
+evidence = [{ source_id = "mwcd-saksham-guidelines", quote = "All pregnant women and lactating mothers (PW&LM), children in the age group of 6-36 months, SAM children and adolescent girls in the age group of 14-18 years (wherever applicable) are entitled to receive THR and Children in the age group of 3-6 years are entitled to receive HCM and Morning Snacks under the Anganwadi Services from the AWC where they are registered.", where = "page 21, section 3.3" }]
+
+[[entries.benefits]]
+text = "Supplementary nutrition is to be served for at least 300 days a year."
+evidence = [{ source_id = "mwcd-saksham-guidelines", quote = "Supplementary Nutrition under the Scheme shall be served for a minimum of 300 days in a calendar year", where = "page 21, section 3.3" }]
+
+[[entries.benefits]]
+text = "The take-home ration is not given as raw ration such as wheat, rice or dal, and is to be handed out twice a month, preferably on the 1st and 15th."
+evidence = [
+  { source_id = "mwcd-saksham-guidelines", quote = "THR shall not be given in the form of raw ration (Wheat, Rice, Dal etc.).", where = "page 23, section 3.6" },
+  { source_id = "mwcd-saksham-guidelines", quote = "The distribution of THR to beneficiaries shall be made twice a month, preferably on 1st and 15th of each calendar month uniformly.", where = "page 24, section 3.7" },
+]
+
+[[entries.eligibility]]
+text = "The scheme covers children up to 6 years, pregnant women and lactating mothers, and adolescent girls (14-18 years) in Aspirational Districts and North Eastern States."
+evidence = [{ source_id = "mwcd-saksham-guidelines", quote = "Children upto the age of 6 years; Pregnant Women and Lactating Mothers (PW&LM) and Adolescent Girls (14-18 years) in Aspirational Districts and North Eastern States.", where = "page 18, section 3.1" }]
+
+[[entries.eligibility]]
+text = "It is open to every eligible person on demand, whatever their caste, religion or income."
+evidence = [{ source_id = "mwcd-saksham-guidelines", quote = "This Scheme is open to all eligible beneficiaries on demand, irrespective of caste, religion and income criteria.", where = "page 18, section 3.1" }]
+
+[[entries.documents]]
+text = "Aadhaar identification is needed at registration, but a child's own Aadhaar card is not required: the mother's Aadhaar card can be used."
+evidence = [{ source_id = "mwcd-saksham-guidelines", quote = "A child's Aadhaar card shall not be mandatory for availing the benefits under the Scheme. The benefits under the scheme can be accessed using the mother's Aadhaar card.", where = "page 18, section 3.1" }]
+
+[[entries.steps]]
+text = "Register at the nearest Anganwadi Centre with Aadhaar identification; only registered beneficiaries receive supplementary nutrition."
+evidence = [
+  { source_id = "mwcd-saksham-guidelines", quote = "The only pre-condition is that the beneficiary has to be registered at the nearest Anganwadi Centre with Aadhaar identification.", where = "page 18, section 3.1" },
+  { source_id = "mwcd-saksham-guidelines", quote = "Only those beneficiaries who are registered at the AWC are entitled to receive Supplementary Nutrition.", where = "page 21, section 3.3" },
+]
+
+[[entries.steps]]
+text = "Pregnant women, nursing mothers and children who are staying in the area even for a short time can be registered and receive the services."
+evidence = [{ source_id = "mwcd-saksham-guidelines", quote = "Pregnant women, lactating mothers and children up to the age of 6 years residing even temporarily in the coverage area of the AWC shall be registered and provided supplementary nutrition and other services.", where = "page 21, section 3.3" }]
+
+# ----------------------------------------------------------------------------------------------
+
+[[entries]]
+id = "pm-matru-vandana-yojana"
+name = "Pradhan Mantri Matru Vandana Yojana (PMMVY)"
+kind = "scheme"
+sectors = ["women-child"]
+level = "central"
+department = "Ministry of Women and Child Development, Government of India"
+status = "active"
+status_note = "The guidelines (PMMVY 2.0, under Mission Shakti) cover the Finance Commission period that ended with 2025-26; the documents read here do not say what applies after that."
+source_ids = ["mwcd-mission-shakti-guidelines"]
+last_verified = 2026-10-31
+summary = { en = "Cash support for a pregnant or nursing mother from a disadvantaged section, paid in instalments straight into her bank or post office account.", bn = "সুবিধাবঞ্চিত অংশের অন্তঃসত্ত্বা ও সদ্যপ্রসূতি মাকে কিস্তিতে সরাসরি ব্যাংক বা পোস্ট অফিস অ্যাকাউন্টে নগদ সহায়তা।", hi = "वंचित वर्ग की गर्भवती और नई माताओं को किस्तों में सीधे बैंक या डाकघर खाते में नकद सहायता।" }
+target = { en = "Pregnant women and nursing mothers from socially and economically disadvantaged sections, for the first child and for a second child who is a girl.", bn = "সামাজিক ও অর্থনৈতিকভাবে অনগ্রসর অংশের অন্তঃসত্ত্বা নারী ও স্তন্যদানকারী মা, প্রথম সন্তান এবং দ্বিতীয় কন্যাসন্তানের জন্য।", hi = "सामाजिक और आर्थिक रूप से वंचित वर्ग की गर्भवती महिलाएँ और स्तनपान कराने वाली माताएँ, पहले बच्चे और दूसरी बेटी के लिए।" }
+not_stated = [
+  "The current amounts and rules after the 2021-22 to 2025-26 period. Check the PMMVY portal.",
+  "A last date to apply other than the limit in the guidelines (the guidelines give a number of days from pregnancy).",
+  "A helpline number or fee.",
+]
+
+[entries.apply]
+label = "PMMVY portal"
+url = "https://pmmvy.wcd.gov.in/"
+evidence = [{ source_id = "mwcd-mission-shakti-guidelines", quote = "The PMMVY is implemented through web-based Management and Information System (MIS) Software, viz. Pradhan Mantri Matru Vandana Yojana-Common Application Software (PMMVY-CAS)", where = "page 30" }]
+
+[[entries.benefits]]
+text = "₹5000 in two instalments for the first child, and ₹6000 in one instalment after the birth for a second child, if the second child is a girl."
+evidence = [{ source_id = "mwcd-mission-shakti-guidelines", quote = "In case of the first child the amount of ₹5000 in two instalments and for the second child, the benefit of ₹6000 will be provided subject to second child is a girl child in one instalment after the birth.", where = "page 29" }]
+
+[[entries.benefits]]
+text = "The first instalment of ₹3,000 is paid on registration of the pregnancy and at least one ante-natal check-up within 6 months of the last menstrual period; the second instalment of ₹2,000 when the birth is registered and the child has had the first cycle of vaccines."
+evidence = [{ source_id = "mwcd-mission-shakti-guidelines", quote = "First Instalment On registration of pregnancy and at least one Ante-natal check-up within 6 months from LMP date at the Anganwadi Centre (AWC)/ approved Health facilities may be identified by the respective administering State /UT ₹ 3,000/-Second Instalment i. Child Birth is registered ii. Child has received first cycle of BCG, OPV,DPT and Hepatitis-B or its equivalent/substitute ₹ 2,000/-", where = "page 29" }]
+
+[[entries.benefits]]
+text = "The money goes directly into the beneficiary's bank or post office account by Direct Benefit Transfer."
+evidence = [{ source_id = "mwcd-mission-shakti-guidelines", quote = "The funds to the beneficiaries under PMMVY will be transferred directly to their Bank/Post Office account in Direct Benefit Transfer Mode.", where = "page 30" }]
+
+[[entries.eligibility]]
+text = "The scheme is for women from socially and economically disadvantaged sections, including women of scheduled castes and scheduled tribes, women with a disability of 40% or more, and holders of a BPL ration card."
+evidence = [
+  { source_id = "mwcd-mission-shakti-guidelines", quote = "The criteria for determining socially and economically disadvantaged sections of society will be the following:", where = "page 28" },
+  { source_id = "mwcd-mission-shakti-guidelines", quote = "i. Women belonging to scheduled castes and scheduled tribes; ii. Women who are partially (40%) or fully disabled (Divyang Jan) iii. Women holder of BPL ration Card", where = "page 28" },
+]
+
+[[entries.eligibility]]
+text = "Other qualifying groups include women under Ayushman Bharat PMJAY, e-Shram card holders, women farmers receiving Kisan Samman Nidhi, MGNREGA job card holders, women whose net family income is less than Rs. 8 Lakh a year, and pregnant or nursing Anganwadi workers, helpers and ASHAs."
+evidence = [{ source_id = "mwcd-mission-shakti-guidelines", quote = "v. Women holding E-shram card vi. Women farmers who are beneficiaries under KishanSammanNidhi vii. Women holding MGNREGA Job Card viii. Women whose net family income is less than Rs. 8 Lakh per annum ix. Pregnant and Lactating AWWs/ AWHs/ ASHAs", where = "page 29" }]
+
+[[entries.eligibility]]
+text = "The benefit is for the first two living children, provided the second child is a girl; for the second child, registration during the pregnancy is mandatory."
+evidence = [
+  { source_id = "mwcd-mission-shakti-guidelines", quote = "The benefit is available to a woman for the first two living children provided the second child is a girl.", where = "page 29" },
+  { source_id = "mwcd-mission-shakti-guidelines", quote = "However, for availing benefits for second child, registration during the pregnancy shall be mandatory.", where = "page 29" },
+]
+
+[[entries.exclusions]]
+text = "Women in regular employment with the Central or State Government or a public sector undertaking, or who get similar benefits under any law, are not entitled."
+evidence = [{ source_id = "mwcd-mission-shakti-guidelines", quote = "all pregnant women and lactating mothers in regular employment with the central Government or State Government or public Sector Undertaking or those who are in receipt of similar benefits under any law for the time being in force shall not be entitled to benefits under PMMVY.", where = "page 29" }]
+
+[[entries.documents]]
+text = "Benefits are paid only on the basis of the beneficiary's Aadhaar number."
+evidence = [{ source_id = "mwcd-mission-shakti-guidelines", quote = "Benefits can be availed only on the basis of the Aadhaar Number of Beneficiary so as to avoid any duplication or malpractices.", where = "page 29" }]
+
+[[entries.documents]]
+text = "The registration form lists: the Aadhaar card (or an identity card, or an Aadhaar enrolment slip if Aadhaar is not available), the MCP card, and the page of the bank or post office pass book showing name, account number and bank name."
+evidence = [{ source_id = "mwcd-mission-shakti-guidelines", quote = "1 Aadhaar Card of beneficiary 2 Identity Card of beneficiary (in case Aadhaar not available) 3 Aadhaar Enrolment slip of beneficiary (in case Aadhaar not available) 4 MCP Card 5 Page of Pass Book showing name, account number and bank name", where = "page 63, Form 1-A" }]
+
+[[entries.steps]]
+text = "Register the pregnancy at the Anganwadi Centre or an approved health facility and have at least one ante-natal check-up."
+evidence = [{ source_id = "mwcd-mission-shakti-guidelines", quote = "On registration of pregnancy and at least one Ante-natal check-up within 6 months from LMP date at the Anganwadi Centre (AWC)/ approved Health facilities may be identified by the respective administering State /UT", where = "page 29" }]
+
+[[entries.steps]]
+text = "An eligible woman can apply at any time but not later than 730 days of pregnancy, counted from the last menstrual period date registered on the MCP card."
+evidence = [{ source_id = "mwcd-mission-shakti-guidelines", quote = "An eligible beneficiary can apply, at any point of time but not later than 730 days of pregnancy. LMP registered in the MCP card will be the date of pregnancy to be considered in this respect.", where = "page 30" }]
+
+[[entries.steps]]
+text = "Payment of an instalment is meant to be made preferably within 30 days of registration and of the claim with complete details of the conditions being met."
+evidence = [{ source_id = "mwcd-mission-shakti-guidelines", quote = "to ensure that the payment of the instalment is made in the account of the eligible beneficiary preferably within 30 days of registration and submission of the claim along with complete details of fulfilment of the conditionalities under the scheme.", where = "page 53, Annexure II" }]
+
+# ----------------------------------------------------------------------------------------------
+
+[[entries]]
+id = "sukanya-samriddhi-yojana"
+name = "Sukanya Samriddhi Yojana (Sukanya Samriddhi Account Scheme)"
+kind = "scheme"
+sectors = ["women-child"]
+level = "central"
+department = "Government of India (rules under the Government Savings Promotion Act, 1873)"
+status = "active"
+source_ids = ["nsi-ssy-scheme-rules", "wb-ssy-page"]
+last_verified = 2026-10-31
+summary = { en = "A savings account for a girl child, opened by her guardian, that earns interest and allows part of the money to be taken out for her education.", bn = "কন্যাশিশুর নামে অভিভাবকের খোলা একটি সঞ্চয় অ্যাকাউন্ট, যেখানে সুদ পাওয়া যায় এবং শিক্ষার জন্য আংশিক টাকা তোলা যায়।", hi = "बालिका के नाम पर अभिभावक द्वारा खोला गया बचत खाता, जिस पर ब्याज मिलता है और जिससे पढ़ाई के लिए कुछ पैसे निकाले जा सकते हैं।" }
+target = { en = "Guardians of a girl child who is below the age of ten when the account is opened.", bn = "যে কন্যাশিশুর বয়স অ্যাকাউন্ট খোলার সময় দশ বছরের কম, তার অভিভাবক।", hi = "उस बालिका के अभिभावक जिसकी उम्र खाता खोलते समय दस साल से कम हो।" }
+not_stated = [
+  "The current interest rate: the rules print the rate set in 2020 and the Government resets it from time to time. A West Bengal portal page last updated on 26 June 2026 gives a rate (see the benefits), but check the post office or bank for today's rate.",
+  "Any fee.",
+]
+
+[entries.apply]
+label = "National Savings Institute: Sukanya Samriddhi Account Scheme"
+url = "https://www.nsiindia.gov.in/InternalPage.aspx?Id_Pk=171"
+evidence = [{ source_id = "nsi-ssy-scheme-rules", quote = "The application in Form-1 for opening an account shall be accompanied by birth certificate of the girl child in whose name the account is to be opened, along with required documents of guardian.", where = "page 1, rule 3(3)" }]
+
+[[entries.benefits]]
+text = "The deposits earn interest, which is credited to the account at the end of each financial year."
+evidence = [{ source_id = "nsi-ssy-scheme-rules", quote = "The interest shall be credited to the account at the end of each financial year", where = "page 2, rule 5(2)" }]
+
+[[entries.benefits]]
+text = "Once the girl is eighteen, or has passed the tenth standard (whichever is earlier), up to fifty per cent of the balance at the end of the previous financial year can be withdrawn for her education."
+evidence = [
+  { source_id = "nsi-ssy-scheme-rules", quote = "withdrawal of upto a maximum of fifty per cent. of the amount in the account at the end of the financial year preceding the year of application for withdrawal, shall be allowed for the purpose of education of the account holder", where = "page 3, rule 8(1)" },
+  { source_id = "nsi-ssy-scheme-rules", quote = "such withdrawal shall be allowed after the account holder attains the age of eighteen years or has passed tenth standard, whichever is earlier.", where = "page 3, rule 8(1)" },
+]
+
+[[entries.benefits]]
+text = "The account matures twenty-one years after it is opened, and can be closed earlier for the account holder's intended marriage if the girl will be at least eighteen on the date of marriage."
+evidence = [
+  { source_id = "nsi-ssy-scheme-rules", quote = "The account shall mature on completion of a period of twenty-one years from the date of its opening.", where = "page 3, rule 9(1)" },
+  { source_id = "nsi-ssy-scheme-rules", quote = "The closure of the account may also be permitted before completion of twenty-one years if the account holder on an application makes a request for such closure for the reason of intended marriage of the account holder", where = "page 3, rule 9(2)" },
+]
+
+[[entries.eligibility]]
+text = "A guardian can open the account in the name of a girl child who has not turned ten on the date of opening."
+evidence = [{ source_id = "nsi-ssy-scheme-rules", quote = "The account may be opened by one of the guardian in the name of a girl child, who has not attained the age of ten years as on the date of opening of the account.", where = "page 1, rule 3(1)" }]
+
+[[entries.eligibility]]
+text = "Each girl can have only one account, and a family can have accounts for at most two girl children (with an exception for twins or triplets born in the first two births)."
+evidence = [
+  { source_id = "nsi-ssy-scheme-rules", quote = "Every account holder shall have a single account under this Scheme.", where = "page 1, rule 3(2)" },
+  { source_id = "nsi-ssy-scheme-rules", quote = "An account under this Scheme may be opened for a maximum of two girl children in one family:", where = "page 1, rule 3(4)" },
+]
+
+[[entries.documents]]
+text = "Form-1 with the girl child's birth certificate and the required documents of the guardian."
+evidence = [{ source_id = "nsi-ssy-scheme-rules", quote = "The application in Form-1 for opening an account shall be accompanied by birth certificate of the girl child in whose name the account is to be opened, along with required documents of guardian.", where = "page 1, rule 3(3)" }]
+
+[[entries.steps]]
+text = "Open the account with at least two hundred and fifty rupees; later deposits are in multiples of fifty rupees, with at least two hundred and fifty rupees deposited in every financial year."
+evidence = [{ source_id = "nsi-ssy-scheme-rules", quote = "The account may be opened with a minimum initial deposit of two hundred and fifty rupees and in multiples of fifty rupees thereafter and subsequent deposits shall be in multiples of fifty rupees subject to the condition that a minimum of two hundred and fifty rupees shall be made as deposit in a financial year in one account.", where = "page 2, rule 4(1)" }]
+
+[[entries.steps]]
+text = "No more than one lakh fifty thousand rupees can be deposited in a financial year, and deposits can be made only until fifteen years after the account was opened."
+evidence = [
+  { source_id = "nsi-ssy-scheme-rules", quote = "The total amount deposited in an account shall not exceed one lakh fifty thousand rupees in a financial year:", where = "page 2, rule 4(2)" },
+  { source_id = "nsi-ssy-scheme-rules", quote = "Deposits may be made in the account till the completion of a period of fifteen years from the date of opening of the account.", where = "page 2, rule 4(3)" },
+]
+
+[[entries.steps]]
+text = "The guardian runs the account until the girl turns eighteen; after that she operates it herself by submitting the necessary documents."
+evidence = [{ source_id = "nsi-ssy-scheme-rules", quote = "The account shall be operated by the guardian till the account holder attains the age of eighteen years. The account shall be operated by the account holder herself after attaining age of eighteen years by submitting necessary documents.", where = "page 2, rule 6(1)" }]
+
+[[entries.benefits]]
+text = "A West Bengal portal page, last updated on 26 June 2026, says the account earns interest at the rate the Government notifies from time to time and gives the current rate as 8.2% a year, compounded annually."
+evidence = [
+  { source_id = "wb-ssy-page", quote = "The current rate is 8.2% per annum, compounded annually.", where = "scheme page, last updated 26 June 2026" },
+  { source_id = "wb-ssy-page", quote = "Last updated on: Friday, 26th June, 2026", where = "scheme page footer" },
+]
+
+[[entries.steps]]
+text = "The account is opened at a post office offering small savings schemes or an authorised public or private sector bank; the guardian asks for the account opening form and submits the documents."
+evidence = [
+  { source_id = "wb-ssy-page", quote = "Any post office offering small savings schemes", where = "scheme page, last updated 26 June 2026" },
+  { source_id = "wb-ssy-page", quote = "The applicant should ask for the Sukanya Samriddhi Account opening form.", where = "scheme page, last updated 26 June 2026" },
+]
+
+# ----------------------------------------------------------------------------------------------
+
+[[entries]]
+id = "wb-kanyashree-prakalpa"
+name = "Kanyashree Prakalpa"
+kind = "scheme"
+sectors = ["women-child"]
+level = "state"
+state = "West Bengal"
+department = "Women & Child Development and Social Welfare Department, Government of West Bengal"
+status = "active"
+status_note = "Described from the State's September 2021 manual for Bangla Sahayata Kendras; that document does not say whether the amounts or rules have changed since."
+source_ids = ["bsk-manual-2021"]
+last_verified = 2026-10-31
+summary = { en = "A yearly scholarship and a one-time grant, paid into the bank account of unmarried girls in West Bengal who are still studying.", bn = "পশ্চিমবঙ্গের পড়াশোনা চালিয়ে যাওয়া অবিবাহিত মেয়েদের ব্যাংক অ্যাকাউন্টে বার্ষিক বৃত্তি ও এককালীন অনুদান।", hi = "पश्चिम बंगाल की पढ़ाई कर रही अविवाहित लड़कियों के बैंक खाते में सालाना छात्रवृत्ति और एकमुश्त अनुदान।" }
+target = { en = "Unmarried girls of West Bengal who are continuing their studies in a recognised institution.", bn = "পশ্চিমবঙ্গের যে অবিবাহিত মেয়েরা স্বীকৃত প্রতিষ্ঠানে পড়াশোনা চালিয়ে যাচ্ছে।", hi = "पश्चिम बंगाल की अविवाहित लड़कियाँ जो मान्यता प्राप्त संस्थान में पढ़ाई जारी रखे हुए हैं।" }
+not_stated = [
+  "The current amounts and age limits: the manual is from 2021 and the Kanyashree portal could not be read by the tools used here.",
+  "Application dates or deadlines.",
+  "A helpline number.",
+]
+
+[entries.apply]
+label = "Kanyashree portal"
+url = "https://www.wbkanyashree.gov.in/"
+evidence = [{ source_id = "bsk-manual-2021", quote = "It is totally an online process and operated through the Kanyashree portal www.wbkanyashree.gov.in", where = "section 37, Kanyashree Prakalpa" }]
+
+[[entries.benefits]]
+text = "A conditional cash transfer paid for by the State Government to help adolescent girls stay in education and to discourage child marriage."
+evidence = [{ source_id = "bsk-manual-2021", quote = "It is a Conditional Cash Transfer Scheme entirely funded by the State Government for the empowerment of adolescent girls and discouraging child marriage.", where = "section 37, Kanyashree Prakalpa" }]
+
+[[entries.benefits]]
+text = "An annual scholarship (K1) of Rs. 1000 and a one-time grant (K2) of Rs. 25,000."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Annual Scholarship (K1): Rs. 1000/- and One-Time Grant (K2): Rs. 25,000/-", where = "section 37, Kanyashree Prakalpa" }]
+
+[[entries.benefits]]
+text = "The benefit is sent directly to the girl's bank account."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Benefit is sent directly to the bank account to the beneficiary", where = "section 37, Kanyashree Prakalpa" }]
+
+[[entries.eligibility]]
+text = "Any unmarried girl aged 13 to 19 who lives in West Bengal and is continuing her studies in an institution recognised by the State can be a beneficiary."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Any unmarried girl between 13 to 19 years of age may be a Kanyashree beneficiary, if she is a resident of West Bengal and continuing her study in any institution recognized by our state.", where = "section 37, Kanyashree Prakalpa" }]
+
+[[entries.eligibility]]
+text = "K1 is for unmarried girls in class VIII or above or aged 13 to 18; K2 is for unmarried girls in class VIII or above and aged 18 to 19."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Unmarried girls studying at class VIII or above or aged between 13 to 18 years are eligible for K1. Unmarried girls studying at class VIII or above and aged between 18 to 19 years are eligible for K2.", where = "section 37, Kanyashree Prakalpa" }]
+
+[[entries.eligibility]]
+text = "The girl must have a bank account in her name."
+evidence = [{ source_id = "bsk-manual-2021", quote = "The girl should have a bank account in her name.", where = "section 37, Kanyashree Prakalpa" }]
+
+[[entries.documents]]
+text = "Photocopy of the voter ID card of the parent or legal guardian, and of the birth certificate issued by the appropriate authority."
+evidence = [
+  { source_id = "bsk-manual-2021", quote = "Photo-copy of Voter ID Card of parent / legal guardian", where = "section 37, Kanyashree Prakalpa" },
+  { source_id = "bsk-manual-2021", quote = "Photo-copy of Birth Certificate issued by the appropriate authority", where = "section 37, Kanyashree Prakalpa" },
+]
+
+[[entries.documents]]
+text = "A declaration of marital status (by the parent or guardian if the girl is under 18, by the girl herself if she is over 18), and a photocopy of the bank passbook page showing the account holder's details."
+evidence = [
+  { source_id = "bsk-manual-2021", quote = "Declaration of marital status of applicant (to be made by the parent / legal guardian if the applicant is under 18 years of age, and by applicant herself, if she is over age 18).", where = "section 37, Kanyashree Prakalpa" },
+  { source_id = "bsk-manual-2021", quote = "Photocopy of page of Bank Passbook which provides bank account holders details", where = "section 37, Kanyashree Prakalpa" },
+]
+
+[[entries.steps]]
+text = "The girl applies through the institution where she studies; the block verifies the application and the district sanctions and pays."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Eligible girls have to apply for this benefit from their institution. Block is the verifying authority and district is the sanctioning and disbursing authority.", where = "section 37, Kanyashree Prakalpa" }]
+
+[[entries.steps]]
+text = "After the online form is submitted, a 20 digit ID number is sent to the girl by SMS, and she also gets an SMS when the application is sanctioned and the payment is made."
+evidence = [
+  { source_id = "bsk-manual-2021", quote = "After online submission of form a 20 digit ID no. is generated and sent to the beneficiary through SMS.", where = "section 37, Kanyashree Prakalpa" },
+  { source_id = "bsk-manual-2021", quote = "Beneficiaries also get SMS when her application gets sanctioned and payment is processed.", where = "section 37, Kanyashree Prakalpa" },
+]
+
+# ----------------------------------------------------------------------------------------------
+
+[[entries]]
+id = "wb-rupashree-prakalpa"
+name = "Rupashree Prakalpa"
+kind = "scheme"
+sectors = ["women-child"]
+level = "state"
+state = "West Bengal"
+department = "Women & Child Development and Social Welfare Department, Government of West Bengal"
+status = "active"
+status_note = "Described from the State's September 2021 manual for Bangla Sahayata Kendras; that document does not say whether the amount or rules have changed since."
+source_ids = ["bsk-manual-2021"]
+last_verified = 2026-10-31
+summary = { en = "A one-time grant to the family of a woman who is about to marry, to ease the cost of the wedding.", bn = "বিয়ে ঠিক হওয়া নারীর পরিবারকে বিয়ের খরচ কমাতে এককালীন অনুদান।", hi = "शादी तय होने वाली महिला के परिवार को शादी का खर्च कम करने के लिए एकमुश्त अनुदान।" }
+target = { en = "Women of West Bengal with a limited family income who are marrying for the first time.", bn = "পশ্চিমবঙ্গের যে নারীদের পরিবারের আয় সীমিত এবং যাঁরা প্রথমবার বিয়ে করছেন।", hi = "पश्चिम बंगाल की वे महिलाएँ जिनके परिवार की आय सीमित है और जो पहली बार शादी कर रही हैं।" }
+not_stated = [
+  "How many days before the wedding to apply: the manual only says the benefit is received before the marriage.",
+  "The current amount and income limit: the manual is from 2021 and the Rupashree portal could not be read by the tools used here.",
+  "A helpline number.",
+]
+
+[entries.apply]
+label = "Rupashree portal"
+url = "https://wbrupashree.gov.in/"
+evidence = [{ source_id = "bsk-manual-2021", quote = "It is now totally an online process and the website is www.wbrupashree.gov.in", where = "section 37, Rupashree Prakalpa" }]
+
+[[entries.benefits]]
+text = "A one-time grant of Rs. 25000, received before the marriage, to ease the difficulty poor families face in paying for their daughters' weddings."
+evidence = [
+  { source_id = "bsk-manual-2021", quote = "The benefit is one time and amount is Rs.25000/-", where = "section 37, Rupashree Prakalpa" },
+  { source_id = "bsk-manual-2021", quote = "is aimed at mitigating the difficulties that poor families face in bearing the expenditure of their daughters’ marriages. Eligible beneficiary gets the benefit to the scheme prior to her marriage.", where = "section 37, Rupashree Prakalpa" },
+]
+
+[[entries.benefits]]
+text = "The sanctioned grant is transferred directly to the bank account of the beneficiary."
+evidence = [{ source_id = "bsk-manual-2021", quote = "The Drawing and Disbursing Officer will transfer the sanctioned grant to the bank account of the beneficiary.", where = "section 37, Rupashree Prakalpa" }]
+
+[[entries.eligibility]]
+text = "The woman must be at least 18 years old and unmarried on the day she submits the application, and the proposed marriage must be her first."
+evidence = [
+  { source_id = "bsk-manual-2021", quote = "She has attained the age of 18 years AND is unmarried on the date of submitting her application.", where = "section 37, Rupashree Prakalpa" },
+  { source_id = "bsk-manual-2021", quote = "The proposed marriage is her first marriage.", where = "section 37, Rupashree Prakalpa" },
+]
+
+[[entries.eligibility]]
+text = "She must have been born in West Bengal, or have lived there for the last 5 years, or have parents who are permanent residents of West Bengal."
+evidence = [{ source_id = "bsk-manual-2021", quote = "She was born in West Bengal OR she has been a resident of West Bengal for the last 5 years OR her parents are permanent residents of West Bengal.", where = "section 37, Rupashree Prakalpa" }]
+
+[[entries.eligibility]]
+text = "Her family income must not be more than Rs. 1.50 lakhs a year, and her prospective groom must be at least 21 years old."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Her family income is not greater than Rs. 1.50 lakhs per annum.", where = "section 37, Rupashree Prakalpa" }, { source_id = "bsk-manual-2021", quote = "Her prospective groom has attained the age of 21 years.", where = "section 37, Rupashree Prakalpa" }]
+
+[[entries.eligibility]]
+text = "She must have an active bank account in which she is the sole account-holder, in a bank with an IFS code and MICR code that handles NEFT e-payments."
+evidence = [{ source_id = "bsk-manual-2021", quote = "She has an active bank account for which she is the sole account-holder. The bank account must be in a bank that has an IFS Code and an MICR code and transacts e-payments though NEFT.", where = "section 37, Rupashree Prakalpa" }]
+
+[[entries.documents]]
+text = "Proof of the woman's age: a self-attested photocopy of one of birth certificate, voter ID card, PAN card, Madhyamik admit card, Aadhaar card or primary school leaving certificate."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Proof of applicant’s age: Self-attested photo-copy of any one of the following: Birth Certificate/Voter ID card/PAN Card/Madhyamik Admit card/AADHAR card/Primary School Leaving Certificate", where = "section 37, Rupashree Prakalpa" }]
+
+[[entries.documents]]
+text = "A self-declaration of never-married status on the application form, and self-declarations of family income and of residence, each certified by a competent authority."
+evidence = [
+  { source_id = "bsk-manual-2021", quote = "Never-married Status: Self-declaration on application form", where = "section 37, Rupashree Prakalpa" },
+  { source_id = "bsk-manual-2021", quote = "Family income: Self-declaration certified by a Competent Authority", where = "section 37, Rupashree Prakalpa" },
+  { source_id = "bsk-manual-2021", quote = "Proof of Residence: Self-Declaration certified by a Competent Authority", where = "section 37, Rupashree Prakalpa" },
+]
+
+[[entries.documents]]
+text = "A self-attested photocopy of the bank book page showing the account holder's name, account number, bank address and IFSC code."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Bank Account: Self-attested photo-copy of page of bank book which provides complete details of the account holder’s name, account no., bank address, IFSC code and other details", where = "section 37, Rupashree Prakalpa" }]
+
+[[entries.documents]]
+text = "Proof of the proposed marriage (a marriage invitation card or a notice for registration of marriage), proof of the groom's age, and coloured passport size photographs of the woman and the groom."
+evidence = [
+  { source_id = "bsk-manual-2021", quote = "Proof of proposed marriage: Any one of the following: Marriage Invitation Card / Notice for Registration of Marriage", where = "section 37, Rupashree Prakalpa" },
+  { source_id = "bsk-manual-2021", quote = "Coloured passport size photographs of the applicant and the prospective groom", where = "section 37, Rupashree Prakalpa" },
+]
+
+[[entries.steps]]
+text = "The application form is free from the Block Development Officer's office (rural areas), the Sub-Divisional Officer's office (municipal areas) or the Commissioner's office (corporation areas)."
+evidence = [
+  { source_id = "bsk-manual-2021", quote = "The Scheme’s Application form is available free-of-cost from the following offices:", where = "section 37, Rupashree Prakalpa" },
+  { source_id = "bsk-manual-2021", quote = "Office of the Block Development Officer in case the applicant resides in a rural area", where = "section 37, Rupashree Prakalpa" },
+]
+
+[[entries.steps]]
+text = "The office under which the woman lives receives the form, checks the documents and registers it; an Enquiry Officer makes a field visit, and the sanctioning officer sanctions verified applications and rejects ineligible ones."
+evidence = [
+  { source_id = "bsk-manual-2021", quote = "Each application will be assigned to an Enquiry Officer, who will conduct a field verification and submit an enquiry report.", where = "section 37, Rupashree Prakalpa" },
+  { source_id = "bsk-manual-2021", quote = "The Sanctioning officer (BDO/ SDO/Commissioner) shall sanction all applications that have been successfully verified, and reject those that have a negative report or are ineligible.", where = "section 37, Rupashree Prakalpa" },
+]
+
+# ==============================================================================================
+# SOCIAL WELFARE & PENSIONS
+# ==============================================================================================
+
+[[entries]]
+id = "wb-taposili-bandhu"
+name = "Taposili Bandhu (old age pension for Scheduled Caste senior citizens)"
+kind = "scheme"
+sectors = ["social-welfare"]
+level = "state"
+state = "West Bengal"
+department = "Backward Classes Welfare Department, Government of West Bengal"
+status = "active"
+status_note = "Described from the State's September 2021 manual for Bangla Sahayata Kendras and a West Bengal portal page last updated on 26 June 2026. The two differ on how to apply (see not_stated); neither says the scheme has closed."
+source_ids = ["bsk-manual-2021", "wb-taposili-page"]
+last_verified = 2026-10-31
+summary = { en = "A monthly pension, paid into the bank account, for older people of the Scheduled Caste community in West Bengal.", bn = "পশ্চিমবঙ্গের তফসিলি জাতিভুক্ত প্রবীণ নাগরিকদের ব্যাংক অ্যাকাউন্টে মাসিক পেনশন।", hi = "पश्चिम बंगाल के अनुसूचित जाति के बुज़ुर्गों को बैंक खाते में मासिक पेंशन।" }
+target = { en = "Scheduled Caste senior citizens of West Bengal, aged sixty and above.", bn = "পশ্চিমবঙ্গের ষাট বছর বা তার বেশি বয়সী তফসিলি জাতির প্রবীণ নাগরিক।", hi = "पश्चिम बंगाल के साठ साल या उससे अधिक उम्र के अनुसूचित जाति के बुज़ुर्ग।" }
+not_stated = [
+  "How to apply. The 2021 manual says the application is made online on the Jai Bangla portal; the 2026 portal page says to collect the form from the block or municipality office and submit it to the local authority. Ask your BDO or municipality office which applies.",
+  "Whether the income test changed. The 2021 manual says there is no income bar; the 2026 page describes the scheme as for people who are economically disadvantaged and gives no income figure.",
+  "The pension amount on the 2026 page is printed with a spacing slip (Rs 1 ,000), so the amount here rests on the 2021 manual.",
+  "A helpline number or last date.",
+]
+
+[entries.apply]
+label = "Jai Bangla portal"
+url = "https://jaibangla.wb.gov.in/"
+evidence = [{ source_id = "bsk-manual-2021", quote = "Online application through portal (www.jaibangla.wb.gov.in)", where = "Backward Classes Welfare Department, Taposili Bandhu" }]
+
+[[entries.benefits]]
+text = "A pension of Rs. 1,000 a month, paid into the beneficiary's bank account by Direct Benefit Transfer."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Pension of Rs. 1,000/- per month is disbursed to beneficiaries’ bank accounts through DBT mode", where = "Backward Classes Welfare Department, Taposili Bandhu" }]
+
+[[entries.eligibility]]
+text = "The scheme gives financial help to senior citizens who belong to a Scheduled Caste."
+evidence = [{ source_id = "bsk-manual-2021", quote = "To provide financial assistance to senior citizens belonging to SC.", where = "Backward Classes Welfare Department, Taposili Bandhu" }]
+
+[[entries.eligibility]]
+text = "The applicant must be 60 years or older; there is no income bar."
+evidence = [{ source_id = "bsk-manual-2021", quote = "60 years and above. No income bar.", where = "Backward Classes Welfare Department, Taposili Bandhu" }]
+
+[[entries.exclusions]]
+text = "People who are already covered under another Government scheme are not eligible."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Beneficiaries who are not covered under any other Government scheme.", where = "Backward Classes Welfare Department, Taposili Bandhu" }]
+
+[[entries.documents]]
+text = "Age proof, caste certificate and bank details."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Age proof, caste certificate, bank details", where = "Backward Classes Welfare Department, Taposili Bandhu" }]
+
+[[entries.steps]]
+text = "Apply online through the Jai Bangla portal; a Bangla Sahayata Kendra can help fill in, scan and upload the application."
+evidence = [
+  { source_id = "bsk-manual-2021", quote = "Assistance with filling up application, scanning and downloading the application on the Jai Bangla portal at www.jaibangla.wb.gov.in", where = "Backward Classes Welfare Department, Taposili Bandhu" },
+  { source_id = "bsk-manual-2021", quote = "Online application through portal (www.jaibangla.wb.gov.in)", where = "Backward Classes Welfare Department, Taposili Bandhu" },
+]
+
+[[entries.steps]]
+text = "The physical application goes to the BDO for a gram panchayat area, the SDO for a municipality area and the DWO, Kolkata, for the Kolkata Municipal Corporation area."
+evidence = [{ source_id = "bsk-manual-2021", quote = "For GP area concerned BDO, for municipality area concerned SDO and for KMC area DWO, Kolkata", where = "Backward Classes Welfare Department, Taposili Bandhu" }]
+
+[[entries.eligibility]]
+text = "The page adds that the applicant must be a permanent resident of West Bengal."
+evidence = [
+  { source_id = "wb-taposili-page", quote = "Applicant must be a permanent resident of West Bengal", where = "scheme page, last updated 26 June 2026" },
+]
+
+[[entries.eligibility]]
+text = "The page also requires a valid bank account for Direct Benefit Transfer (DBT)."
+evidence = [
+  { source_id = "wb-taposili-page", quote = "Must have a valid bank account for Direct Benefit Transfer (DBT)", where = "scheme page, last updated 26 June 2026" },
+]
+
+[[entries.documents]]
+text = "The page lists proof of age, caste certificate (SC), residence proof and bank account details."
+evidence = [
+  { source_id = "wb-taposili-page", quote = "Attach necessary documents (proof of age, caste certificate (SC), residence proof, and bank account details)", where = "scheme page, last updated 26 June 2026" },
+]
+
+[[entries.steps]]
+text = "The page's steps: collect the form from the block (BDO) or municipality office, fill it in, attach the documents and submit it to the local authority."
+evidence = [
+  { source_id = "wb-taposili-page", quote = "Collect the application formfrom BOO or Municipality office", where = "scheme page, last updated 26 June 2026" },
+  { source_id = "wb-taposili-page", quote = "Submit the completed form to the concerned local authority", where = "scheme page, last updated 26 June 2026" },
+]
+
+[[entries.steps]]
+text = "The local authorities verify the application; once it is approved the pension is credited straight to the bank account."
+evidence = [
+  { source_id = "wb-taposili-page", quote = "The application is verified by local authorities", where = "scheme page, last updated 26 June 2026" },
+  { source_id = "wb-taposili-page", quote = "Once approved, the beneficiary is enrolled and the pension amount is credited directly to their bank account", where = "scheme page, last updated 26 June 2026" },
+]
+
+# ----------------------------------------------------------------------------------------------
+
+[[entries]]
+id = "wb-jai-johar"
+name = "Jai Johar (old age pension for Scheduled Tribe persons)"
+kind = "scheme"
+sectors = ["social-welfare"]
+level = "state"
+state = "West Bengal"
+department = "Tribal Development Department, Government of West Bengal"
+status = "active"
+status_note = "Described from the State's September 2021 manual for Bangla Sahayata Kendras (where the scheme is spelled 'JOY JOHAR') and a West Bengal portal page last updated on 26 June 2026. Neither says the scheme has closed."
+source_ids = ["bsk-manual-2021", "wb-jaijohar-page"]
+last_verified = 2026-10-31
+summary = { en = "A monthly pension, paid into the bank account, for older people of the Scheduled Tribe community in West Bengal.", bn = "পশ্চিমবঙ্গের তফসিলি উপজাতিভুক্ত প্রবীণ নাগরিকদের ব্যাংক অ্যাকাউন্টে মাসিক পেনশন।", hi = "पश्चिम बंगाल के अनुसूचित जनजाति के बुज़ुर्गों को बैंक खाते में मासिक पेंशन।" }
+target = { en = "Scheduled Tribe persons of West Bengal who are older than sixty and do not get another pension.", bn = "পশ্চিমবঙ্গের ষাট বছরের বেশি বয়সী তফসিলি উপজাতির ব্যক্তি, যাঁরা অন্য কোনো পেনশন পান না।", hi = "पश्चिम बंगाल के साठ साल से अधिक उम्र के अनुसूचित जनजाति के व्यक्ति जिन्हें कोई और पेंशन नहीं मिलती।" }
+not_stated = [
+  "The pension amount in 2026: the portal page says only that monthly pension support is given and names no amount, so the amount here comes from the 2021 manual.",
+  "Where to apply. The 2021 manual says to go to the BDO's office, which submits the application online; the 2026 page lists Gram Panchayat offices, urban local bodies or municipal offices, the Block Development Office, district welfare offices and Common Service Centres. Ask the local office.",
+  "The age rule: the manual says above 60 and the page says 60 or above.",
+  "A helpline number or last date.",
+]
+
+[entries.apply]
+label = "Jai Bangla portal"
+url = "https://jaibangla.wb.gov.in/"
+evidence = [{ source_id = "bsk-manual-2021", quote = "Operation of related software: Jai Bangla portal", where = "section 34, Tribal Development, Jai Johar" }]
+
+[[entries.benefits]]
+text = "Financial assistance of Rs 1000 a month, credited directly to the pensioner's bank account (DBT)."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Financial assistance of Rs 1000/- per month directly credited to the Bank Account (DBT) of the pensioner", where = "section 34, Tribal Development, Jai Johar" }]
+
+[[entries.benefits]]
+text = "The benefit is available until death."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Benefit available until death.", where = "section 34, Tribal Development, Jai Johar" }]
+
+[[entries.eligibility]]
+text = "Any ST person of West Bengal above 60 years of age, with age counted on the date of application."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Any ST person of WB above 60 yrs of age. The age to be considered on the date of application.", where = "section 34, Tribal Development, Jai Johar" }]
+
+[[entries.exclusions]]
+text = "People who already receive a social security pension or any other pension from any authority are not eligible."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Persons who are not receiving any social security pension or any other pension from any authority.", where = "section 34, Tribal Development, Jai Johar" }]
+
+[[entries.documents]]
+text = "Digital ration card and bank account details."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Digital ration card o Bank Account Details.", where = "section 34, Tribal Development, Jai Johar" }]
+
+[[entries.documents]]
+text = "Caste certificate of self or certificate of parental linkage, a passport size photograph and a residential certificate."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Caste certificate of self or certificate of parental linkage o Passport size photograph o Residential certificate.", where = "section 34, Tribal Development, Jai Johar" }]
+
+[[entries.documents]]
+text = "A copy of the Aadhaar card and a copy of the voter card or any other document that proves age."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Copy of AADHAR card o Copy of Voter card/any other document of age proof.", where = "section 34, Tribal Development, Jai Johar" }]
+
+[[entries.steps]]
+text = "The pensioner goes to the BDO's office with the documents and meets the designated officer; the block office submits the application online. In municipal areas the SDO is the designated officer and submits it online."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Online. The pensioner has to attend the BDO’s office with documents and meet the designated officer. Block office will arrange for submission of online application of the applicant. For municipal areas SDO is the designated officer, who will arrange for submission of the application online.", where = "section 34, Tribal Development, Jai Johar" }]
+
+[[entries.eligibility]]
+text = "The page says eligible beneficiaries generally include Scheduled Tribe residents of West Bengal aged 60 years or above who are economically disadvantaged, with limited or no stable income."
+evidence = [
+  { source_id = "wb-jaijohar-page", quote = "Age of 60 years or above.", where = "scheme page, last updated 26 June 2026" },
+  { source_id = "wb-jaijohar-page", quote = "Economically disadvantaged individuals with limited or no stable income.", where = "scheme page, last updated 26 June 2026" },
+]
+
+[[entries.exclusions]]
+text = "The page says those who receive similar pension benefits under other major government pension schemes are not eligible, as per the applicable guidelines."
+evidence = [
+  { source_id = "wb-jaijohar-page", quote = "Not receiving similar pension benefits under other major government pension schemes (as per applicable guidelines).", where = "scheme page, last updated 26 June 2026" },
+]
+
+[[entries.documents]]
+text = "The page lists age proof, caste certificate, identity proof and bank account details."
+evidence = [
+  { source_id = "wb-jaijohar-page", quote = "Required documents such as age proof, caste certificate, identity proof and bank account details are submitted.", where = "scheme page, last updated 26 June 2026" },
+]
+
+[[entries.steps]]
+text = "The page says to submit the form to the Gram Panchayat, an urban local body or another designated office; local authorities and welfare department officials verify it."
+evidence = [
+  { source_id = "wb-jaijohar-page", quote = "The applicant submits application form to the Gram Panchayat, ULB or designated office.", where = "scheme page, last updated 26 June 2026" },
+  { source_id = "wb-jaijohar-page", quote = "Verification is conducted by local authorities and welfare department officials.", where = "scheme page, last updated 26 June 2026" },
+]
+
+[[entries.steps]]
+text = "Once approved, the pension is transferred straight to the beneficiary's bank account through DBT."
+evidence = [
+  { source_id = "wb-jaijohar-page", quote = "Funds are transferred directly to the beneficiary's bank account through DBT.", where = "scheme page, last updated 26 June 2026" },
+]
+
+# ----------------------------------------------------------------------------------------------
+
+[[entries]]
+id = "wb-manabik"
+name = "Manabik (disability pension, Jai Bangla)"
+kind = "scheme"
+sectors = ["social-welfare"]
+level = "state"
+state = "West Bengal"
+department = "Women & Child Development and Social Welfare Department, Government of West Bengal"
+status = "active"
+status_note = "Described from the State's September 2021 manual for Bangla Sahayata Kendras; that document does not say whether the amount or rules have changed since."
+source_ids = ["bsk-manual-2021"]
+last_verified = 2026-10-31
+summary = { en = "A monthly pension, paid into the bank account, for people with a disability in West Bengal.", bn = "পশ্চিমবঙ্গের প্রতিবন্ধী ব্যক্তিদের ব্যাংক অ্যাকাউন্টে মাসিক পেনশন।", hi = "पश्चिम बंगाल के दिव्यांगजनों को बैंक खाते में मासिक पेंशन।" }
+target = { en = "Residents of West Bengal with a disability of forty per cent or more.", bn = "পশ্চিমবঙ্গের বাসিন্দা, যাঁদের চল্লিশ শতাংশ বা তার বেশি প্রতিবন্ধকতা আছে।", hi = "पश्चिम बंगाल के निवासी जिनकी विकलांगता चालीस प्रतिशत या उससे अधिक है।" }
+not_stated = [
+  "Whether the amount has changed since 2021.",
+  "An income limit or an age limit: the manual's Manabik entry lists none, but other pages describe different conditions, so ask the BDO or SDO office.",
+  "A helpline number or last date.",
+]
+
+[entries.apply]
+label = "Jai Bangla portal"
+url = "https://jaibangla.wb.gov.in/login"
+evidence = [{ source_id = "bsk-manual-2021", quote = "As Finance Department monitors jaibangla.wb.gov.in portal, they will provide facility, for search of payment status for approved pensioners.", where = "section 37, Manabik Pension Scheme" }]
+
+[[entries.benefits]]
+text = "A monthly pension of Rs. 1000, disbursed directly to the beneficiary's bank account."
+evidence = [
+  { source_id = "bsk-manual-2021", quote = "Monthly pension @ Rs. 1000/-", where = "section 37, Manabik Pension Scheme" },
+  { source_id = "bsk-manual-2021", quote = "Monthly pension disbursed directly to the bank account of the beneficiary", where = "section 37, Manabik Pension Scheme" },
+]
+
+[[entries.eligibility]]
+text = "The scheme gives financial assistance to disabled persons with 40% or more disability."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Financial assistance to 40% and above disabled persons", where = "section 37, Manabik Pension Scheme" }]
+
+[[entries.eligibility]]
+text = "The applicant must be a resident of West Bengal with 40% or more disability."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Should be resident of West Bengal and having 40% and above disability", where = "section 37, Manabik Pension Scheme" }]
+
+[[entries.documents]]
+text = "Self-attested copies of the disability certificate from the appropriate authority, the digital ration card and the bank pass book, and a passport size photograph."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Self attested copies of Disability Certificate from Appropriate Authority, Copy of Digital Ration Card, Copy of Bank Pass Book and passport size photograph", where = "section 37, Manabik Pension Scheme" }]
+
+[[entries.steps]]
+text = "Submit the filled application form to the BDO's office in a rural area, the SDO's office in an urban area, or the Controller of Vagrancy's office in the Kolkata Municipal Corporation area."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Filled up application forms have to be submitted to the office of Block Development Officer (BDO) in rural area, to the office of Sub-divisional Officer (SDO) in urban area, to the office of the Controller of Vagrancy in Kolkata Municipal Corporation (KMC) area.", where = "section 37, Manabik Pension Scheme" }]
+
+# ----------------------------------------------------------------------------------------------
+
+[[entries]]
+id = "wb-bina-mulye-samajik-suraksha-yojana"
+name = "Bina Mulye Samajik Suraksha Yojana (BMSSY)"
+kind = "scheme"
+sectors = ["social-welfare"]
+level = "state"
+state = "West Bengal"
+department = "Labour Commissionerate under the Labour Department, Government of West Bengal"
+status = "active"
+status_note = "Described from the State's September 2021 manual for Bangla Sahayata Kendras, the 2017 rules of the scheme (then called Samajik Suraksha Yojana) and a West Bengal portal page last updated on 26 June 2026. None says the scheme has closed."
+source_ids = ["bsk-manual-2021", "wb-samajik-suraksha-rules-2017", "wb-bmssy-page"]
+last_verified = 2026-10-31
+summary = { en = "A provident fund and social security scheme for registered unorganised workers in West Bengal.", bn = "পশ্চিমবঙ্গের নথিভুক্ত অসংগঠিত শ্রমিকদের জন্য ভবিষ্যনিধি ও সামাজিক সুরক্ষা প্রকল্প।", hi = "पश्चिम बंगाल के पंजीकृत असंगठित श्रमिकों के लिए भविष्य निधि और सामाजिक सुरक्षा योजना।" }
+target = { en = "Unorganised workers of West Bengal, including construction and transport workers, who are between eighteen and sixty years old.", bn = "পশ্চিমবঙ্গের অসংগঠিত শ্রমিক, নির্মাণ ও পরিবহণ শ্রমিক সহ, যাঁদের বয়স আঠারো থেকে ষাটের মধ্যে।", hi = "पश्चिम बंगाल के असंगठित श्रमिक, जिनमें निर्माण और परिवहन श्रमिक भी शामिल हैं, जिनकी उम्र अठारह से साठ साल के बीच है।" }
+not_stated = [
+  "The 2017 rules say workers paid a fixed monthly provident fund contribution with a State matching grant; the 2026 portal page says the Government pays the full contribution with no worker payment. This entry follows the 2026 page, which is the more recent.",
+  "The full list of worker categories: the 2017 rules list them, the page says only that the worker should fall under the list. They are not copied here.",
+  "A helpline number or last date.",
+]
+
+[entries.apply]
+label = "BMSSY portal"
+url = "https://bmssy.wblabour.gov.in/"
+evidence = [{ source_id = "bsk-manual-2021", quote = "Online using URL: https://www.bmssy.wblabour.gov.in/(new portal) or ssy.wblabour.gov.in (earlier portal)", where = "Labour Department, Bina Mulye Samajik Suraksha Yojana" }]
+
+[[entries.benefits]]
+text = "Provident Fund and other benefits for registered workers, including death and disability benefits."
+evidence = [
+  { source_id = "bsk-manual-2021", quote = "To provide PF & other benefits to the registered beneficiaries", where = "Labour Department, Bina Mulye Samajik Suraksha Yojana" },
+  { source_id = "bsk-manual-2021", quote = "Provident Fund, Death & Disability etc.", where = "Labour Department, Bina Mulye Samajik Suraksha Yojana" },
+]
+
+[[entries.benefits]]
+text = "Registered workers get a Samajik Mukti Card, and an Identity Card cum Passbook for the Provident Fund."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Samajik Mukti Card & Identity Card cum Passbook for Provident Fund", where = "Labour Department, Bina Mulye Samajik Suraksha Yojana" }]
+
+[[entries.eligibility]]
+text = "The worker must be between 18 and 60 years old."
+evidence = [
+  { source_id = "wb-samajik-suraksha-rules-2017", quote = "All wage earners that also includes self-employed person between the age of 18 and 60 years mentioned under Part A and Part B of the Schedule", where = "page 2, rule 4.0(b)" },
+]
+
+[[entries.eligibility]]
+text = "Family income must be no more than Rs 6500 a month, except for construction and transport workers, who have no limit; the applicant must be a construction, transport or other unorganised worker within the 61 categories notified."
+evidence = [
+  { source_id = "bsk-manual-2021", quote = "For other unorganised workers: Not more than Rs 6500/- per month per family. The applicant has to be a construction worker/transport worker/ other unorganised worker within the 61 categories as notified.", where = "Labour Department, Bina Mulye Samajik Suraksha Yojana" },
+  { source_id = "bsk-manual-2021", quote = "For Construction and Transport Workers: No Limit", where = "Labour Department, Bina Mulye Samajik Suraksha Yojana" },
+]
+
+[[entries.documents]]
+text = "Form-I with a copy of the bank passbook, EPIC or Aadhaar (if any), a passport-sized coloured photograph, a signature, and the old scheme passbook (if applicable)."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Form-I accompanied by copy of Bank Passbook, EPIC/AADHAR, if any, passport-sized coloured photograph, signature, old scheme passbook (if applicable)", where = "Labour Department, Bina Mulye Samajik Suraksha Yojana" }]
+
+[[entries.steps]]
+text = "Apply online at https://www.bmssy.wblabour.gov.in/ (or the earlier portal ssy.wblabour.gov.in)."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Online using URL: https://www.bmssy.wblabour.gov.in/(new portal) or ssy.wblabour.gov.in (earlier portal)", where = "Labour Department, Bina Mulye Samajik Suraksha Yojana" }]
+
+[[entries.steps]]
+text = "Or apply in person at the Regional Labour Office in the sub-division, or the Labour Welfare Facilitation Centre in the block or municipality."
+evidence = [{ source_id = "bsk-manual-2021", quote = "Respective Regional Labour Offices in Sub-divisions and Labour Welfare Facilitation Centre situated in Blocks/Municipalities", where = "Labour Department, Bina Mulye Samajik Suraksha Yojana" }]
+
+[[entries.benefits]]
+text = "The portal page says the scheme is free: the State pays the full provident fund contribution, with no payment by the worker."
+evidence = [
+  { source_id = "wb-bmssy-page", quote = "Provident fund: Full contribution paid by government (no worker payment)", where = "scheme page, last updated 26 June 2026" },
+  { source_id = "wb-bmssy-page", quote = "Free coverage: Entire scheme is cost-free (premium paid by state)", where = "scheme page, last updated 26 June 2026" },
+]
+
+[[entries.benefits]]
+text = "Financial assistance on death is Rs 50,000 for a natural death and up to Rs 2,00,000 for an accidental death."
+evidence = [
+  { source_id = "wb-bmssy-page", quote = "Financial Assistance in case of death: Rs 50,000 (natural death), up to Rs 2,00,000 (accidental death)", where = "scheme page, last updated 26 June 2026" },
+]
+
+[[entries.benefits]]
+text = "Disability compensation is Rs 50,000 up to Rs 2,00,000."
+evidence = [
+  { source_id = "wb-bmssy-page", quote = "Disability compensation: Rs 50,000 up to Rs 2,00,000", where = "scheme page, last updated 26 June 2026" },
+]
+
+[[entries.eligibility]]
+text = "The worker must be a resident of West Bengal and an unorganised sector worker (including self-employed)."
+evidence = [
+  { source_id = "wb-bmssy-page", quote = "Residency: Must be a resident of West Bengal", where = "scheme page, last updated 26 June 2026" },
+  { source_id = "wb-bmssy-page", quote = "Occupation: Must be an unorganized sector worker (including self-employed)", where = "scheme page, last updated 26 June 2026" },
+]
+
+[[entries.eligibility]]
+text = "Family income must be within Rs 6500 a month, except for construction and transport workers."
+evidence = [
+  { source_id = "wb-bmssy-page", quote = "Family income within Rs 6500 per month (except construction and transport workers)", where = "scheme page, last updated 26 June 2026" },
+]
+
+[[entries.steps]]
+text = "After applying, the authorities verify the details and approve enrolment; the worker then receives a registration ID or card and an SSIN."
+evidence = [
+  { source_id = "wb-bmssy-page", quote = "Verification: Authorities verify details and approve enrollment", where = "scheme page, last updated 26 June 2026" },
+  { source_id = "wb-bmssy-page", quote = "Receive registration ID/card & SSIN: Use itto access scheme benefits", where = "scheme page, last updated 26 June 2026" },
+]
+
+# ----------------------------------------------------------------------------------------------
+
+[[entries]]
+id = "nsap"
+name = "National Social Assistance Programme (NSAP)"
+kind = "scheme"
+sectors = ["social-welfare"]
+level = "central"
+department = "Ministry of Rural Development, Government of India"
+status = "active"
+status_note = "Described from a 2025 government fact sheet, which says NSAP has five parts: old age, widow and disability pensions, a family benefit, and the Annapurna food scheme."
+source_ids = ["pib-nsap-factsheet"]
+last_verified = 2026-10-31
+summary = { en = "Central pensions and a family benefit for elderly people, widows and people with severe disability from households below the poverty line.", bn = "দারিদ্র্যসীমার নিচের পরিবারের প্রবীণ, বিধবা ও গুরুতর প্রতিবন্ধী ব্যক্তিদের জন্য কেন্দ্রীয় পেনশন ও পারিবারিক সহায়তা।", hi = "गरीबी रेखा से नीचे के परिवारों के बुज़ुर्गों, विधवाओं और गंभीर विकलांगता वाले व्यक्तियों के लिए केंद्र की पेंशन और पारिवारिक सहायता।" }
+target = { en = "Elderly people, widows and people with severe or multiple disabilities from households below the poverty line, and households that lose their main earner.", bn = "দারিদ্র্যসীমার নিচের পরিবারের প্রবীণ, বিধবা, গুরুতর বা একাধিক প্রতিবন্ধকতা আছে এমন ব্যক্তি, এবং যে পরিবার প্রধান উপার্জনকারীকে হারিয়েছে।", hi = "गरीबी रेखा से नीचे के परिवारों के बुज़ुर्ग, विधवाएँ, गंभीर या एकाधिक विकलांगता वाले व्यक्ति और वे परिवार जिन्होंने मुख्य कमाने वाले को खो दिया।" }
+not_stated = [
+  "The application form, the papers to bring and where to submit them: the fact sheet says only that Gram Panchayats and Municipalities help identify beneficiaries. Ask your Gram Panchayat or municipality.",
+  "How much your State adds on top of the central amount. The fact sheet says States are encouraged to add a top-up, and gives only the range across the country.",
+  "The poverty-line list or other test used to decide who counts as below the poverty line.",
+  "A helpline number or last date.",
+]
+
+[entries.apply]
+label = "NSAP portal"
+url = "https://nsap.nic.in/"
+evidence = [{ source_id = "pib-nsap-factsheet", quote = "This information is accessible to the public on the official NSAP portal at www.nsap.nic.in", where = "Digitization of Beneficiaries" }]
+
+[[entries.benefits]]
+text = "Old age pension (IGNOAPS): Rs.200 a month from the Central Government for people aged 60 to 79, and Rs.500 a month for people aged 80 and above."
+evidence = [{ source_id = "pib-nsap-factsheet", quote = "Under this scheme, individuals between 60 and 79 years of age receive Rs.200 per month from the Central Government, while those aged 80 years and above are provided Rs.500 per month.", where = "IGNOAPS" }]
+
+[[entries.benefits]]
+text = "Widow pension (IGNWPS): Rs.300 a month of central assistance for widows aged 40 to 79, and Rs.500 a month for widows aged 80 and above."
+evidence = [
+  { source_id = "pib-nsap-factsheet", quote = "financial assistance is extended to widows aged between 40 and 79years who belong to families living below the poverty line", where = "IGNWPS" },
+  { source_id = "pib-nsap-factsheet", quote = "Each eligible beneficiary in this age group receives Rs.300 per month as central assistance. For widows who are 80 years and above, the amount of central assistance is Rs.500 per month", where = "IGNWPS" },
+]
+
+[[entries.benefits]]
+text = "Disability pension (IGNDPS): central assistance of Rs.300 a month, and Rs.500 a month for people aged 80 and above."
+evidence = [{ source_id = "pib-nsap-factsheet", quote = "The beneficiaries are eligible for central assistance of Rs.300 per month. Beneficiaries who are 80 years and above receive Rs.500 per month", where = "IGNDPS" }]
+
+[[entries.benefits]]
+text = "National Family Benefit Scheme: a lump sum of Rs.20,000 to the family when the main earner dies."
+evidence = [{ source_id = "pib-nsap-factsheet", quote = "The family receives Rs.20,000 as support to help them cope with the immediate financial difficulties arising from the loss.", where = "NFBS" }]
+
+[[entries.benefits]]
+text = "Annapurna: 10kg of food grains a month, free of cost, for senior citizens who are eligible for the old age pension but are not receiving it."
+evidence = [{ source_id = "pib-nsap-factsheet", quote = "10kg of food grains per month are provided free of cost to those senior citizens who, though eligible under Indira Gandhi National Old Age Pension Scheme (IGNOAPS), are not receiving old age pension.", where = "Annapurna Scheme" }]
+
+[[entries.benefits]]
+text = "States and Union Territories are encouraged to add a top-up to the central amount."
+evidence = [{ source_id = "pib-nsap-factsheet", quote = "States and Union Territories are encouraged to supplement the Central share by contributing an equivalent or higher top-up amount.", where = "IGNOAPS" }]
+
+[[entries.eligibility]]
+text = "Old age pension: elderly citizens aged 60 or above from families living below the poverty line."
+evidence = [{ source_id = "pib-nsap-factsheet", quote = "financial assistance to elderly citizens aged 60 years and above who belong to families living below the poverty line", where = "IGNOAPS" }]
+
+[[entries.eligibility]]
+text = "Widow pension: widows aged 40 to 79 from families living below the poverty line."
+evidence = [{ source_id = "pib-nsap-factsheet", quote = "financial assistance is extended to widows aged between 40 and 79years who belong to families living below the poverty line", where = "IGNWPS" }]
+
+[[entries.eligibility]]
+text = "Disability pension: people aged 18 to 79 with severe or multiple disabilities from families living below the poverty line."
+evidence = [{ source_id = "pib-nsap-factsheet", quote = "this scheme caters individuals aged between 18 and 79 years who have severe or multiple disabilities and belong to families living below the poverty line", where = "IGNDPS" }]
+
+[[entries.eligibility]]
+text = "Family benefit: a household below the poverty line, when the main earner who died was between 18 and 59 years of age."
+evidence = [{ source_id = "pib-nsap-factsheet", quote = "a household living below the poverty line becomes eligible for lump sum financial assistance in the unfortunate event of the death of its primary breadwinner, provided the deceased was between 18 and 59 years of age.", where = "NFBS" }]
+
+[[entries.steps]]
+text = "Gram Panchayats and Municipalities play an active role in identifying who is eligible."
+evidence = [{ source_id = "pib-nsap-factsheet", quote = "Selection: Gram Panchayats and Municipalities play an active role in identifying eligible beneficiaries under the different NSAP schemes.", where = "Features of Schemes under NSAP" }]
+
+[[entries.steps]]
+text = "Benefits are paid mainly by Direct Benefit Transfer into the beneficiary's bank or post office savings account, or by postal money order; cash at the doorstep is allowed only in extreme cases where the person cannot go to the bank or post office."
+evidence = [{ source_id = "pib-nsap-factsheet", quote = "Benefits are provided through DBT mode (94%) i.e beneficiary’s bank or post office savings accounts, or via postal money orders. Disbursement through Cash at doorstep is also allowed by the scheme guidelines in extreme cases where the beneficiary is unable to go to the bank/post office for receiving the pension.", where = "Features of Schemes under NSAP" }]
+
+# ----------------------------------------------------------------------------------------------
+
+[[entries]]
+id = "atal-pension-yojana"
+name = "Atal Pension Yojana (APY)"
+kind = "scheme"
+sectors = ["social-welfare"]
+level = "central"
+department = "Department of Financial Services, Ministry of Finance, Government of India"
+status = "active"
+source_ids = ["jansuraksha-apy-details", "dfs-apy-faq", "wb-apy-page"]
+last_verified = 2026-10-31
+summary = { en = "A voluntary pension scheme: pay a fixed amount regularly from a savings account and get a government-guaranteed monthly pension after the age of sixty.", bn = "একটি স্বেচ্ছামূলক পেনশন প্রকল্প: সঞ্চয় অ্যাকাউন্ট থেকে নিয়মিত নির্দিষ্ট অর্থ জমা দিন এবং ষাট বছরের পর সরকার-নিশ্চিত মাসিক পেনশন পান।", hi = "एक स्वैच्छिक पेंशन योजना: बचत खाते से नियमित रूप से तय राशि जमा करें और साठ साल के बाद सरकार द्वारा गारंटी की गई मासिक पेंशन पाएँ।" }
+target = { en = "Indian citizens between eighteen and forty who have a savings bank account and are not income-tax payers.", bn = "আঠারো থেকে চল্লিশ বছর বয়সী ভারতীয় নাগরিক, যাঁদের সঞ্চয় ব্যাংক অ্যাকাউন্ট আছে এবং যাঁরা আয়কর দাতা নন।", hi = "अठारह से चालीस साल के भारतीय नागरिक जिनके पास बचत बैंक खाता है और जो आयकर दाता नहीं हैं।" }
+not_stated = [
+  "How much you pay: it depends on your age when you join, the pension amount you choose and how often you pay. The details note has the table (Annex 1), which is not copied here.",
+  "Any enrolment fee.",
+  "The date the details note was last updated; its file data says 2023.",
+  "Who may join. The scheme's details note says anyone who is or has been an income-tax payer cannot join from 1 October 2022. The West Bengal portal page (last updated 26 June 2026) says income-tax payers are excluded only from the government co-contribution. This entry follows the scheme's own note; check with your bank.",
+]
+
+[entries.apply]
+label = "Department of Financial Services: Atal Pension Yojana"
+url = "https://financialservices.gov.in/atal-pension-yojana"
+evidence = [{ source_id = "dfs-apy-faq", quote = "Approach the bank branch/ post office where individual’s savings bank account is held or open a savings account if the subscriber doesn’t have one.", where = "FAQ: procedure for opening an APY account" }]
+
+[[entries.benefits]]
+text = "A Central Government guaranteed minimum pension of Rs. 1000, 2000, 3000, 4000 or 5000 a month, after the age of 60 years until death."
+evidence = [{ source_id = "jansuraksha-apy-details", quote = "Each subscriber under APY shall receive a Central Government guaranteed minimum pension of Rs. 1000 per month or Rs. 2000 per month or Rs. 3000 per month or Rs. 4000 per month or Rs. 5000 per month, after the age of 60 years until death;", where = "page 1, section 2.1" }]
+
+[[entries.benefits]]
+text = "After the subscriber's death the spouse receives the same pension; after both have died the nominee receives the pension wealth accumulated until the subscriber was 60."
+evidence = [
+  { source_id = "jansuraksha-apy-details", quote = "After the subscriber’s demise, the spouse of the subscriber shall be entitled to receive the same pension amount as that of the subscriber until the death of the spouse;", where = "page 1, section 2.1" },
+  { source_id = "jansuraksha-apy-details", quote = "After the demise of both, the subscriber and the spouse, the nominee of the subscriber shall be entitled to receive the pension wealth, as accumulated till the age of 60 years of the subscriber.", where = "page 1, section 2.1" },
+]
+
+[[entries.eligibility]]
+text = "APY is open to all citizens of India who have a savings bank account, aged 18 to 40 when they join."
+evidence = [{ source_id = "jansuraksha-apy-details", quote = "APY is open to all citizens of India who have a savings bank account. The minimum age of joining APY is 18 years and maximum age is 40 years.", where = "page 2, section 3" }]
+
+[[entries.exclusions]]
+text = "From 1st October 2022, a citizen who is or has been an income-tax payer is not eligible to join APY."
+evidence = [{ source_id = "jansuraksha-apy-details", quote = "From 1st October, 2022, any citizen who is or has been an income-tax payer, is not eligible to join APY.", where = "page 2, section 3" }]
+
+[[entries.documents]]
+text = "A savings bank account or post office savings account is mandatory."
+evidence = [{ source_id = "dfs-apy-faq", quote = "the savings bank account/ post office savings bank account is mandatory for joining APY.", where = "FAQ" }]
+
+[[entries.documents]]
+text = "Nominee details are mandatory, and providing an Aadhaar number is desirable for proper identification."
+evidence = [
+  { source_id = "dfs-apy-faq", quote = "It is mandatory to provide nominee details in APY account.", where = "FAQ" },
+  { source_id = "dfs-apy-faq", quote = "it is desirable to provide Aadhaar Number for proper identification of the subscriber.", where = "FAQ" },
+]
+
+[[entries.steps]]
+text = "Go to the bank branch or post office where you hold your savings account, or open a savings account if you do not have one."
+evidence = [{ source_id = "dfs-apy-faq", quote = "Approach the bank branch/ post office where individual’s savings bank account is held or open a savings account if the subscriber doesn’t have one.", where = "FAQ: procedure for opening an APY account" }]
+
+[[entries.steps]]
+text = "Contributions are paid by auto-debit from the savings account, monthly, quarterly or half-yearly, from the age of joining until the age of 60."
+evidence = [{ source_id = "jansuraksha-apy-details", quote = "The subscribers are required to contribute the prescribed contribution amount from the age of joining APY till the age of 60 years.", where = "page 2, section 4" }]
+
+[[entries.steps]]
+text = "The West Bengal portal page adds: get the form from a bank branch or post office (or download it), fill in name, age, bank account details, nominee and the pension amount you choose, and submit it where you hold your savings account."
+evidence = [
+  { source_id = "wb-apy-page", quote = "Obtain the application form from a bank branch, post office, or download it from official websites.", where = "scheme page, last updated 26 June 2026" },
+  { source_id = "wb-apy-page", quote = "Fill in required details such as name, age, bank account details, nominee information, and selected pension amount.", where = "scheme page, last updated 26 June 2026" },
+  { source_id = "wb-apy-page", quote = "Submit the form at the bank or post office where you hold your savings account.", where = "scheme page, last updated 26 June 2026" },
+]
+
+# ----------------------------------------------------------------------------------------------
+# Added after the wb.gov.in scheme pages became readable.
+
+[[entries]]
+id = "wb-annapurna-yojana"
+name = "Annapurna Yojana"
+kind = "scheme"
+sectors = ["women-child"]
+level = "state"
+state = "West Bengal"
+department = "Department of Women and Child Development and Social Welfare, Government of West Bengal"
+status = "active"
+status_note = "A new scheme: the West Bengal portal page calls it a new welfare scheme, and a news report of 20 May 2026 says it comes into effect from 1 June 2026."
+source_ids = ["wb-annapurna-page", "air-annapurna-news"]
+last_verified = 2026-10-31
+effective_on = 2026-06-01
+summary = { en = "A fixed monthly payment into the bank account of women of West Bengal in a set age range, who are not government employees or income-tax payers.", bn = "নির্দিষ্ট বয়সের পশ্চিমবঙ্গের নারী, যাঁরা সরকারি কর্মী বা আয়কর দাতা নন, তাঁদের ব্যাংক অ্যাকাউন্টে নিশ্চিত মাসিক অর্থ সহায়তা।", hi = "पश्चिम बंगाल की तय उम्र की महिलाओं, जो सरकारी कर्मचारी या आयकर दाता नहीं हैं, के बैंक खाते में तय मासिक सहायता।" }
+target = { en = "Women residents of West Bengal in the set age range who are not in permanent government employment, not income-tax payers and not illegal immigrants.", bn = "পশ্চিমবঙ্গের নির্দিষ্ট বয়সের নারী বাসিন্দা, যাঁরা স্থায়ী সরকারি চাকরিতে নেই, আয়কর দাতা নন এবং অবৈধ অভিবাসী নন।", hi = "पश्चिम बंगाल की तय उम्र की महिला निवासी, जो स्थायी सरकारी नौकरी में नहीं हैं, आयकर दाता नहीं हैं और अवैध प्रवासी नहीं हैं।" }
+not_stated = [
+  "Whether the amount is the same for every category of woman: the page gives one amount.",
+  "A last date to apply, and the exact date the online portal opened for new applicants (the news report says the portal would be launched on 1 June 2026).",
+  "A helpline number.",
+  "The State's own order: only the portal page and a news report on it were read.",
+]
+
+[entries.apply]
+label = "West Bengal Social Registry (online application)"
+url = "https://socialregistry.wb.gov.in/"
+evidence = [{ source_id = "wb-annapurna-page", quote = "Alternatively, applications can be submitted online at https://socialregistry.wb.gov.in/.", where = "scheme page, Application Procedure" }]
+
+[[entries.benefits]]
+text = "Each eligible beneficiary is entitled to Rs. 3,000 per month."
+evidence = [{ source_id = "wb-annapurna-page", quote = "Each eligible beneficiary is entitled to receive Rs. 3,000 per month.", where = "scheme page, Benefits" }]
+
+[[entries.benefits]]
+text = "The money is transferred directly to the Aadhaar-linked bank account of the beneficiary through Direct Benefit Transfer (DBT)."
+evidence = [{ source_id = "air-annapurna-news", quote = "financial assistance will be transferred directly to the Aadhaar-linked bank accounts of eligible beneficiaries through Direct Benefit Transfer (DBT).", where = "news report, 20 May 2026" }]
+
+[[entries.eligibility]]
+text = "Female residents of West Bengal aged between 25 and 60."
+evidence = [{ source_id = "wb-annapurna-page", quote = "This initiative provides assured monthly financial assistance to female residents of West Bengal between the ages of 25 and 60.", where = "scheme page" }]
+
+[[entries.exclusions]]
+text = "The beneficiary must not be in permanent government employment, must not be an illegal immigrant and must not be an income-tax payer."
+evidence = [{ source_id = "wb-annapurna-page", quote = "To qualify, the intended beneficiary must not be any permanent government employment, not an illegal immigrant and must not be an income tax payer.", where = "scheme page" }]
+
+[[entries.exclusions]]
+text = "The news report adds that women who receive a regular salary or pension from the state or central government, statutory bodies, panchayats, municipalities, local bodies or government-aided educational institutions do not qualify."
+evidence = [{ source_id = "air-annapurna-news", quote = "must not hold permanent government employment or receive a regular salary or pension from the state or central government, statutory bodies, panchayats, municipalities, local bodies, or government-aided educational institutions.", where = "news report, 20 May 2026" }]
+
+[[entries.exclusions]]
+text = "Existing Lakshmir Bhandar beneficiaries identified as deceased, shifted, deleted or listed as absentee electors during the SIR-2026 exercise, or flagged during voter slip distribution, are excluded from the automatic move to this scheme."
+evidence = [{ source_id = "air-annapurna-news", quote = "However, individuals identified as deceased, shifted, deleted, or listed as absentee electors during the SIR-2026 exercise, or flagged during voter slip distribution, will be excluded.", where = "news report, 20 May 2026" }]
+
+[[entries.documents]]
+text = "The page lists EPIC (Voter ID Card), Aadhaar Card and an active mobile number as mandatory documents."
+evidence = [{ source_id = "wb-annapurna-page", quote = "Mandatory Documents EPIC (Voter ID Card) Aadhaar Card Active Mobile Number", where = "scheme page, Mandatory Documents" }]
+
+[[entries.steps]]
+text = "The Family Level Data Collection form can be submitted in person at the office of a Block Development Officer or Sub-Divisional Officer, or at a Ward office in the Kolkata Municipal Corporation area, or online."
+evidence = [{ source_id = "wb-annapurna-page", quote = "The Annapurna Yojana Family Level Data Collection form can be submitted in person at the offices of Block Development Officers (BDOS), Sub-Divisional Officers (SDOS), or at Ward offices within the Kolkata Municipal Corporation (KMC) area.", where = "scheme page, Application Procedure" }]
+
+[[entries.steps]]
+text = "Fresh applications are verified and enquired into by government officials; the District Magistrates and the KMC Commissioner are the final sanctioning authorities."
+evidence = [
+  { source_id = "air-annapurna-news", quote = "All fresh applications will undergo verification and enquiry by authorised government officials", where = "news report, 20 May 2026" },
+  { source_id = "air-annapurna-news", quote = "The respective District Magistrates and the KMC Commissioner will serve as the final sanctioning authorities in their respective jurisdictions", where = "news report, 20 May 2026" },
+]
+
+# ----------------------------------------------------------------------------------------------
+
+[[entries]]
+id = "wb-lakshmir-bhandar"
+name = "Lakshmir Bhandar"
+kind = "scheme"
+sectors = ["women-child"]
+level = "state"
+state = "West Bengal"
+department = "Department of Women & Child Development and Social Welfare, Government of West Bengal"
+status = "merged"
+status_note = "A news report of 20 May 2026 (All India Radio) says: 'Under the new order, all existing beneficiaries of the Lakshmir Bhandar Scheme will be automatically migrated to the Annapurna Yojana', which comes into effect from 1 June 2026. See the entry for Annapurna Yojana."
+source_ids = ["s24pgs-lakshmir-bhandar-page", "coochbehar-social-welfare-page", "air-annapurna-news"]
+last_verified = 2026-10-31
+summary = { en = "A monthly payment to women of West Bengal from economically weaker sections; existing beneficiaries are being moved to the Annapurna Yojana.", bn = "পশ্চিমবঙ্গের অর্থনৈতিকভাবে দুর্বল অংশের নারীদের মাসিক অর্থ সহায়তা; বর্তমান উপভোক্তাদের অন্নপূর্ণা যোজনায় নিয়ে যাওয়া হচ্ছে।", hi = "पश्चिम बंगाल की आर्थिक रूप से कमज़ोर वर्ग की महिलाओं के लिए मासिक सहायता; मौजूदा लाभार्थियों को अन्नपूर्णा योजना में ले जाया जा रहा है।" }
+target = { en = "Women of West Bengal from economically weaker sections who are not government employees; new applicants should look at the Annapurna Yojana.", bn = "পশ্চিমবঙ্গের অর্থনৈতিকভাবে দুর্বল অংশের নারী, যাঁরা সরকারি কর্মী নন; নতুন আবেদনকারীরা অন্নপূর্ণা যোজনা দেখুন।", hi = "पश्चिम बंगाल की आर्थिक रूप से कमज़ोर वर्ग की महिलाएँ जो सरकारी कर्मचारी नहीं हैं; नए आवेदक अन्नपूर्णा योजना देखें।" }
+not_stated = [
+  "The monthly amount. The two district pages read disagree and neither is dated: the South 24 Parganas page gives 1200 a month for SC/ST and 1000 for general or other castes; the Cooch Behar page gives 1000 a month for female heads of SC and ST households and 500 for general caste families. No amount is stated here.",
+  "The State's own order that moves Lakshmir Bhandar beneficiaries to Annapurna Yojana: only a news report on it was read, and the West Bengal portal's Annapurna Yojana page does not mention Lakshmir Bhandar.",
+  "The date Lakshmir Bhandar payments stop, and who is left out of the move, beyond what the news report says (see the Annapurna Yojana entry).",
+  "A helpline number.",
+]
+
+[entries.apply]
+label = "Apply under Annapurna Yojana (West Bengal Social Registry)"
+url = "https://socialregistry.wb.gov.in/"
+evidence = [{ source_id = "air-annapurna-news", quote = "Under the new order, all existing beneficiaries of the Lakshmir Bhandar Scheme will be automatically migrated to the Annapurna Yojana.", where = "news report, 20 May 2026" }]
+
+[[entries.benefits]]
+text = "The scheme was launched by the West Bengal Government in February 2021 to give financial assistance to women from economically weaker sections of society."
+evidence = [{ source_id = "s24pgs-lakshmir-bhandar-page", quote = "flagship program launched by the West Bengal Government in February 2021, to provide financial assistance to women from economically weaker sections of society.", where = "district page, Activity and function" }]
+
+[[entries.benefits]]
+text = "A monthly payment, with a different amount for SC/ST households and for others. The two district pages give different amounts (see not_stated), so no amount is stated here."
+evidence = [
+  { source_id = "s24pgs-lakshmir-bhandar-page", quote = "Scheme Details: 1200/P.M – for SC/ST 1000/P.M – for General/other caste", where = "South 24 Parganas district page" },
+  { source_id = "coochbehar-social-welfare-page", quote = "Rs.500 per month will be given to the families of General Caste Category & Rs.1000 per month will be given to the female heads of the SC and ST Caste categories for their individual income support.", where = "Cooch Behar district page" },
+]
+
+[[entries.eligibility]]
+text = "One district page lists: a woman, a resident of West Bengal, aged between 25 and 60, and not a government employee who receives a regular salary or pension."
+evidence = [{ source_id = "s24pgs-lakshmir-bhandar-page", quote = "a) Be a woman b) Be a resident of West Bengal c) Age between the 25 and 60 d) Not be a government employee who receives a regular salary or pension", where = "South 24 Parganas district page, Eligibility Criteria" }]
+
+[[entries.documents]]
+text = "The applicant has her own Aadhaar and a single bank account."
+evidence = [{ source_id = "s24pgs-lakshmir-bhandar-page", quote = "e) Applicant has her own Aadhar and Single Bank A/C", where = "South 24 Parganas district page, Eligibility Criteria" }]
+
+[[entries.steps]]
+text = "The district page says to apply offline at the BDO or municipality office with the prescribed form; the news report says new applicants apply for Annapurna Yojana, with an online portal."
+evidence = [
+  { source_id = "s24pgs-lakshmir-bhandar-page", quote = "How to Apply: Apply Offline (BDO/Municipality office with prescribe form)", where = "South 24 Parganas district page" },
+  { source_id = "air-annapurna-news", quote = "For new applicants, an online portal for the Annapurna Yojana will be launched on 1st June 2026.", where = "news report, 20 May 2026" },
+]
+
+# ----------------------------------------------------------------------------------------------
+
+[[entries]]
+id = "beti-bachao-beti-padhao"
+name = "Beti Bachao Beti Padhao (BBBP)"
+kind = "scheme"
+sectors = ["women-child"]
+level = "central"
+department = "Ministry of Women and Child Development, with the Ministries of Health and Family Welfare and of Education, Government of India"
+status = "active"
+status_note = "The Mission Shakti guidelines cover the Finance Commission period that ended with 2025-26; a West Bengal portal page last updated on 26 June 2026 still describes the scheme."
+source_ids = ["wb-bbbp-page", "mwcd-mission-shakti-guidelines"]
+last_verified = 2026-10-31
+summary = { en = "A campaign scheme to protect girl children, improve their health and schooling and change attitudes to girls; it does not pay money to individuals.", bn = "কন্যাশিশুর সুরক্ষা, স্বাস্থ্য ও পড়াশোনার উন্নতি এবং মেয়েদের প্রতি মনোভাব বদলানোর প্রচারমূলক প্রকল্প; এতে ব্যক্তিকে নগদ টাকা দেওয়া হয় না।", hi = "बालिकाओं की सुरक्षा, स्वास्थ्य और पढ़ाई में सुधार और बेटियों के प्रति सोच बदलने के लिए अभियान योजना; इसमें व्यक्तियों को नकद पैसे नहीं दिए जाते।" }
+target = { en = "Girl children and adolescent girls, their parents and families, and the schools, Anganwadi centres and districts that work with them.", bn = "কন্যাশিশু ও কিশোরী, তাদের বাবা-মা ও পরিবার, এবং তাদের সঙ্গে কাজ করা স্কুল, অঙ্গনওয়াড়ি কেন্দ্র ও জেলা।", hi = "बालिकाएँ और किशोरियाँ, उनके माता-पिता और परिवार, और उनके साथ काम करने वाले स्कूल, आंगनवाड़ी केंद्र और ज़िले।" }
+not_stated = [
+  "Any cash or goods for an individual: the page says there is none under the core scheme.",
+  "A form or date to apply: the page says there is generally no application process for individual benefits.",
+  "A helpline for the scheme itself. The page lists Childline for protection concerns, but the number is not repeated here.",
+]
+
+[entries.apply]
+label = "Ministry of Women and Child Development: Beti Bachao Beti Padhao"
+url = "https://wcd.gov.in/women/beti-bachao-beti-padhao"
+evidence = [{ source_id = "wb-bbbp-page", quote = "There is generally no direct application process for individual benefits under Beti Bachao Beti Padhao.", where = "scheme page, Where to apply" }]
+
+[[entries.benefits]]
+text = "The scheme runs awareness campaigns that promote the value of the girl child and discourage gender discrimination."
+evidence = [{ source_id = "wb-bbbp-page", quote = "Awareness and advocacy: Campaigns are conducted to promote the value of the girl child and discourage gender discrimination.", where = "scheme page, Benefits" }]
+
+[[entries.benefits]]
+text = "It works to improve girls' enrolment, attendance and retention in schools, and supports enforcement of laws against illegal sex determination and female foeticide."
+evidence = [
+  { source_id = "wb-bbbp-page", quote = "Promotion of girl child education: Activities are undertaken to improve enrolment, attendance and retention of girls in schools.", where = "scheme page, Benefits" },
+  { source_id = "wb-bbbp-page", quote = "Prevention of gender-biased sex selection: The scheme supports enforcement of laws against illegal sex determination and female foeticide.", where = "scheme page, Benefits" },
+]
+
+[[entries.benefits]]
+text = "It does not give individuals cash under the core scheme: it is mainly an awareness, advocacy and convergence-based scheme."
+evidence = [{ source_id = "wb-bbbp-page", quote = "No direct cash transfer: BBBP is mainly an awareness, advocacy and convergence - based scheme. It does not provide direct individual cash assistance under the core scheme.", where = "scheme page, Benefits" }]
+
+[[entries.eligibility]]
+text = "It is not a direct individual-benefit scheme; it works at community, district and institutional levels and covers girl children across India, their parents and families, and schools, Anganwadi centres and health institutions."
+evidence = [{ source_id = "wb-bbbp-page", quote = "Beti Bachao Beti Padhao is not a direct individual-benefit scheme with a standard beneficiary application process. It is implemented at community, district and institutional levels.", where = "scheme page, Eligibility" }]
+
+[[entries.steps]]
+text = "For help linked to the scheme, families can contact the District Women and Child Development Office, the Anganwadi Centre, the school or the Block Development Office; the family may approach the relevant local office to be linked with schemes for education, health or nutrition."
+evidence = [
+  { source_id = "wb-bbbp-page", quote = "If a girl child requires support for education, health, nutrition, safety or financial inclusion, the family may approach the relevant local office for linkage with applicable schemes.", where = "scheme page, How to apply" },
+  { source_id = "wb-bbbp-page", quote = "District Women and Child Development Office", where = "scheme page, Where to apply" },
+]
+
+[[entries.steps]]
+text = "The Mission Shakti guidelines say BBBP was launched on 22 January 2015 as a joint effort of the Ministry of Women & Child Development and the Ministries of Education and of Health and Family Welfare."
+evidence = [{ source_id = "mwcd-mission-shakti-guidelines", quote = "The BBBP scheme was launched on 22nd January, 2015 as a tri-ministerial effort of the Ministry of Women & Child Development, Ministry of Education and Ministry of Health and Family Welfare.", where = "page 15, section 2.1.3" }]

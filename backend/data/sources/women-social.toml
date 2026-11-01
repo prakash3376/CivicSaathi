@@ -1,0 +1,282 @@
+# Official sources for the Women & Child Development and Social Welfare & Pensions sectors.
+# See scholarships.toml for the fields.
+
+# --- Women & Child Development (central) ------------------------------------------------------
+
+[[sources]]
+id = "mwcd-saksham-guidelines"
+title = "Mission Saksham Anganwadi and Poshan 2.0: Scheme Guidelines (PDF)"
+scheme = "Saksham Anganwadi and Poshan 2.0"
+authority = "Ministry of Women and Child Development, Government of India"
+level = "central"
+doc_type = "guidelines"
+format = "pdf"
+url = "https://wcd.gov.in/documents/uploaded/Mission%20Saksham%20Anganwadi%20and%20Poshan%202.0%20scheme%20guidelines.pdf"
+expected_phrases = ["Saksham Anganwadi", "Poshan 2.0"]
+curated_on = 2026-10-31
+notes = """\
+The Ministry's scheme guidelines, linked from its Mission Saksham Anganwadi and Poshan 2.0 \
+page (wcd.gov.in). PDF metadata: 2022-08-01, so verification warns that it is more than 12 \
+months old. The guidelines cover the 15th Finance Commission period, 2021-22 to 2025-26."""
+
+[[sources]]
+id = "mwcd-mission-shakti-guidelines"
+title = "Mission Shakti: Scheme Implementation Guidelines, 2021-22 to 2025-26 (PDF)"
+scheme = "Mission Shakti (includes Pradhan Mantri Matru Vandana Yojana)"
+authority = "Ministry of Women and Child Development, Government of India"
+level = "central"
+doc_type = "guidelines"
+format = "pdf"
+url = "https://pmmvy.wcd.gov.in/WebsiteContent/assets/pdf/Mission%20Shakti%20Guidelines%202021-22%20to%202025-26.pdf"
+expected_phrases = ["Mission Shakti", "Matru Vandana"]
+curated_on = 2026-10-31
+notes = """\
+The Mission Shakti guidelines, served by the PMMVY portal (pmmvy.wcd.gov.in). They fold PMMVY \
+into the Samarthya sub-scheme and set out PMMVY 2.0. PDF metadata: 2022-09-06 (older than 12 \
+months). Page 1 is a scan with an OCR layer, so a few characters are misread; the figures \
+quoted come from the digital text on later pages. The guidelines cover 2021-22 to 2025-26."""
+
+[[sources]]
+id = "nsi-ssy-scheme-rules"
+title = "Sukanya Samriddhi Account Scheme, 2019 (rules as amended in 2020, PDF)"
+scheme = "Sukanya Samriddhi Yojana"
+authority = "Government of India (notified under the Government Savings Promotion Act, 1873)"
+level = "central"
+doc_type = "notification"
+format = "pdf"
+url = "https://www.nsiindia.gov.in/writereaddata/SchemeRules/SukanyaSamriddhiAccountSchemeRule.pdf"
+expected_phrases = ["Sukanya Samriddhi Account Scheme", "girl child"]
+curated_on = 2026-10-31
+notes = """\
+The rules (G.S.R. 914(E) of 12 December 2019, amended by G.S.R. 288(E) of 5 May 2020), served \
+by the National Savings Institute (nsiindia.gov.in). The interest rate printed in the rules is \
+the 2020 rate; the Government resets it every quarter, so no rate is quoted in the catalogue."""
+
+# --- West Bengal: women and social welfare ---------------------------------------------------
+
+[[sources]]
+id = "wb-samajik-suraksha-rules-2017"
+title = "Samajik Suraksha Yojana (Rules and Regulations), 2017: Labour Department notification (PDF)"
+scheme = "Samajik Suraksha Yojana (now Bina Mulye Samajik Suraksha Yojana)"
+authority = "Labour Department, Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "notification"
+format = "pdf"
+url = "https://bmssy.wblabour.gov.in/downloads/gazette-notification-no-698.pdf"
+expected_phrases = ["Samaj", "Suraksha Yojana", "GOVERNMENT OF WEST BENGAL"]
+curated_on = 2026-10-31
+notes = """\
+The re-published rules of the scheme, from the scheme's own portal (bmssy.wblabour.gov.in). \
+It is a scan with an OCR layer: some words are broken (for example 'Samaj ik'), so quotes \
+avoid damaged passages. It is dated October 2017, before the scheme was renamed Bina Mulye \
+Samajik Suraksha Yojana, so what it says about the worker's own contribution is not repeated \
+in the catalogue."""
+
+# --- Social welfare (central) ----------------------------------------------------------------
+
+[[sources]]
+id = "pib-nsap-factsheet"
+title = "National Social Assistance Programme: Press Information Bureau fact sheet (PDF)"
+scheme = "National Social Assistance Programme (NSAP)"
+authority = "Ministry of Rural Development, Government of India (published by the Press Information Bureau)"
+level = "central"
+doc_type = "scheme_page"
+format = "pdf"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc2025117686801.pdf"
+expected_phrases = ["National Social Assistance Programme", "IGNOAPS"]
+expected_facts = ["Rs.200 per month"]
+curated_on = 2026-10-31
+notes = """\
+A government fact sheet on NSAP (budget year 2025-26, with 2024-25 releases), built from the \
+Ministry of Rural Development's documents. It is not the operational guidelines: the NSAP \
+portal and the Ministry's guidelines could not be downloaded (see the report). The fact sheet \
+gives the central amounts, ages and the poverty-line condition, but not how to apply."""
+
+[[sources]]
+id = "jansuraksha-apy-details"
+title = "Atal Pension Yojana (APY): Details of the Scheme (PDF)"
+scheme = "Atal Pension Yojana"
+authority = "Department of Financial Services, Ministry of Finance, Government of India (Jan Suraksha portal)"
+level = "central"
+doc_type = "guidelines"
+format = "pdf"
+url = "https://jansuraksha.gov.in/Files/APY/ENGLISH/APY.pdf"
+expected_phrases = ["Atal Pension Yojana", "APY"]
+curated_on = 2026-10-31
+notes = """\
+The scheme's own details note, served by the Jan Suraksha portal (jansuraksha.gov.in). PDF \
+metadata: 2023-11-30 (older than 12 months). It carries the age-wise contribution table in \
+Annex 1, which the catalogue does not copy."""
+
+[[sources]]
+id = "dfs-apy-faq"
+title = "Atal Pension Yojana: FAQ on the Department of Financial Services website"
+scheme = "Atal Pension Yojana"
+authority = "Department of Financial Services, Ministry of Finance, Government of India"
+level = "central"
+doc_type = "faq"
+format = "html"
+url = "https://financialservices.gov.in/atal-pension-yojana"
+expected_phrases = ["Atal Pension Yojana"]
+curated_on = 2026-10-31
+notes = """\
+The department's scheme page, which is a long FAQ (page shows 'By Syed_Talib, 5 January 2026'; \
+no issue date is machine-readable). Used for how to open an account and for the nominee and \
+savings-account conditions."""
+
+# --- West Bengal portal scheme pages (wb.gov.in, "Information Centre > Schemes") ---------------
+# Each page says "Last updated on: Friday, 26th June, 2026" and names the Department of
+# Information & Cultural Affairs as its source. The pages are ASP.NET pages with the content inside
+# a <form>; the extractor reads them. They have typing slips ("formfrom", "BOO", "itto"), so quotes
+# copy them exactly and the catalogue text restates them in plain words.
+
+[[sources]]
+id = "wb-annapurna-page"
+title = "Annapurna Yojana: scheme page on the West Bengal portal"
+scheme = "Annapurna Yojana"
+authority = "Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "scheme_page"
+format = "html"
+url = "https://wb.gov.in/government-schemes-details-annaapurna-yojana.aspx"
+content_selector = "div.scheme_bg"
+expected_phrases = ["Annapurna Yojana"]
+curated_on = 2026-10-31
+notes = "Page footer: Last updated on 26 June 2026. It does not mention Lakshmir Bhandar."
+
+[[sources]]
+id = "air-annapurna-news"
+title = "All India Radio news, 20 May 2026: West Bengal to roll out Annapurna scheme from 1 June"
+scheme = "Annapurna Yojana"
+authority = "All India Radio (Prasar Bharati), Government of India"
+level = "state"
+state = "West Bengal"
+doc_type = "scheme_page"
+format = "html"
+url = "https://newsonair.gov.in/west-bengal-government-to-roll-out-annapurna-scheme-with-monthly-aid-of-3000-rupees-for-women-from-june-1/"
+expected_phrases = ["Annapurna Yojana", "Lakshmir Bhandar"]
+curated_on = 2026-10-31
+notes = """\
+A news report on a gov.in site (newsonair.gov.in), not the State's order itself: the order was \
+not found as a downloadable document. It is the only document read that says Lakshmir Bhandar \
+beneficiaries move to Annapurna Yojana. The page shows 'News On AIR | May 20, 2026'."""
+
+[[sources]]
+id = "s24pgs-lakshmir-bhandar-page"
+title = "Lakshmir Bhandar: South 24 Parganas district website page"
+scheme = "Lakshmir Bhandar"
+authority = "District Social Welfare Department, South 24 Parganas, Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "scheme_page"
+format = "html"
+url = "https://s24pgs.gov.in/?p=30148"
+expected_phrases = ["Lakshmir Bhandar"]
+curated_on = 2026-10-31
+notes = "A district page with no date. Its amounts differ from the Cooch Behar district page."
+
+[[sources]]
+id = "coochbehar-social-welfare-page"
+title = "Social Welfare: Cooch Behar district website page"
+scheme = "Lakshmir Bhandar and other social welfare services"
+authority = "District Social Welfare Section, Cooch Behar, Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "scheme_page"
+format = "html"
+url = "https://coochbehar.gov.in/social-welfare/"
+expected_phrases = ["Social Welfare", "Laxmir Bhandar"]
+curated_on = 2026-10-31
+notes = "A district page with no date. Its Lakshmir Bhandar amounts differ from the South 24 Parganas page."
+
+[[sources]]
+id = "wb-taposili-page"
+title = "Taposili Bandhu Scheme: scheme page on the West Bengal portal"
+scheme = "Taposili Bandhu"
+authority = "Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "scheme_page"
+format = "html"
+url = "https://wb.gov.in/government-schemes-details-taposili-bandhu-scheme.aspx"
+content_selector = "div.scheme_bg"
+expected_phrases = ["Taposili"]
+curated_on = 2026-10-31
+notes = "Page footer: Last updated on 26 June 2026. The page's meta description is about industrial licensing; the body is about the pension."
+
+[[sources]]
+id = "wb-jaijohar-page"
+title = "Jai Johar Scheme (Old Age Pension for ST Communities): scheme page on the West Bengal portal"
+scheme = "Jai Johar"
+authority = "Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "scheme_page"
+format = "html"
+url = "https://wb.gov.in/government-schemes-details-jai-johar-old-age-pensionfor-st-communities.aspx"
+content_selector = "div.scheme_bg"
+expected_phrases = ["Jai Johar"]
+curated_on = 2026-10-31
+notes = "Page footer: Last updated on 26 June 2026. The page gives no pension amount."
+
+[[sources]]
+id = "wb-bmssy-page"
+title = "Bina Mulya Samajik Suraksha Yojana: scheme page on the West Bengal portal"
+scheme = "Bina Mulya Samajik Suraksha Yojana"
+authority = "Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "scheme_page"
+format = "html"
+url = "https://wb.gov.in/government-schemes-details-bina-mulya-samajik-suraksha-yojana.aspx"
+content_selector = "div.scheme_bg"
+expected_phrases = ["Bina Mulya"]
+curated_on = 2026-10-31
+notes = "Page footer: Last updated on 26 June 2026."
+
+[[sources]]
+id = "wb-apy-page"
+title = "Atal Pension Yojana: scheme page on the West Bengal portal"
+scheme = "Atal Pension Yojana"
+authority = "Government of West Bengal (describing a Government of India scheme)"
+level = "state"
+state = "West Bengal"
+doc_type = "scheme_page"
+format = "html"
+url = "https://wb.gov.in/government-schemes-details-atal-pension-yojana.aspx"
+content_selector = "div.scheme_bg"
+expected_phrases = ["Atal Pension Yojana"]
+curated_on = 2026-10-31
+notes = "Page footer: Last updated on 26 June 2026. A state summary of a central scheme; it differs from the scheme's own note on who can join."
+
+[[sources]]
+id = "wb-ssy-page"
+title = "Sukanya Samriddhi Yojana: scheme page on the West Bengal portal"
+scheme = "Sukanya Samriddhi Yojana"
+authority = "Government of West Bengal (describing a Government of India scheme)"
+level = "state"
+state = "West Bengal"
+doc_type = "scheme_page"
+format = "html"
+url = "https://wb.gov.in/government-schemes-details-sukanya-samriddhi-yojana.aspx"
+content_selector = "div.scheme_bg"
+expected_phrases = ["Sukanya Samriddhi"]
+curated_on = 2026-10-31
+notes = "Page footer: Last updated on 26 June 2026. It states an interest rate as 'current'; the Government resets the rate."
+
+[[sources]]
+id = "wb-bbbp-page"
+title = "Beti Bachao Beti Padhao Yojana: scheme page on the West Bengal portal"
+scheme = "Beti Bachao Beti Padhao"
+authority = "Government of West Bengal (describing a Government of India scheme)"
+level = "state"
+state = "West Bengal"
+doc_type = "scheme_page"
+format = "html"
+url = "https://wb.gov.in/government-schemes-details-beti-bachao-beti-padhao-yojana.aspx"
+content_selector = "div.scheme_bg"
+expected_phrases = ["Beti Bachao"]
+curated_on = 2026-10-31
+notes = "Page footer: Last updated on 26 June 2026."

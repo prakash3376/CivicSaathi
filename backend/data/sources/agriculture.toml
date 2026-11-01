@@ -1,0 +1,234 @@
+# Official sources for the Agriculture & Farmers sector. See scholarships.toml for the fields.
+
+[[sources]]
+id = "pmkisan-guidelines"
+title = "PM-KISAN: Revised Operational Guidelines (PDF)"
+scheme = "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)"
+authority = "Ministry of Agriculture and Farmers Welfare, Government of India"
+level = "central"
+doc_type = "guidelines"
+format = "pdf"
+url = "https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf"
+expected_phrases = ["PM-KISAN"]
+expected_facts = ["6000"]
+curated_on = 2026-10-31
+notes = """\
+The scheme's own operational guidelines, served by the PM-KISAN portal (pmkisan.gov.in). PDF \
+metadata: 2020-05-21, so verification warns that it is more than 12 months old: the portal may \
+show later changes."""
+
+# --- Pradhan Mantri Fasal Bima Yojana ---------------------------------------------------------
+
+[[sources]]
+id = "pmfby-guidelines"
+title = "PMFBY: Revised Operational Guidelines (PDF)"
+scheme = "Pradhan Mantri Fasal Bima Yojana (PMFBY)"
+authority = "Ministry of Agriculture and Farmers Welfare, Government of India"
+level = "central"
+doc_type = "guidelines"
+format = "pdf"
+url = "https://pmfby.gov.in/pdf/Revised_Operational_Guidelines.pdf"
+expected_phrases = ["PMFBY", "Pradhan Mantri Fasal Bima Yojana"]
+expected_facts = ["2.0%"]
+curated_on = 2026-10-31
+notes = """\
+The scheme's revised operational guidelines, served by the National Crop Insurance Portal \
+(pmfby.gov.in). The text carries no issue date. Each State notifies its own crops, areas, premium \
+rates and cut-off dates for every season, so the guidelines are a framework, not the notice for a \
+given season."""
+
+# --- Kisan Credit Card ------------------------------------------------------------------------
+
+[[sources]]
+id = "kcc-pib-explainer"
+title = "Kisan Credit Card: Fueling Growth in Agriculture (PIB explainer, PDF)"
+scheme = "Kisan Credit Card (KCC)"
+authority = "Press Information Bureau, Government of India (Department of Agriculture and Farmers Welfare)"
+level = "central"
+doc_type = "scheme_page"
+format = "pdf"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/mar/doc2026311819801.pdf"
+expected_phrases = ["Kisan Credit Card"]
+curated_on = 2026-10-31
+notes = """\
+An official explainer dated 11 March 2026. The Reserve Bank of India's own circular on the card is \
+on rbidocs.rbi.org.in, which the pipeline does not accept as an official host, so it is not used. \
+The explainer's table of limits for farmers other than marginal farmers did not survive PDF \
+extraction."""
+
+# --- Krishak Bandhu (West Bengal) -------------------------------------------------------------
+
+[[sources]]
+id = "wb-krishak-bandhu-faq"
+title = "Krishak Bandhu (Natun): Frequently Asked Questions (PDF, from the portal)"
+scheme = "Krishak Bandhu (Natun)"
+authority = "Department of Agriculture, Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "faq"
+format = "pdf"
+url = "https://krishakbandhu.wb.gov.in/download_notification12"
+legacy_tls = true
+expected_phrases = ["Krishak Bandhu (Natun)"]
+expected_facts = ["10000"]
+curated_on = 2026-10-31
+notes = """\
+Listed on the portal as 'KB(N) SOP DS-7 Final English'; only its FAQ page has a text layer. PDF \
+metadata: 2023-08-25. The portal server only supports legacy TLS renegotiation (no RFC 5746), so \
+legacy_tls is set; the certificate chain and hostname are still verified. The server labels the \
+file 'application.pdf'."""
+
+[[sources]]
+id = "wb-krishak-bandhu-sop-2021"
+title = "Revised SOP of Krishak Bandhu (Assured Income) Scheme (PDF, from the portal)"
+scheme = "Krishak Bandhu"
+authority = "Department of Agriculture, Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "guidelines"
+format = "pdf"
+url = "https://krishakbandhu.wb.gov.in/download_notification9"
+legacy_tls = true
+expected_phrases = ["Krishak Bandhu"]
+curated_on = 2026-10-31
+notes = """\
+Listed on the portal as 'Revised SOP 01-01-2021'. PDF metadata: 2021-01-02. It describes the \
+earlier Assured Income scheme (a smaller yearly amount than the FAQ states), so it is used only for \
+who processes an application and how, not for the amount. legacy_tls: same server as the FAQ.legacy_tls is set because this server only supports legacy TLS renegotiation (no RFC 5746), which OpenSSL 3 refuses by default; the certificate chain and hostname are still verified."""
+
+[[sources]]
+id = "wb-krishak-bandhu-portal"
+title = "Krishak Bandhu portal: home page (helpline and list of orders)"
+scheme = "Krishak Bandhu"
+authority = "Department of Agriculture, Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "scheme_page"
+format = "html"
+url = "https://krishakbandhu.wb.gov.in/"
+legacy_tls = true
+expected_phrases = ["Helpline", "Order Memorandum"]
+curated_on = 2026-10-31
+notes = """\
+The portal's home page. Its HTML title is now 'Mukhyamantri Krishak Samman Nidhi' (not visible in \
+the extracted text) while every document it lists is named Krishak Bandhu, so the programme may \
+have been renamed; no document says so. legacy_tls: same server as the FAQ. No issue date.legacy_tls is set because this server only supports legacy TLS renegotiation (no RFC 5746), which OpenSSL 3 refuses by default; the certificate chain and hostname are still verified."""
+
+# --- Agriculture Infrastructure Fund ----------------------------------------------------------
+
+[[sources]]
+id = "aif-guidelines"
+title = "Agriculture Infrastructure Fund: Revised Scheme Guidelines, July 2021 (PDF)"
+scheme = "Agriculture Infrastructure Fund (AIF)"
+authority = "Department of Agriculture and Farmers Welfare, Ministry of Agriculture and Farmers Welfare, Government of India"
+level = "central"
+doc_type = "guidelines"
+format = "pdf"
+url = "https://krishi.maharashtra.gov.in/Site/Upload/Pdf/AIF.pdf"
+expected_phrases = ["Agriculture Infrastructure Fund", "Revised Scheme Guidelines"]
+expected_facts = ["2032-33"]
+curated_on = 2026-10-31
+notes = """\
+The central scheme's revised guidelines (July 2021), as hosted by the Maharashtra Department of \
+Agriculture (krishi.maharashtra.gov.in, a gov.in host); the Department of Agriculture and Farmers \
+Welfare's own copy was not found. Later changes may exist."""
+
+[[sources]]
+id = "aif-portal-page"
+title = "Agriculture Infrastructure Financing Facility: official portal home page"
+scheme = "Agriculture Infrastructure Fund (AIF)"
+authority = "Department of Agriculture and Farmers Welfare, Government of India"
+level = "central"
+doc_type = "scheme_page"
+format = "html"
+url = "https://agriinfra.dac.gov.in/"
+expected_phrases = ["Agriculture Infrastructure Financing Facility"]
+curated_on = 2026-10-31
+notes = """\
+The scheme portal (agriinfra.dac.gov.in). The extract mixes the main text with menus and counters; \
+the counters change daily and are not used. No issue date."""
+
+# --- Soil Health Card -------------------------------------------------------------------------
+
+[[sources]]
+id = "shc-pib-explainer"
+title = "Soil Health Card: 'Swasth Dharaa, Khet Haraa' (PIB explainer, PDF)"
+scheme = "Soil Health Card Scheme"
+authority = "Press Information Bureau, Government of India (Ministry of Agriculture and Farmers Welfare)"
+level = "central"
+doc_type = "scheme_page"
+format = "pdf"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/aug/doc2025816613501.pdf"
+expected_phrases = ["Soil Health Card"]
+curated_on = 2026-10-31
+notes = """\
+An official explainer dated 16 August 2025. It says both 'once every 2 years' and 'once every 3 \
+years' for how often a card is issued, so the catalogue leaves the interval out."""
+
+[[sources]]
+id = "shc-faq"
+title = "Soil Health Card Scheme: Frequently Asked Questions (PDF, soilhealth.dac.gov.in)"
+scheme = "Soil Health Card Scheme"
+authority = "Department of Agriculture & Cooperation, Ministry of Agriculture, Government of India"
+level = "central"
+doc_type = "faq"
+format = "pdf"
+url = "https://soilhealth.dac.gov.in/files/FAQ_Final_English.pdf"
+expected_phrases = ["Soil Health Card"]
+curated_on = 2026-10-31
+notes = """\
+The scheme's first FAQ, served by the Soil Health Card portal. It dates from the launch years (it \
+speaks of the current year as 2015-16), so its figures are not used; it is used only for who takes \
+the samples and whom a farmer can ask."""
+
+# --- Pradhan Mantri Matsya Sampada Yojana -----------------------------------------------------
+
+[[sources]]
+id = "pmmsy-beneficiary-booklet"
+title = "PMMSY: Beneficiary oriented sub-components (Department of Fisheries booklet, PDF)"
+scheme = "Pradhan Mantri Matsya Sampada Yojana (PMMSY)"
+authority = "Department of Fisheries, Ministry of Fisheries, Animal Husbandry and Dairying, Government of India"
+level = "central"
+doc_type = "guidelines"
+format = "pdf"
+url = "https://static.pib.gov.in/WriteReadData/userfiles/PMMSY%20BookEnglish.pdf"
+expected_phrases = ["MATSYA SAMPADA YOJANA"]
+curated_on = 2026-10-31
+notes = """\
+The Department of Fisheries' beneficiary booklet (September 2020), served by the Press Information \
+Bureau. The full operational guidelines on dof.gov.in answer HTTP 403 to the pipeline, so this \
+booklet is the scheme document used. It dates from the launch, so the scheme period, unit costs and \
+contact details in it may have changed."""
+
+[[sources]]
+id = "pmmsy-pib-2026"
+title = "Fueling the Blue Economy: six years of PMMSY (PIB explainer, PDF)"
+scheme = "Pradhan Mantri Matsya Sampada Yojana (PMMSY)"
+authority = "Press Information Bureau, Government of India (Ministry of Fisheries, Animal Husbandry and Dairying)"
+level = "central"
+doc_type = "scheme_page"
+format = "pdf"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/sep/doc_9838_20260910_12140901.pdf"
+expected_phrases = ["PMMSY"]
+curated_on = 2026-10-31
+notes = """\
+An official explainer dated 10 September 2026. It shows that the scheme is still funded in the \
+2026-27 budget and describes its parts."""
+
+# --- Mission for Integrated Development of Horticulture ---------------------------------------
+
+[[sources]]
+id = "midh-guidelines"
+title = "MIDH: Operational Guidelines, April 2025 (PDF)"
+scheme = "Mission for Integrated Development of Horticulture (MIDH)"
+authority = "Horticulture Division, Department of Agriculture & Farmers Welfare, Government of India"
+level = "central"
+doc_type = "guidelines"
+format = "pdf"
+url = "https://nhb.gov.in/writereaddata/MIDH_Guidelines.pdf"
+expected_phrases = ["INTEGRATED", "DEVELOPMENT OF HORTICULTURE"]
+curated_on = 2026-10-31
+notes = """\
+The mission's operational guidelines (cover dated April 2025), served by the National Horticulture \
+Board (nhb.gov.in). Another copy on a State site has page footers dated later, so a newer version \
+may exist. A long document: cost norms differ by crop and by region."""

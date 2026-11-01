@@ -1,0 +1,87 @@
+# The questions of the eligibility questionnaire, defined once and shared by every scheme.
+#
+# A scheme's rules (the other files in this folder) refer to a question by `id`. Every question is
+# optional to answer: a skipped one is "unknown", and unknown never produces "eligible".
+#
+# The Bengali is a draft by a non-native speaker and needs a native speaker's review.
+# Figures are written with the digits 0-9 in both languages.
+#
+#   type       number | yes_no | choice
+#   display    how an answer is shown back, "{value}" being the number (numbers only)
+#   unit       a short word beside the input box (numbers only)
+
+[[fields]]
+id = "gender"
+type = "choice"
+question = { en = "What is your gender?", bn = "আপনার লিঙ্গ কী?", hi = "आपका लिंग क्या है?" }
+choices = [
+  { id = "female", label = { en = "Female", bn = "মহিলা", hi = "महिला" } },
+  { id = "male", label = { en = "Male", bn = "পুরুষ", hi = "पुरुष" } },
+  { id = "other", label = { en = "Other", bn = "অন্যান্য", hi = "अन्य" } },
+]
+
+[[fields]]
+id = "family_income"
+type = "number"
+integer = true
+minimum = 0
+maximum = 1000000000
+question = { en = "What is your family's total income in one year, in rupees?", bn = "আপনার পরিবারের এক বছরের মোট আয় কত টাকা?", hi = "आपके परिवार की एक साल की कुल आय कितने रुपये है?" }
+hint = { en = "Write the whole amount in rupees, for example 250000.", bn = "পুরো টাকার অঙ্কটি লিখুন, যেমন 250000।", hi = "पूरी राशि रुपये में लिखें, जैसे 250000।" }
+unit = { en = "Rs", bn = "টাকা", hi = "रु" }
+display = { en = "Rs {value} a year", bn = "বছরে {value} টাকা", hi = "प्रति वर्ष {value} रुपये" }
+
+[[fields]]
+id = "girls_in_family"
+type = "number"
+integer = true
+minimum = 0
+maximum = 30
+question = { en = "How many girls are there in your family, counting you?", bn = "আপনাকে ধরে আপনার পরিবারে কতজন মেয়ে আছে?", hi = "आपके परिवार में, आपको मिलाकर, कितनी लड़कियाँ हैं?" }
+display = { en = "{value}", bn = "{value}", hi = "{value}" }
+
+[[fields]]
+id = "admission_type"
+type = "choice"
+question = { en = "How did you join your course?", bn = "আপনি কীভাবে কোর্সে ভর্তি হয়েছেন?", hi = "आपने अपना कोर्स कैसे शुरू किया?" }
+choices = [
+  { id = "first_year", label = { en = "In the first year", bn = "প্রথম বর্ষে", hi = "पहले वर्ष में" } },
+  { id = "lateral_entry", label = { en = "In the second year, through lateral entry", bn = "দ্বিতীয় বর্ষে, ল্যাটারাল এন্ট্রির মাধ্যমে", hi = "दूसरे वर्ष में, लेटरल एंट्री के ज़रिए" } },
+  { id = "other", label = { en = "Some other way, for example I am in the third or fourth year", bn = "অন্যভাবে, যেমন আমি তৃতীয় বা চতুর্থ বর্ষে আছি", hi = "किसी और तरह से, जैसे मैं तीसरे या चौथे वर्ष में हूँ" } },
+]
+
+[[fields]]
+id = "institution_aicte_approved"
+type = "yes_no"
+question = { en = "Is your college or institute approved by AICTE this year?", bn = "আপনার কলেজ বা প্রতিষ্ঠান কি এ বছর AICTE-র অনুমোদিত?", hi = "क्या आपका कॉलेज या संस्थान इस वर्ष AICTE से मान्यता प्राप्त है?" }
+
+[[fields]]
+id = "receives_other_scholarship"
+type = "yes_no"
+question = { en = "Do you already get another scholarship or stipend from the Central Government, a State Government or AICTE?", bn = "আপনি কি ইতিমধ্যে কেন্দ্রীয় সরকার, কোনো রাজ্য সরকার বা AICTE-র অন্য কোনো বৃত্তি বা ভাতা পান?", hi = "क्या आपको पहले से केंद्र सरकार, राज्य सरकार या AICTE से कोई दूसरी छात्रवृत्ति या वज़ीफ़ा मिलता है?" }
+
+[[fields]]
+id = "institution_in_west_bengal"
+type = "yes_no"
+question = { en = "Is your school, college or university in West Bengal?", bn = "আপনার স্কুল, কলেজ বা বিশ্ববিদ্যালয় কি পশ্চিমবঙ্গে?", hi = "क्या आपका स्कूल, कॉलेज या विश्वविद्यालय पश्चिम बंगाल में है?" }
+
+[[fields]]
+id = "marks_percent"
+type = "number"
+minimum = 0
+maximum = 100
+question = { en = "What percentage of marks did you get in your last qualifying exam?", bn = "আপনার শেষ যোগ্যতামূলক পরীক্ষায় আপনি কত শতাংশ নম্বর পেয়েছেন?", hi = "आपकी पिछली योग्यता परीक्षा में आपके कितने प्रतिशत अंक आए?" }
+hint = { en = "Use the percentage in total (aggregate), for example 62.5.", bn = "মোট (সামগ্রিক) শতাংশ লিখুন, যেমন 62.5।", hi = "कुल (समग्र) प्रतिशत लिखें, जैसे 62.5।" }
+unit = { en = "%", bn = "%", hi = "%" }
+display = { en = "{value}%", bn = "{value}%", hi = "{value}%" }
+
+[[fields]]
+id = "passed_wb_board"
+type = "yes_no"
+question = { en = "Did you pass your qualifying exam from a West Bengal board?", bn = "আপনি কি পশ্চিমবঙ্গের কোনো বোর্ড থেকে যোগ্যতামূলক পরীক্ষায় উত্তীর্ণ হয়েছেন?", hi = "क्या आपने अपनी योग्यता परीक्षा पश्चिम बंगाल के किसी बोर्ड से पास की है?" }
+
+[[fields]]
+id = "board_topper"
+type = "yes_no"
+question = { en = "Are you a Board topper?", bn = "আপনি কি বোর্ডের মেধা তালিকায় শীর্ষস্থানীয়?", hi = "क्या आप बोर्ड टॉपर हैं?" }
+hint = { en = "The family income limit does not apply to Board toppers. The guidelines do not say who counts as one.", bn = "বোর্ডের শীর্ষস্থানীয়দের জন্য পারিবারিক আয়ের সীমা প্রযোজ্য নয়। কারা শীর্ষস্থানীয়, তা নির্দেশিকায় বলা নেই।", hi = "बोर्ड टॉपर पर पारिवारिक आय की सीमा लागू नहीं होती। दिशानिर्देश यह नहीं बताते कि टॉपर किसे माना जाएगा।" }

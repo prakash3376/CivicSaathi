@@ -1,0 +1,41 @@
+# Tool configuration only. Dependencies are listed in requirements.txt / requirements-dev.txt.
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = [
+    "E", "W",  # pycodestyle
+    "F",       # pyflakes
+    "I",       # isort
+    "UP",      # pyupgrade
+    "B",       # bugbear
+    "C4",      # comprehensions
+    "SIM",     # simplify
+    "ASYNC",   # async pitfalls
+    "PT",      # pytest style
+    "RUF",     # ruff-specific
+]
+
+[tool.ruff.lint.per-file-ignores]
+# E501: sample sentences and markup read better unwrapped.
+# RUF001: tests hold Bengali and Devanagari text on purpose; their digit zeros look like "O".
+"tests/**" = ["E501", "RUF001"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = ["live: needs the internet or the real embedding model; run with `pytest -m live`"]
+addopts = "-m 'not live'"
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+plugins = ["pydantic.mypy"]
+files = ["app"]
+
+# These ship no type information.
+[[tool.mypy.overrides]]
+module = ["pypdfium2", "pypdfium2.*", "onnxruntime", "onnxruntime.*"]
+ignore_missing_imports = true

@@ -1,0 +1,123 @@
+# Official sources for the Budget sector: the Union Budget 2026-27 and the West Bengal Budget 2026-27.
+# See scholarships.toml for the fields.
+#
+# indiabudget.gov.in (the Union Budget portal), pib.gov.in and education.gov.in answer HTTP 403 to this
+# tool's user agent, so the Union Budget is read from copies served by static.pib.gov.in.
+
+[[sources]]
+id = "union-budget-speech-2026-27"
+title = "Union Budget 2026-27: Budget Speech of the Finance Minister (PDF, PIB copy)"
+scheme = "Union Budget 2026-27"
+authority = "Ministry of Finance, Government of India"
+level = "central"
+doc_type = "budget"
+format = "pdf"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc202621775901.pdf"
+expected_phrases = ["Speech"]
+curated_on = 2026-10-31
+notes = """\
+The Finance Minister's speech of 1 February 2026, as served by the Press Information Bureau \
+(static.pib.gov.in). The same speech on indiabudget.gov.in answers HTTP 403 to this tool."""
+
+[[sources]]
+id = "union-budget-summary-2026-27"
+title = "Union Budget 2026-27: Summary and Highlights (PDF, PIB)"
+scheme = "Union Budget 2026-27"
+authority = "Press Information Bureau, Government of India"
+level = "central"
+doc_type = "budget"
+format = "pdf"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc202621776101.pdf"
+expected_phrases = ["Budget"]
+curated_on = 2026-10-31
+notes = "Summary of the Union Budget 2026-27 of 1 February 2026, served by the Press Information Bureau (static.pib.gov.in)."
+
+[[sources]]
+id = "union-pib-health-budget-2026-27"
+title = "Union Budget 2026-27 Series: Prioritising Healthcare for a Viksit Bharat 2047 (PDF, PIB)"
+scheme = "Union Budget 2026-27"
+authority = "Press Information Bureau, Government of India"
+level = "central"
+doc_type = "budget"
+format = "pdf"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/mar/doc2026330835901.pdf"
+expected_phrases = ["Ministry of Health and Family Welfare"]
+curated_on = 2026-10-31
+notes = "PIB explainer of 31 March 2026 on the health provisions of the Union Budget 2026-27, with a table of Budget and Revised Estimates by scheme."
+
+[[sources]]
+id = "union-pib-education-skilling-2026-27"
+title = "Union Budget 2026-27: Skilling India for a Future-Ready Workforce (PDF, PIB)"
+scheme = "Union Budget 2026-27"
+authority = "Press Information Bureau, Government of India"
+level = "central"
+doc_type = "budget"
+format = "pdf"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/apr/doc2026429858501.pdf"
+expected_phrases = ["Union Budget 2026"]
+curated_on = 2026-10-31
+notes = "PIB explainer of 29 April 2026 that states the education allocation of the Union Budget 2026-27."
+
+[[sources]]
+id = "union-pib-agriculture-march-2026"
+title = "India's Resilient Production Systems in Agriculture: From Fields to Market (PDF, PIB)"
+scheme = "Union Budget 2026-27"
+authority = "Press Information Bureau, Government of India"
+level = "central"
+doc_type = "budget"
+format = "pdf"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/mar/doc2026326833901.pdf"
+expected_phrases = ["Department of Agriculture and Farmers Welfare"]
+curated_on = 2026-10-31
+notes = "PIB explainer of March 2026. It gives a 2026-27 allocation for the Department of Agriculture and Farmers Welfare that differs from the one in the August 2026 PIB explainer."
+
+[[sources]]
+id = "union-pib-agriculture-august-2026"
+title = "The New Era of Indian Agriculture and Allied Sectors (PDF, PIB)"
+scheme = "Union Budget 2026-27"
+authority = "Press Information Bureau, Government of India"
+level = "central"
+doc_type = "budget"
+format = "pdf"
+url = "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/aug/doc2026812952301.pdf"
+expected_phrases = ["Department of Agriculture and Farmers Welfare"]
+curated_on = 2026-10-31
+notes = "PIB explainer of 12 August 2026. It gives a 2026-27 allocation for the Department of Agriculture and Farmers Welfare that differs from the one in the March 2026 PIB explainer."
+
+[[sources]]
+id = "wb-budget-at-a-glance-2026-27"
+title = "West Bengal Budget 2026-27: Budget at a Glance, Budget Publication No. 9 (PDF, June 2026)"
+scheme = "West Bengal Budget 2026-27"
+authority = "Finance Department, Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "budget"
+format = "pdf"
+url = "https://finance.wb.gov.in/writereaddata/Budget_Publication/2026_bp9-1.pdf"
+expected_phrases = ["Budget at a Glance"]
+legacy_tls = true
+curated_on = 2026-10-31
+notes = """\
+Budget Publication No. 9 of the full budget for 2026-27 (June 2026), served by finance.wb.gov.in. \
+The server only supports legacy TLS renegotiation, which OpenSSL 3 refuses by default; legacy_tls is \
+therefore set. The certificate chain and hostname are still verified (the www. host has a certificate \
+for another name and is not used). The title line is in a Bengali legacy font and extracts as symbols."""
+
+[[sources]]
+id = "wb-budget-speech-2026-27-interim"
+title = "West Bengal Budget 2026-27: Interim Budget Speech and Vote on Account, 5 February 2026 (PDF)"
+scheme = "West Bengal Budget 2026-27"
+authority = "Finance Department, Government of West Bengal"
+level = "state"
+state = "West Bengal"
+doc_type = "budget"
+format = "pdf"
+url = "https://finance.wb.gov.in/writereaddata/Budget_Speech/2026-2027_English_I.pdf"
+expected_phrases = ["Vote on Account"]
+legacy_tls = true
+curated_on = 2026-10-31
+notes = """\
+The interim budget speech (a vote on account for the first four months of 2026-27) of 5 February \
+2026. The full budget was presented in June 2026; the speech of that day \
+(finance.wb.gov.in/writereaddata/Budget_Speech/2026_English.pdf) downloads but is a scanned image \
+with no text, so it is not registered. Same legacy TLS note as the Budget at a Glance.legacy_tls is set because this server only supports legacy TLS renegotiation (no RFC 5746), which OpenSSL 3 refuses by default; the certificate chain and hostname are still verified."""

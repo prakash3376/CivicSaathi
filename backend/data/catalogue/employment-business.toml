@@ -1,0 +1,912 @@
+# Employment & Skill Development and Business & MSME: programmes in the catalogue. Every statement
+# carries a quote that `python -m app.cli catalogue-check` finds in the saved official document.
+# English wording only (the quotes are English); the summary and the "who is it for" line are in
+# three languages and hold no figure. The Bengali and Hindi are drafts by a non-native speaker and
+# need a native speaker's review.
+
+# =================================================================================================
+# PM Vishwakarma (business + employment)
+# =================================================================================================
+
+[[entries]]
+id = "pm-vishwakarma"
+name = "PM Vishwakarma"
+kind = "scheme"
+sectors = ["business", "employment"]
+level = "central"
+department = "Ministry of Micro, Small and Medium Enterprises (nodal ministry), with the Ministry of Skill Development and Entrepreneurship and the Department of Financial Services, Government of India"
+status = "active"
+status_note = "The guidelines say the scheme runs initially for five years, up to 2027-28."
+source_ids = ["pmvishwakarma-guidelines"]
+last_verified = 2026-10-31
+summary = { en = "Recognition, skill training, a toolkit grant, low-interest loans without collateral and market support for traditional artisans and craftspeople.", bn = "ঐতিহ্যবাহী কারিগর ও হস্তশিল্পীদের জন্য স্বীকৃতি, দক্ষতা প্রশিক্ষণ, সরঞ্জামের অনুদান, জামানত ছাড়া কম সুদের ঋণ এবং বাজার পাওয়ার সহায়তা।", hi = "पारंपरिक कारीगरों और शिल्पकारों के लिए पहचान, कौशल प्रशिक्षण, औज़ार अनुदान, बिना गारंटी कम ब्याज का ऋण और बाज़ार से जुड़ने में सहायता।" }
+target = { en = "Self-employed artisans and craftspeople in the listed traditional trades, who work with their hands and tools.", bn = "তালিকাভুক্ত ঐতিহ্যবাহী পেশায় হাত ও যন্ত্রপাতি দিয়ে কাজ করা স্বনিযুক্ত কারিগর ও হস্তশিল্পী।", hi = "सूचीबद्ध पारंपरिक व्यवसायों में हाथ और औज़ारों से काम करने वाले स्वरोज़गार कारीगर और शिल्पकार।" }
+not_stated = [
+  "A closing date for registration. The guidelines do not give one.",
+  "The helpline number. The guidelines only say that a multi-lingual helpline will be available on the portal.",
+  "The full list of trades is in the guidelines (Table 1); check it against your own trade before you register.",
+]
+
+[entries.apply]
+label = "PM Vishwakarma portal"
+url = "https://pmvishwakarma.gov.in/"
+evidence = [{ source_id = "pmvishwakarma-guidelines", quote = "Further, an Aadhaar authenticated and centralized PM Vishwakarma portal shall act as the facilitator for this exercise", where = "page 29" }]
+
+[[entries.benefits]]
+text = "A PM Vishwakarma Certificate and ID Card, given digitally and in physical form, which recognise the person as a Vishwakarma and make them eligible for all the benefits of the scheme."
+evidence = [{ source_id = "pmvishwakarma-guidelines", quote = "The artisans and craftspeople will receive PM Vishwakarma Certificate and PM Vishwakarma ID Card.", where = "page 17" }]
+
+[[entries.benefits]]
+text = "A training stipend of Rs. 500 per day while undergoing the Basic and Advanced Training."
+evidence = [{ source_id = "pmvishwakarma-guidelines", quote = "Each beneficiary will be eligible to receive a training stipend of Rs. 500 per day while undergoing the Basic and Advanced Training programmes.", where = "page 21" }]
+
+[[entries.benefits]]
+text = "A toolkit incentive of up to Rs. 15,000, paid through e-RUPI or e-vouchers that can be used at designated centres to buy improved tools, after the skill assessment."
+evidence = [
+  { source_id = "pmvishwakarma-guidelines", quote = "A toolkit incentive of upto Rs. 15,000 will be provided to the beneficiary after Skill Assessment at the start of Basic Training.", where = "page 21" },
+  { source_id = "pmvishwakarma-guidelines", quote = "The incentive will be disbursed to the beneficiaries through e-RUPI/ e-vouchers which can be utilized at designated centres to procure improved toolkits.", where = "page 21" },
+]
+
+[[entries.benefits]]
+text = "Collateral-free Enterprise Development Loans in two tranches: a first loan of up to Rs. 1,00,000 and a second of up to Rs 2,00,000, at a concessional interest rate of 5%, with the Government of India paying the interest subvention (up to 8%) to the banks."
+evidence = [
+  { source_id = "pmvishwakarma-guidelines", quote = "first loan tranche upto Rs. 1,00,000/- and second loan tranche upto Rs 2,00,000/-.", where = "page 22" },
+  { source_id = "pmvishwakarma-guidelines", quote = "Concessional rate of interest chargeable to beneficiaries for loan will be fixed at 5%. The interest subvention by the Government of India will be to an extent of 8% and provided upfront to the banks.", where = "page 22" },
+  { source_id = "pmvishwakarma-guidelines", quote = "financial support will be provided to the targeted beneficiaries in the form of collateral free ‘Enterprise Development Loans’.", where = "page 21" },
+]
+
+[[entries.benefits]]
+text = "An incentive of Re. 1 per eligible digital transaction, up to a maximum of 100 eligible transactions a month, paid into the bank account."
+evidence = [{ source_id = "pmvishwakarma-guidelines", quote = "An amount of Re. 1 per eligible digital transaction (upto maximum 100 eligible transactions monthly) will be credited to the beneficiary’s bank account in DBT mode through Aadhaar Payment Bridge System (APBS).", where = "page 24" }]
+
+[[entries.eligibility]]
+text = "An artisan or craftsperson who works with hands and tools in one of the family-based traditional trades listed in the guidelines, in the unorganized or informal sector, on a self-employment basis."
+evidence = [{ source_id = "pmvishwakarma-guidelines", quote = "An artisan or craftsperson working with hands and tools and engaged in one of the family-based traditional trades specified in Para 2.3, in the unorganized or informal sector, on self-employment basis, shall be eligible for registration under PM Vishwakarma.", where = "page 27" }]
+
+[[entries.eligibility]]
+text = "The minimum age is 18 years on the date of registration."
+evidence = [{ source_id = "pmvishwakarma-guidelines", quote = "The minimum age of the beneficiary should be 18 years on the date of registration.", where = "page 27" }]
+
+[[entries.eligibility]]
+text = "Registration and benefits are limited to one member of a family (husband, wife and unmarried children)."
+evidence = [
+  { source_id = "pmvishwakarma-guidelines", quote = "The registration and benefits under the Scheme shall be restricted to one member of the family.", where = "page 27" },
+  { source_id = "pmvishwakarma-guidelines", quote = "a ‘family’ is defined as consisting of the husband, wife and unmarried children.", where = "page 27" },
+]
+
+[[entries.exclusions]]
+text = "A person who took a loan under a similar credit-based self-employment scheme of the Central or a State Government (for example PMEGP, PM SVANidhi or MUDRA) in the past 5 years is not eligible; people who fully repaid a MUDRA or SVANidhi loan are eligible."
+evidence = [{ source_id = "pmvishwakarma-guidelines", quote = "should not have availed loans under similar credit-based schemes of Central Government or State Government for self-employment/ business development, e.g. PMEGP, PM SVANidhi, MUDRA, in the past 5 years. However, the beneficiaries of MUDRA and SVANidhi who have fully repaid their loan, will be eligible under PM Vishwakarma.", where = "page 27" }]
+
+[[entries.exclusions]]
+text = "A person in government service, and their family members, are not eligible."
+evidence = [{ source_id = "pmvishwakarma-guidelines", quote = "A person in government service and his/her family members shall not be eligible under the Scheme.", where = "page 28" }]
+
+[[entries.documents]]
+text = "Aadhaar, mobile number, bank details and ration card for registration; a person without a ration card must give the Aadhaar numbers of all family members."
+evidence = [
+  { source_id = "pmvishwakarma-guidelines", quote = "The beneficiary needs to produce documents like Aadhaar, mobile number, bank details, ration card for the registration.", where = "page 29" },
+  { source_id = "pmvishwakarma-guidelines", quote = "In case of a beneficiary not having a ration card, he/she is required to produce Aadhaar numbers of all family members.", where = "page 30" },
+]
+
+[[entries.documents]]
+text = "An Aadhaar-seeded bank account; Aadhaar authentication is needed at every stage."
+evidence = [
+  { source_id = "pmvishwakarma-guidelines", quote = "The beneficiary shall furnish his/her Aadhaar-seeded bank account details at the time of application.", where = "page 31" },
+  { source_id = "pmvishwakarma-guidelines", quote = "At every stage of intervention under this Scheme, Aadhaar authentication will be mandatory.", where = "page 31" },
+]
+
+[[entries.steps]]
+text = "Apply either directly on the Aadhaar-based PM Vishwakarma portal or through a Common Service Centre."
+evidence = [{ source_id = "pmvishwakarma-guidelines", quote = "The registration shall be done by seeking applications through Common Service Centres (CSCs) or open online application, through Aadhaar based biometric authenticated PM Vishwakarma portal.", where = "page 30" }]
+
+[[entries.steps]]
+text = "There is no fee for enrolment: the cost of enrolment, registration and the certificate and ID card is borne by the Government."
+evidence = [{ source_id = "pmvishwakarma-guidelines", quote = "There shall be no fee or charge for enrolment under PM Vishwakarma.", where = "page 30" }]
+
+[[entries.steps]]
+text = "Your application goes through three levels of checking (the Gram Panchayat or urban local body, the District Implementation Committee, then the Screening Committee). After approval you are registered and receive a digital ID, certificate and ID card."
+evidence = [
+  { source_id = "pmvishwakarma-guidelines", quote = "There will be a three-tier verification and approval process for the registration of beneficiaries:", where = "page 31" },
+  { source_id = "pmvishwakarma-guidelines", quote = "After successful three-step verification and approval, artisans and craftspeople will be registered under this Scheme as Vishwakarmas.", where = "page 35" },
+]
+
+[[entries.steps]]
+text = "After registration you go through a skill assessment and Basic Training (about 40 hours, over 5-7 days). Basic Training must be completed before the first loan."
+evidence = [
+  { source_id = "pmvishwakarma-guidelines", quote = "Basic Training will be of about 40 hours, over 5-7 days, and will include formalization of acquired skills", where = "page 18" },
+  { source_id = "pmvishwakarma-guidelines", quote = "The beneficiary must have undergone Skill Assessment and completed Basic Training to be eligible to avail first tranche of credit support of upto Rs 1 lakh under the Scheme.", where = "page 21" },
+]
+
+# =================================================================================================
+# PM SVANidhi (business)
+# =================================================================================================
+
+[[entries]]
+id = "pm-svanidhi"
+name = "PM Street Vendor’s AtmaNirbhar Nidhi (PM SVANidhi)"
+kind = "scheme"
+sectors = ["business"]
+level = "central"
+department = "Ministry of Housing and Urban Affairs, with the Department of Financial Services, Government of India"
+status = "active"
+status_note = "The guidelines of the restructured scheme extend the period for giving loans (see the dates in the benefits). The older 2020 FAQ on the portal is out of date and was not used."
+source_ids = ["pmsvanidhi-scheme-guidelines", "pmsvanidhi-loan-guidelines"]
+last_verified = 2026-10-31
+summary = { en = "Working capital loans without collateral, in three steps of growing size, with an interest subsidy, for street vendors.", bn = "পথ বিক্রেতাদের জন্য জামানত ছাড়া কার্যকরী মূলধন ঋণ, ধাপে ধাপে বড় অঙ্কে, সুদে ভর্তুকিসহ।", hi = "रेहड़ी-पटरी वालों के लिए बिना गारंटी कार्यशील पूंजी ऋण, तीन चरणों में बढ़ती राशि के साथ और ब्याज पर सब्सिडी।" }
+target = { en = "Street vendors who sell goods or services in towns and cities, and who hold a certificate of vending, identity card or letter of recommendation.", bn = "যে পথ বিক্রেতারা শহরে পণ্য বা পরিষেবা বিক্রি করেন এবং যাঁদের বিক্রয় শংসাপত্র, পরিচয়পত্র বা সুপারিশপত্র আছে।", hi = "शहरों और कस्बों में सामान या सेवाएँ बेचने वाले रेहड़ी-पटरी वाले, जिनके पास वेंडिंग प्रमाणपत्र, पहचान पत्र या सिफ़ारिश पत्र है।" }
+not_stated = [
+  "How long a loan takes to be sanctioned. The documents say nothing about a time limit for the loan itself.",
+  "Whether your State or Union Territory has notified the street vending rules. The scheme guidelines say it covers States and UTs that have; the loan guidelines say all States and UTs. The portal lists the notified States.",
+  "The bank interest rate. The guidelines only say it follows each lender's usual rates or the RBI rules for its category.",
+]
+
+[entries.apply]
+label = "PM SVANidhi portal"
+url = "https://pmsvanidhi.mohua.gov.in/"
+evidence = [{ source_id = "pmsvanidhi-loan-guidelines", quote = "PMS Portal URL: https://pmsvanidhi.mohua.gov.in/", where = "page 3" }]
+
+[[entries.benefits]]
+text = "A collateral-free working capital loan in three tranches: up to ₹15,000 (repaid in 12 months), then up to ₹25,000 (18 months), then up to ₹50,000 (36 months). The next tranche opens after timely or early repayment, with a higher limit."
+evidence = [
+  { source_id = "pmsvanidhi-scheme-guidelines", quote = "SVs will be eligible for collateral free working capital term loan in three tranches:", where = "page 4" },
+  { source_id = "pmsvanidhi-scheme-guidelines", quote = "st tranche loan of up to ₹15,000 to be repaid in 12 months,", where = "page 4" },
+  { source_id = "pmsvanidhi-scheme-guidelines", quote = "nd tranche loan of up to ₹25,000 to be repaid in 18 months and", where = "page 4" },
+  { source_id = "pmsvanidhi-scheme-guidelines", quote = "rd tranche loan of up to ₹50,000 to be repaid in 36 months Upon timely or early repayment of a tranche, vendors will be eligible for the next tranche of working capital term loans, with the enhanced limit.", where = "page 4" },
+]
+
+[[entries.benefits]]
+text = "An interest subsidy of 7% per annum, credited to the borrower's account every quarter."
+evidence = [{ source_id = "pmsvanidhi-scheme-guidelines", quote = "The vendors, availing loan under the scheme, are eligible to get an interest subsidy at 7% per annum. The interest subsidy amount will be credited into the borrower’s account quarterly.", where = "page 4" }]
+
+[[entries.benefits]]
+text = "No penalty for repaying before the scheduled date."
+evidence = [{ source_id = "pmsvanidhi-scheme-guidelines", quote = "For repayment before the scheduled date, no prepayment penalty will be charged from the vendor.", where = "page 4" }]
+
+[[entries.benefits]]
+text = "Loans can be given until March 31, 2030, and interest subsidy can be claimed until March 31, 2033."
+evidence = [
+  { source_id = "pmsvanidhi-scheme-guidelines", quote = "the Government of India has approved the extension of the lending period till March 31, 2030.", where = "page 2" },
+  { source_id = "pmsvanidhi-scheme-guidelines", quote = "The interest subsidy is available up to March 31, 2033.", where = "page 4" },
+]
+
+[[entries.benefits]]
+text = "A UPI-linked RuPay credit card, as an extra facility, for vendors who have repaid the second tranche and are eligible for the third. The credit limit starts at ₹10,000 and is gradually raised to ₹30,000."
+evidence = [
+  { source_id = "pmsvanidhi-scheme-guidelines", quote = "A UPI linked RuPay Credit Card will be available as an additional facility for PM SVANidhi beneficiaries who have successfully repaid their 2nd tranche loan and are eligible for 3rd tranche loan under the PM SVANidhi Scheme.", where = "page 5" },
+  { source_id = "pmsvanidhi-scheme-guidelines", quote = "initially the credit limit will be ₹10,000 which will be gradually increased to ₹30,000", where = "page 5" },
+]
+
+[[entries.benefits]]
+text = "A cashback for digital transactions: up to ₹100 a month (₹1 per transaction), at most ₹1,200 a year in each tranche."
+evidence = [{ source_id = "pmsvanidhi-scheme-guidelines", quote = "Any inward and outward digital transaction - up to ₹100 per month (₹1 per transaction) with maximum cashback of ₹1,200 per year in each tranche", where = "page 6" }]
+
+[[entries.eligibility]]
+text = "Street vendors who hold a valid Letter of Recommendation, Certificate of Vending or Identity Card issued by the urban local body or Town Vending Committee."
+evidence = [{ source_id = "pmsvanidhi-loan-guidelines", quote = "SVs who possess a valid Letter of Recommendation (LoR) or Certificate of Vending (CoV) or Identity Card (ID Card) issued by the Urban Local Bodies (ULBs)/ Town Vending Committees (TVCs);", where = "page 3" }]
+
+[[entries.eligibility]]
+text = "Street vendors in census towns and peri-urban areas who have a Letter of Recommendation approved by their Block Development Officer."
+evidence = [{ source_id = "pmsvanidhi-loan-guidelines", quote = "SVs operating in census towns, peri-urban areas etc., who have received an LoR approved by their Block Development Officer (BDO).", where = "page 3" }]
+
+[[entries.eligibility]]
+text = "A street vendor is a person who sells goods, food or services to the public in a street, footpath, public place or similar, from a temporary structure or by moving from place to place."
+evidence = [{ source_id = "pmsvanidhi-scheme-guidelines", quote = "a ‘Street Vendor’ means a person engaged in vending of articles, goods, wares, food items or merchandise of everyday use or offering services to the general public, in a street, lane, side walk, footpath, pavement, public park or any other public place or private area, from a temporary built-up structure or by moving from place to place", where = "page 2" }]
+
+[[entries.documents]]
+text = "Certificate of Vending, Identity Card or Letter of Recommendation from the urban local body or Town Vending Committee (or a Block Development Officer's Letter of Recommendation in census towns and peri-urban areas)."
+evidence = [
+  { source_id = "pmsvanidhi-loan-guidelines", quote = "CoV/ ID Card/ LoR issued by ULBs or TVC, to SVs working within ULB’s jurisdiction", where = "page 3" },
+  { source_id = "pmsvanidhi-loan-guidelines", quote = "LoR approved by the BDO to SVs operating in census towns, peri-urban areas etc.", where = "page 3" },
+]
+
+[[entries.documents]]
+text = "Aadhaar Card (a Voter Identity Card only for vendors from Assam and Meghalaya who have no Aadhaar), savings bank passbook or statement with account details, and a valid and unique UPI ID linked to the bank account."
+evidence = [{ source_id = "pmsvanidhi-loan-guidelines", quote = "Aadhaar Card iv. Voter Identity Card (for SVs from Assam and Meghalaya only) who do not have Aadhaar Card v. Savings Bank Account Passbook/ Bank Statement with account details of the SV vi. Valid and Unique UPI ID linked to the SVs bank account", where = "page 3" }]
+
+[[entries.documents]]
+text = "Lenders are told not to ask for any document beyond the official list."
+evidence = [{ source_id = "pmsvanidhi-loan-guidelines", quote = "Institutions should not request any additional documents beyond those officially mandated.", where = "page 3" }]
+
+[[entries.steps]]
+text = "A vendor with a Certificate of Vending or Identity Card can apply for a loan directly on the portal with a preferred lender; a UPI ID linked to the bank account is mandatory."
+evidence = [{ source_id = "pmsvanidhi-loan-guidelines", quote = "SVs holding a valid CoV or ID Card issued by the Urban Local Body (ULB)/ Town Vending Committees (TVC) are eligible to directly apply for a loan with their preferred LI through the PMS Portal and LoR is not required by them.", where = "page 5" }]
+
+[[entries.steps]]
+text = "A vendor without these can submit a combined Letter of Recommendation and loan application on the portal or the mobile app, at the urban local body or block office, or at an authorised Common Service Centre."
+evidence = [
+  { source_id = "pmsvanidhi-loan-guidelines", quote = "SV can apply themselves on the PMS Portal or through PM SVANidhi Mobile App", where = "page 5" },
+  { source_id = "pmsvanidhi-loan-guidelines", quote = "At respective Urban Local Body (ULB) offices, Block offices or", where = "page 5" },
+  { source_id = "pmsvanidhi-loan-guidelines", quote = "Authorized Common Service Centres (CSCs)", where = "page 5" },
+]
+
+[[entries.steps]]
+text = "The urban local body or block verifies the application and then approves it; the letter is issued digitally on the portal, and the loan application then goes to your lender. Letters issued by hand are not valid."
+evidence = [
+  { source_id = "pmsvanidhi-loan-guidelines", quote = "The issuance of the LoR involves a two-step process, verification followed by approval.", where = "page 5" },
+  { source_id = "pmsvanidhi-loan-guidelines", quote = "Manually issued LoRs will not be valid.", where = "page 3" },
+]
+
+# =================================================================================================
+# PMFME (business)
+# =================================================================================================
+
+[[entries]]
+id = "pmfme"
+name = "PM Formalisation of Micro Food Processing Enterprises (PMFME)"
+kind = "scheme"
+sectors = ["business"]
+level = "central"
+department = "Ministry of Food Processing Industries, Government of India"
+status = "active"
+status_note = "The 2020 guidelines give the scheme period as 2020-21 to 2024-25. A September 2025 PIB document says it runs from 2020-21 to 2025-26. No later document was found, so check the PMFME portal for what applies now."
+source_ids = ["pmfme-guidelines", "pmfme-pib-factsheet-2025"]
+last_verified = 2026-10-31
+summary = { en = "A subsidy linked to a bank loan for small food processing units, plus support for farmer groups and self-help groups.", bn = "ছোট খাদ্য প্রক্রিয়াকরণ ইউনিটের জন্য ব্যাংক ঋণের সঙ্গে যুক্ত ভর্তুকি, এবং কৃষক গোষ্ঠী ও স্বনির্ভর গোষ্ঠীর জন্য সহায়তা।", hi = "छोटी खाद्य प्रसंस्करण इकाइयों के लिए बैंक ऋण से जुड़ी सब्सिडी, तथा किसान समूहों और स्वयं सहायता समूहों के लिए सहायता।" }
+target = { en = "Existing small, unregistered food processing units run by an individual or a family, and farmer producer organisations and self-help groups.", bn = "ব্যক্তি বা পরিবার পরিচালিত বিদ্যমান ছোট, অনিবন্ধিত খাদ্য প্রক্রিয়াকরণ ইউনিট এবং কৃষক উৎপাদক সংস্থা ও স্বনির্ভর গোষ্ঠী।", hi = "व्यक्ति या परिवार द्वारा चलाई जा रही मौजूदा छोटी, अपंजीकृत खाद्य प्रसंस्करण इकाइयाँ, तथा किसान उत्पादक संगठन और स्वयं सहायता समूह।" }
+not_stated = [
+  "The documents to bring. The guidelines say a Detailed Project Report goes to the bank with the necessary documents, but do not list them.",
+  "A closing date. Applications are described as invited on an ongoing basis at district level.",
+  "How to apply on the portal: the guidelines describe the process through the district and state agencies, not the portal screens.",
+]
+
+[entries.apply]
+label = "PMFME portal"
+url = "https://pmfme.mofpi.gov.in/"
+evidence = [{ source_id = "pmfme-guidelines", quote = "The Scheme would to be monitored and the entire flow of data and approval of proposals, etc. would take place on an online system.", where = "page 30" }]
+
+[[entries.benefits]]
+text = "For an individual micro food processing unit, a credit-linked capital subsidy of 35% of the eligible project cost, up to Rs.10.0 lakh per unit. The owner contributes at least 10% and the rest is a bank loan."
+evidence = [{ source_id = "pmfme-guidelines", quote = "Individual micro food processing units would be provided credit-linked capital subsidy @35% of the eligible project cost with a maximum ceiling of Rs.10.0 lakh per unit. Beneficiary contribution should be minimum of 10% of the project cost with balance being loan from Bank.", where = "page 7" }]
+
+[[entries.benefits]]
+text = "Seed capital of ₹40,000 per self-help group member for working capital and small tools, given through the group's federation as a repayable loan."
+evidence = [
+  { source_id = "pmfme-pib-factsheet-2025", quote = "₹40,000 per SHG member for working capital and small tools.", where = "page 4" },
+  { source_id = "pmfme-pib-factsheet-2025", quote = "Seed capital given at federation level and disbursed as repayable loan to members.", where = "page 4" },
+]
+
+[[entries.benefits]]
+text = "Farmer producer organisations and producer cooperatives get a grant of 35% with credit linkage."
+evidence = [{ source_id = "pmfme-pib-factsheet-2025", quote = "Grant support at 35% with credit linkage.", where = "page 4" }]
+
+[[entries.benefits]]
+text = "Marketing training is fully funded under the scheme, and support is given for a common brand, packaging and standardisation for groups."
+evidence = [
+  { source_id = "pmfme-pib-factsheet-2025", quote = "Training in marketing fully funded under the scheme.", where = "page 4" },
+  { source_id = "pmfme-pib-factsheet-2025", quote = "Development of common brand, packaging and standardisation.", where = "page 4" },
+]
+
+[[entries.eligibility]]
+text = "An existing micro food processing unit that is in operation."
+evidence = [{ source_id = "pmfme-guidelines", quote = "Existing micro food processing units in operations;", where = "page 7" }]
+
+[[entries.eligibility]]
+text = "The enterprise must be unincorporated and employ fewer than 10 workers; the applicant must own it (proprietary or partnership firm)."
+evidence = [
+  { source_id = "pmfme-guidelines", quote = "The enterprise should be unincorporated and should employ less than 10 workers;", where = "page 7" },
+  { source_id = "pmfme-guidelines", quote = "Ownership status of enterprise could be proprietary / partnership firm;", where = "page 7" },
+]
+
+[[entries.eligibility]]
+text = "The applicant must be above 18 years of age and have passed at least the VIII standard."
+evidence = [{ source_id = "pmfme-guidelines", quote = "The applicant should be above 18 years of age and should possess at least VIII standard pass educational qualification;", where = "page 7" }]
+
+[[entries.eligibility]]
+text = "Only one person from a family can get the assistance (the family means self, spouse and children). The applicant must be willing to put in 10% of the project cost and take a bank loan."
+evidence = [
+  { source_id = "pmfme-guidelines", quote = "Only one person from one family would be eligible for obtaining financial assistance.", where = "page 7" },
+  { source_id = "pmfme-guidelines", quote = "Willingness to formalize and contribute10% of project cost and obtain Bank loan;", where = "page 7" },
+]
+
+[[entries.eligibility]]
+text = "Units making the product chosen for the district (One District One Product) are preferred, and new units are supported only for that product."
+evidence = [
+  { source_id = "pmfme-guidelines", quote = "The enterprise should preferably be involved in the product identified in the ODOP of the district.", where = "page 7" },
+  { source_id = "pmfme-guidelines", quote = "New units, whether for individuals or groups would only be supported for ODOP products.", where = "page 6" },
+]
+
+[[entries.exclusions]]
+text = "The cost of land cannot be counted in the project cost."
+evidence = [{ source_id = "pmfme-guidelines", quote = "Cost of the land should not be included in the Project cost.", where = "page 7" }]
+
+[[entries.steps]]
+text = "Applications are invited at the district level on an ongoing basis. Resource Persons check applications received directly in the field."
+evidence = [
+  { source_id = "pmfme-guidelines", quote = "Applications would be invited at the district level on an ongoing basis for Units, from those interested in availing the benefits under the Scheme.", where = "page 8" },
+  { source_id = "pmfme-guidelines", quote = "For applications received directly, RPs would undertake field verification and due diligence to assess their potential.", where = "page 8" },
+]
+
+[[entries.steps]]
+text = "The District Level Committee studies the report on each unit and interviews the interested persons."
+evidence = [{ source_id = "pmfme-guidelines", quote = "District Level Committee should study the report submitted by RP for each Unit and interview the interested persons.", where = "page 8" }]
+
+[[entries.steps]]
+text = "For approved cases, the Resource Person helps prepare the project report for the bank loan, and the report and documents go to the bank for sanction."
+evidence = [
+  { source_id = "pmfme-guidelines", quote = "For the cases recommended by the District Level Committee/SNA, RPs should help them in preparation of DPR for availing bank loan for upgradation of the Unit.", where = "page 8" },
+  { source_id = "pmfme-guidelines", quote = "The DPR along with necessary documents should be submitted to the Banks for sanction of loan.", where = "page 8" },
+]
+
+# =================================================================================================
+# PM MUDRA Yojana (business)
+# =================================================================================================
+
+[[entries]]
+id = "pm-mudra-yojana"
+name = "Pradhan Mantri MUDRA Yojana (PMMY)"
+kind = "scheme"
+sectors = ["business"]
+level = "central"
+department = "Department of Financial Services, Ministry of Finance, Government of India"
+status = "active"
+status_note = "The department's page lists the Tarun Plus category as in force from 24.10.2024."
+source_ids = ["pmmy-dfs-page"]
+last_verified = 2026-10-31
+summary = { en = "Collateral-free loans for micro enterprises, in four size bands, from banks, small finance banks, finance companies and microfinance institutions.", bn = "ব্যাংক, ক্ষুদ্র অর্থ ব্যাংক, অর্থ সংস্থা ও ক্ষুদ্রঋণ প্রতিষ্ঠানের কাছ থেকে ক্ষুদ্র উদ্যোগের জন্য জামানত ছাড়া ঋণ, চারটি অঙ্কের স্তরে।", hi = "सूक्ष्म उद्यमों के लिए बैंकों, लघु वित्त बैंकों, वित्त कंपनियों और सूक्ष्म वित्त संस्थाओं से बिना गारंटी ऋण, चार राशि श्रेणियों में।" }
+target = { en = "Micro enterprises with a non-agricultural activity (including allied activities such as poultry, dairy and beekeeping).", bn = "অকৃষি কাজের (মুরগি পালন, দুগ্ধ, মৌমাছি পালনের মতো সহযোগী কাজসহ) ক্ষুদ্র উদ্যোগ।", hi = "गैर-कृषि गतिविधि वाले (मुर्गीपालन, डेयरी और मधुमक्खी पालन जैसी संबद्ध गतिविधियों सहित) सूक्ष्म उद्यम।" }
+not_stated = [
+  "The documents to bring and the interest rate. The department's page does not give them.",
+  "How to apply or a form. The page names the lenders but gives no application steps; ask a bank or lender that takes part in the scheme.",
+  "A helpline number or a closing date.",
+]
+
+[entries.apply]
+label = "Department of Financial Services: PMMY page"
+url = "https://financialservices.gov.in/pradhan-mantri-mudra-yojana-pmmy"
+evidence = [{ source_id = "pmmy-dfs-page", quote = "was launched on 08.04.2015 with the objective of providing access to institutional collateral free credit to micro enterprises.", where = "the page" }]
+
+[[entries.benefits]]
+text = "Loans in four bands: Shishu up to Rs.50,000; Kishore above Rs.50,000 and up to Rs.5 lakh; Tarun above Rs.5 lakh and up to Rs.10 lakh; Tarun Plus above Rs.10 lakh and up to Rs.20 lakh."
+evidence = [
+  { source_id = "pmmy-dfs-page", quote = "Shishu – upto Rs.50,000;", where = "the page" },
+  { source_id = "pmmy-dfs-page", quote = "Kishore– Above Rs.50,000 and upto Rs.5 lakh;", where = "the page" },
+  { source_id = "pmmy-dfs-page", quote = "Tarun- Above Rs.5 lakh and upto Rs.10 lakh; and", where = "the page" },
+  { source_id = "pmmy-dfs-page", quote = "Tarun Plus- Above Rs.10 lakh and upto Rs.20 lakh (for those entrepreneurs who have availed and successfully repaid previous loans under the ‘Tarun’ Category w.e.f 24.10.2024).", where = "the page" },
+]
+
+[[entries.benefits]]
+text = "Collateral is not required."
+evidence = [
+  { source_id = "pmmy-dfs-page", quote = "Collateral not required.", where = "the page" },
+  { source_id = "pmmy-dfs-page", quote = "with the objective of providing access to institutional collateral free credit to micro enterprises.", where = "the page" },
+]
+
+[[entries.benefits]]
+text = "Both term loans and working capital needs can be met."
+evidence = [{ source_id = "pmmy-dfs-page", quote = "Term loan and working capital requirements can both be met;", where = "the page" }]
+
+[[entries.eligibility]]
+text = "Non-agricultural activities, including activities allied to agriculture such as poultry, dairy and beekeeping."
+evidence = [{ source_id = "pmmy-dfs-page", quote = "Non-agricultural, including activities allied to agriculture such as poultry, dairy, beekeeping etc.", where = "the page" }]
+
+[[entries.eligibility]]
+text = "The Tarun Plus band is only for entrepreneurs who took and successfully repaid earlier loans in the Tarun band."
+evidence = [{ source_id = "pmmy-dfs-page", quote = "for those entrepreneurs who have availed and successfully repaid previous loans under the ‘Tarun’ Category", where = "the page" }]
+
+[[entries.steps]]
+text = "The loans are given by member lending institutions: public and private sector banks, foreign banks, regional rural banks, small finance banks, non-banking finance companies and micro finance institutions."
+evidence = [{ source_id = "pmmy-dfs-page", quote = "Member Lending Institutions (MLIs): Public Sector Banks (PSBs), Private Sector Banks, Foreign Banks, Regional Rural Banks, Small Finance Banks, Non-Banking Financial Companies (NBFCs), Micro Finance Institutions (MFIs) and NBFC- MFIs;", where = "the page" }]
+
+# =================================================================================================
+# Udyam Registration (business, a service)
+# =================================================================================================
+
+[[entries]]
+id = "udyam-registration"
+name = "Udyam Registration"
+kind = "service"
+sectors = ["business"]
+level = "central"
+department = "Ministry of Micro, Small and Medium Enterprises, Government of India"
+status = "active"
+status_note = "Confirmed by Press Information Bureau explainers of February 2025 and June 2026."
+source_ids = ["udyam-registration-steps", "msme-budget-2025-pib", "msme-story-2026-pib"]
+last_verified = 2026-10-31
+summary = { en = "The online registration of a micro, small or medium enterprise, which is free, paperless and based on self-declaration.", bn = "ক্ষুদ্র, ছোট বা মাঝারি উদ্যোগের অনলাইন নিবন্ধন, যা বিনামূল্যে, কাগজবিহীন এবং স্ব-ঘোষণার ভিত্তিতে।", hi = "सूक्ष्म, लघु या मध्यम उद्यम का ऑनलाइन पंजीकरण, जो निःशुल्क, कागज़ रहित और स्व-घोषणा पर आधारित है।" }
+target = { en = "Owners of micro, small and medium enterprises, and of informal micro enterprises that have no registration yet.", bn = "ক্ষুদ্র, ছোট ও মাঝারি উদ্যোগের মালিক এবং এখনও নিবন্ধন নেই এমন অনানুষ্ঠানিক ক্ষুদ্র উদ্যোগের মালিক।", hi = "सूक्ष्म, लघु और मध्यम उद्यमों के मालिक, तथा ऐसे अनौपचारिक सूक्ष्म उद्यम जिनका अभी पंजीकरण नहीं है।" }
+not_stated = [
+  "The investment and turnover limits in rupees for micro, small and medium. The saved documents only say that the limits were raised in Budget 2025-26; read the notification for the limits.",
+  "The benefits a registered enterprise gets. The documents describe the registration, not the benefits that depend on it.",
+  "Documents to bring other than Aadhaar and PAN, which the form asks for in its first two steps.",
+]
+
+[entries.apply]
+label = "Udyam Registration portal"
+url = "https://udyamregistration.gov.in/"
+evidence = [{ source_id = "msme-budget-2025-pib", quote = "Launched on July 1, 2020, the Udyam Registration Portal serves as a pivotal platform for facilitating the registration of enterprises across India.", where = "page 6" }]
+
+[[entries.benefits]]
+text = "A free, paperless registration based on self-declaration, with no need to upload documents."
+evidence = [{ source_id = "msme-budget-2025-pib", quote = "It offers a free, paperless, and self-declaration-based registration process, eliminating the need for document uploads, thus simplifying the formalization of businesses.", where = "page 6" }]
+
+[[entries.benefits]]
+text = "Informal micro enterprises can be brought into the formal sector through the Udyam Assist Platform, introduced on November 11, 2023."
+evidence = [{ source_id = "msme-budget-2025-pib", quote = "the Government introduced the Udyam Assist Platform on November 11, 2023. This initiative aims to bring these micro-enterprises under the formal sector", where = "page 6" }]
+
+[[entries.benefits]]
+text = "Enterprises that registered earlier under the Udyog Aadhaar Memorandum or Entrepreneurship Memorandum-II are encouraged to move to Udyam."
+evidence = [{ source_id = "msme-budget-2025-pib", quote = "The portal encourages enterprises previously registered under the Udyog Aadhaar Memorandum and Entrepreneurship Memorandum-II to migrate to this new system.", where = "page 6" }]
+
+[[entries.eligibility]]
+text = "The limits of investment and turnover that decide whether an enterprise is micro, small or medium were raised by 2.5 times and 2 times, respectively (the document is about the Union Budget)."
+evidence = [{ source_id = "msme-budget-2025-pib", quote = "the investment and turnover limits for classification have been increased by 2.5 times and 2 times, respectively.", where = "page 2" }]
+
+[[entries.documents]]
+text = "No documents have to be uploaded; the form begins with Aadhaar verification by OTP and then PAN verification."
+evidence = [
+  { source_id = "msme-budget-2025-pib", quote = "eliminating the need for document uploads", where = "page 6" },
+  { source_id = "udyam-registration-steps", quote = "Udyam Registration Form – For New Entrepreneurs (With Pan Yes) 1. Aadhaar Verification with OTP 2. PAN Verification", where = "page 1" },
+]
+
+[[entries.steps]]
+text = "Verify your Aadhaar with an OTP, then verify your PAN."
+evidence = [{ source_id = "udyam-registration-steps", quote = "Udyam Registration Form – For New Entrepreneurs (With Pan Yes) 1. Aadhaar Verification with OTP 2. PAN Verification", where = "page 1" }]
+
+[[entries.steps]]
+text = "Fill in the Udyam registration details that appear after PAN verification."
+evidence = [{ source_id = "udyam-registration-steps", quote = "After Verification of PAN Udyam Registration box will appear to fill the details.", where = "page 2" }]
+
+[[entries.steps]]
+text = "After successful registration a Thank You message appears with a reference number. The reference number becomes active for printing after income tax data (and export data from GSTN, for an exporter) is updated."
+evidence = [{ source_id = "udyam-registration-steps", quote = "After Successful Registration “Thank You” message will appear with Reference Number. This reference number will active for print after update of Income tax data and export data from GSTN (If Exporter).", where = "page 4" }]
+
+# =================================================================================================
+# PMEGP (business + employment)
+# =================================================================================================
+
+[[entries]]
+id = "pmegp"
+name = "Prime Minister’s Employment Generation Programme (PMEGP)"
+kind = "scheme"
+sectors = ["business", "employment"]
+level = "central"
+department = "Ministry of Micro, Small and Medium Enterprises, Government of India"
+status = "active"
+status_note = "A June 2026 PIB explainer reports progress to May 2026, so the scheme is running. The scheme guidelines themselves could not be downloaded (see not stated)."
+source_ids = ["msme-budget-2025-pib", "msme-story-2026-pib"]
+last_verified = 2026-10-31
+summary = { en = "A subsidy, paid with a bank loan, for starting a new small enterprise in the non-farm sector.", bn = "কৃষি-বহির্ভূত ক্ষেত্রে নতুন ছোট উদ্যোগ শুরু করার জন্য ব্যাংক ঋণের সঙ্গে দেওয়া ভর্তুকি।", hi = "गैर-कृषि क्षेत्र में नया छोटा उद्यम शुरू करने के लिए बैंक ऋण के साथ दी जाने वाली सब्सिडी।" }
+target = { en = "People who want to set up a new micro enterprise in the non-farm sector with a bank loan, with a higher subsidy for the special categories.", bn = "যাঁরা ব্যাংক ঋণ নিয়ে কৃষি-বহির্ভূত ক্ষেত্রে নতুন ক্ষুদ্র উদ্যোগ গড়তে চান; বিশেষ শ্রেণির জন্য বেশি ভর্তুকি।", hi = "जो लोग बैंक ऋण लेकर गैर-कृषि क्षेत्र में नया सूक्ष्म उद्यम शुरू करना चाहते हैं; विशेष श्रेणियों के लिए अधिक सब्सिडी।" }
+not_stated = [
+  "The scheme guidelines. The Khadi and Village Industries Commission site that holds them could not be reached or does not allow automatic downloads, so rules such as who may apply, the owner's own contribution and the documents to bring are not stated here.",
+  "A closing date or the application steps on the portal.",
+  "Whether the subsidy rates changed after February 2025; the rates below are those of that document.",
+]
+
+[entries.apply]
+label = "PMEGP e-portal (KVIC)"
+url = "https://www.kviconline.gov.in/pmegpeportal/pmegphome/dashboard.jsp"
+evidence = [{ source_id = "msme-story-2026-pib", quote = "The flagship credit-linked subsidy scheme promotes self-employment through the establishment of micro-enterprises in the non-farm sector.", where = "page 6" }]
+
+[[entries.benefits]]
+text = "A margin money subsidy to people who take a bank loan to set up a new enterprise in the non-farm sector."
+evidence = [{ source_id = "msme-budget-2025-pib", quote = "Under the Scheme, Margin Money (Subsidy) is provided to beneficiaries availing loan from banks for setting up new enterprises.", where = "page 6" }]
+
+[[entries.benefits]]
+text = "The subsidy for the special categories is 25% in urban areas and 35% in rural areas."
+evidence = [{ source_id = "msme-budget-2025-pib", quote = "Special Categories, including SC, ST, OBC, Minorities, Women, Ex-Servicemen, Transgenders, Differently-abled individuals, NER, Aspirational Districts, and Hill and Border areas, are eligible for a subsidy of 25% in urban areas and 35% in rural areas", where = "page 7" }]
+
+[[entries.benefits]]
+text = "The subsidy for the General Category is 15% in urban areas and 25% in rural areas."
+evidence = [{ source_id = "msme-budget-2025-pib", quote = "General Category applicants are eligible for a subsidy of 15% in urban areas and 25% in rural areas.", where = "page 7" }]
+
+[[entries.benefits]]
+text = "The highest project cost allowed for a new project is Rs. 50 lakhs in manufacturing and Rs. 20 lakhs in the service sector."
+evidence = [{ source_id = "msme-budget-2025-pib", quote = "The maximum project cost admissible for setting up of new project is Rs. 50 lakhs in manufacturing sector and Rs. 20 lakhs in Service Sector", where = "page 6" }]
+
+[[entries.benefits]]
+text = "Free Entrepreneurship Development Programme training of 2 days for prospective entrepreneurs."
+evidence = [{ source_id = "msme-budget-2025-pib", quote = "prospective entrepreneurs receive free 2-day Entrepreneurship Development Programme (EDP) training to equip them with the necessary skills and knowledge to succeed.", where = "page 7" }]
+
+[[entries.eligibility]]
+text = "The scheme is for setting up new micro-enterprises in the non-farm sector, with a bank loan."
+evidence = [{ source_id = "msme-budget-2025-pib", quote = "Prime Minister’s Employment Generation Programme (PMEGP) is a credit linked subsidy scheme for providing employment opportunities through establishment of micro-enterprises in the non-farm sector.", where = "page 6" }]
+
+[[entries.steps]]
+text = "Application is online, and since June 2025 it can be made in 19 regional languages besides English and Hindi."
+evidence = [{ source_id = "msme-story-2026-pib", quote = "Since June 2025, its reach expanded further with application facilities being introduced in 19 regional languages excluding English and Hindi.", where = "page 6" }]
+
+# =================================================================================================
+# NATS (employment)
+# =================================================================================================
+
+[[entries]]
+id = "nats"
+name = "National Apprenticeship Training Scheme (NATS)"
+kind = "scheme"
+sectors = ["employment"]
+level = "central"
+department = "Ministry of Education, Government of India (implemented through the Boards of Apprenticeship Training)"
+status = "active"
+source_ids = ["nats-about", "nats-students", "nats-industries"]
+last_verified = 2026-10-31
+summary = { en = "Practical on-the-job training with a stipend, for graduates, diploma holders and vocational certificate holders, with a certificate at the end.", bn = "স্নাতক, ডিপ্লোমা ও বৃত্তিমূলক শংসাপত্রধারীদের জন্য ভাতাসহ হাতে-কলমে কর্মক্ষেত্রে প্রশিক্ষণ, শেষে শংসাপত্র।", hi = "स्नातकों, डिप्लोमा धारकों और व्यावसायिक प्रमाणपत्र धारकों के लिए वजीफ़े के साथ कार्यस्थल पर व्यावहारिक प्रशिक्षण, अंत में प्रमाणपत्र।" }
+target = { en = "Students and recent graduates, diploma holders and vocational certificate holders in technical and engineering subjects.", bn = "প্রযুক্তি ও ইঞ্জিনিয়ারিং বিষয়ের ছাত্রছাত্রী, সদ্য স্নাতক, ডিপ্লোমা ও বৃত্তিমূলক শংসাপত্রধারী।", hi = "तकनीकी और इंजीनियरिंग विषयों के छात्र, नए स्नातक, डिप्लोमा धारक और व्यावसायिक प्रमाणपत्र धारक।" }
+not_stated = [
+  "The stipend amount. The pages say it follows the minimum rates under the Apprentices Act for each category, without giving figures.",
+  "The documents to bring when registering on the portal.",
+  "A closing date. Apprenticeship advertisements are posted by employers on the portal as they come.",
+]
+
+[entries.apply]
+label = "NATS 2.0 portal"
+url = "https://nats.education.gov.in/"
+evidence = [{ source_id = "nats-students", quote = "Apply for apprentice training in a seamless IT enabled platform designed for delivering exceptional user experience.", where = "Students page" }]
+
+[[entries.benefits]]
+text = "Hands-on on-the-job training lasting 6 months to 1 year, for graduates, diploma holders and vocational certificate holders."
+evidence = [{ source_id = "nats-about", quote = "offers Graduate, Diploma students and Vocational certificate holders; a practical, hands-on On-the-Job-Training (OJT) based skilling opportunities with duration ranging from 6 months to 1 year.", where = "About page" }]
+
+[[entries.benefits]]
+text = "A stipend during the training; half of it is reimbursed to the employer by the Government of India."
+evidence = [
+  { source_id = "nats-about", quote = "During the period of apprenticeship, the apprentices are paid a stipend amount, 50% of which is reimbursable to the employer from Government of India.", where = "About page" },
+  { source_id = "nats-students", quote = "Apprentices are paid stipend linked to their performance and paid during the training period.", where = "Students page" },
+]
+
+[[entries.benefits]]
+text = "A Certificate of Proficiency from the Government of India, which can be registered at employment exchanges across India as valid employment experience."
+evidence = [{ source_id = "nats-about", quote = "At the end of the training period the apprentices are issued a Certificate of Proficiency by Government of India which can be registered at all employment exchanges across India as valid employment experience.", where = "About page" }]
+
+[[entries.eligibility]]
+text = "Students who have passed graduate, diploma or vocational courses can apply after registering on the NATS 2.0 portal; training is offered in 126 subject fields for graduate and diploma students."
+evidence = [
+  { source_id = "nats-students", quote = "Students who have passed graduate/diploma/vocational courses in a vast range of subject domains can apply for Apprenticeship Training after registering on the NATS 2.0 Portal.", where = "Students page" },
+  { source_id = "nats-students", quote = "There are 126 subject fields for graduate / diploma students for which training is provided.", where = "Students page" },
+]
+
+[[entries.eligibility]]
+text = "The scheme covers graduate, graduate sandwich, technician, technician sandwich and technician vocational categories, mainly in technical and engineering disciplines."
+evidence = [{ source_id = "nats-about", quote = "The Scheme covers graduated students or students pursuing either of the following categories of Graduate, Graduate Sandwich, Technician, Technician Sandwich, and Technician Vocational.", where = "About page" }]
+
+[[entries.exclusions]]
+text = "Training does not guarantee a job: the portal states there is no guarantee of employment after the training."
+evidence = [{ source_id = "nats-about", quote = "There is no guarantee of employment after completion of training as an apprentice.", where = "About page" }]
+
+[[entries.steps]]
+text = "Register on the NATS 2.0 portal as a student."
+evidence = [{ source_id = "nats-students", quote = "can apply for Apprenticeship Training after registering on the NATS 2.0 Portal.", where = "Students page" }]
+
+[[entries.steps]]
+text = "Search the openings and receive a list of apprenticeship advertisements that suit your profile."
+evidence = [{ source_id = "nats-students", quote = "Students can search for various opportunities and receive customized list of apprenticeship advertisements that are suited to their profile and experience.", where = "Students page" }]
+
+[[entries.steps]]
+text = "The employer chooses the apprentices."
+evidence = [{ source_id = "nats-industries", quote = "Selection of apprentices is solely the prerogative of the employer.", where = "Industries page" }]
+
+# =================================================================================================
+# DDU-GKY (employment)
+# =================================================================================================
+
+[[entries]]
+id = "ddu-gky"
+name = "Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY)"
+kind = "scheme"
+sectors = ["employment"]
+level = "central"
+department = "Ministry of Rural Development, Government of India"
+status = "active"
+status_note = "The main source is the Ministry's FAQ of January 2022; a February 2025 PIB document still lists the scheme with results to November 2024. Newer guidelines may change amounts and rules, so check with the training centre or the scheme's site."
+source_ids = ["ddugky-faq-2022", "skill-schemes-pib-2025"]
+last_verified = 2026-10-31
+summary = { en = "Free skill training linked to a job, for poor rural youth, with a certificate and help in finding work.", bn = "দরিদ্র গ্রামীণ যুবক-যুবতীদের জন্য কর্মসংস্থানের সঙ্গে যুক্ত বিনামূল্যে দক্ষতা প্রশিক্ষণ, শংসাপত্র ও কাজ পেতে সহায়তা।", hi = "गरीब ग्रामीण युवाओं के लिए रोज़गार से जुड़ा निःशुल्क कौशल प्रशिक्षण, प्रमाणपत्र और काम दिलाने में सहायता।" }
+target = { en = "Rural youth from poor families, with a higher age limit for women and some other groups.", bn = "দরিদ্র পরিবারের গ্রামীণ যুবক-যুবতী; মহিলা ও কিছু অন্য গোষ্ঠীর জন্য বয়সসীমা বেশি।", hi = "गरीब परिवारों के ग्रामीण युवा; महिलाओं और कुछ अन्य समूहों के लिए आयु सीमा अधिक है।" }
+not_stated = [
+  "The current guidelines. The Ministry's guidelines site could not be reached from the checking machine, so figures here are those of the January 2022 FAQ.",
+  "A closing date: training is given through approved centres and batches, not through one application window.",
+  "A helpline number.",
+]
+
+[entries.apply]
+label = "DDU-GKY site (Ministry of Rural Development)"
+url = "https://ddugky.gov.in/"
+evidence = [{ source_id = "ddugky-faq-2022", quote = "Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY) is the demand-driven placement-linked skill training initiative of the Ministry of Rural Development", where = "Q 1" }]
+
+[[entries.benefits]]
+text = "The whole cost of the skill training is paid by the scheme: no fees, registration, examination, certification or placement charges."
+evidence = [{ source_id = "ddugky-faq-2022", quote = "DDU-GKY subsidizes 100% cost of skill training of candidates at its approved training centres implemented by its PIAs in sanctioned projects. There are no fees, registration charges, examination or certification charges and no placement charges.", where = "Q 11" }]
+
+[[entries.benefits]]
+text = "Courses of three, six, nine or twelve months, with on-the-job training, and a government-recognised certificate on passing."
+evidence = [
+  { source_id = "ddugky-faq-2022", quote = "offers three-month, six-month, nine-month and twelve-month training courses", where = "Q 12" },
+  { source_id = "ddugky-faq-2022", quote = "candidates will be provided a government recognized certificate upon successful completion of the training.", where = "Q 14" },
+]
+
+[[entries.benefits]]
+text = "Free accommodation and food in residential programmes; in non-residential programmes, Rs. 100 for every eight hours of training attended, paid into the bank account."
+evidence = [
+  { source_id = "ddugky-faq-2022", quote = "Free accommodation and food in residential training programs", where = "Q 17" },
+  { source_id = "ddugky-faq-2022", quote = "Rs. 100/- for every eight hours of training attended (workday) transferred directly to candidate’s bank account towards meal and conveyance allowance in non-residential training programs.", where = "Q 17" },
+]
+
+[[entries.benefits]]
+text = "The scheme aims to help candidates find a job paying at least Rs. 6000 a month (at least 75% of those who complete training are to be placed), and gives post-placement support of Rs. 1,000 a month for two, three or six months depending on where the job is."
+evidence = [
+  { source_id = "ddugky-faq-2022", quote = "Enable the candidate to find a job that pays a minimum salary of Rs. 6000/- per month (at least 75% of all those who successfully completed training will be placed)", where = "Q 5" },
+  { source_id = "ddugky-faq-2022", quote = "Rs. 1,000 per month will be transferred directly to his/her bank account for a period of two months in case he/she is placed within the district of domicile, for three months if placed within the state of domicile and for six months in case the placement happens outside the state of domicile.", where = "Q 20" },
+]
+
+[[entries.eligibility]]
+text = "Rural youth from poor families aged 15 to 35 years."
+evidence = [{ source_id = "ddugky-faq-2022", quote = "Rural youth from poor families in the age group of 15 to 35 years are eligible for the scheme.", where = "Q 6" }]
+
+[[entries.eligibility]]
+text = "Any one of these shows eligibility: a BPL card, a BPL PDS card, an RSBY card, being a family member of a registered self-help group member, or a family member of an MGNREGA worker with a minimum of 15 days of work in the last 12 months."
+evidence = [
+  { source_id = "ddugky-faq-2022", quote = "interim any of the following will ensure eligibility into DDU-GKY sponsored skill training programs:", where = "Q 6" },
+  { source_id = "ddugky-faq-2022", quote = "Family members of paid workers under the Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) with a minimum of 15 days of work in the last 12 months", where = "Q 6" },
+  { source_id = "ddugky-faq-2022", quote = "Family members of Self Help Group (SHG) members of a registered SHG in the village", where = "Q 6" },
+]
+
+[[entries.eligibility]]
+text = "The upper age limit is extended by 10 years, to 45 years, for women and for candidates from Particularly Vulnerable Tribal Groups, persons with disabilities, transgender persons and some other special groups."
+evidence = [{ source_id = "ddugky-faq-2022", quote = "the upper age limit for women candidates, and candidates belonging to Particularly Vulnerable Tribal Groups (PVTGs), Persons with Disabilities (PwDs), Transgender and other Special Groups like rehabilitated bonded labour, victims of trafficking, manual scavengers, trans-genders, HIV positive persons, etc. shall be extended by 10 years to 45 years.", where = "Q 7" }]
+
+[[entries.documents]]
+text = "One identity proof for enrolment, such as a birth certificate, a BPL card, an MGNREGA worker card, an RSBY card, an Antyodaya Anna card, a BPL PDS card, or a self-help group certificate of a household member."
+evidence = [
+  { source_id = "ddugky-faq-2022", quote = "Any of the following documents may be furnished as identity proof for enrolment:", where = "Q 8" },
+  { source_id = "ddugky-faq-2022", quote = "BPL Card of self or household (where candidate’s name is also mentioned)", where = "Q 8" },
+]
+
+[[entries.documents]]
+text = "Candidates in a reserved category also need an SC/ST certificate or a disability certificate from the competent authority, or (for minority status) a self-certification."
+evidence = [
+  { source_id = "ddugky-faq-2022", quote = "Apart from the above, the reserved category would need to furnish any of the following proofs:", where = "Q 8" },
+  { source_id = "ddugky-faq-2022", quote = "Self-certification by the candidate for his/her status as minority community", where = "Q 8" },
+]
+
+[[entries.steps]]
+text = "Contact a training centre near you directly, or enrol through the Gram Panchayat or Gram Rozgar Sewak, who will recommend a nearby training centre."
+evidence = [{ source_id = "ddugky-faq-2022", quote = "Alternatively, one can get enrolled with the respective Gram Panchayat or Gram Rozgar Sewak, who in turn will recommend the nearby Training Centre or its mobilization staff to meet the candidate and offer him/her counselling and guidance.", where = "Q 16" }]
+
+[[entries.steps]]
+text = "The training centre tests your aptitude and skill before you join a batch."
+evidence = [{ source_id = "ddugky-faq-2022", quote = "Before the selection is made, the PIA training centre will test the candidate’s inherent aptitude and skill.", where = "Q 18" }]
+
+# =================================================================================================
+# PM Internship Scheme (employment)
+# =================================================================================================
+
+[[entries]]
+id = "pm-internship-scheme"
+name = "Prime Minister’s Internship Scheme (PMIS)"
+kind = "scheme"
+sectors = ["employment"]
+level = "central"
+department = "Ministry of Corporate Affairs, Government of India"
+status = "active"
+status_note = "The documents describe a pilot phase (rounds in 2024 and 2025). Later rounds, rules and amounts may differ: check the portal. The ministry's own guidelines could not be downloaded."
+source_ids = ["pminternship-pib-2024", "pminternship-pib-2025"]
+last_verified = 2026-10-31
+summary = { en = "A paid internship in a large company, with a monthly stipend, a one-time grant and insurance cover, for young people who are not working or studying full-time.", bn = "যাঁরা পূর্ণ সময় কাজ বা পড়াশোনা করছেন না, সেই তরুণদের জন্য বড় সংস্থায় বেতনসহ ইন্টার্নশিপ; মাসিক ভাতা, এককালীন অনুদান ও বিমা সুরক্ষা।", hi = "जो युवा पूरे समय नौकरी या पढ़ाई नहीं कर रहे, उनके लिए बड़ी कंपनी में वेतन सहित इंटर्नशिप; मासिक वजीफ़ा, एकमुश्त अनुदान और बीमा सुरक्षा।" }
+target = { en = "Young Indian nationals within the age band of the scheme, with a school, ITI, diploma or degree qualification, who are not employed full-time or in full-time education.", bn = "স্কুল, আইটিআই, ডিপ্লোমা বা ডিগ্রি যোগ্যতাসম্পন্ন, প্রকল্পের বয়সসীমার মধ্যে থাকা ভারতীয় তরুণ, যাঁরা পূর্ণ সময় কর্মরত বা পূর্ণ সময় শিক্ষায় নেই।", hi = "स्कूल, आईटीआई, डिप्लोमा या डिग्री योग्यता वाले, योजना की आयु सीमा के भीतर के भारतीय युवा, जो पूरे समय नौकरी या पूरे समय पढ़ाई में नहीं हैं।" }
+not_stated = [
+  "Whether a round is open now, and its closing date. The documents give the dates of the 2024 and 2025 rounds only.",
+  "How many internships you can apply for at once. The October 2024 document says up to five on the portal; the March 2025 document says up to three at the same time on the mobile app.",
+  "The ministry's own guidelines text (its PDF returned an error), so rules here are those of the Press Information Bureau explainers.",
+]
+
+[entries.apply]
+label = "PM Internship portal and mobile app"
+url = "https://pminternship.mca.gov.in/"
+evidence = [{ source_id = "pminternship-pib-2025", quote = "Eligible candidates can apply through the new mobile app or through the Portal accessible at https://pminternship.mca.gov.in/", where = "page 4" }]
+
+[[entries.benefits]]
+text = "A monthly stipend of ₹5,000 for the whole internship: ₹500 from the partner company and ₹4,500 from the government into the intern's Aadhaar-seeded bank account."
+evidence = [
+  { source_id = "pminternship-pib-2024", quote = "Interns will receive a monthly stipend of ₹5,000 throughout the internship duration.", where = "page 3" },
+  { source_id = "pminternship-pib-2024", quote = "₹500 contributed by partner companies, contingent on attendance and conduct.", where = "page 3" },
+  { source_id = "pminternship-pib-2024", quote = "The remaining ₹4,500 will be provided by the government via Direct Benefit Transfer (DBT)", where = "page 3" },
+]
+
+[[entries.benefits]]
+text = "A one-time grant of ₹6,000, paid through direct benefit transfer after joining the internship."
+evidence = [{ source_id = "pminternship-pib-2024", quote = "Additionally, a one-time grant of ₹6,000 will be disbursed after joining the internship, also through DBT.", where = "page 3" }]
+
+[[entries.benefits]]
+text = "Insurance cover under two government schemes, with the premium paid by the government."
+evidence = [
+  { source_id = "pminternship-pib-2024", quote = "All interns will be covered under the government’s insurance schemes", where = "page 3" },
+  { source_id = "pminternship-pib-2024", quote = "with the premium paid by the government.", where = "page 3" },
+]
+
+[[entries.eligibility]]
+text = "In the pilot, a 12-month internship for Indian nationals aged 21 to 24 years who are not employed full-time or in full-time education (online or distance learners can apply)."
+evidence = [{ source_id = "pminternship-pib-2024", quote = "The Pilot Project offers a 12-month internship program designed for youth aged 21 to 24 years, specifically for Indian nationals who are not employed full-time or engaged in full-time education.", where = "page 2" }]
+
+[[entries.eligibility]]
+text = "Candidates who passed High School or Higher Secondary School, hold an ITI certificate or a polytechnic diploma, or have a degree such as BA, B.Sc, B.Com, BCA or BBA."
+evidence = [{ source_id = "pminternship-pib-2024", quote = "Candidates who have passed High School or Higher Secondary School, have a certificate from an ITI, have a diploma from a polytechnic institute. Graduated with degrees such as BA, B.Sc, B.Com, BCA, BBA, B.Pharma, etc.", where = "page 2" }]
+
+[[entries.exclusions]]
+text = "Not eligible: graduates of IITs, IIMs, National Law Universities, IISER, NIDs and IIITs; holders of CA, CMA, CS, MBBS, BDS, MBA or any master's or higher degree."
+evidence = [
+  { source_id = "pminternship-pib-2024", quote = "Graduates from IITs, IIMs, National Law Universities, IISER, NIDs, and IIITs", where = "page 2" },
+  { source_id = "pminternship-pib-2024", quote = "Holders of qualifications such as CA, CMA, CS, MBBS, BDS, MBA, or any master’s or higher degree.", where = "page 2" },
+]
+
+[[entries.exclusions]]
+text = "Not eligible: people already in skill training, an apprenticeship, an internship or student training under a Central or State government scheme, and people who completed an apprenticeship under NATS or NAPS."
+evidence = [
+  { source_id = "pminternship-pib-2024", quote = "Those undergoing skill, apprenticeships, internships, or student training under Central or State government schemes.", where = "page 2" },
+  { source_id = "pminternship-pib-2024", quote = "Individuals who have completed apprenticeships under National Apprenticeship Training Scheme (NATS)", where = "page 2" },
+]
+
+[[entries.exclusions]]
+text = "Not eligible: a candidate whose family members' income is above Rs 8 lakh for FY 2023-24 (the pilot's rule), or whose family members are permanent or regular government employees."
+evidence = [
+  { source_id = "pminternship-pib-2024", quote = "If the income of any of the family members of the candidate exceeds Rs 8 Lakh for FY 2023-24.", where = "page 2" },
+  { source_id = "pminternship-pib-2024", quote = "Family members of permanent or regular government employees.", where = "page 2" },
+]
+
+[[entries.documents]]
+text = "An Aadhaar-seeded bank account, into which the government's share of the stipend and the grant are paid."
+evidence = [{ source_id = "pminternship-pib-2024", quote = "The remaining ₹4,500 will be provided by the government via Direct Benefit Transfer (DBT) to the intern’s Aadhaar-seeded", where = "page 3" }]
+
+[[entries.steps]]
+text = "Register on the portal, where a resume is generated from your information, then browse and apply for internships by location, sector, role and qualification."
+evidence = [{ source_id = "pminternship-pib-2024", quote = "Eligible candidates must register on the portal, where a resume will be generated based on their information.", where = "page 4" }]
+
+[[entries.steps]]
+text = "The portal shortlists candidates and sends them to the company; the company chooses, and you accept an offer through the portal."
+evidence = [
+  { source_id = "pminternship-pib-2024", quote = "Companies can then choose candidates based on their own criteria and processes.", where = "page 4" },
+  { source_id = "pminternship-pib-2024", quote = "Once an internship offer is extended, candidates can accept the offer through the portal", where = "page 4" },
+]
+
+# =================================================================================================
+# PMKVY (employment)
+# =================================================================================================
+
+[[entries]]
+id = "pmkvy"
+name = "Pradhan Mantri Kaushal Vikas Yojana (PMKVY)"
+kind = "scheme"
+sectors = ["employment"]
+level = "central"
+department = "Ministry of Skill Development and Entrepreneurship, Government of India"
+status = "active"
+status_note = "A February 2025 PIB document says PMKVY 4.0 is being implemented from FY 2022 to 2026. No later document was found, so check with the ministry whether training is still being given under it."
+source_ids = ["skill-schemes-pib-2025"]
+last_verified = 2026-10-31
+summary = { en = "Free short-duration skill training and an incentive for skill certification, for young people.", bn = "তরুণদের জন্য বিনামূল্যে স্বল্পমেয়াদি দক্ষতা প্রশিক্ষণ এবং দক্ষতার শংসাপত্রের জন্য উৎসাহ ভাতা।", hi = "युवाओं के लिए निःशुल्क अल्पकालिक कौशल प्रशिक्षण और कौशल प्रमाणन के लिए प्रोत्साहन।" }
+target = { en = "Young people who want skill training and a certificate.", bn = "যে তরুণরা দক্ষতা প্রশিক্ষণ ও শংসাপত্র পেতে চান।", hi = "वे युवा जो कौशल प्रशिक्षण और प्रमाणपत्र चाहते हैं।" }
+not_stated = [
+  "Who exactly is eligible, the age limit, the documents to bring and how to enrol. The ministry's guidelines (PMKVY 4.0) could not be downloaded, so none of this is stated here.",
+  "The amount of the incentive for certification, and any stipend.",
+  "A closing date or the training centres near you; the Skill India portal lists centres.",
+]
+
+[entries.apply]
+label = "Ministry of Skill Development and Entrepreneurship"
+url = "https://www.msde.gov.in/"
+evidence = [{ source_id = "skill-schemes-pib-2025", quote = "India’s Skill India Mission (SIM), driven by the Ministry of Skill Development and Entrepreneurship, is equipping youth with essential industry-relevant skills through various programs like Pradhan Mantri Kaushal Vikas Yojana (PMKVY)", where = "page 1" }]
+
+[[entries.benefits]]
+text = "Free short-duration skill training."
+evidence = [{ source_id = "skill-schemes-pib-2025", quote = "To encourage and promote skill development in the country by providing free short-duration skill training and incentivizing youth for skill certification.", where = "page 1" }]
+
+[[entries.benefits]]
+text = "An incentive for young people who get their skills certified."
+evidence = [{ source_id = "skill-schemes-pib-2025", quote = "providing free short-duration skill training and incentivizing youth for skill certification.", where = "page 1" }]
+
+# =================================================================================================
+# Utkarsh Bangla (West Bengal, employment)
+# =================================================================================================
+
+[[entries]]
+id = "utkarsh-bangla"
+name = "Utkarsh Bangla"
+kind = "scheme"
+sectors = ["employment"]
+level = "state"
+state = "West Bengal"
+department = "Technical Education, Training & Skill Development Department, Government of West Bengal (implemented by the Paschim Banga Society for Skill Development)"
+status = "active"
+status_note = "The West Bengal State Portal page says it was last updated on 26 June 2026. The PBSSD FAQ used for the allowance and attendance rules dates from 2018, so those details may have changed."
+source_ids = ["wb-utkarsh-page", "pbssd-utkarsh-faq", "utkarsh-bangla-compendium"]
+last_verified = 2026-10-31
+summary = { en = "Free short-term skill training with a certificate and help towards a job or self-employment, for residents of West Bengal.", bn = "পশ্চিমবঙ্গের বাসিন্দাদের জন্য বিনামূল্যে স্বল্পমেয়াদি দক্ষতা প্রশিক্ষণ, শংসাপত্র এবং চাকরি বা স্বনিযুক্তিতে সহায়তা।", hi = "पश्चिम बंगाल के निवासियों के लिए निःशुल्क अल्पकालिक कौशल प्रशिक्षण, प्रमाणपत्र और नौकरी या स्वरोज़गार में सहायता।" }
+target = { en = "Young people and job seekers who live in West Bengal, such as the unemployed, school or college dropouts and people who want to upgrade their skills.", bn = "পশ্চিমবঙ্গের বাসিন্দা তরুণ ও কর্মপ্রার্থী, যেমন বেকার, স্কুল বা কলেজ ছেড়ে দেওয়া এবং দক্ষতা বাড়াতে চান এমন মানুষ।", hi = "पश्चिम बंगाल में रहने वाले युवा और रोज़गार चाहने वाले, जैसे बेरोज़गार, स्कूल या कॉलेज छोड़ने वाले और कौशल बढ़ाना चाहने वाले लोग।" }
+not_stated = [
+  "How long a course lasts. The PBSSD FAQ says 100 to 1500 hours in two places and 400 to 1200 hours in two others, and the State Portal page says only that courses are generally short-term. Ask the training centre for the hours of your course.",
+  "The age limit, which differs by course. The State Portal page gives a range for the selected course without saying which course has which limit.",
+  "Whether a job is guaranteed. The 2016 order lists a placement or self-employment feature and the State Portal page says training providers may assist with placement; the FAQ says that you do not get a placement if you drop out. No document says that every trainee gets a job.",
+  "The current daily allowance. The only amount found is in the 2018 FAQ.",
+  "A closing date. Training is given in batches at approved centres, with no single application window.",
+  "A helpline number.",
+]
+
+[entries.apply]
+label = "Utkarsh Bangla portal (Paschim Banga Society for Skill Development)"
+url = "https://pbssd.gov.in/"
+evidence = [{ source_id = "pbssd-utkarsh-faq", quote = "You may visit http://www.pbssd.gov.in/home and then select industry/sector and corresponding job roles to find out the empaneled Training providers against the sector and job role.", where = "Question 10" }]
+
+[[entries.benefits]]
+text = "Free skill training in approved trades, with no training fee, registration charge, examination or certification charge, and no placement charge."
+evidence = [
+  { source_id = "wb-utkarsh-page", quote = "Free skill training: Eligible candidates receive skill training in approved trades without paying training fees.", where = "Benefits" },
+  { source_id = "pbssd-utkarsh-faq", quote = "There are no fees. There are no registration charges. There are no examination or certification charges. There are no placement charges.", where = "Question 18" },
+]
+
+[[entries.benefits]]
+text = "A conveyance and tiffin allowance of up to INR 50 per day, for the days attended (the FAQ is an older document)."
+evidence = [{ source_id = "pbssd-utkarsh-faq", quote = "You will receive a conveyance and tiffin allowance the amount of which is limited to INR 50 per day per trainee.", where = "Question 17" }]
+
+[[entries.benefits]]
+text = "A government-recognised certificate after successful training and assessment."
+evidence = [
+  { source_id = "wb-utkarsh-page", quote = "Certification: Candidates receive certification after successful completion of training and assessment.", where = "Benefits" },
+  { source_id = "pbssd-utkarsh-faq", quote = "you will be provided a government recognized certificate upon successful completion of the training.", where = "Question 14" },
+]
+
+[[entries.benefits]]
+text = "Help towards a job: training providers may assist with placement, interviews and industry linkage, and the scheme also helps people gain skills for self-employment."
+evidence = [
+  { source_id = "wb-utkarsh-page", quote = "Placement support: Training providers may assist candidates with job placement, interviews, industry linkage and employment opportunities.", where = "Benefits" },
+  { source_id = "wb-utkarsh-page", quote = "Self-employment support: The scheme helps candidates gain skills that can support entrepreneurship and self-employment.", where = "Benefits" },
+]
+
+[[entries.benefits]]
+text = "The order that introduced the scheme lists as a feature a 70% placement or self-employment target, of which 50% wage-based employment, for trainees after completing the training."
+evidence = [{ source_id = "utkarsh-bangla-compendium", quote = "70% placements/self-employment out of which 50% wage-based employment has been guaranteed under the scheme for the trainees after completion of the training", where = "page 20" }]
+
+[[entries.eligibility]]
+text = "The applicant should be a resident of West Bengal."
+evidence = [{ source_id = "wb-utkarsh-page", quote = "Applicant should be a resident of West Bengal.", where = "Eligibility" }]
+
+[[entries.eligibility]]
+text = "The applicant should generally be unemployed, underemployed, a school or college dropout, a job seeker or a person who wants to upgrade skills."
+evidence = [{ source_id = "wb-utkarsh-page", quote = "Applicant should generally be unemployed, underemployed, a school/college dropout, job seeker or person seeking ski upgradation.", where = "Eligibility" }]
+
+[[entries.eligibility]]
+text = "The applicant must meet the minimum age set for the chosen course (15 to 45 years) and the minimum educational qualification for the trade."
+evidence = [
+  { source_id = "wb-utkarsh-page", quote = "Applicant should meet the minimum age requirement prescribed for the selected course (15 to 45 years)", where = "Eligibility" },
+  { source_id = "wb-utkarsh-page", quote = "Applicant should meet the minimum educational qualification required for the selected trade or training programme.", where = "Eligibility" },
+]
+
+[[entries.eligibility]]
+text = "Women, economically weaker sections, minorities, Scheduled Castes, Scheduled Tribes and persons with disabilities may receive priority."
+evidence = [{ source_id = "wb-utkarsh-page", quote = "Women, economically weaker sections, minorities, Scheduled Castes, Scheduled Tribes and persons with disabilities may receive priority under inclusive skill development objectives.", where = "Eligibility" }]
+
+[[entries.exclusions]]
+text = "Attendance below 80% means you cannot sit the final assessment or get the certificate, and a candidate who drops out of training does not get the certificate or a placement."
+evidence = [
+  { source_id = "pbssd-utkarsh-faq", quote = "If your attendance is lower than 80%, then you will not be eligible to appear for the final assessment and certification.", where = "Question 16" },
+  { source_id = "pbssd-utkarsh-faq", quote = "If you have to drop-out of training, then you will not get your certificate or placement.", where = "Question 22" },
+]
+
+[[entries.documents]]
+text = "Basic documents: identity proof, address proof, educational certificate, bank details and a photograph."
+evidence = [{ source_id = "wb-utkarsh-page", quote = "Applicant should possess basic documents such as identity proof, address proof, educational certificate, bank details and photograph.", where = "Eligibility" }]
+
+[[entries.documents]]
+text = "Documents that may be asked for: Aadhaar card, voter ID, residence proof, educational certificate, bank passbook and photograph, plus a caste certificate or disability certificate where they apply."
+evidence = [{ source_id = "wb-utkarsh-page", quote = "Required documents such as Aadhaar card, voter ID, residence proof, educational certificate, caste certificate if applicable, disability certificate if applicable, bank passbook and photograph may be submitted.", where = "How to apply" }]
+
+[[entries.steps]]
+text = "Visit the Utkarsh Bangla portal, or contact the nearest approved training centre, District Skill Development Office, BDO office or municipal office."
+evidence = [{ source_id = "wb-utkarsh-page", quote = "The applicant should visit the Utkarsh Bangla portal or contact the nearest approved training centre, District Skill Development Office, BDO office or municipal office.", where = "How to apply" }]
+
+[[entries.steps]]
+text = "Check the courses, training centres, eligibility criteria and batch availability, then register with your personal details, address, qualification, preferred trade and contact details."
+evidence = [
+  { source_id = "wb-utkarsh-page", quote = "The applicant should check available courses, training centres, eligibility criteria and batch availability.", where = "How to apply" },
+  { source_id = "wb-utkarsh-page", quote = "The applicant should register by providing personal details, address, educational qualification, preferred trade and contact details.", where = "How to apply" },
+]
+
+[[entries.steps]]
+text = "You can pick a training provider for the job role on the portal and register with it."
+evidence = [{ source_id = "pbssd-utkarsh-faq", quote = "You can then register yourself against the Training provider of your choice through the portal for the particular job role.", where = "Question 10" }]
+
+[[entries.steps]]
+text = "After verification you are enrolled in a batch, train in the classroom and in practice, and are assessed by an approved assessment agency."
+evidence = [
+  { source_id = "wb-utkarsh-page", quote = "The applicant is enrolled in a suitable training batch based on eligibility, interest and seat availability.", where = "How to apply" },
+  { source_id = "wb-utkarsh-page", quote = "After training, assessment is conducted by the approved assessment agency. Successful candidates receive certification.", where = "How to apply" },
+]

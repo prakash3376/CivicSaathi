@@ -1,0 +1,76 @@
+@import 'tailwindcss';
+
+/*
+ * Design tokens. Tailwind turns each one into utilities (bg-brand, text-ink, border-line, ...).
+ * Text colors meet WCAG AA (4.5:1) on both the canvas and surface backgrounds.
+ * `line` only draws decorative borders (1.5:1); the edge of a form control must be identifiable
+ * (WCAG 1.4.11, 3:1), so inputs use `muted` instead.
+ * Measured: brand on brand-soft 6.2:1, warn on warn-surface 6.8:1, ink on mark 14.2:1,
+ * warn-line on warn-surface 4.8:1.
+ */
+@theme {
+  --color-brand: #1d4ed8;
+  --color-brand-strong: #1e40af;
+  --color-brand-soft: #eff6ff;
+  --color-canvas: #f8fafc;
+  --color-surface: #ffffff;
+  --color-ink: #111827;
+  --color-muted: #4b5563;
+  --color-line: #cbd5e1;
+  --color-ok: #15803d;
+  --color-danger: #b91c1c;
+  --color-warn: #92400e;
+  --color-warn-surface: #fffbeb;
+  --color-warn-line: #b45309;
+  --color-mark: #fde68a;
+}
+
+@layer base {
+  body {
+    @apply bg-canvas text-ink antialiased;
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-brand);
+    outline-offset: 2px;
+  }
+}
+
+/* The voice panel: a ring that spreads while listening, bars while speaking, a spinner while thinking. */
+@keyframes voice-ring {
+  from {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  to {
+    transform: scale(1.7);
+    opacity: 0;
+  }
+}
+
+@keyframes voice-bar {
+  0%,
+  100% {
+    transform: scaleY(0.3);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes voice-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
