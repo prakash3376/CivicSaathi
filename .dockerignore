@@ -1,0 +1,32 @@
+.git
+.gitignore
+.editorconfig
+.gitattributes
+.github
+docs/
+CLAUDE.md
+SPEC.md
+README.md
+
+# Virtual environments & caches
+.venv/
+venv/
+**/__pycache__/
+**/*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node caches and artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/coverage/
+
+# Storage: keep heavy runtime downloads out of Docker build context
+backend/storage/
+backend/.env
+backend/.env.*
+frontend/.env
+frontend/.env.*

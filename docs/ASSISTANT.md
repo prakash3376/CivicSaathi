@@ -80,7 +80,7 @@ What stands in for the quote check, since there is nothing to quote:
 | The fixed fall-back | If the model fails, declines, writes only figures, or writes in the wrong language, the person gets the same fixed "the documents do not say" as before. The failure is counted for the operator, never shown. |
 | Grounded answers are untouched | A claim that passes the check is never replaced by guidance, and guidance never appears next to claims. |
 
-`AssistantService(guidance=False)` turns it off. Not verified: the quality of Gemini's guidance in Bengali and Hindi, and whether it ever slips a figure past the prompt (the code check catches digits, not number *words* such as "two years"). The promise filter is a short list of phrases, not a judge of meaning.
+`AssistantService(guidance=False)` turns it off. Seen live once with `gemini-3.1-flash-lite` (a Bengali question about a land record: a sensible, figure-free reply in Bengali); the quality in English and Hindi and over many questions is not measured, and neither is whether it ever slips a figure past the prompt (the code check catches digits, not number *words* such as "two years"). The promise filter is a short list of phrases, not a judge of meaning.
 
 In a spoken conversation the reply is put into speech like a person would say it (`conversationSpeech` in `frontend/src/features/voice/speechText.ts`): a lead-in ("Here is what the official documents say."), the answer, the disclaimer at the first answer of a conversation only (it stays on the screen with every answer), and a closing question: the guidance's own follow-up, or "Is there anything else you would like to ask?".
 

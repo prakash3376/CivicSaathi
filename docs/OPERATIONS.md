@@ -67,6 +67,17 @@ One FastAPI process (`uvicorn app.main:app`) behind a reverse proxy that also se
 
 What the host must provide: HTTPS; `Content-Security-Policy` for the frontend (the API sets the security headers listed in `API.md` for its own replies); a process manager; a persistent `DATA_DIR`. A hard shared rate limit across several API processes belongs at the proxy (the built-in limit is per process).
 
+### Free hosting: a Hugging Face Space (`deploy/huggingface/`)
+
+The API needs about **980 MB of memory** after its first question (measured: the embedding model and the index; 62 MB before), so Render's free instance (512 MB) cannot run it. A free Hugging Face Space (Docker, 16 GB, an HTTPS address of its own, no card) can. `FRONTEND_DIR` makes the API serve the built website, so one container is the whole product.
+
+1. Create a Space (SDK: Docker) and a token with write access. Put the token in the `HF_TOKEN` environment variable.
+2. `python deploy/huggingface/stage.py --upload OWNER/NAME` copies the sources and `backend/storage/chroma` (the index built by `ingest`) to a clean folder, **refuses to continue if an `.env` file or a key-shaped string is in it**, and pushes it. Hugging Face builds the `Dockerfile`: it builds the website, installs the pinned dependencies, downloads the embedding model, and runs `search` on the index, which fails the build if the index is empty or unreadable.
+3. In the Space's settings add **secrets** `GEMINI_API_KEY` and `ADMIN_TOKEN`, and variables `GEMINI_MODEL` (one your key can use: run `assistant-check` with it first) and optionally `CORS_ORIGINS`. Settings are never in the image.
+4. Open `https://OWNER-NAME.hf.space` itself, not the page on huggingface.co: the API sends `X-Frame-Options: DENY`, and the microphone does not work in an embedded frame.
+
+Limits to know: the Space's disk is **not persistent** (what is not in the image is lost on restart, which is fine here because nothing is stored: SPEC AC9), a free Space **sleeps after a period without visits** and takes about a minute to wake, and the index is the one built on the developer's machine, so to refresh the documents run `ingest` locally and upload again. A public Space is open to anyone: the built-in limit of 20 questions per minute per visitor protects the Gemini quota only so far, so watch the key's usage.
+
 ## Health and monitoring
 
 - `GET /api/v1/health`: liveness (the process is up).

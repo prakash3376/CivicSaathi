@@ -42,6 +42,10 @@ class Settings(BaseSettings):
     # Where downloaded documents, the vector index and the embedding model are kept.
     # A relative path is resolved against the backend folder.
     data_dir: Path = BACKEND_DIR / "storage"
+    # The built website (`frontend/dist`). When set, the API serves it too, on the same origin, so
+    # that one process is the whole product (a container, a small host). Unset: API only.
+    # A relative path is resolved against the backend folder.
+    frontend_dir: Path | None = None
     # Multilingual model used to embed passages and questions (Hindi, Bengali, ... and English).
     # Changing it means re-embedding everything: run the ingest command with --rebuild.
     embedding_model: str = "intfloat/multilingual-e5-small"
@@ -93,8 +97,20 @@ class Settings(BaseSettings):
     def resolve_data_dir(cls, value: Path) -> Path:
         return value if value.is_absolute() else (BACKEND_DIR / value).resolve()
 
+    @field_validator("frontend_dir")
+    @classmethod
+    def resolve_frontend_dir(cls, value: Path | None) -> Path | None:
+        if value is None:
+            return None
+        return value if value.is_absolute() else (BACKEND_DIR / value).resolve()
+
     @field_validator(
-        "gemini_api_key", "admin_token", "gemini_base_url", "gemini_thinking_level", mode="before"
+        "gemini_api_key",
+        "admin_token",
+        "gemini_base_url",
+        "gemini_thinking_level",
+        "frontend_dir",
+        mode="before",
     )
     @classmethod
     def blank_means_unset(cls, value: Any) -> Any:

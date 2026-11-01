@@ -5,11 +5,13 @@ import threading
 import time
 from collections.abc import AsyncIterator
 from contextlib import asynccontextmanager
+from pathlib import Path
 
 from fastapi import FastAPI
 from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.middleware.gzip import GZipMiddleware
+from fastapi.responses import FileResponse
 from starlette.exceptions import HTTPException as StarletteHTTPException
 
 from app import SERVICE_NAME, __version__
@@ -119,18 +121,46 @@ def create_app(
 
     app.include_router(api_router, prefix=API_V1_PREFIX)
 
-    @app.get("/", include_in_schema=False)
-    async def root() -> dict[str, str]:
-        links = {
-            "service": SERVICE_NAME,
-            "version": __version__,
-            "health": f"{API_V1_PREFIX}/health",
-        }
-        if settings.docs_enabled:
-            links["docs"] = "/docs"
-        return links
+    if settings.frontend_dir is not None and (settings.frontend_dir / "index.html").is_file():
+        _serve_website(app, settings.frontend_dir)
+    else:
+
+        @app.get("/", include_in_schema=False)
+        async def root() -> dict[str, str]:
+            links = {
+                "service": SERVICE_NAME,
+                "version": __version__,
+                "health": f"{API_V1_PREFIX}/health",
+            }
+            if settings.docs_enabled:
+                links["docs"] = "/docs"
+            return links
 
     return app
+
+
+def _serve_website(app: FastAPI, directory: Path) -> None:
+    """Serve the built frontend: its files, and ``index.html`` for every page route.
+
+    The pages are routes of the single-page app (``/schemes/...``), so a reload or a shared link
+    must get ``index.html``. An address under ``/api`` that matches nothing stays a 404 in the API's
+    own error format, never a page. Registered last so that the API and ``/docs`` match first.
+    """
+    root = directory.resolve()
+    index = root / "index.html"
+    api_prefix = "api/"
+
+    @app.get("/{path:path}", include_in_schema=False)
+    async def website(path: str) -> FileResponse:
+        if path.startswith(api_prefix):
+            raise StarletteHTTPException(status_code=404, detail="Not found")
+        candidate = (root / path).resolve()
+        if path and candidate.is_file() and root in candidate.parents:
+            # Built assets have a hash in their name, so they never change under one name.
+            immutable = candidate.parent.name == "assets"
+            cache = "public, max-age=31536000, immutable" if immutable else "no-cache"
+            return FileResponse(candidate, headers={"Cache-Control": cache})
+        return FileResponse(index, headers={"Cache-Control": "no-cache"})  # a page of the app
 
 
 app = create_app()
